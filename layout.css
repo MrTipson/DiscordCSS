@@ -1,0 +1,80 @@
+/* Made by MrTipson */
+.base-3dtUhz /* friends list, chat */{
+    position: relative;
+    left: 0px;
+    height: calc(100% - 70px);
+    margin-top: 10px;
+}
+div[aria-label="Servers"] /* server list */{
+    display: flex;
+    overflow-y: visible;
+}
+.guilds-1SWlCJ /* the whole navigation bar */{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    display: block;
+    overflow: unset;
+    overflow-y: visible; 
+    z-index: 101;
+}
+.guilds-1SWlCJ *{
+    z-index: 101;
+}
+.scrollerWrap-1IAIlv /* outer scroller in nav */{
+    height: 60px;
+    width: 100%;
+    overflow-y: visible;
+    padding: 3px
+}
+.scroller-2TZvBN /* servers and icons container */{
+    height: inherit;
+    overflow: visible;
+    display: flex;
+}
+.unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
+    display: none;
+}
+.guildSeparator-3s64Iy /* straight line between discord icon and servers */{
+    align-self: center;
+    background-color: var(--channels-default);
+    height: 28px;
+    width: 2px;
+}
+.icon-27yU2q,
+.childWrapper-anI2G9{
+    border-radius: 20px;
+}
+div[id^="folder"]>*{
+    margin: 6px auto;
+    padding: 0px;
+}
+div[id^="folder"]{
+    padding: 10px;
+    height: unset !important;
+    transform: translateX(-37%);
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    /* style */
+    box-shadow: var(--popup-border);
+    border-radius: 15px;
+    border-style: none;
+    background-color: var(--popup-background) !important;
+}
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb){
+    box-shadow: 0px 0px 3px 1px var(--interactive-active);
+}
+.tooltipRight-2JM5PQ.tooltip-2QfLtc{
+    box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
+    position: relative;
+    left: calc(-50% - 42px);
+    transform: translateY(calc(50% + 35px)) !important;
+}
+.tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK{
+    opacity: 0;
+}
+.pill-31IEus, .pill-3YxEhL, .pill-1m5BUr, .pill-2uzAFe{
+    transform: translateY(calc(50% + 5px)) rotate(-90deg);
+    left: unset;
+}

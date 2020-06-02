@@ -1,0 +1,33 @@
+@import url('https://cu-zn.ga/public/Discord%20CSS%20IEEE42069/emojis.css');
+@import url("https://cu-zn.ga/public/Discord%20CSS%20IEEE42069/theme.css");
+/* ---------------------------------------------------------------------------------------------------*/
+/* 
+Made by MrTipson
+
+THIS IS NOT ALL OF THE CUSTOMISATION - IF YOU WANT MORE, DOWNLOAD THE theme.css FILE  AND REMOVE THE import statement
+ADDING MORE VARIABLES WOULD INEVITABLY MAKE IT CONFUSING
+
+*/
+:root {
+    --background-primary: transparent /* chat, call */;
+    --background-secondary: transparent /* friends sidebar */;
+    --background-secondary-alt: transparent /* call controls, profile */ ;
+    --background-tertiary: transparent !important /* server list, find or start convo backgr*/;
+    --background-floating: transparent /* to be determined - please tell me */;
+    --channeltextarea-background: transparent /* message textarea */;
+    --deprecated-store-bg: transparent /* friends or activity or something */;
+    --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
+    --interactive-normal: white /* supposedly icons */; 
+    --interactive-hover: rgb(171, 248, 235) /* hover color*/;
+    --text-link: #fcff5b /* hyperlink color */;
+    --interactive-active: rgb(122, 202, 255) /* selected tab*/;
+    --text-muted: rgba(187, 234, 248, 0.7) /* non important text */;
+    --channels-default: rgba(228, 228, 228, 0.952) /* channel not selected not hovered*/;
+    --background-accent: rgb(122, 202, 255); /* new messages */
+    --background-message-hover: rgba(0, 0, 0, 0.541) /* message background on hover */;
+    --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
+    --background-image: url("https://i.redditmedia.com/5kIMaTTZ-ItnCy50Ng1LPOgmbZT3O93Tc18S03uhMrE.png?w=1024&s=6a892b03cdec538f089ff8e9311059c0");
+    --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322);
+    --popup-background: rgba(0, 0, 0, 0.9);
+}
+  /* ---------------------------------------------------------------------------------------------------*/

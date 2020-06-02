@@ -1,0 +1,209 @@
+/* Made by MrTipson */
+:root {
+  --background-primary: transparent; /* chat, call */
+  --background-secondary: transparent; /* friends sidebar */
+  --background-secondary-alt: transparent; /* call controls, profile */ 
+  --background-tertiary: transparent !important; /* server list, find or start convo backgr*/
+  --background-floating: transparent; /* to be determined - please tell me */
+  --channeltextarea-background: transparent; /* message textarea */
+  --deprecated-store-bg: transparent /* friends or activity or something */;
+  --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
+  --interactive-normal: white /* supposedly icons */; 
+  --interactive-hover: rgb(171, 248, 235) /* hover color*/;
+  --text-link: #fcff5b /* hyperlink color */;
+  --interactive-active: rgb(122, 202, 255) /* selected tab*/;
+  --text-muted: rgba(187, 234, 248, 0.7) /* non important text */;
+  --channels-default: rgba(228, 228, 228, 0.952) /* channel not selected not hovered*/;
+  --background-accent: rgb(122, 202, 255); /* new messages */
+  --background-message-hover: rgba(0, 0, 0, 0.541); /* message background on hover */
+  --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
+  --background-image: url("https://i.redditmedia.com/5kIMaTTZ-ItnCy50Ng1LPOgmbZT3O93Tc18S03uhMrE.png?w=1024&s=6a892b03cdec538f089ff8e9311059c0");
+  --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322);
+  --popup-background: rgba(0, 0, 0, 0.9);
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* ONE OF MAJOR COLOR SCHEMAS*/
+.searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
+.lookFilled-1Gx00P.colorBrand-3pXr91 /* generic buttons */,
+.circleIconButton-jET_ig.selected-ugP_am /* find new communities selected, add server hover */{
+  background-color: var(--color-main) !important;
+}
+.circleIconButton-jET_ig{
+  border-radius: 20px;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* CONTEXT MENUS, RIGHT CLICK STUFF, more? */
+[aria-label*="Channel Actions"] /* channel right click */,
+.submenu-2-ysNh /* right click context menus */,
+#message /* message right click */,
+#message-actions /* message dot menu */,
+[aria-label*="User Settings Actions"] /* user right click */,
+[aria-label*="Server Actions"] /* server right click */,
+[aria-label*="Recent Mentions"]:not(.iconWrapper-2OrFZ1) /* mentions */,
+[aria-label*="Text area Actions"] /* text area context menu */,
+[aria-label|="Actions"] /* stop share screen */,
+.wrapper-2ZbzR9 /* adding joining server */,
+.action-1lSjCi /* each server join option */,
+.resultsGroup-r_nuzN /* search bar */,
+.noiseCancellationPopout-iRK2A0 /* noise cancellation quick menu */,
+[aria-label*="Pinned Messages"]:not(.iconWrapper-2OrFZ1) /* pinned messages */,
+.uploadModal-2ifh8j /* upload file modal */,
+.contextMenu-HLZMGh /* user profile block/message */,
+.contentWrapper-2txmjs /* message emoji picker */,
+.emojiPicker-3PwZFl /* react emoji picker */,
+.userPopout-3XzG_A /* user profile */,
+.autocomplete-1vrmpx /* autocomplete */,
+.modal-yWgWj- /* modal dialog - share screen */{
+  box-shadow: var(--popup-border);
+  border-style: none;
+  background-color: var(--popup-background) !important;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* SCROLLERS, ...*/
+.scroller-3sQKXg::-webkit-scrollbar-track-piece /* message scroller */{
+  border: transparent !important;
+  background-color: rgba(187, 234, 248, 0.342) !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar-button:end /* general scroller */,
+.scroller-2FKFPG::-webkit-scrollbar-button:start /* general scroller */{
+  display: none;
+}
+.scroller-2FKFPG::-webkit-scrollbar/* general scroller */{
+  width: 5px;
+}
+.scroller-2FKFPG::-webkit-scrollbar-thumb /* general scroller*/{
+  background-color: rgba(202, 235, 248, 0.61) !important;
+  border: transparent;
+}
+/*.scroller-2FKFPG*/ /* messages (for scrollbar spacing) */.messages-3amgkR{
+  margin: 10px 10px 20px 0px !important;
+}
+.grabber-3mFHz2 /* User volume thumb */{
+  background: rgba(255, 255, 255, 1) !important;
+}
+.barFill-23-gu- /* user volume track */{
+  height: 6px !important;
+  background: rgba(255, 255, 255, 0.507) !important;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/*  ICONS, non-esssential WHITE TEXT  */
+/* test out with the --interactive-normal variable ??? */
+.icon-22AiRD /* top icons (#, mute, pins, people, mentions, help)*/,
+.searchBar-3dMhjb /* search text */,
+.icon-3cZ1F_ /* delete search text icon (x)*/
+.homeIcon-tEMBK1 /* discord logo */,
+.icon-35-fSh /* friends tab icons */,
+.linkButtonIcon-Mlm5d6 /* friends, nitro */,
+.winButton-iRh8-Z /* window controls */,
+.quickSelectValue-lImyM6 /* call region */,
+.quickSelectArrow-1QublR /* call region arrow */,
+.plusIcon-v0BTrL /* filter plus icon */,
+.contents-18-Yxp /* call control icons, message icons*/,
+.icon-3Gkjwa /* message hover icons */,
+.controlIcon-35oS15 /* small call hover icons */,
+.header-3ZP1MY /* add server header */,
+.body-3AJVSA /* add server options */,
+.circleIconButton-jET_ig /* add server icon */{
+  -webkit-filter: drop-shadow(1px 1px 1px #222) !important;
+  color: white !important;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* WHITE TEXT that cant have shadow*/
+.public-DraftEditorPlaceholder-root, /* Search text */
+.viewBody-2Qz-jg, /* username, mail */
+.searchBarComponent-32dTOx, /* quick search */
+.nicknames-1XK4Zt, /* user nicknames */
+.akaBadge-1M-1Gw /* aka badge */{
+  color: white !important;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* REMOVE GRADIENTS */
+.option-96V44q:after, /* search filters gradient */
+.option-96V44q.selected-rZcOL-:after /* search filter hover gradient*/,
+.videoControls-38i4kP /* gradient in floating call video */{
+  background-image: unset !important;
+}
+.video-1kutKI /* call video display*/,
+.gradientContainer-10lXLB /* video call gradient */{
+  background: unset;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* SETTINGS + message*/
+.contentColumn-2hrIYH /* main setting column*/,
+.sidebar-CFHs9e /* setting tabs*/,
+.open-6_Y_aH /* search background */,
+.button-1ZiXG9 /* react message icons*/{
+  border-style: none;
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+.toolsContainer-1edPuj /* Settings close button position */{
+  padding-left: 40px;
+}
+.keybind-KpFkfr /* settings close text color*/{
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+.valueChecked-m-4IJZ /* settings toggle switches */{
+  background-color: rgba(255, 255, 255, 0.336) !important;
+}
+.card-3Qj_Yx /* borders in settings */{
+  border-color: rgba(211, 211, 211, 0.486);
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* BACKGROUND, TRANSPARENCY */
+.container-1D34oG /* friends */,
+.checkbox-1ix_J3 /* privacy settings checkbox*/,
+.item-26Dhrx    /* privacy settings*/,
+.bodyInner-245q0L /* short user info middle*/,
+.pageWrapper-1PgVDX /* find new communities background */{
+  background-color: transparent !important;
+}
+.wrapper-2qzCYF /* call window background*/,
+.videoGridWrapper-2BDlMX /* call window background*/,
+.root-2sELX6 /* player popped out main window shadow*/{
+  background-color: transparent;
+}
+.bg-h5JY_x /* Full background */ {
+  background-image: var(--background-image);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left top;
+  background-size: cover;
+}
+/* ---------------------------------------------------------------------------------------------------*/
+/* MISC */
+.topSectionPlaying-1J5E4n{
+  background: unset;
+}
+.barBase-39XTcM /* viewing older messages */{
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+.newMessagesBar-mujexs /* new message bar*/{
+  background-color: var(--background-accent);
+}
+.progress-1IcQ3A /* mic test background ()*/{
+  background-color: black !important;
+}
+.colorRed-1TFJan /* Leave call button, settings*/ {
+  background-color: rgba(226, 0, 0, 0.801) !important;
+}
+.base-PmTxvP /* Icon for server/groupdm notifications */
+{
+  box-shadow: inset 0 0 2px rgb(90, 90, 90);
+  background-color: var(--color-main) !important;
+}
+.title-2MiNVe /* player popped out text */,
+.bg-AYqtMd /* find new communities header photo */,
+.searchHelpText-19imBp /* search bar find communities bad text */{
+  display: none;
+}
+.headerNormal-T_seeN /* user context menu top */,
+.footer-1fjuF6 /* user context menu bottom*/,
+[class*="topSection"] /* user profile games/streaming,... */{
+  background: transparent !important
+}
+.background-ujHpbY,
+.tile-2gi3tr{
+  background-color: rgba(0, 0, 0, 0.349) !important;
+}
+/* ---------------------------------------------------------------------------------------------------*/
