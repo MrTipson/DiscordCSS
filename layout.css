@@ -78,3 +78,14 @@ div[id^="folder"]{
     transform: translateY(calc(50% + 5px)) rotate(-90deg);
     left: unset;
 }
+[aria-label*="Pinned Messages"],
+[aria-label*="Recent Mentions"]{
+    height: 80%
+}
+.layer-v9HyYc[style*="right"][style*="top"],
+.messagesPopoutWrap-1MQ1bW:not([aria-label*="Recent Mentions"]){
+    height: 100%;
+}
+.messageGroupWrapper-o-Zw7G{
+    padding: 10px;
+}
