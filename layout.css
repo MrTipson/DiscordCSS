@@ -78,14 +78,15 @@ div[id^="folder"]{
     transform: translateY(calc(50% + 5px)) rotate(-90deg);
     left: unset;
 }
-[aria-label*="Pinned Messages"],
-[aria-label*="Recent Mentions"]{
-    height: 80%
+/* 
+due to the server menu being moved to the top, these go down further down the screen than desired 
+i've tried other things but they mess up if there arent enough pinned messages
+if anyone can fix it, please do so
+*/
+.layer-v9HyYc > [aria-label*="Pinned Messages"] /* pinned messages */,
+.layer-v9HyYc > [aria-label*="Recent Mentions"] /* mentions */{
+    transform: scale(.9) translate(0px,-50px);
 }
-.layer-v9HyYc[style*="right"][style*="top"],
-.messagesPopoutWrap-1MQ1bW:not([aria-label*="Recent Mentions"]){
-    height: 100%;
-}
-.messageGroupWrapper-o-Zw7G{
-    padding: 10px;
+.messagesPopoutWrap-1MQ1bW /* pinned messages */{
+    width: 500px
 }
