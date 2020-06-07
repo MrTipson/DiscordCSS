@@ -54,7 +54,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .uploadModal-2ifh8j /* upload file modal */,
 .contextMenu-HLZMGh /* user profile block/message */,
 .contentWrapper-2txmjs /* message emoji picker */,
-#popout_6039 .emojiPicker-3PwZFl /* react emoji picker */,
+.layer-v9HyYc .emojiPicker-3PwZFl /* react emoji picker */,
 .userPopout-3XzG_A /* user profile */,
 .inner-1ilYF7 /* user profile large (right click -> profile) */,
 .autocomplete-1vrmpx /* autocomplete */,
@@ -229,6 +229,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   border: 1px solid rgb(70, 70, 70);
 }
 .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* mentions window title pill */{
-  background-color: transparent;
+  background-color: transparent !important;
+  color: white;
 }
 /* ---------------------------------------------------------------------------------------------------*/
