@@ -51,6 +51,7 @@
 div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 [aria-label*="Share Your Screen"] /* channel 'screen' button context menu when in server  */,
 [aria-label*="Add Role"] /* add role */,
+[aria-label*="Pick a Color"] /* color picker */,
 #status-picker /* set status */,
 .uploadModal-2ifh8j /* upload file modal */,
 .contextMenu-HLZMGh /* user profile block/message */,
