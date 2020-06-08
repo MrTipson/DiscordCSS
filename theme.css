@@ -50,6 +50,7 @@
 [aria-label*="Stream Actions"] /* someones stream right click */,
 div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 [aria-label*="Share Your Screen"] /* channel 'screen' button context menu when in server  */,
+[aria-label*="Add Role"] /* add role */,
 #status-picker /* set status */,
 .uploadModal-2ifh8j /* upload file modal */,
 .contextMenu-HLZMGh /* user profile block/message */,
@@ -65,7 +66,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .streamPreview-2-WUWT /* hover discord stream TEST*/,
 .container-2x5lvQ /* voice connected */,
 .root-1gCeng /* how did stream go modal - possibly other stuff TEST */,
-.channelHeader-3Gd2xq /* channel name mentions */{
+.channelHeader-3Gd2xq /* channel name mentions */,
+.inset-3sAvek /* friends active now game */{
   box-shadow: var(--popup-border);
   border-style: none;
   background-color: var(--popup-background) !important;
@@ -168,7 +170,9 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .bodyInner-245q0L /* short user info middle*/,
 .pageWrapper-1PgVDX /* find new communities background */,
 .footer-3rDWdC /* modal dialog footer */,
-.container-2x5lvQ > * /* connection debug */{
+.container-2x5lvQ > * /* connection debug */,
+.header-2bNvm4 /* add role header */,
+.container-VSDcQc .sectionTag-pXyto9 /* add role body */{
   background-color: transparent !important;
 }
 .wrapper-2qzCYF /* call window background*/,
@@ -228,8 +232,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .jumpButton-3DTcS_ /* pinned message jump button*/{
   border: 1px solid rgb(70, 70, 70);
 }
-.header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* mentions window title pill */{
+.outer-1AjyKL.interactive-3B9GmY:hover /* friends tab */{
   background-color: transparent !important;
-  color: white;
+  box-shadow: inset 0 0 2px white;
 }
 /* ---------------------------------------------------------------------------------------------------*/
