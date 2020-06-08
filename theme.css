@@ -232,6 +232,10 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .jumpButton-3DTcS_ /* pinned message jump button*/{
   border: 1px solid rgb(70, 70, 70);
 }
+.header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* mentions window title pill */{
+  background-color: transparent !important;	  background-color: transparent !important;
+  color: white;
+}
 .outer-1AjyKL.interactive-3B9GmY:hover /* friends tab */{
   background-color: transparent !important;
   box-shadow: inset 0 0 2px white;
