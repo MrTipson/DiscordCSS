@@ -67,7 +67,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .container-2x5lvQ /* voice connected */,
 .root-1gCeng /* how did stream go modal - possibly other stuff TEST */,
 .channelHeader-3Gd2xq /* channel name mentions */,
-.inset-3sAvek /* friends active now game */{
+.inset-3sAvek /* friends active now game */,
+.keyboardShortcutsModal-3piNz7 /* keyboard shortcut menu (ctrl + ?)*/{
   box-shadow: var(--popup-border);
   border-style: none;
   background-color: var(--popup-background) !important;
