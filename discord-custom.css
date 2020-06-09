@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-@import url("https://cu-zn.ga/public/DiscordCSS/theme.css");
+@import url("https://mrtipson.github.io/DiscordCSS/theme.css");
 :root {
     --background-primary: transparent /* chat, call */;
     --background-secondary: transparent /* friends sidebar */;
