@@ -121,7 +121,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .header-3ZP1MY /* add server header */,
 .body-3AJVSA /* add server options */,
 .circleIconButton-jET_ig /* add server icon */{
-  -webkit-filter: drop-shadow(1px 1px 1px #222) !important;
+  filter: drop-shadow(1px 1px 1px #222) !important;
   color: white !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
