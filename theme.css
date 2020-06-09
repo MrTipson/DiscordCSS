@@ -248,4 +248,14 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .notice-2X5hT5 /* you are lurking */{
   background-color: rgba(0, 0, 0, 0.40) !important;
 }
+.symbol-3ffeCr>* /* a runabout? i'll steal it */{
+  display: none;
+}
+.symbol-3ffeCr /* noone will ever know */{
+  background: url("https://cu-zn.ga/public/dickbutt.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 40%;
+  filter: drop-shadow(-2px -2px 5px white) drop-shadow(2px 2px 5px white);
+}
 /* ---------------------------------------------------------------------------------------------------*/
