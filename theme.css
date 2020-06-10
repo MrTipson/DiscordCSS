@@ -92,14 +92,12 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 [aria-label*="Pick a Color"] /* color picker */,
 [aria-label*="Image Actions"] /* image right click menu */,
 #status-picker /* set status */,
-.uploadModal-2ifh8j /* upload file modal */,
 .contextMenu-HLZMGh /* user profile block/message */,
 .contentWrapper-2txmjs /* message emoji picker */,
 .layer-v9HyYc .emojiPicker-3PwZFl /* react emoji picker */,
 .userPopout-3XzG_A /* user profile */,
 .inner-1ilYF7 /* user profile large (right click -> profile) */,
 .autocomplete-1vrmpx /* autocomplete */,
-.modal-yWgWj- /* modal dialog - share screen */,
 .incomingCallInner-2VmFiR /* incoming call */,
 .attachPopout-36hjtN /* invite to game */,
 .popoutWrapper-eJpzc1 /* spectators */,
@@ -216,8 +214,12 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .bodyInner-245q0L /* short user info middle*/,
 .pageWrapper-1PgVDX /* find new communities background */,
 .footer-3rDWdC /* modal dialog footer */,
+.footer-3mqk7D /* upload file footer */,
 .container-2x5lvQ > * /* connection debug */,
 .header-2bNvm4 /* add role header */,
+.message-2qRu38 /* deleting message transparency */,
+.modal-yWgWj- /* modal dialogs should be covered by inner-1ilYF7 */,
+.uploadModal-2ifh8j /* modal dialog should be covered by inner-1ilYF7 */,
 .container-VSDcQc .sectionTag-pXyto9 /* add role body */{
   background-color: transparent !important;
 }
@@ -239,6 +241,9 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 /* MISC */
 .topSectionPlaying-1J5E4n{
   background: unset;
+}
+.inner-1ilYF7{
+  border-radius: 5px;
 }
 .barBase-39XTcM /* viewing older messages */{
   padding-bottom: 0px;
