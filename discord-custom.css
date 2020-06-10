@@ -24,6 +24,9 @@ SOFTWARE.
 
 @import url("https://mrtipson.github.io/DiscordCSS/theme.css");
 :root {
+    --header-primary: white /* big text */;
+    --header-secondary: #b9bbbe /* subtext => id, active channel, code markdown, server of mention*/;
+    --text-normal: #dcddde /* normal text */;
     --background-primary: transparent /* chat, call */;
     --background-secondary: transparent /* friends sidebar */;
     --background-secondary-alt: transparent /* call controls, profile */ ;
@@ -33,6 +36,7 @@ SOFTWARE.
     --deprecated-store-bg: transparent /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --interactive-normal: white /* supposedly icons */; 
+    --interactive-muted: #4f545c /* muted channel, others */;
     --interactive-hover: rgb(171, 248, 235) /* hover color*/;
     --text-link: #fcff5b /* hyperlink color */;
     --interactive-active: rgb(122, 202, 255) /* selected tab*/;
