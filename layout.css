@@ -47,7 +47,7 @@ div[aria-label="Servers"] /* server list */{
     overflow-y: visible; 
     z-index: 101;
 }
-.guilds-1SWlCJ *{
+.guilds-1SWlCJ * /* everything within the server bar */{
     z-index: 101;
 }
 .scrollerWrap-1IAIlv /* outer scroller in nav */{
@@ -70,15 +70,15 @@ div[aria-label="Servers"] /* server list */{
     height: 28px;
     width: 2px;
 }
-.icon-27yU2q,
-.childWrapper-anI2G9{
+.icon-27yU2q /* server icons */,
+.childWrapper-anI2G9 /* discord home icon */{
     border-radius: 20px;
 }
-div[id^="folder"]>*{
+div[id^="folder"]>* /* servers in the opened folder */{
     margin: 6px auto;
     padding: 0px;
 }
-div[id^="folder"]{
+div[id^="folder"] /* opened server folder */{
     padding: 10px;
     height: unset !important;
     transform: translateX(-50%) translateX(36px);
@@ -92,10 +92,10 @@ div[id^="folder"]{
     border-style: none;
     background-color: var(--popup-background) !important;
 }
-.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb){
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) /* opened server highlight */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active);
 }
-.tooltipRight-2JM5PQ.tooltip-2QfLtc{
+.tooltipRight-2JM5PQ.tooltip-2QfLtc /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: calc(-50% - 42px);
@@ -104,15 +104,10 @@ div[id^="folder"]{
 .tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK{
     opacity: 0;
 }
-.pill-31IEus, .pill-3YxEhL, .pill-1m5BUr, .pill-2uzAFe{
+.pill-31IEus, .pill-3YxEhL, .pill-1m5BUr, .pill-2uzAFe /* white dots in the server bar */{
     transform: translateY(calc(50% + 5px)) rotate(-90deg);
     left: unset;
 }
-/* 
-due to the server menu being moved to the top, these go down further down the screen than desired 
-i've tried other things but they mess up if there arent enough pinned messages
-if anyone can fix it, please do so
-*/
 .layer-v9HyYc > [aria-label*="Pinned Messages"] /* pinned messages */,
 .layer-v9HyYc > [aria-label*="Recent Mentions"] /* mentions */{
     transform: scale(.9) translate(0px,-50px);
