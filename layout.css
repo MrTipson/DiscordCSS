@@ -22,6 +22,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+:root{
+  --channels-default: rgba(228, 228, 228, 0.952) /* channel not selected not hovered*/;
+  --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322) /* border for context menus*/;
+  --popup-background: rgba(0, 0, 0, 0.9) /* background for context menus */;
+  --interactive-active: rgb(122, 202, 255) /* selected tab*/;
+}
 .base-3dtUhz /* friends list, chat */{
     position: relative;
     left: 0px;
