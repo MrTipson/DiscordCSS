@@ -75,9 +75,10 @@ div[id^="folder"]>*{
 div[id^="folder"]{
     padding: 10px;
     height: unset !important;
-    transform: translateX(-37%);
+    transform: translateX(-50%) translateX(36px);
     display: flex;
-    width: 300px;
+    width: max-content;
+    max-width: 300px;
     flex-wrap: wrap;
     /* style */
     box-shadow: var(--popup-border);
