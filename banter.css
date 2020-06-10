@@ -1,0 +1,77 @@
+/*
+MIT License
+
+Copyright (c) 2020 MrTipson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+.message-2qnXI6[aria-posinset$="0"] .avatar-1BDn8e{animation: dunkaDunka 2s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="1"] .avatar-1BDn8e{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="2"] .avatar-1BDn8e{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="3"] .avatar-1BDn8e{animation: dunkaDunka 3s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="4"] .avatar-1BDn8e{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="5"] .avatar-1BDn8e{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="6"] .avatar-1BDn8e{animation: dunkaDunka 4s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="7"] .avatar-1BDn8e{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="8"] .avatar-1BDn8e{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
+.message-2qnXI6[aria-posinset$="9"] .avatar-1BDn8e{animation: dunkaDunka 5s linear 0s infinite forwards;}
+[aria-checked*="false"][aria-label*="Mute channel"]:hover{
+    animation-name: dingdong;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+[aria-label="Servers"]>*:nth-child(n){animation: wave 2s ease-in-out 0s infinite;}
+[aria-label="Servers"]>*:nth-child(2n){animation: wave 2s ease-in-out .2s infinite;}
+[aria-label="Servers"]>*:nth-child(3n){animation: wave 2s ease-in-out .4s infinite;}
+[aria-label="Servers"]>*:nth-child(4n){animation: wave 2s ease-in-out 0.6s infinite;}
+[aria-label="Servers"]>*:nth-child(5n){animation: wave 2s ease-in-out .8s infinite;}
+[aria-label="Servers"]>*:nth-child(6n){animation: wave 2s ease-in-out 1s infinite;}
+[aria-label="Servers"]>*:nth-child(7n){animation: wave 2s ease-in-out 1.2s infinite;}
+[aria-label="Servers"]>*:nth-child(8n){animation: wave 2s ease-in-out 1.4s infinite;}
+[aria-label="Servers"]>*:nth-child(9n){animation: wave 2s ease-in-out 1.6s infinite;}
+[aria-label="Servers"]>*:nth-child(10n){animation: wave 2s ease-in-out 1.8s infinite;}
+@keyframes wave{
+    0%{transform: translateY(0px);}
+    10%{transform: translateY(15px);}
+    20%{transform: translateY(0px);}
+    100%{transform: translateY(0px);}
+}
+@keyframes dingdong{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-15deg);
+    }
+    75%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes dunkaDunka{
+    from{
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
