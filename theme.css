@@ -79,7 +79,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 /* SCROLLERS, ...*/
 .scroller-3sQKXg::-webkit-scrollbar-track-piece /* message scroller */{
   border: transparent !important;
-  background-color: rgba(187, 234, 248, 0.342) !important;
+  background-color: var(--scroll-track) !important;
 }
 .scroller-2FKFPG::-webkit-scrollbar-button:end /* general scroller */,
 .scroller-2FKFPG::-webkit-scrollbar-button:start /* general scroller */{
@@ -89,18 +89,18 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   width: 5px;
 }
 .scroller-2FKFPG::-webkit-scrollbar-thumb /* general scroller*/{
-  background-color: rgba(202, 235, 248, 0.61) !important;
+  background-color: var(--scroll) !important;
   border: transparent;
 }
 /*.scroller-2FKFPG*/ /* messages (for scrollbar spacing) */.messages-3amgkR{
   margin: 10px 10px 20px 0px !important;
 }
 .grabber-3mFHz2 /* User volume thumb */{
-  background: rgba(255, 255, 255, 1) !important;
+  background: var(--volume-thumb) !important;
 }
 .barFill-23-gu- /* user volume track */{
   height: 6px !important;
-  background: rgba(255, 255, 255, 0.507) !important;
+  background: var(--volume-track) !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /*  ICONS, non-esssential WHITE TEXT  */
@@ -121,8 +121,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .header-3ZP1MY /* add server header */,
 .body-3AJVSA /* add server options */,
 .circleIconButton-jET_ig /* add server icon */{
-  filter: drop-shadow(1px 1px 1px #222) !important;
-  color: white !important;
+  filter: var(--icon-shadow) !important;
+  color: var(--icon-color) !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /* WHITE TEXT that cant have shadow*/
@@ -131,7 +131,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .searchBarComponent-32dTOx, /* quick search */
 .nicknames-1XK4Zt, /* user nicknames */
 .akaBadge-1M-1Gw /* aka badge */{
-  color: white !important;
+  color: var(--small-text) !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /* REMOVE GRADIENTS */
@@ -151,21 +151,24 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .open-6_Y_aH /* search background */,
 .customColumn-Rb6toI /* audit log background */,
 .card-3DjzTQ /* explore servers individual card */,
-.button-1ZiXG9 /* react message icons*/{
+.button-1ZiXG9 /* react message icons*/,
+.background-ujHpbY /* something something floating call window */,
+.tile-2gi3tr /* person in call */,
+.notice-2X5hT5 /* lurking message */{
   border-style: none;
-  background-color: rgba(0, 0, 0, 0.6) !important;
+  background-color: var(--tile-background) !important;
 }
 .toolsContainer-1edPuj /* Settings close button position */{
   padding-left: 40px;
 }
 .keybind-KpFkfr /* settings close text color*/{
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: var(--settings-close-text) !important;
 }
 .valueChecked-m-4IJZ /* settings toggle switches */{
-  background-color: rgba(255, 255, 255, 0.336) !important;
+  background-color: var(--toggle-switch-on) !important;
 }
 .card-3Qj_Yx /* borders in settings */{
-  border-color: rgba(211, 211, 211, 0.486);
+  border-color: var(--border);
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /* BACKGROUND, TRANSPARENCY */
@@ -210,11 +213,10 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   background-color: black !important;
 }
 .colorRed-1TFJan /* Leave call button, settings*/ {
-  background-color: rgba(226, 0, 0, 0.801) !important;
+  background-color: var(--color-important) !important;
 }
 .base-PmTxvP /* Icon for server/groupdm notifications */
 {
-  box-shadow: inset 0 0 2px rgb(90, 90, 90);
   background-color: var(--color-main) !important;
 }
 .title-2MiNVe /* player popped out text */,
@@ -227,26 +229,19 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 [class*="topSection"] /* user profile games/streaming,... */{
   background: transparent !important
 }
-.background-ujHpbY,
-.tile-2gi3tr{
-  background-color: rgba(0, 0, 0, 0.349) !important;
-}
 .messagesPopout-24nkyi>.messageGroupWrapper-o-Zw7G /* pinned message seperator */{
-  border-bottom: 1px solid rgb(70, 70, 70);
+  border-bottom: 1px solid var(--border);
 }
 .jumpButton-3DTcS_ /* pinned message jump button*/{
-  border: 1px solid rgb(70, 70, 70);
+  border: 1px solid var(--border);
 }
 .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa /* mentions window title pill */{
-  background-color: transparent !important;	  background-color: transparent !important;
-  color: white;
+  background-color: transparent !important;
+  color: var(--header-primary);
 }
 .outer-1AjyKL.interactive-3B9GmY:hover /* friends tab */{
   background-color: transparent !important;
-  box-shadow: inset 0 0 2px white;
-}
-.notice-2X5hT5 /* you are lurking */{
-  background-color: rgba(0, 0, 0, 0.40) !important;
+  box-shadow: inset 0 0 7px var(--border);
 }
 .symbol-3ffeCr>* /* a runabout? i'll steal it */{
   display: none;
