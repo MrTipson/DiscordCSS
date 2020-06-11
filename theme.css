@@ -102,6 +102,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .incomingCallInner-2VmFiR /* incoming call */,
 .attachPopout-36hjtN /* invite to game */,
 .popoutWrapper-eJpzc1 /* spectators */,
+.focusLock-Ns3yie > .root-1gCeng /* explore server */,
 .streamPreview-2-WUWT /* hover discord stream TEST*/,
 .container-2x5lvQ /* voice connected */,
 .channelHeader-3Gd2xq /* channel name mentions */,
@@ -299,5 +300,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   background-position: center;
   background-size: 40%;
   filter: drop-shadow(-2px -2px 5px white) drop-shadow(2px 2px 5px white);
+}
+.divider-JfaTT5{
+  height: 20px;
 }
 /* ---------------------------------------------------------------------------------------------------*/
