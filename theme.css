@@ -42,6 +42,7 @@ SOFTWARE.
   --channels-default: rgba(228, 228, 228, 0.952) /* channel not selected not hovered*/;
   --background-accent: rgb(122, 202, 255); /* new messages */;
   --background-message-hover: rgba(0, 0, 0, 0.541); /* message background on hover */;
+  --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
   /* Custom variables - Theme */
   --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
   --color-important: rgba(226, 0, 0, 0.801) /* important buttons - leave call, some settings (red by default) */;
@@ -103,7 +104,6 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .popoutWrapper-eJpzc1 /* spectators */,
 .streamPreview-2-WUWT /* hover discord stream TEST*/,
 .container-2x5lvQ /* voice connected */,
-.root-1gCeng /* how did stream go modal - possibly other stuff TEST */,
 .channelHeader-3Gd2xq /* channel name mentions */,
 .inset-3sAvek /* friends active now game */,
 .keyboardShortcutsModal-3piNz7 /* keyboard shortcut menu (ctrl + ?)*/{
@@ -220,6 +220,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .message-2qRu38 /* deleting message transparency */,
 .modal-yWgWj- /* modal dialogs should be covered by inner-1ilYF7 */,
 .uploadModal-2ifh8j /* modal dialog should be covered by inner-1ilYF7 */,
+.contentWrapper-3WC1ID /* modal dialog */,
+.notDetected-33MY4s /* no game detected - settings */,
 .container-VSDcQc .sectionTag-pXyto9 /* add role body */{
   background-color: transparent !important;
 }
@@ -275,6 +277,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .messagesPopout-24nkyi>.messageGroupWrapper-o-Zw7G /* pinned message seperator */{
   border-bottom: 1px solid var(--border);
 }
+.card-1yV8cG /* starting cards server */,
+.notDetected-33MY4s /* no game detected - settings */,
 .jumpButton-3DTcS_ /* pinned message jump button*/{
   border: 1px solid var(--border);
 }
