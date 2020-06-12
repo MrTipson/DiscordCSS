@@ -303,5 +303,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 }
 .divider-JfaTT5{
   height: 20px;
+  margin-top: 5px !important;
+  margin-bottom: 0px !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
