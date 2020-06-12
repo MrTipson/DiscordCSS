@@ -139,6 +139,10 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   height: 6px !important;
   background: var(--volume-track) !important;
 }
+.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG /* friends, messages */{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
 /* ---------------------------------------------------------------------------------------------------*/
 /*  ICONS, non-esssential WHITE TEXT  */
 /* test out with the --interactive-normal variable ??? */
