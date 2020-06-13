@@ -43,6 +43,10 @@ SOFTWARE.
   --background-accent: rgb(122, 202, 255); /* new messages */;
   --background-message-hover: rgba(0, 0, 0, 0.541); /* message background on hover */;
   --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
+  --background-modifier-selected: rgba(79,84,92,0.32) /* selected person, channel */;
+  --background-modifier-hover: rgba(79,84,92,0.16) /* hover friend, channel */;
+  --background-modifier-active: rgba(79,84,92,0.24) /* friend, channel during click */;
+  --deprecated-card-bg: rgba(32,34,37,0.6) /* some cards in the settings */;
   /* Custom variables - Theme */
   --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
   --color-important: rgba(226, 0, 0, 0.801) /* important buttons - leave call, some settings (red by default) */;
@@ -53,7 +57,7 @@ SOFTWARE.
   --icon-color: rgb(255, 255, 255) /* icon color */;
   --small-text: white /* small text -> search, nicknames, aka */;
   --tile-background: rgba(0, 0, 0, 0.6) /* settings, explore servers and options when hovering a message */;
-  --settings-close-text: rgba(255, 255, 255, 0.9) /* settings close text color */;
+  --settings-close: rgba(255, 255, 255, 0.9) /* settings close text color */;
   --border: rgba(211, 211, 211, 0.486) /* borders between cards - like authorised apps, pinned msgs, jump button */;
   --toggle-switch-on: rgba(255, 255, 255, 0.336) /* toggle on */;
   --scroll-track: rgba(187, 234, 248, 0.342) /* scrollbar background - only for messages */;
@@ -204,7 +208,10 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   padding-left: 40px;
 }
 .keybind-KpFkfr /* settings close text color*/{
-  color: var(--settings-close-text) !important;
+  color: var(--settings-close) !important;
+}
+[aria-label="Close"] path.fill{
+  fill: var(--settings-close);
 }
 .valueChecked-m-4IJZ /* settings toggle switches */{
   background-color: var(--toggle-switch-on) !important;
@@ -247,6 +254,11 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /* MISC */
+.codeRedemptionRedirect-1wVR4b {
+  border-color: var(--border) !important;
+  background-color: var(--deprecated-card-bg) !important;
+  color: var(--text-normal) !important;
+}
 .topSectionPlaying-1J5E4n{
   background: unset;
 }
