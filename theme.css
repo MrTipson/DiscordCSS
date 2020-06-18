@@ -22,6 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 :root {
+  --logo-primary: #fff /* discord nitro text, probably other stuff */;
   --header-primary: white /* big text */;
   --header-secondary: #b9bbbe /* subtext => id, active channel, code markdown, server of mention*/;
   --text-normal: #dcddde /* normal text */;
@@ -50,7 +51,8 @@ SOFTWARE.
   /* Custom variables - Theme */
   --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
   --color-important: rgba(226, 0, 0, 0.801) /* important buttons - leave call, some settings (red by default) */;
-  --background-image: url("https://i.redditmedia.com/5kIMaTTZ-ItnCy50Ng1LPOgmbZT3O93Tc18S03uhMrE.png?w=1024&s=6a892b03cdec538f089ff8e9311059c0");
+  --color-other: #4f545c /* gift nitro / normal nitro sub buttons */;
+  --background-image: url("https://i.imgur.com/IADgiAB.png");
   --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322) /* border for context menus*/;
   --popup-background: rgba(0, 0, 0, 0.9) /* background for context menus */;
   --icon-shadow: drop-shadow(1px 1px 1px #222) /* icon shadow */;
@@ -68,6 +70,7 @@ SOFTWARE.
 /* ONE OF MAJOR COLOR SCHEMES*/
 .searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
 .lookFilled-1Gx00P.colorBrand-3pXr91 /* generic buttons */,
+.lookFilled-1Gx00P.colorGreen-29iAKY /* some buttons in nitro and others ? */,
 .circleIconButton-jET_ig.selected-ugP_am /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
@@ -96,6 +99,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 [aria-label*="Add Role"] /* add role */,
 [aria-label*="Pick a Color"] /* color picker */,
 [aria-label*="Image Actions"] /* image right click menu */,
+[aria-label="Filter"] /* mentions filter */,
 #status-picker /* set status */,
 .contextMenu-HLZMGh /* user profile block/message */,
 .contentWrapper-2txmjs /* message emoji picker */,
@@ -112,6 +116,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .container-2x5lvQ /* voice connected */,
 .channelHeader-3Gd2xq /* channel name mentions */,
 .inset-3sAvek /* friends active now game */,
+.css-n57xjs-menu,
 .keyboardShortcutsModal-3piNz7 /* keyboard shortcut menu (ctrl + ?)*/{
   box-shadow: var(--popup-border);
   border-style: none;
@@ -152,7 +157,6 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 /*  ICONS, non-esssential WHITE TEXT  */
 /* test out with the --interactive-normal variable ??? */
 .icon-22AiRD /* top icons (#, mute, pins, people, mentions, help)*/,
-.searchBar-3dMhjb /* search text */,
 .icon-3cZ1F_ /* delete search text icon (x)*/
 .homeIcon-tEMBK1 /* discord logo */,
 .icon-35-fSh /* friends tab icons */,
@@ -161,7 +165,7 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .quickSelectValue-lImyM6 /* call region */,
 .quickSelectArrow-1QublR /* call region arrow */,
 .plusIcon-v0BTrL /* filter plus icon */,
-.contents-18-Yxp /* call control icons, message icons*/,
+button > .contents-18-Yxp /* call control icons, message icons*/,
 .icon-3Gkjwa /* message hover icons */,
 .controlIcon-35oS15 /* small call hover icons */,
 .header-3ZP1MY /* add server header */,
@@ -311,6 +315,9 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .symbol-3ffeCr>* /* a runabout? i'll steal it */{
   display: none;
 }
+.lookFilled-1Gx00P.colorPrimary-3b3xI6 /* other buttons - gift nitro, sub normal */{
+  background-color: var(--color-other) !important;
+}
 .symbol-3ffeCr /* noone will ever know */{
   background: url("https://cu-zn.ga/public/dickbutt.png");
   background-repeat: no-repeat;
@@ -318,9 +325,26 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
   background-size: 40%;
   filter: drop-shadow(-2px -2px 5px white) drop-shadow(2px 2px 5px white);
 }
-.divider-JfaTT5{
+.divider-JfaTT5 /* horizontal line between days */{
   height: 20px;
   margin-top: 5px !important;
   margin-bottom: 0px !important;
+}
+.row-rrHHJU /* add role - each role */{
+  background:none !important;
+}
+.searchBar-3dMhjb /* search text */,
+.input-1ppKdn /* add role */,
+.headerTag-2pZJzA /* short user profile tag */,
+.descChecked-XkfPsU /* settings safe messaging */,
+.titleChecked-2wg0pd /* settings safe messaging */,
+.headerTagUsernameNoNickname-2_H881 /* short user profile name */,
+.roleName-32vpEy /* short user profile role */{
+  color: var(--text-normal) !important;
+}
+.quickMessage-1yeL4E /* quick message */{
+  color: var(--text-normal) !important;
+  background-color: transparent !important;
+  border-color: var(--border) !important;
 }
 /* ---------------------------------------------------------------------------------------------------*/
