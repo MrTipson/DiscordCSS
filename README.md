@@ -1,10 +1,13 @@
  # DiscordCSS
 
-DiscordCSS is a custom Discord theme (duh) that aims to create a more pleasant Discord experience.
-Its modularity means that you can mix and match whichever parts you want to make your personal experience even better.
+DiscordCSS is a set of css stylesheets that aims to create a more pleasant Discord experience.
+It's modularity means that you can mix and match whichever parts you want.
 
-The Discord app needs to be patched instructions can be found on the project [wiki](https://github.com/MrTipson/DiscordCSS/wiki).
-If you're using the web version it should be available via an extension to your browser. Something like [Amino](https://chrome.google.com/webstore/detail/amino-live-css-editor/pbcpfbcibpcbfbmddogfhcijfpboeaaf) will do, but you can use anything you want.
+The Discord app needs to be patched, instructions can be found on the project [wiki](https://github.com/MrTipson/DiscordCSS/wiki).
+If you're using the web version it should be available via an extension to your browser. Something like [Amino](https://chrome.google.com/webstore/detail/amino-live-css-editor/pbcpfbcibpcbfbmddogfhcijfpboeaaf) will do, but you can use anything you 
+want.
+
+If you would like me to add a certain functionality, you can make an issue or fork the repo and make a pull request
 
 # Stylesheets
 
