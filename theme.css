@@ -347,4 +347,10 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
   background-color: transparent !important;
   border-color: var(--border) !important;
 }
+.tutorialContainer-SGrQ1h~* /* everything following the add servers button */{
+  display: none;
+}
+.tutorialContainer-SGrQ1h+* /* exclude explore servers button */{
+  display: initial;
+}
 /* ---------------------------------------------------------------------------------------------------*/
