@@ -38,21 +38,23 @@ SOFTWARE.
     animation-iteration-count: infinite;
     animation-direction: normal;
 }
-[aria-label="Servers"]>*:nth-child(n){animation: wave 2s ease-in-out 0s infinite;}
-[aria-label="Servers"]>*:nth-child(2n){animation: wave 2s ease-in-out .2s infinite;}
-[aria-label="Servers"]>*:nth-child(3n){animation: wave 2s ease-in-out .4s infinite;}
-[aria-label="Servers"]>*:nth-child(4n){animation: wave 2s ease-in-out 0.6s infinite;}
-[aria-label="Servers"]>*:nth-child(5n){animation: wave 2s ease-in-out .8s infinite;}
-[aria-label="Servers"]>*:nth-child(6n){animation: wave 2s ease-in-out 1s infinite;}
-[aria-label="Servers"]>*:nth-child(7n){animation: wave 2s ease-in-out 1.2s infinite;}
-[aria-label="Servers"]>*:nth-child(8n){animation: wave 2s ease-in-out 1.4s infinite;}
-[aria-label="Servers"]>*:nth-child(9n){animation: wave 2s ease-in-out 1.6s infinite;}
-[aria-label="Servers"]>*:nth-child(10n){animation: wave 2s ease-in-out 1.8s infinite;}
+:root{
+    --time: 2s;
+}
+[aria-label="Servers"]>*:nth-child(n){animation: wave var(--time) ease-in-out 0s infinite normal;}
+[aria-label="Servers"]>*:nth-child(2n){animation: wave var(--time) ease-in-out .1s infinite normal;}
+[aria-label="Servers"]>*:nth-child(3n){animation: wave var(--time) ease-in-out .2s infinite normal;}
+[aria-label="Servers"]>*:nth-child(4n){animation: wave var(--time) ease-in-out 0.3s infinite normal;}
+[aria-label="Servers"]>*:nth-child(5n){animation: wave var(--time) ease-in-out .4s infinite normal;}
+[aria-label="Servers"]>*:nth-child(6n){animation: wave var(--time) ease-in-out 0.5s infinite normal;}
+[aria-label="Servers"]>*:nth-child(7n){animation: wave var(--time) ease-in-out 0.6s infinite normal;}
+[aria-label="Servers"]>*:nth-child(8n){animation: wave var(--time) ease-in-out 0.7s infinite normal;}
+[aria-label="Servers"]>*:nth-child(9n){animation: wave var(--time) ease-in-out 0.8s infinite normal;}
+[aria-label="Servers"]>*:nth-child(10n){animation: wave var(--time) ease-in-out 0.9s infinite normal;}
 @keyframes wave{
-    0%{transform: translateY(0px);}
-    10%{transform: translateY(15px);}
-    20%{transform: translateY(0px);}
-    100%{transform: translateY(0px);}
+    0%{transform: translateY(-2px);}
+    50%{transform: translateY(2px);}
+    100%{transform: translateY(-2px);}
 }
 @keyframes dingdong{
     0%{
