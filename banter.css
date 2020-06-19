@@ -31,6 +31,10 @@ SOFTWARE.
 .message-2qnXI6[aria-posinset$="7"] .avatar-1BDn8e{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
 .message-2qnXI6[aria-posinset$="8"] .avatar-1BDn8e{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
 .message-2qnXI6[aria-posinset$="9"] .avatar-1BDn8e{animation: dunkaDunka 5s linear 0s infinite forwards;}
+.avatar-1BDn8e.clickable-1bVtEA:active /* avatar when holding click */{
+    transform: initial;
+    -webkit-transform: initial;
+}
 [aria-checked*="false"][aria-label*="Mute channel"]:hover{
     animation-name: dingdong;
     animation-duration: .5s;
