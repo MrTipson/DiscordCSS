@@ -48,6 +48,10 @@ SOFTWARE.
   --background-modifier-hover: rgba(79,84,92,0.16) /* hover friend, channel */;
   --background-modifier-active: rgba(79,84,92,0.24) /* friend, channel during click */;
   --deprecated-card-bg: rgba(32,34,37,0.6) /* some cards in the settings */;
+  --scrollbar-thin-thumb:rgba(202, 235, 248, 0.61);
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: rgba(202, 235, 248, 0.109);
+  --scrollbar-auto-track: transparent;
   /* Custom variables - Theme */
   --color-main: rgba(33, 116, 241, 0.712) /* main color theme */;
   --color-important: rgba(226, 0, 0, 0.801) /* important buttons - leave call, some settings (red by default) */;
