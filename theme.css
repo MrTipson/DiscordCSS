@@ -119,7 +119,8 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .container-2x5lvQ /* voice connected */,
 .channelHeader-3Gd2xq /* channel name mentions */,
 .inset-3sAvek /* friends active now game */,
-.css-n57xjs-menu,
+.css-n57xjs-menu /* dropdown style */,
+.modal-yWgWj-.popout-103y-5.sizeSmall-1jtLQy.fullscreenOnMobile-1aglG_ /* invite to dm - bad selector, try to fix */,
 .keyboardShortcutsModal-3piNz7 /* keyboard shortcut menu (ctrl + ?)*/{
   box-shadow: var(--popup-border);
   border-style: none;
@@ -358,11 +359,6 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 }
 .css-1k00wn6-singleValue /* displayed selected option */{
   color: var(--text-normal);
-}
-.css-n57xjs-menu /* dropdown style */{
-  box-shadow: var(--popup-border);
-  border-style: none;
-  background-color: var(--popup-background) !important;
 }
 .css-n57xjs-menu * /* color of text in dropdown */{
   color: var(--text-normal);
