@@ -66,6 +66,7 @@ SOFTWARE.
   --scroll: rgba(202, 235, 248, 0.61) /* basic scroller */;
   --volume-thumb: rgb(255, 255, 255) /* volume bar thumb */;
   --volume-track: rgba(255, 255, 255, 0.507) /* volume bar track */;
+  --option-hover: rgba(0, 0, 0, 0.055) /* dropdown option hover */;
 }
 /* ONE OF MAJOR COLOR SCHEMES*/
 .searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
@@ -354,5 +355,22 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 }
 .tutorialContainer-SGrQ1h+* /* exclude explore servers button */{
   display: initial;
+}
+.css-1k00wn6-singleValue /* displayed selected option */{
+  color: var(--text-normal);
+}
+.css-n57xjs-menu /* dropdown style */{
+  box-shadow: var(--popup-border);
+  border-style: none;
+  background-color: var(--popup-background) !important;
+}
+.css-n57xjs-menu * /* color of text in dropdown */{
+  color: var(--text-normal);
+}
+.css-n57xjs-menu >*>*:hover /* dropdown option hover */{
+  background-color: var(--option-hover);
+}
+.css-n57xjs-menu >*>[selected] /* active option in dropdown */{
+  background-color: var(--option-hover);
 }
 /* ---------------------------------------------------------------------------------------------------*/
