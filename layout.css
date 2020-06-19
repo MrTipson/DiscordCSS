@@ -108,10 +108,8 @@ div[id^="folder"] /* opened server folder */{
     transform: translateY(calc(50% + 5px)) rotate(-90deg);
     left: unset;
 }
-.layer-v9HyYc > [aria-label*="Pinned Messages"] /* pinned messages */,
-.layer-v9HyYc > [aria-label*="Recent Mentions"] /* mentions */{
-    transform: scale(.9) translate(0px,-50px);
-}
-.messagesPopoutWrap-1MQ1bW /* pinned messages */{
-    width: 500px
+.layer-v9HyYc > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-1MQ1bW /* pinned messages */,
+.layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
+.layer-v9HyYc > [aria-label="Unreads"] /* recent mentions */{
+    max-height: 80vh !important;
 }
