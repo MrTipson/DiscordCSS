@@ -27,12 +27,16 @@ As the centerpiece of this project, **theme.css** changes up the look and feel o
 - buttons
 - gradients, borders, and more...
 
+![theme.css screenshot](https://i.imgur.com/rckwAos.png)
+
 ## layout.css
 
 `https://mrtipson.github.io/DiscordCSS/layout.css`\
 As another major change to how things behave, **layout.css** turns things around a bit:
 - server bar
 - server folders 
+
+![layout.css screenshot](https://i.imgur.com/pyTDXCO.png)
 
 ## banter.css
 
