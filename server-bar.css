@@ -1,0 +1,64 @@
+/*
+MIT License
+
+Copyright (c) 2020 MrTipson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+.base-3dtUhz /* friends list, chat */{
+    left: 0px;
+    top: 70px;
+    height: calc(100% - 70px);
+}
+.guilds-1SWlCJ /* the whole navigation bar */{
+    transform-origin: right top;
+    transform: rotate(-90deg) translateY(-72px);
+    height: 100vw;
+}
+.guilds-1SWlCJ > * /* everything within the navigation bar */{
+    margin-left: 3px;
+}
+.guilds-1SWlCJ .tutorialContainer-1v44GL > .listItem-2P_4kh > .listItemWrapper-3X98Pc /* discord log */,
+.guilds-1SWlCJ [aria-label="Servers"] .listItem-2P_4kh > .blobContainer-239gwq /* server */,
+.guilds-1SWlCJ [aria-label="Servers"] .wrapper-21YSNc > .listItem-2P_4kh .wrapper-25eVIn /* folder */,
+.circleButtonMask-2VNJsN /* circular buttons */{
+    transform: rotate(90deg);
+}
+div[id^="folder"]>* /* servers in the opened folder */{
+    margin: 5px auto;
+    padding: 0px;
+}
+.layer-v9HyYc > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-1MQ1bW /* pinned messages */,
+.layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
+.layer-v9HyYc > [aria-label="Unreads"] /* recent mentions */{
+    max-height: 80vh !important;
+}
+.tooltipRight-2JM5PQ.tooltip-2QfLtc /* server name tooltip */{
+    box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
+    position: relative;
+    left: calc(-50% - 42px);
+    transform: translateY(calc(50% + 40px)) !important;
+}
+.tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK /* little arrow for tooltip */{
+    opacity: 0;
+}
+.unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
+    display: none;
+}
