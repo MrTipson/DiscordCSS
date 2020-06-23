@@ -376,4 +376,7 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 .css-n57xjs-menu >*>[selected] /* active option in dropdown */{
   background-color: var(--option-hover);
 }
+.expandedFolderBackground-2sPsd-:not(.collapsed-1GMuSb) /* opened folder highlight */{
+  box-shadow: inset 0px 0px 12px -4px var(--interactive-active);
+}
 /* ---------------------------------------------------------------------------------------------------*/
