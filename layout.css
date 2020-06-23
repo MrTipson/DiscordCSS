@@ -63,6 +63,7 @@ div[aria-label="Servers"] /* server list */{
     display: flex;
     top:-5px;
 }
+.unread-1s3J68 /* unread mentions red indicator */,
 .unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
     display: none;
 }
@@ -103,7 +104,7 @@ div[id^="folder"] /* opened server folder */{
     left: calc(-50% - 42px);
     transform: translateY(calc(50% + 35px)) !important;
 }
-.tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK{
+.tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK /* little arrow for tooltip */{
     opacity: 0;
 }
 .pill-31IEus, .pill-3YxEhL, .pill-1m5BUr, .pill-2uzAFe /* white dots in the server bar */{
