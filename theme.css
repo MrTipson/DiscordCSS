@@ -359,7 +359,9 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
   display: none;
 }
 .tutorialContainer-SGrQ1h+* /* exclude explore servers button */{
-  display: initial;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
 }
 .css-1k00wn6-singleValue /* displayed selected option */{
   color: var(--text-normal);
