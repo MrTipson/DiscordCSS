@@ -24,9 +24,10 @@ SOFTWARE.
 
 :root{
   --channels-default: rgba(228, 228, 228, 0.952) /* channel not selected not hovered*/;
-  --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322) /* border for context menus*/;
-  --popup-background: rgba(0, 0, 0, 0.9) /* background for context menus */;
+  --popup-border: inset 0 0 0px 1px rgb(172, 187, 190) /* border for context menus*/;
+  --popup-background: rgb(32, 34, 37) /* background for context menus */;
   --interactive-active: rgb(122, 202, 255) /* selected tab*/;
+  --radius: 16px /* border radius for servers */;
 }
 .base-3dtUhz /* friends list, chat */{
     position: relative;
@@ -60,6 +61,7 @@ div[aria-label="Servers"] /* server list */{
     height: inherit;
     overflow: visible;
     display: flex;
+    top:-5px;
 }
 .unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
     display: none;
@@ -112,4 +114,11 @@ div[id^="folder"] /* opened server folder */{
 .layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
 .layer-v9HyYc > [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
+}
+.expandedFolderBackground-2sPsd- /* background of all expanded items + the folder*/,
+.icon-27yU2q /* server picture */{
+    border-radius: var(--radius);
+}
+.folder-21wGz3.hover-2ji_A7 /* selected folder background on hover */{
+    background-color: transparent;
 }
