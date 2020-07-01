@@ -61,7 +61,8 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK /* little arrow for tooltip */{
     opacity: 0;
 }
-.unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
+.unreadMentionsIndicatorBottom-BXS58x /* new message red popup bottom */,
+.unreadMentionsIndicatorTop-gA6RCh /* new message red popup top */{
     display: none;
 }
 
