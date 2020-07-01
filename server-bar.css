@@ -33,7 +33,10 @@ SOFTWARE.
     height: 100vw;
 }
 .guilds-1SWlCJ > * /* everything within the navigation bar */{
-    margin-left: 3px;
+    margin-top: 5px;
+}
+[aria-label="Servers"] > * /* all servers and folders */{
+    margin-top: 10px;
 }
 .guilds-1SWlCJ .tutorialContainer-1v44GL > .listItem-2P_4kh > .listItemWrapper-3X98Pc /* discord log */,
 .guilds-1SWlCJ [aria-label="Servers"] .listItem-2P_4kh > .blobContainer-239gwq /* server */,
@@ -42,8 +45,7 @@ SOFTWARE.
     transform: rotate(90deg);
 }
 div[id^="folder"]>* /* servers in the opened folder */{
-    margin: 5px auto;
-    padding: 0px;
+    margin: 6px 0;
 }
 .layer-v9HyYc > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-1MQ1bW /* pinned messages */,
 .layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
@@ -62,3 +64,4 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .unreadMentionsIndicatorBottom-BXS58x /* new message red popup */{
     display: none;
 }
+
