@@ -45,7 +45,7 @@ SOFTWARE.
     transform: rotate(90deg);
 }
 div[id^="folder"]>* /* servers in the opened folder */{
-    margin: 6px 0;
+    margin: 8px 0;
 }
 .layer-v9HyYc > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-1MQ1bW /* pinned messages */,
 .layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
