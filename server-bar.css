@@ -22,6 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
+:root{
+    --interactive-active: #fff;
+}
 .base-3dtUhz /* friends list, chat */{
     left: 0px;
     top: 70px;
