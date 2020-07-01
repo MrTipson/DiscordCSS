@@ -56,9 +56,9 @@ SOFTWARE.
 [aria-label="Servers"]>*:nth-child(9n){animation: wave var(--time) ease-in-out 0.8s infinite normal;}
 [aria-label="Servers"]>*:nth-child(10n){animation: wave var(--time) ease-in-out 0.9s infinite normal;}
 @keyframes wave{
-    0%{transform: translateY(-2px);}
-    50%{transform: translateY(2px);}
-    100%{transform: translateY(-2px);}
+    0%{transform: translateX(-2px);}
+    50%{transform: translateX(2px);}
+    100%{transform: translateX(-2px);}
 }
 @keyframes dingdong{
     0%{
