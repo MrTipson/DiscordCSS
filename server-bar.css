@@ -41,10 +41,7 @@ SOFTWARE.
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds-1SWlCJ .tutorialContainer-1v44GL > .listItem-2P_4kh > .listItemWrapper-3X98Pc /* discord log */,
-.guilds-1SWlCJ [aria-label="Servers"] .listItem-2P_4kh > .blobContainer-239gwq /* server */,
-.guilds-1SWlCJ [aria-label="Servers"] .wrapper-21YSNc > .listItem-2P_4kh .wrapper-25eVIn /* folder */,
-.circleButtonMask-2VNJsN /* circular buttons */{
+.guilds-1SWlCJ .listItem-2P_4kh .wrapper-25eVIn /* folder */{
     transform: rotate(90deg);
 }
 div[id^="folder"]>* /* servers in the opened folder */{
