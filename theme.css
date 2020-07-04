@@ -383,12 +383,4 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
   box-shadow: inset 0px 0px 12px -4px var(--interactive-active);
 }
 /* ---------------------------------------------------------------------------------------------------*/
-.info-1VyQPT::after /* deprecation warning */{
-  content: "layout.css is deprecated, check github.com/MrTipson/DiscordCSS";
-  color: rgb(240, 71, 71);
-  font-size: 12px;
-  line-height: 16px;
-  text-transform: none;
-  text-rendering: optimizeLegibility;
-}
 

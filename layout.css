@@ -123,3 +123,13 @@ div[id^="folder"] /* opened server folder */{
 .folder-21wGz3.hover-2ji_A7 /* selected folder background on hover */{
     background-color: transparent;
 }
+/* ---------------------------------------------------------------------------------------------------*/
+.info-1VyQPT::after /* deprecation warning */{
+    content: "layout.css is deprecated, check github.com/MrTipson/DiscordCSS";
+    color: rgb(240, 71, 71);
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: none;
+    text-rendering: optimizeLegibility;
+}
+
