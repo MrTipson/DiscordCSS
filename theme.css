@@ -231,7 +231,7 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 .keybind-KpFkfr /* settings close text color*/{
   color: var(--settings-close) !important;
 }
-[aria-label="Close"] path.fill{
+[aria-label="Close"] path{
   fill: var(--settings-close);
 }
 .valueChecked-m-4IJZ /* settings toggle switches */{
@@ -328,7 +328,7 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 }
 .outer-1AjyKL.interactive-3B9GmY:hover /* friends tab */{
   background-color: transparent !important;
-  box-shadow: inset 0 0 7px var(--tile-background);
+  box-shadow: 0 0 5px var(--interactive-normal);
 }
 .symbol-3ffeCr>* /* a runabout? i'll steal it */{
   display: none;
