@@ -27,8 +27,8 @@ SOFTWARE.
 }
 .base-3dtUhz /* friends list, chat */{
     left: 0px;
-    top: 70px;
-    height: calc(100% - 70px);
+    top: 72px;
+    height: calc(100% - 72px);
 }
 .guilds-1SWlCJ /* the whole navigation bar */{
     transform-origin: right top;
