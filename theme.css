@@ -58,6 +58,7 @@ SOFTWARE.
   --color-other: #4f545c /* gift nitro / normal nitro sub buttons */;
   --background-image: url("https://i.imgur.com/IADgiAB.png");
   --background-filter: none /* filter property applied to the background */;
+  --background-color: transparent /* background color (for svg backgrounds and such)*/;
   --popup-border: inset 0 0 0px 1px rgba(153, 153, 153, 0.322) /* border for context menus*/;
   --popup-background: rgba(0, 0, 0, 0.9) /* background for context menus */;
   --icon-shadow: drop-shadow(1px 1px 1px #222) /* icon shadow */;
@@ -274,6 +275,7 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
   background-attachment: fixed;
   background-position: left top;
   background-size: cover;
+  background-color: var(--background-color);
   filter: var(--background-filter);
 }
 /* ---------------------------------------------------------------------------------------------------*/
