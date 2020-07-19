@@ -130,11 +130,12 @@ Adding missing styling to modals, context menus
 .action-1lSjCi /* add server options */{
     background: var(--background-primary) !important;
 }
+.regionSelectName-c5qL8O /* individual region */,
 .headerName-fajvi9 /* nickname */,
 .customStatusText-3YJeRZ /* status text */,
 .headerTag-2pZJzA /* header tag */,
 .headerTagUsernameNoNickname-2_H881 /* short user profile name (no nickname)*/{
-    color: var(--header-secondary);
+    color: var(--header-secondary) !important;
 }
 .footer-2gL1pp /* folder settings */,
 .container-2x5lvQ .header-2C89wJ /* rtc connection debug */,
@@ -144,6 +145,7 @@ Adding missing styling to modals, context menus
 .headerNormal-T_seeN /* short user profile */{
     background-color: var(--background-modal) !important;
 }
+.quickSelectPopout-X1hvgV /* call region dropdown */,
 .modal-yWgWj- /* join a server*/,
 .root-1gCeng /* folder settings */,
 .container-2x5lvQ section /* rtc connnection debug */,
