@@ -106,14 +106,12 @@ Colors
 }
 [aria-label="Channels"] /* channels */,
 [aria-label="Search Results"] /* search results*/,
-[aria-label="Servers sidebar"] /* server bar */,
 .header-2o-2hj /* server name */,
 .searchBar-6Kv8R2 /* find or start a conversation */,
 .sidebar-2K8pFh /* sidebar (friends, channels) - override to background-primary */,
 .scroller-1JbKMe /* friends scrollbar - override to background-primary */,
 .members-1998pB /* members list - override to background-primary */,
 .nowPlayingColumn-2sl4cE /* friends in games - override to background-primary */,
-.withFrame-haYltI /* top bar for dragging/closing */,
 .peopleColumn-29fq28 /* online friends */{
     background-color: var(--background-primary);
 }
