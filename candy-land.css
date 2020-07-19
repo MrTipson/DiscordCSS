@@ -1,0 +1,173 @@
+/*
+MIT License
+
+Copyright (c) 2020 MrTipson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/*-----
+Positioning
+-----*/
+.messages-3amgkR /* all the messages */,
+[aria-label="Channels"] /* channels */,
+[aria-label="Members"] /* members */,
+[aria-label="Search Results"] /* search results */,
+[aria-label="User area"] /* user info, call controls */,
+#private-channels /* direct messages */,
+.nowPlayingColumn-2sl4cE /* friends playing games */,
+.content-98HsJk>.sidebar-2K8pFh>.thin-1ybCId.scrollerBase-289Jih /* discover categories */,
+.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
+.peopleColumn-29fq28 /* online friends */{
+    margin: 10px !important;
+    border-radius: 8px;
+}
+.pageWrapper-1PgVDX>.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
+.applicationStore-1pNvnv .scroller-9moviB.auto-Ge5KZx.scrollerBase-289Jih /* nitro screen */{
+    margin: 10px 15px 15px 10px !important;
+    border-radius:8px;
+}
+.channelTextArea-rNsIhG /* text area */{
+    margin-bottom: unset;
+}
+.form-2fGMdU /* text area wrapper */{
+    padding: unset;
+    margin: 10px;
+}
+.members-1998pB /* members list */{
+    padding-bottom: 10px;
+}
+.wrapper-39oAo3{
+    margin: 10px 0px;
+}
+.jumpToPresentBar-9P20AM /* you are viewing older messages */{
+    padding-bottom: 0px;
+    bottom: -10px;
+}
+.typing-2GQL18 /* person is typing status text */{
+    left: 0px;
+    top: -21px;
+}
+.withFrame-haYltI /* top bar for dragging/closing */{
+    margin-top: 0px;
+    padding-top: 4px;
+}
+.header-2o-2hj /* server name */,
+.searchBar-6Kv8R2 /* find or start a conversation */{
+    width:auto;
+    margin: 0px 10px;
+    border-radius: 8px;
+}
+.sidebar-2K8pFh /* sidebar (server, channels) */{
+    border-radius:unset !important;
+}
+[aria-label="Channel header"] /* top bar (channel name, search, icons) */,
+.container-1r6BKw /* top bar friends */{
+    width: auto;
+    margin: 0px 15px 0px 10px;
+    border-radius: 8px;
+    box-shadow: var(--elevation-low);
+}
+/* -- Edge of screen -- */
+.pageWrapper-1PgVDX /* discover servers */,
+.tabBody-3YRQ8W /* everything within the online friends */,
+.content-yTz4x3 /* everything within chat */{
+    padding: 0px 5px 5px 0px;
+}
+.sidebar-2K8pFh /* channels, user info */{
+    padding-bottom: 5px;
+}
+/*-----
+Colors
+-----*/
+.container-PNkimc /* channels and server name */,
+.privateChannels-1nO12o /* dm sidebar */,
+.members-1998pB>div /* users on the member list */{
+    background-color: unset;
+}
+[aria-label="Channels"] /* channels */,
+[aria-label="Search Results"] /* search results*/,
+[aria-label="Servers sidebar"] /* server bar */,
+.header-2o-2hj /* server name */,
+.searchBar-6Kv8R2 /* find or start a conversation */,
+.sidebar-2K8pFh /* sidebar (friends, channels) - override to background-primary */,
+.scroller-1JbKMe /* friends scrollbar - override to background-primary */,
+.members-1998pB /* members list - override to background-primary */,
+.nowPlayingColumn-2sl4cE /* friends in games - override to background-primary */,
+.withFrame-haYltI /* top bar for dragging/closing */,
+.peopleColumn-29fq28 /* online friends */{
+    background-color: var(--background-primary);
+}
+[aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/,
+.container-1D34oG{
+    background-color: var(--background-primary) !important;
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG /* selected discover category */{
+    background-color: var(--background-modifier-selected);
+}
+.sidebar-CFHs9e .themed-OHr7kt.item-PXvHYJ:active /* user setting tab :active selector */,
+.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ /* selected user setting tab */,
+.clickable-1JJAn8.container-2Pjhx-:active /* selected discover servers category */{
+    background-color: var(--background-modifier-hover);
+    color: var(--header-secondary);
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp /* selected discover servers category */{
+    color: var(--header-secondary);
+}
+.colorable-1bkp8v.primary-3NQg8g /* buttons in the call */{
+    background-color: var(--background-primary);
+}
+.colorable-1bkp8v.primary-3NQg8g:hover /* buttons in the call, hovered */{
+    background-color: var(--background-secondary);
+}
+.wrapper-2qzCYF /* call background */{
+    background-color: transparent !important;
+}
+/*-----
+Height adjust
+-----*/
+.scrollerSpacer-1Rp0XE /* spacer at the end of messages */{
+    height: 10px;
+}
+.pageWrapper-1PgVDX>.scroller-1d5FgU{
+    height: calc(100% - 25px);
+}
+.searchResultMessage-1fxgXh.hit-1fVM9e /* gradients around search results */{
+    -webkit-box-shadow: 0 0 10px 6px var(--background-primary);
+    box-shadow: 0 0 10px 6px var(--background-primary);
+}
+.container-3baos1 /* user info, call controls */{
+    height: 44px; /* to be the same size as the text box */
+}
+/*-----
+Settings
+-----*/
+.standardSidebarView-3F1I7i /* all of settings */,
+.contentRegion-3nDuYy /* right side settings */,
+.contentRegionScroller-26nc1e /* right side settings */,
+.sidebarRegionScroller-3MXcoP /* settings tabs */{
+    background: transparent;
+}
+/*-----
+MISC
+-----*/
+.tabBody-3YRQ8W::before /* shadow under top bar (friends) */,
+.content-yTz4x3::before /* shadow under top bar (implemented elsewhere) */{
+    display: none;
+}
