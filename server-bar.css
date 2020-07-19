@@ -35,8 +35,8 @@ SOFTWARE.
     transform: rotate(-90deg) translateY(-72px);
     height: 100vw;
 }
-.guilds-1SWlCJ > * /* everything within the navigation bar */{
-    margin-top: 5px;
+.guilds-1SWlCJ > .scroller-2TZvBN /* the navigation bar */{
+    padding-top: 9px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
