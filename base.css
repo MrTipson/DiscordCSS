@@ -237,7 +237,7 @@ Text overrides
 }
 .container-OI6I9q /* tab not selected in screen share */,
 .item-30Gz8g /* debug headings */{
-    color: var(--heading-primary) !important;
+    color: var(--header-primary) !important;
 }
 .itemValue-JNy0LV /* debug values */{
     color: var(--text-normal) !important;
@@ -253,16 +253,16 @@ Text overrides
     color: var(--text-normal) !important;
 }
 .gameName-1RiWHm /* game name in game activity */{
-    color: var(--heading-primary) !important;
+    color: var(--header-primary) !important;
 }
 .container-2x5lvQ section p /* rtc debug normal text */{
     color: var(--text-normal) !important;
 }
 .container-2x5lvQ section strong{
-    color: var(--heading-primary) !important;
+    color: var(--header-primary) !important;
 }
 .debugButton-1Zec0y{
-    color: var(--heading-secondary) !important;
+    color: var(--header-secondary) !important;
 }
 /*-----
 Buttons
