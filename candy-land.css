@@ -74,6 +74,9 @@ Positioning
     margin: 0px 10px;
     border-radius: 8px;
 }
+.chat-3bRxxu /* everything - serverbar - sidebar */{
+    padding-top:10px;
+}
 .sidebar-2K8pFh /* sidebar (server, channels) */{
     border-radius:unset !important;
 }
