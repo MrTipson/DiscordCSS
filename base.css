@@ -29,6 +29,7 @@ SOFTWARE.
     --progress-track-full:rgb(182 184 188) /* volume bar track - filled */;
     --progress-track-empty:rgb(114 118 125) /* volume bar track - empty */;
     --progress-thumb:rgb(48 51 56) /* volume bar thumb */;
+    --background-image: none /* background image, eg. url("link") */;
     --background-color:none /* background color (for svg backgrounds and such)*/;
     --background-filter:none /* filter property applied to the background */;
     --background-markup:#2f3136 /* background for code markup (``` blocks)*/;
