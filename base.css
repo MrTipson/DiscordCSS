@@ -1,0 +1,354 @@
+/*
+MIT License
+
+Copyright (c) 2020 MrTipson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+.theme-dark, .theme-light {
+    --color-main:#7289da /* main color theme */;
+    --messages-scroll-track:transparent /* track for messages scrollbar */;
+    --messages-scroll-thumb:rgb(32 34 37) /* thumb for messages scrollbar */;
+    --progress-track-full:rgb(182 184 188) /* volume bar track - filled */;
+    --progress-track-empty:rgb(114 118 125) /* volume bar track - empty */;
+    --progress-thumb:rgb(48 51 56) /* volume bar thumb */;
+    --background-color:none /* background color (for svg backgrounds and such)*/;
+    --background-filter:none /* filter property applied to the background */;
+    --background-markup:#2f3136 /* background for code markup (``` blocks)*/;
+    --background-embed:#2f3136 /* background for embeds (video links, ...) */;
+    --background-modal:#202225 /* main color of a modal dialog */;
+    --background-dropdown:rgb(47, 49, 54) /* background of options in a dropdown */;
+}
+/*-----
+Main color
+-----*/
+.searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
+.lookFilled-1Gx00P.colorGreen-29iAKY /* some buttons in nitro and others ? */,
+.circleIconButton-jET_ig.selected-ugP_am /* find new communities selected, add server hover */{
+  background-color: var(--color-main) !important;
+}
+.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 /* discord icon selected */,
+.wrapper-1BJsBx:hover .childWrapper-anI2G9 /* discord icon hovered */{
+      color: #fff;
+      background-color: var(--color-main);
+}
+.circleIconButton-jET_ig /* add server/explore servers */{
+    color: var(--color-main);
+}
+/*-----
+Message scrollbar
+-----*/
+.scroller-2FKFPG::-webkit-scrollbar/* messages */{
+    width:5px;
+    border-radius:10px;
+    background: var(--messages-scroll-track);
+}
+.scroller-2FKFPG::-webkit-scrollbar-track-piece{
+    border:none !important;
+    background-color: transparent !important;
+}
+.scroller-2FKFPG::-webkit-scrollbar-thumb /* messages */{
+    background-color: var(--messages-scroll-thumb) !important;
+    border: transparent;
+}
+.auto-Ge5KZx.scrollerBase-289Jih /* online friends, nitro */,
+.scroller-2FKFPG /* messages */{
+    overflow: hidden auto !important/* hide scroll track when no scroll needed */;
+}
+/*-----
+Progress bar
+-----*/
+.barInner-3NDaY_ /* user profile spotify progression bar */{
+    background-color: var(--progress-track-full);
+}
+.bar-3urHkF /* user profile spotify whole bar */{
+    background-color: var(--progress-track-empty);
+}
+.grabber-3mFHz2 /* User volume thumb */{
+    background: var(--progress-thumb);
+}
+.barFill-23-gu- /* user volume track - filled */{
+    background: var(--progress-track-full);
+}
+.theme-dark .bar-2Qqk5Z, .theme-light .bar-2Qqk5Z/* user volume track - filled */{
+    background: var(--progress-track-empty);
+}
+/*-----
+Background
+-----*/
+.bg-h5JY_x /* Full background */ {
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: cover;
+    background-color: var(--background-color);
+    filter: var(--background-filter);
+}
+/*-----
+?
+-----*/
+.symbol-3ffeCr>* /* a runabout? i'll steal it */{
+    display: none;
+}
+.symbol-3ffeCr /* noone will ever know */{
+    background: url("https://cu-zn.ga/public/dickbutt.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 40%;
+    filter: drop-shadow(-2px -2px 5px white) drop-shadow(2px 2px 5px white);
+}
+/*-----
+Seperate styling for code markup and embed
+-----*/
+.markup-2BOw-j code /* Code markup */{
+    background: var(--background-markup);
+}
+.embedFull-2tM8-- /* Embed */{
+    background: var(--background-embed);
+}
+/*-----
+Adding missing styling to modals, context menus
+-----*/
+.action-1lSjCi /* add server options */{
+    background: var(--background-primary) !important;
+}
+.headerName-fajvi9 /* nickname */,
+.customStatusText-3YJeRZ /* status text */,
+.headerTag-2pZJzA /* header tag */,
+.headerTagUsernameNoNickname-2_H881 /* short user profile name (no nickname)*/{
+    color: var(--header-secondary);
+}
+.footer-2gL1pp /* folder settings */,
+.container-2x5lvQ .header-2C89wJ /* rtc connection debug */,
+.modal-3SaIF0 /* change log */,
+.header-2bNvm4 /* add role */,
+.uploadModal-2ifh8j /* upload a file */,
+.headerNormal-T_seeN /* short user profile */{
+    background-color: var(--background-modal) !important;
+}
+.modal-yWgWj- /* join a server*/,
+.root-1gCeng /* folder settings */,
+.container-2x5lvQ section /* rtc connnection debug */,
+.container-VSDcQc .sectionTag-pXyto9 /* add role - role list */,
+.body-3iLsc4 /* short user profile body */,
+.footer-1fjuF6 /* short user profile footer */,
+.footer-3mqk7D /* upload file footer */{
+    background-color: var(--background-floating) !important;
+}
+/*-----
+Adding styling to dropdown menus
+-----*/
+.css-n57xjs-menu /* dropdown menu */{
+    background-color: var(--background-dropdown) !important;
+}
+.css-1k00wn6-singleValue /* displayed selected option */{
+    color: var(--text-normal);
+}
+.css-n57xjs-menu * /* color of text in dropdown */{
+    color: var(--text-normal);
+}
+.css-12o7ek3-option /* dropdown option hover */{
+    background-color: var(--background-modifier-selected);
+}
+.css-1gnr91b-option /* active option in dropdown */{
+    background-color: var(--background-modifier-hover);
+}
+/*-----
+Adding styling to the search dropdown
+-----*/
+.container-3ayLPN /* search dropdown */{
+    background-color: var(--background-floating) !important;
+}
+.option-96V44q:after /* gradients next to each of the options which makes it look bad */{
+    background: linear-gradient(90deg,rgba(54,57,63,0),var(--background-secondary) 80%) !important;
+}
+.queryContainer-RKFJW- /* "search for" text */,
+.searchOption-zQ-1l6 .filter-3Y_im- /* search filter */,
+.queryContainer-RKFJW- strong /* search text on the suggestion */,
+.resultsGroup-r_nuzN .header-2N-gMV /* search options header */,
+.resultsGroup-r_nuzN .plusIcon-v0BTrL /* search options plus icon */,
+.resultsGroup-r_nuzN .searchClearHistory-2cSSMO /* search clear history icon */,
+.resultsGroup-r_nuzN .searchLearnMore-3SQUAj a /* search options learn more icon */{
+    color: var(--header-primary) !important;
+}
+.option-96V44q .answer-1n6g43 /* search params (name, channel, type) */,
+.option-96V44q .nonText-3CRkO0 /* search params sometimes */,
+.option-96V44q strong /* search result channel */,
+.option-96V44q.user-O3Czj0 .displayedNick-3xxvzU /* search result user nickname */,
+.searchOption-zQ-1l6 .answer-1n6g43 /* search param placeholders */{
+    color: var(--header-secondary) !important;
+}
+.queryContainer-RKFJW-.focused-2bY0OD /* suggestion for search */,
+.option-96V44q.selected-rZcOL- /* search filter option when hovered */{
+    background-color: var(--background-primary) !important;
+}
+/*-----
+Translucent Tweaks
+-----*/
+/* -- Styling with a translucent primary 'breaks' their way of doing this -- */
+.divider-JfaTT5 /* horizontal line between days */{
+    height: 20px;
+    margin-top: 5px !important;
+    margin-bottom: 0px !important;
+}
+.content-1o0f9g /* date between messages */{
+    background: unset;
+}
+/* -- Translucent primary causes wierd overlaps -- */
+.expandedFolderBackground-2sPsd- /* background of folder items */{
+    border-radius: 15px;
+}
+/* -- Impossible to use with translucent primary color -- */
+.children-19S4PO:after{
+    display: none;
+}
+/* -- Some of the gradients around search results, i couldnt make it look good -- */
+.searchResult-9tQ1uo:before /* gradients around search results */,
+.searchResult-9tQ1uo:after /* gradients around search results */{
+    display: none;
+}
+/*-----
+Text overrides
+-----*/
+.selected-P8xTeN /* tabs in screen share */{
+    color: var(--text-normal) !important;
+    border-bottom-color: var(--background-modifier-accent) !important;
+}
+.container-OI6I9q /* tab not selected in screen share */,
+.item-30Gz8g /* debug headings */{
+    color: var(--heading-primary) !important;
+}
+.itemValue-JNy0LV /* debug values */{
+    color: var(--text-normal) !important;
+}
+.emptyStateHeader-248f_b /* title of text of "no gifts" */{
+    color: var(--header-primary) !important;
+}
+.emptyStateSubtext-2hdA9c /* text under the "no gifts" */,
+.userSettingsAccount-2eMFVR .viewBody-2Qz-jg /* user credentials */{
+    color: var(--text-normal) !important;
+}
+.body-3iLsc4 /* short profile role name */{
+    color: var(--text-normal) !important;
+}
+.gameName-1RiWHm /* game name in game activity */{
+    color: var(--heading-primary) !important;
+}
+.container-2x5lvQ section p /* rtc debug normal text */{
+    color: var(--text-normal) !important;
+}
+.container-2x5lvQ section strong{
+    color: var(--heading-primary) !important;
+}
+.debugButton-1Zec0y{
+    color: var(--heading-secondary) !important;
+}
+/*-----
+Buttons
+-----*/
+.actionButton-VzECiy{
+    color: var(--interactive-normal) !important;
+    border-color: var(--interactive-normal) !important;
+}
+/*-----
+Online friends
+-----*/
+.peopleListItem-2nzedh.active-rhSpJJ /* online friends while clicking */,
+.peopleListItem-2nzedh:hover /* online friends while hover */{
+    border: 1px solid var(--background-modifier-accent);
+}
+.outer-1AjyKL.active-1xchHY,
+.outer-1AjyKL.interactive-3B9GmY:hover /* active friends */{
+    background-color: var(--background-modifier-hover) !important;
+}
+.inset-3sAvek /* active friends - activity */{
+    background-color: var(--background-modifier-selected) !important;
+}
+.pageWrapper-1PgVDX /* discover servers */{
+    background-color: var(--background-primary) !important;
+}
+/*-----
+Settings
+-----*/
+.codeRedemptionRedirect-1wVR4b{
+    color: var(--text-normal) !important;
+    background-color: var(--background-primary) !important;
+    border-color: var(--background-modifier-accent) !important;
+}
+.gameNameInput-385LoS:focus,
+.gameNameInput-385LoS:hover /* game name in game activity */{
+    background-color: var(--background-modifier-hover) !important;
+    border-color: var(--background-modifier-accent) !important;
+}
+.closeButton-1tv5uR /* close button */{
+    border-color: var(--interactive-normal);
+}
+.card-3Qj_Yx /* borders in settings */{
+    border-color: var(--background-modifier-accent);
+}
+.card-FDVird:before /* keybinds hover */{
+    background-color: var(--background-modifier-hover) !important;
+    border-color: var(--background-modifier-accent) !important;
+}
+.closeButton-1tv5uR path /* close button x icon */{
+    fill: var(--interactive-normal);
+}
+.keybind-KpFkfr /* close button text */{
+    color: var(--interactive-normal);
+}
+.link-1IoFq-:hover .foreground-26ym5y /* social links in settings */{
+    fill: var(--interactive-hover) !important;
+}
+.foreground-26ym5y /* social links in settings */{
+    fill: var(--interactive-normal) !important;
+}
+/*-----
+MISC
+-----*/
+.quickswitcher-3JagVE>.scroller-zPkAnE /* quickswitcher */{
+    margin-top: 0px;
+}
+.input-2VB9rf::placeholder /* placeholder text */{
+    color: var(--header-primary) !important;
+}
+/* -- Join/Add server  -- */
+.cancelButton-RGXhAE /* join server back */{
+    color: var(--text-normal) !important;
+    background: var(--background-primary) !important;
+    padding: 2px 16px;
+}
+.input-UJ9Tr3 /* join server */{
+    color: var(--text-normal) !important;
+    border-bottom-color: var(--background-modifier-accent) !important;
+}
+.colorPickerSwatch-5GX3Ve.noColor-1pdBDm /* folder settings picker border*/{
+    border-color: var(--background-modifier-accent) !important;
+}
+/* -- This excludes the download button and seperator from the discord online client --*/
+.tutorialContainer-SGrQ1h~* /* everything following the add servers button */{
+    display: none;
+}
+.tutorialContainer-SGrQ1h+* /* exclude explore servers button */{
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+}
+
