@@ -24,6 +24,8 @@ SOFTWARE.
 
 :root{
     --interactive-active: #fff;
+    --bar-toggle-r: 100%;
+    --bar-toggle-l: none;
 }
 .base-3dtUhz /* friends list, chat */{
     left: 0px;
