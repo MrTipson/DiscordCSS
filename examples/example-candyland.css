@@ -1,6 +1,6 @@
-@import url("https://cu-zn.ga/public/DiscordCSS/server-bar.css");
-@import url("https://cu-zn.ga/public/DiscordCSS/base.css");
-@import url("https://cu-zn.ga/public/DiscordCSS/candy-land.css");
+@import url("https://mrtipson.github.io/DiscordCSS/server-bar.css");
+@import url("https://mrtipson.github.io/DiscordCSS/base.css");
+@import url("https://mrtipson.github.io/DiscordCSS/candy-land.css");
 
 .theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
