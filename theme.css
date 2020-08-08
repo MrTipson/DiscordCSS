@@ -21,7 +21,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-:root {
+.theme-dark {
   --logo-primary: #fff /* discord nitro text, probably other stuff */;
   --header-primary: white /* big text */;
   --header-secondary: #b9bbbe /* subtext => id, active channel, code markdown, server of mention*/;
@@ -170,6 +170,9 @@ div[aria-label*="Stop Streaming"] /* stop streaming/watching menu */,
 .scrollerWrap-2lJEkd.scrollerThemed-2oenus.themedWithTrack-q8E3vB>.scroller-2FKFPG /* friends, messages */{
   overflow-x: hidden;
   overflow-y: auto;
+}
+.peopleColumn-29fq28>.scrollerBase-289Jih /* online friends */{
+  overflow: hidden auto !important /* hide scroll track when no scroll needed */;
 }
 /* ---------------------------------------------------------------------------------------------------*/
 /*  ICONS, non-esssential WHITE TEXT  */
@@ -417,5 +420,16 @@ button > .contents-18-Yxp /* call control icons, message icons*/,
 .headerFill-adLl4x .tabBarItem-1b8RUP /* user profile tabs with an activity */{
   filter: var(--profile-tabs-filter);
 }
+.platform-win .sidebar-2K8pFh /* top left corner (server name/start conversation) */{
+  border-radius: 0px;
+}
 /* ---------------------------------------------------------------------------------------------------*/
+.info-1VyQPT::after /* deprecation warning */{
+  content: "theme.css is deprecated, check github.com/MrTipson/DiscordCSS";
+  color: rgb(240, 71, 71);
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: none;
+  text-rendering: optimizeLegibility;
+}
 
