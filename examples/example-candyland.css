@@ -1,5 +1,4 @@
 @import url("https://cu-zn.ga/public/DiscordCSS/server-bar.css");
-@import url("https://cu-zn.ga/public/DiscordCSS/server-folders.css");
 @import url("https://cu-zn.ga/public/DiscordCSS/base.css");
 @import url("https://cu-zn.ga/public/DiscordCSS/candy-land.css");
 
@@ -24,7 +23,7 @@
     --interactive-active: rgb(224, 120, 0) /* selected tab*/;
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered*/;
-    --background-accent: rgb(217, 219, 219); /* new messages */;
+    --background-accent: rgb(217, 219, 219) /* new messages */;
     --background-message-hover: rgba(255, 255, 255, 0.425); /* message background on hover */;
     --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(255, 255, 255, 0.246);
@@ -49,7 +48,6 @@
     --progress-thumb: rgb(71, 71, 71) /* volume bar thumb */;
     --progress-track-full: rgb(230, 230, 230) /* volume bar track - filled */;
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
-    --folder-shadow: -1px 0px 3px 0px black;
 }
 .theme-dark {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
