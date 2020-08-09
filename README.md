@@ -22,14 +22,31 @@ The core stylesheet to any of my other themes.
 ## candy-land.css
 `https://mrtipson.github.io/DiscordCSS/candy-land.cs`\
 A theme centered around rounded edges, compartmentalised feel and translucent backgrounds.
+<details>
+ <summary>Image</summary>
+ 
+ ![Candyland](https://i.imgur.com/fT6Eomk.png)
+ (the screenshot is from the premade stylesheet for the theme - things dont look well with default values)
+</details>
 
 ## server-bar.css
 `https://mrtipson.github.io/DiscordCSS/server-bar.css`\
 Move your servers to the top of the screen.
+<details>
+ <summary>Image</summary>
+ 
+ ![Server-bar](https://i.imgur.com/5e3Hqee.png)
+</details>
 
 ## server-folders.css
 `https://mrtipson.github.io/DiscordCSS/server-folders.css`\
 Servers in a folder no longer display as a row, but pop out as a folder.
+<details>
+ <summary>Image</summary>
+ 
+ ![Server folders](https://i.imgur.com/OFLLMwL.png)
+ ![Server folders - with server bar](https://i.imgur.com/F4xdPX9.png)
+</details>
 
 ## banter.css
 `https://mrtipson.github.io/DiscordCSS/banter.css`\
