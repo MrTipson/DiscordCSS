@@ -153,6 +153,7 @@ Adding missing styling to modals, context menus
 .container-VSDcQc .sectionTag-pXyto9 /* add role - role list */,
 .body-3iLsc4 /* short user profile body */,
 .footer-1fjuF6 /* short user profile footer */,
+.emojiSection-3Fb9ix /* details of an emoji on click (floating more fitting over tertiary)*/,
 .footer-3mqk7D /* upload file footer */{
     background-color: var(--background-floating) !important;
 }
