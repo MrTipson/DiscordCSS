@@ -286,6 +286,7 @@ Online friends
 .inset-3sAvek /* active friends - activity */{
     background-color: var(--background-modifier-selected) !important;
 }
+.container-1D34oG /* friends tab */,
 .pageWrapper-1PgVDX /* discover servers */{
     background-color: var(--background-primary) !important;
 }

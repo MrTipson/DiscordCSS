@@ -115,8 +115,7 @@ Colors
 .peopleColumn-29fq28 /* online friends */{
     background-color: var(--background-primary);
 }
-[aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/,
-.container-1D34oG{
+[aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG /* selected discover category */{
