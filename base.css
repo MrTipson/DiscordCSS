@@ -24,8 +24,6 @@ SOFTWARE.
 
 .theme-dark, .theme-light {
     --color-main:#7289da /* main color theme */;
-    --messages-scroll-track:transparent /* track for messages scrollbar */;
-    --messages-scroll-thumb:rgb(32 34 37) /* thumb for messages scrollbar */;
     --progress-track-full:rgb(182 184 188) /* volume bar track - filled */;
     --progress-track-empty:rgb(114 118 125) /* volume bar track - empty */;
     --progress-thumb:rgb(48 51 56) /* volume bar thumb */;
@@ -57,22 +55,9 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.scroller-2FKFPG::-webkit-scrollbar/* messages */{
-    width:5px;
-    border-radius:10px;
-    background: var(--messages-scroll-track);
-}
-.scroller-2FKFPG::-webkit-scrollbar-track-piece{
-    border:none !important;
-    background-color: transparent !important;
-}
-.scroller-2FKFPG::-webkit-scrollbar-thumb /* messages */{
-    background-color: var(--messages-scroll-thumb) !important;
-    border: transparent;
-}
 .auto-Ge5KZx.scrollerBase-289Jih /* online friends, nitro */,
 .scroller-2FKFPG /* messages */{
-    overflow: hidden auto !important/* hide scroll track when no scroll needed */;
+    overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 /*-----
 Progress bar
