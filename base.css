@@ -36,6 +36,7 @@ SOFTWARE.
     --background-embed:#2f3136 /* background for embeds (video links, ...) */;
     --background-modal:#202225 /* main color of a modal dialog */;
     --background-dropdown:rgb(47, 49, 54) /* background of options in a dropdown */;
+    --background-primary-extra: var(--background-primary);
 }
 /*-----
 Main color
@@ -214,6 +215,17 @@ Override some variables to seperate sidebar and popup styling
 .wrapper-1-Fsb8 /* emoji picker server name */,
 .contentWrapper-SvZHNd /* emoji picker */{
     background-color: var(--background-floating);
+}
+/*-----
+Split background-primary variable
+-----*/
+.messageGroupWrapper-o-Zw7G /* message in pinned messages */,
+.messageContainer-gbhlwo /* message in mentions */,
+.messages-3G3erD /* messages in unreads */,
+.wrapper-2aW0bm /* buttons on message hover */,
+.childWrapper-anI2G9 /* home icon in the server bar */,
+.circleIconButton-jET_ig /* circle buttons in the server bar */{
+    background-color: var(--background-primary-extra);
 }
 /*-----
 Translucent Tweaks
