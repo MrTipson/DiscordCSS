@@ -314,7 +314,7 @@ Settings
     border-color: var(--background-modifier-accent) !important;
 }
 .closeButton-1tv5uR /* close button */{
-    border-color: var(--interactive-normal);
+    border-color: var(--interactive-normal) !important;
 }
 .card-3Qj_Yx /* borders in settings */{
     border-color: var(--background-modifier-accent);
@@ -327,7 +327,7 @@ Settings
     fill: var(--interactive-normal);
 }
 .keybind-KpFkfr /* close button text */{
-    color: var(--interactive-normal);
+    color: var(--interactive-normal) !important;
 }
 .link-1IoFq-:hover .foreground-26ym5y /* social links in settings */{
     fill: var(--interactive-hover) !important;
