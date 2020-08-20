@@ -171,3 +171,6 @@ MISC
 .content-yTz4x3::before /* shadow under top bar (implemented elsewhere) */{
     display: none;
 }
+[aria-label="User area"] [aria-label="Share Your Screen"].button-38aScr /* screen share button */{
+    padding: 2px 14px /* fix clipping due to container margins */;
+}
