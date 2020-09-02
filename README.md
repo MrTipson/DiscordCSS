@@ -15,9 +15,17 @@ Once you have it imported, you can keep the default values or set the variables 
 
 *Modern browsers disallow opening local files, so to use a stylesheet, you have to link to an externally hosted file.*
 
+Some stylesheets have screenshots of examples for the theme. They can be found in the [examples](examples/).
+
 ## base.css
 `https://mrtipson.github.io/DiscordCSS/banter.css`\
 The core stylesheet to any of my other themes.
+<details>
+ <summary>Image</summary>
+ 
+ ![Dark](https://i.imgur.com/12BIQ9k.png)
+ ![Light](https://i.imgur.com/BF8gmbI.png)
+</details>
 
 ## candy-land.css
 `https://mrtipson.github.io/DiscordCSS/candy-land.cs`\
@@ -25,7 +33,8 @@ A theme centered around rounded edges, compartmentalised feel and translucent ba
 <details>
  <summary>Image</summary>
  
- ![Candyland](https://i.imgur.com/fT6Eomk.png)
+ ![Dark](https://i.imgur.com/UG1WMs7.png)
+ ![Light](https://i.imgur.com/fT6Eomk.png)
  (the screenshot is from the premade stylesheet for the theme - things dont look well with default values)
 </details>
 
