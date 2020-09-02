@@ -25,7 +25,7 @@ SOFTWARE.
 /*-----
 Positioning
 -----*/
-.messages-3amgkR /* all the messages */,
+.messagesWrapper-1sRNjr /* all the messages */,
 [aria-label="Channels"] /* channels */,
 [aria-label="Members"] /* members */,
 [aria-label="Search Results"] /* search results */,
@@ -56,9 +56,8 @@ Positioning
 .wrapper-39oAo3{
     margin: 10px 0px;
 }
-.jumpToPresentBar-9P20AM /* you are viewing older messages */{
+.jumpToPresentBar-G1R9s6 /* you are viewing older messages */{
     padding-bottom: 0px;
-    bottom: -10px;
 }
 .typing-2GQL18 /* person is typing status text */{
     left: 0px;
@@ -105,6 +104,7 @@ Colors
     background-color: unset;
 }
 [aria-label="Channels"] /* channels */,
+.messagesWrapper-1sRNjr /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
 .header-2o-2hj /* server name */,
 .searchBar-6Kv8R2 /* find or start a conversation */,
@@ -142,7 +142,7 @@ Colors
 /*-----
 Height adjust
 -----*/
-.scrollerSpacer-1Rp0XE /* spacer at the end of messages */{
+.scrollerSpacer-avRLaA /* spacer at the end of messages */{
     height: 10px;
 }
 .pageWrapper-1PgVDX>.scroller-1d5FgU{
