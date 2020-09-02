@@ -125,6 +125,7 @@ Adding missing styling to modals, context menus
     color: var(--header-secondary) !important;
 }
 .footer-2gL1pp /* folder settings */,
+.guildSection-1EoFKd /* emote description footer */,
 .container-2x5lvQ .header-2C89wJ /* rtc connection debug */,
 .modal-3SaIF0 /* change log */,
 .header-2bNvm4 /* add role */,
@@ -200,6 +201,7 @@ Override some variables to seperate sidebar and popup styling
 .channelHeader-3Gd2xq /* channel name in mentions */,
 .messagesPopoutWrap-1MQ1bW /* pinned messages */,
 .wrapper-1-Fsb8 /* emoji picker server name */,
+.emojiPicker-3PwZFl /* emoji picker reaction */,
 .contentWrapper-SvZHNd /* emoji picker */{
     background-color: var(--background-floating);
 }
