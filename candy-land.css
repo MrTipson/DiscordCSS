@@ -167,6 +167,7 @@ Settings
 /*-----
 MISC
 -----*/
+.form-2fGMdU:before /* gradient next to message input */,
 .tabBody-3YRQ8W::before /* shadow under top bar (friends) */,
 .content-yTz4x3::before /* shadow under top bar (implemented elsewhere) */{
     display: none;
