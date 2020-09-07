@@ -25,8 +25,8 @@ SOFTWARE.
 /*-----
 Positioning
 -----*/
+.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper-1sRNjr /* all the messages */,
-[aria-label="Channels"] /* channels */,
 [aria-label="Members"] /* members */,
 [aria-label="Search Results"] /* search results */,
 [aria-label="User area"] /* user info, call controls */,
@@ -37,6 +37,9 @@ Positioning
 .peopleColumn-29fq28 /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
+}
+.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */{
+    margin-top: 0px !important;
 }
 .pageWrapper-1PgVDX>.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
 .applicationStore-1pNvnv .scroller-9moviB.auto-Ge5KZx.scrollerBase-289Jih /* nitro screen */{
@@ -67,7 +70,6 @@ Positioning
     margin-top: 0px;
     padding-top: 4px;
 }
-.header-2o-2hj /* server name */,
 .searchBar-6Kv8R2 /* find or start a conversation */{
     width:auto;
     margin: 0px 10px;
@@ -98,15 +100,13 @@ Positioning
 /*-----
 Colors
 -----*/
-.container-PNkimc /* channels and server name */,
 .privateChannels-1nO12o /* dm sidebar */,
 .members-1998pB>div /* users on the member list */{
     background-color: unset;
 }
-[aria-label="Channels"] /* channels */,
+.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper-1sRNjr /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
-.header-2o-2hj /* server name */,
 .searchBar-6Kv8R2 /* find or start a conversation */,
 .sidebar-2K8pFh /* sidebar (friends, channels) - override to background-primary */,
 .scroller-1JbKMe /* friends scrollbar - override to background-primary */,
@@ -174,4 +174,7 @@ MISC
 }
 [aria-label="User area"] [aria-label="Share Your Screen"].button-38aScr /* screen share button */{
     padding: 2px 14px /* fix clipping due to container margins */;
+}
+.header-2o-2hj /* server name */{
+    border-radius: 8px 8px 0px 0px;
 }
