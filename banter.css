@@ -46,15 +46,15 @@ SOFTWARE.
     --time: 2s;
 }
 [aria-label="Servers"]>*:nth-child(n){animation: wave var(--time) ease-in-out 0s infinite normal;}
-[aria-label="Servers"]>*:nth-child(2n){animation: wave var(--time) ease-in-out .1s infinite normal;}
-[aria-label="Servers"]>*:nth-child(3n){animation: wave var(--time) ease-in-out .2s infinite normal;}
-[aria-label="Servers"]>*:nth-child(4n){animation: wave var(--time) ease-in-out 0.3s infinite normal;}
-[aria-label="Servers"]>*:nth-child(5n){animation: wave var(--time) ease-in-out .4s infinite normal;}
-[aria-label="Servers"]>*:nth-child(6n){animation: wave var(--time) ease-in-out 0.5s infinite normal;}
-[aria-label="Servers"]>*:nth-child(7n){animation: wave var(--time) ease-in-out 0.6s infinite normal;}
-[aria-label="Servers"]>*:nth-child(8n){animation: wave var(--time) ease-in-out 0.7s infinite normal;}
-[aria-label="Servers"]>*:nth-child(9n){animation: wave var(--time) ease-in-out 0.8s infinite normal;}
-[aria-label="Servers"]>*:nth-child(10n){animation: wave var(--time) ease-in-out 0.9s infinite normal;}
+[aria-label="Servers"]>*:nth-child(2n){animation: wave var(--time) ease-in-out .2s infinite normal;}
+[aria-label="Servers"]>*:nth-child(3n){animation: wave var(--time) ease-in-out .4s infinite normal;}
+[aria-label="Servers"]>*:nth-child(4n){animation: wave var(--time) ease-in-out 0.6s infinite normal;}
+[aria-label="Servers"]>*:nth-child(5n){animation: wave var(--time) ease-in-out .8s infinite normal;}
+[aria-label="Servers"]>*:nth-child(6n){animation: wave var(--time) ease-in-out 1s infinite normal;}
+[aria-label="Servers"]>*:nth-child(7n){animation: wave var(--time) ease-in-out 1.2s infinite normal;}
+[aria-label="Servers"]>*:nth-child(8n){animation: wave var(--time) ease-in-out 1.4s infinite normal;}
+[aria-label="Servers"]>*:nth-child(9n){animation: wave var(--time) ease-in-out 1.6s infinite normal;}
+[aria-label="Servers"]>*:nth-child(10n){animation: wave var(--time) ease-in-out 1.8s infinite normal;}
 @keyframes wave{
     0%{transform: translateX(-2px);}
     50%{transform: translateX(2px);}
