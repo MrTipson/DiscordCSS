@@ -21,16 +21,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-.message-2qnXI6[aria-posinset$="0"] .avatar-1BDn8e{animation: dunkaDunka 2s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="1"] .avatar-1BDn8e{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="2"] .avatar-1BDn8e{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="3"] .avatar-1BDn8e{animation: dunkaDunka 3s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="4"] .avatar-1BDn8e{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="5"] .avatar-1BDn8e{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="6"] .avatar-1BDn8e{animation: dunkaDunka 4s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="7"] .avatar-1BDn8e{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="8"] .avatar-1BDn8e{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
-.message-2qnXI6[aria-posinset$="9"] .avatar-1BDn8e{animation: dunkaDunka 5s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(n) .avatar-1BDn8e{animation: dunkaDunka 2s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(2n) .avatar-1BDn8e{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(3n) .avatar-1BDn8e{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(4n) .avatar-1BDn8e{animation: dunkaDunka 3s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(5n) .avatar-1BDn8e{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(6n) .avatar-1BDn8e{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(7n) .avatar-1BDn8e{animation: dunkaDunka 4s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(8n) .avatar-1BDn8e{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(9n) .avatar-1BDn8e{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
+#chat-messages>*:nth-child(10n) .avatar-1BDn8e{animation: dunkaDunka 5s linear 0s infinite forwards;}
 .avatar-1BDn8e.clickable-1bVtEA:active /* avatar when holding click */{
     transform: initial;
     -webkit-transform: initial;
