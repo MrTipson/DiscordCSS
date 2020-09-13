@@ -57,6 +57,18 @@ Servers in a folder no longer display as a row, but pop out as a folder.
  ![Server folders - with server bar](https://i.imgur.com/F4xdPX9.png)
 </details>
 
+## reverse-chat.css
+`https://mrtipson.github.io/DiscordCSS/reverse-chat.css`\
+Latest messages are on top.\
+**! Janky implementation**\
+*(Flex direction didnt work out well so I used transforms. Makes scrolling go the wrong way.)*\
+**! Compact messages almost obligatory**
+<details>
+ <summary>Image</summary>
+ 
+ ![Reverse chat](https://i.imgur.com/trhkOS0.png)
+</details>
+
 ## banter.css
 `https://mrtipson.github.io/DiscordCSS/banter.css`\
 A stylesheet dedicated to me exploring dumb shit i can make with css in discord.\
