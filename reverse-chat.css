@@ -26,7 +26,8 @@ SOFTWARE.
     flex-direction: column-reverse;
 }
 .channelTextArea-rNsIhG /* message input */{
-    margin: 12px 0;
+    margin-bottom: 0px;
+    margin-top: 24px;
 }
 .messagesWrapper-1sRNjr /* chat messages */{
     transform: rotateX(180deg);
@@ -47,11 +48,14 @@ SOFTWARE.
 .jumpToPresentBar-G1R9s6 /* jump to present (messages) */{
     top: 0px;
 }
-.newMessagesBar-265mhP /* makr as read (messages) */{
+.newMessagesBar-265mhP /* mark as read (messages) */{
     bottom: 0px;
     top: unset;
 }
 .positionContainer-DEuh7X /* emoji bar */{
     bottom: unset;
     margin-top: 20px;
+}
+.typing-2GQL18 /* someone is typing*/{
+    top: 3px;
 }
