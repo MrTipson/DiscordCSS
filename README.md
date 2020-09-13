@@ -3,6 +3,8 @@
 DiscordCSS is a set of css stylesheets that aims to create a more pleasant Discord experience.
 It's modularity means that you can mix and match whichever parts you want.
 
+![base.css dark](https://i.imgur.com/12BIQ9k.png)
+
 The Discord app needs to be patched, instructions can be found on the project [wiki](https://github.com/MrTipson/DiscordCSS/wiki).
 If you're using the web version it should be available via an extension to your browser. Something like [Amino](https://chrome.google.com/webstore/detail/amino-live-css-editor/pbcpfbcibpcbfbmddogfhcijfpboeaaf) will do, but you can use anything you 
 want.
