@@ -137,6 +137,7 @@ Adding missing styling to modals, context menus
 .modal-yWgWj- /* join a server*/,
 .root-1gCeng /* folder settings */,
 .container-2x5lvQ section /* rtc connnection debug */,
+.autocomplete-1vrmpx /* mention user list*/,
 .container-VSDcQc .sectionTag-pXyto9 /* add role - role list */,
 .body-3iLsc4 /* short user profile body */,
 .footer-1fjuF6 /* short user profile footer */,
@@ -147,19 +148,19 @@ Adding missing styling to modals, context menus
 /*-----
 Adding styling to dropdown menus
 -----*/
-.css-n57xjs-menu /* dropdown menu */{
+.css-3vaxre-menu /* dropdown menu */{
     background-color: var(--background-dropdown) !important;
 }
-.css-1k00wn6-singleValue /* displayed selected option */{
+.css-4h5swf-singleValue /* displayed selected option */{
     color: var(--text-normal);
 }
-.css-n57xjs-menu * /* color of text in dropdown */{
+.css-3vaxre-menu * /* color of text in dropdown */{
     color: var(--text-normal);
 }
-.css-12o7ek3-option /* dropdown option hover */{
+.css-rzbxvl-option /* dropdown option hover */{
     background-color: var(--background-modifier-selected);
 }
-.css-1gnr91b-option /* active option in dropdown */{
+.css-1ba14n5-option /* active option in dropdown */{
     background-color: var(--background-modifier-hover);
 }
 /*-----
