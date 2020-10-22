@@ -61,23 +61,12 @@ SOFTWARE.
     100%{transform: translateX(-2px);}
 }
 @keyframes dingdong{
-    0%{
-        transform: rotate(0deg);
-    }
-    25%{
-        transform: rotate(-15deg);
-    }
-    75%{
-        transform: rotate(15deg);
-    }
-    100%{
-        transform: rotate(0deg);
-    }
+    0%{transform: rotate(0deg);}
+    25%{transform: rotate(-15deg);}
+    75%{transform: rotate(15deg);}
+    100%{transform: rotate(0deg);}
 }
 @keyframes dunkaDunka{
-    from{
-    }
-    to{
-        transform: rotate(360deg);
-    }
+    from{}
+    to{transform: rotate(360deg);}
 }
