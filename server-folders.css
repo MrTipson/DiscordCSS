@@ -33,13 +33,13 @@ SOFTWARE.
     z-index: 101;
     overflow: unset;
 }
-[aria-label="Servers sidebar"]>.scroller-2TZvBN.none-2Eo-qx.scrollerBase-289Jih /* inner server bar - the one that scrolls */{
+[aria-label="Servers sidebar"] .scroller-2TZvBN.none-2Eo-qx.scrollerBase-289Jih /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 .expandedFolderBackground-2sPsd- /* prevent this from extending all the way */{
     bottom:unset;
 }
-div[id^="folder"] /* opened server folder */{
+ul[id^="folder"] /* opened server folder */{
     /* customisable */
     background: var(--folder-background, var(--background-floating, green));
     border-radius: var(--folder-radius, 8px);
@@ -59,7 +59,7 @@ div[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-div[id^="folder"] > .listItem-2P_4kh /* each item in the folder */{
+ul[id^="folder"] > .listItem-2P_4kh /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }
