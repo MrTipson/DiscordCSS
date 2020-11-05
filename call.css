@@ -1,0 +1,25 @@
+.overlayTitle-8IcS01.idle-U-LIlZ /* prevent names from dissapearing */,
+.root-217Brm.idle-1j3olu .bottomControls-lIJyYL /* prevent bottom bar from moving during a call */,
+.root-217Brm.idle-1j3olu .topControls-KKImPZ /* prevent top bar from moving during a call */{
+    opacity: unset;
+    -webkit-transform: unset;
+    transform: unset;
+}
+.videoWrapper-3VC0Ax > .tile-2naSqK /* remove backgrounds for inner player  */,
+.wrapper-1wyZBN /* same */,
+.wrapper-2qzCYF /* same */{
+    background-color: none;
+}
+.root-217Brm .gradientContainer-10lXLB /* call gradients */{
+    opacity: 0;
+}
+.videoFrame-3JeHRb .videoSizer-14ILv0 > .inner-2O5YO7 /* make space for top bar */{
+    top: 50px;
+    bottom: 80px;
+}
+.grid-3HQYal > .padding-1hXm7M:first-of-type{
+    height: 50px !important;
+}
+.grid-3HQYal > .padding-1hXm7M:last-of-type{
+    height: 80px !important;
+}
