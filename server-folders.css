@@ -27,6 +27,7 @@ SOFTWARE.
     --folder-radius: 8px /* border-radius*/;
     --folder-border: none /* border */;
     --folder-shadow: none /* box-shadow */;
+    --folder-offset: 0px /* offset from the top */;
 }
 
 [aria-label="Servers sidebar"] /* the whole server bar (<nav>)*/{
@@ -49,8 +50,8 @@ ul[id^="folder"] /* opened server folder */{
     padding: 10px 0px;
     transform: translateY(calc(-50% - 32px));
     max-height: 180px;
-    left: var(--bar-toggle-l,100%);
-    right: var(--bar-toggle-r,none);
+    left: calc(var(--bar-toggle-l,100%) + var(--folder-offset)) /* if server-bar.css is present the settings change */;
+    right: calc(var(--bar-toggle-r,none) + var(--folder-offset)) /* if server-bar.css is present the settings change */;
     position: absolute;
     writing-mode: vertical-lr; /* prevent flex column jank */
     height: max-content !important; /* prevent animation jank */
