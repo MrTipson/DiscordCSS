@@ -25,7 +25,7 @@ SOFTWARE.
 /*-----
 Positioning
 -----*/
-.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */,
+.sidebar-2K8pFh > .container-3w7J-x[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper-1sRNjr /* all the messages */,
 [aria-label="Members"] /* members */,
 [aria-label="Search Results"] /* search results */,
@@ -75,7 +75,7 @@ Positioning
     margin: 0px 10px;
     border-radius: 8px;
 }
-.base-3dtUhz>.content-98HsJk>* /* everything - serverbar */{
+.chat-3bRxxu /* chat + top bar */{
     padding-top:10px;
 }
 .sidebar-2K8pFh /* sidebar (server, channels) */{
@@ -104,7 +104,7 @@ Colors
 .members-1998pB>div /* users on the member list */{
     background-color: unset;
 }
-.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */,
+.sidebar-2K8pFh > .container-3w7J-x[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper-1sRNjr /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
 .searchBar-6Kv8R2 /* find or start a conversation */,
