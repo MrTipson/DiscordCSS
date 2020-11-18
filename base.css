@@ -23,7 +23,7 @@ SOFTWARE.
 */
 
 .theme-dark, .theme-light {
-    --color-main:#7289da /* main color theme */;
+    --color-main:#d37130 /* main color theme */;
     --progress-track-full:rgb(182 184 188) /* volume bar track - filled */;
     --progress-track-empty:rgb(114 118 125) /* volume bar track - empty */;
     --progress-thumb:rgb(48 51 56) /* volume bar thumb */;
