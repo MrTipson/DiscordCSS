@@ -202,6 +202,7 @@ Override some variables to seperate sidebar and popup styling
 .channelHeader-3Gd2xq /* channel name in mentions */,
 .messagesPopoutWrap-1MQ1bW /* pinned messages */,
 .wrapper-1-Fsb8 /* emoji picker server name */,
+.container-3XJ8ns /* audit log filters */,
 .emojiPicker-3PwZFl /* emoji picker reaction */,
 .contentWrapper-SvZHNd /* emoji picker */{
     background-color: var(--background-floating);
