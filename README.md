@@ -5,11 +5,9 @@ It's modularity means that you can mix and match whichever parts you want.
 
 ![base.css dark](https://i.imgur.com/12BIQ9k.png)
 
-The Discord app needs to be patched, instructions can be found on the project [wiki](https://github.com/MrTipson/DiscordCSS/wiki).
-If you're using the web version it should be available via an extension to your browser. Something like [Amino](https://chrome.google.com/webstore/detail/amino-live-css-editor/pbcpfbcibpcbfbmddogfhcijfpboeaaf) will do, but you can use anything you 
-want.
+The Discord app needs to be patched, my suggestion would be [BeautifulDiscord](https://github.com/leovoel/BeautifulDiscord), because it only injects CSS (no js). If you're using the web version it should be available at no risk via an extension to your browser that allows custom css to be added to the page. 
 
-If you would like me to add a certain functionality, you can make an issue or fork the repo and make a pull request
+*Discord is aware of the existance of client mods but they are technically not allowed. This is something you should be aware of as things could change in the future.*
 
 # Stylesheets
 All of the stylesheets are modular. Import each one by writing `@import url("<link>");` at the top of your main css file (example: `@import url("https://mrtipson.github.io/DiscordCSS/theme.css");`.\
