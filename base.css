@@ -130,6 +130,7 @@ Adding missing styling to modals, context menus
 .modal-3SaIF0 /* change log */,
 .header-2bNvm4 /* add role */,
 .uploadModal-2ifh8j /* upload a file */,
+.scroller-1-nKid /* reacts to a channel*/,
 .headerNormal-T_seeN /* short user profile */{
     background-color: var(--background-modal) !important;
 }
@@ -166,6 +167,7 @@ Adding styling to dropdown menus
 /*-----
 Adding styling to the search dropdown
 -----*/
+.reactors-Blmlhw /* reactors to a message */,
 .container-3ayLPN /* search dropdown */{
     background-color: var(--background-floating) !important;
 }
