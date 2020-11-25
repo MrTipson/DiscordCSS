@@ -13,10 +13,14 @@ The Discord app needs to be patched, my suggestion would be [BeautifulDiscord](h
 All of the stylesheets are modular. Import each one by writing `@import url("<link>");` at the top of your main css file (example: `@import url("https://mrtipson.github.io/DiscordCSS/theme.css");`.\
 Once you have it imported, you can keep the default values or set the variables again to change their values.
 
-Stylesheets are listed, along with images on the wiki page [Stylesheets](https://github.com/MrTipson/DiscordCSS/wiki/Stylesheets).\
-Some stylesheets have screenshots of examples for the theme. They can be found in the [examples](examples/).
+Stylesheets are listed, along with images on the wiki page [Stylesheets](https://github.com/MrTipson/DiscordCSS/wiki/Stylesheets).
 
 *Local files can't be opened due to access policies of browsers and discord itself.*
+
+# Finished themes
+
+Finished themes can be found in the [examples](examples/).\
+These are their own stylesheets that provide a unique look including various core stylesheets from this repository.
 
 # License
 
