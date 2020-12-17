@@ -55,8 +55,7 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.auto-Ge5KZx.scrollerBase-289Jih /* online friends, nitro */,
-.scroller-2FKFPG /* messages */{
+.auto-Ge5KZx.scrollerBase-289Jih /* online friends, nitro, chat messages */{
     overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 /*-----
@@ -114,9 +113,6 @@ Seperate styling for code markup and embed
 /*-----
 Adding missing styling to modals, context menus
 -----*/
-.action-1lSjCi /* add server options */{
-    background: var(--background-primary) !important;
-}
 .regionSelectName-c5qL8O /* individual region */,
 .headerName-fajvi9 /* nickname */,
 .customStatusText-3YJeRZ /* status text */,
@@ -253,30 +249,17 @@ Text overrides
     border-bottom-color: var(--background-modifier-accent) !important;
 }
 .container-OI6I9q /* tab not selected in screen share */,
-.item-30Gz8g /* debug headings */{
-    color: var(--header-primary) !important;
-}
-.itemValue-JNy0LV /* debug values */{
-    color: var(--text-normal) !important;
-}
-.emptyStateHeader-248f_b /* title of text of "no gifts" */{
+.item-30Gz8g /* debug headings */,
+.emptyStateHeader-248f_b /* title of text of "no gifts" */,
+.gameName-1RiWHm /* game name in game activity */,
+.container-2x5lvQ section strong{
     color: var(--header-primary) !important;
 }
 .emptyStateSubtext-2hdA9c /* text under the "no gifts" */,
-.userSettingsAccount-2eMFVR .viewBody-2Qz-jg /* user credentials */{
+.container-2x5lvQ section p /* rtc debug normal text */,
+.body-3iLsc4 /* short profile role name */,
+.itemValue-JNy0LV /* debug values */{
     color: var(--text-normal) !important;
-}
-.body-3iLsc4 /* short profile role name */{
-    color: var(--text-normal) !important;
-}
-.gameName-1RiWHm /* game name in game activity */{
-    color: var(--header-primary) !important;
-}
-.container-2x5lvQ section p /* rtc debug normal text */{
-    color: var(--text-normal) !important;
-}
-.container-2x5lvQ section strong{
-    color: var(--header-primary) !important;
 }
 .debugButton-1Zec0y{
     color: var(--header-secondary) !important;
@@ -351,7 +334,7 @@ MISC
     color: var(--header-primary) !important;
 }
 /* -- Join/Add server  -- */
-.cancelButton-RGXhAE /* join server back */{
+.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN /* back button in join server modal */{
     color: var(--text-normal) !important;
     background: var(--background-primary) !important;
     padding: 2px 16px;
