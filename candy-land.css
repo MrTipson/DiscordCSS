@@ -38,9 +38,6 @@ Positioning
     margin: 10px !important;
     border-radius: 8px;
 }
-.sidebar-2K8pFh > .container-PNkimc[aria-label*="(server)"] /* server channels, header */{
-    margin-top: 0px !important;
-}
 .pageWrapper-1PgVDX>.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
 .applicationStore-1pNvnv .scroller-9moviB.auto-Ge5KZx.scrollerBase-289Jih /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
@@ -130,10 +127,10 @@ Colors
 .categoryItem-3zFJns.selectedCategoryItem-3X8ujp /* selected discover servers category */{
     color: var(--header-secondary);
 }
-.colorable-1bkp8v.primary-3NQg8g /* buttons in the call */{
+.colorable-1bkp8v.primaryDark-3mSFDl /* buttons in the call */{
     background-color: var(--background-primary);
 }
-.colorable-1bkp8v.primary-3NQg8g:hover /* buttons in the call, hovered */{
+.colorable-1bkp8v.primaryDark-3mSFDl:hover /* buttons in the call, hovered */{
     background-color: var(--background-secondary);
 }
 .wrapper-2qzCYF /* call background */{
@@ -175,6 +172,6 @@ MISC
 [aria-label="User area"] [aria-label="Share Your Screen"].button-38aScr /* screen share button */{
     padding: 2px 14px /* fix clipping due to container margins */;
 }
-.header-2o-2hj /* server name */{
+.header-2V-4Sw /* server name */{
     border-radius: 8px 8px 0px 0px;
 }
