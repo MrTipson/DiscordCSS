@@ -4,7 +4,8 @@ name: ValidateSelectors
 
 # Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  workflow_dispatch:
+  # Scheduled trigger
   schedule:
     - cron: '42 0 * * *'
 
@@ -55,19 +56,20 @@ jobs:
           flag=true
           differences=$(comm -13 reference.txt selectors.txt)
           for file in $(dir *.css); do
-            for line in $differences; do
-              grep=$(grep -no "$line" "$file") || true
-              if [ -n "$grep" ]; then
-                flag=false
-                vrstica=$(echo $grep | cut -d ':' -f 1)
-                class=$(echo $grep | cut -d ':' -f 2)
-                echo "$file:$vrstica $class"
-              fi
-            done
+              for line in $differences; do
+                  grep=$(grep -no "$line" "$file") || true
+                  if [ -n "$grep" ]; then
+                      flag=false
+                      class=$(echo $grep | cut -d ' ' -f 1 | cut -d ':' -f 2)
+                      vrstice=$(echo ${grep//:$class/','} | tr -d '\r\n')
+                      vrstice=${vrstice%','} 
+                      echo "::error file=$file:: $class [$vrstice]"
+                  fi
+              done
           done
           if [ $flag = false ]; then
-            echo "::error ::Selector mismatch";
+              exit 1
           else
-            echo "Finished compare, no difference";
+              echo "Finished compare, no difference"
           fi
 
