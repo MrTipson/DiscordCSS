@@ -1,0 +1,73 @@
+# This is a basic workflow to help you get started with Actions
+
+name: ValidateSelectors
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the master branch
+  schedule:
+    - cron: '42 0 * * *'
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  check-selectors:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Download CSS file
+        run: |
+          wget -O stylesheet.txt discord.com/assets/$(curl --list-only https://discord.com/app | grep stylesheet | cut -d " " -f3 | cut -d "/" -f3 | sed s/\"//)
+
+      - name: Parse discord stylesheet
+        run: |
+            sed 's@/\*.*\*/@@g' stylesheet.txt \
+              | sed '/\/\*/,/\*\//d' \
+              | tr -d '\r\n' \
+              | sed 's/{[^{}]\+}//g' \
+              | sed 's/{[^{}]\+}//g' \
+              | grep -o '\.[_[:alnum:]-]\+' \
+              | sort \
+              | uniq > reference.txt \
+              && echo "Discord stylesheet parsed"
+
+      - name: Parse repository stylesheets
+        run: |
+          cat *.css \
+              | sed 's@/\*.*\*/@@g' \
+              | sed '/\/\*/,/\*\//d' \
+              | tr -d '\r\n' \
+              | sed 's/{[^{}]\+}//g' \
+              | sed 's/{[^{}]\+}//g' \
+              | grep -o '\.[_[:alnum:]-]\+' \
+              | sort \
+              | uniq > selectors.txt \
+              && echo "User stylesheets concat complete"
+
+      - name: Compare repository selectors to reference
+        run: |
+          flag=true
+          differences=$(comm -13 reference.txt selectors.txt)
+          for file in $(dir *.css); do
+            for line in $differences; do
+              grep=$(grep -no "$line" "$file") || true
+              if [ -n "$grep" ]; then
+                flag=false
+                vrstica=$(echo $grep | cut -d ':' -f 1)
+                class=$(echo $grep | cut -d ':' -f 2)
+                echo "$file:$vrstica $class"
+              fi
+            done
+          done
+          if [ $flag = false ]; then
+            echo "::error ::Selector mismatch";
+          else
+            echo "Finished compare, no difference";
+          fi
+
