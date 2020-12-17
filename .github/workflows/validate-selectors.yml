@@ -67,7 +67,7 @@ jobs:
                       class=$(echo $grep | cut -d ' ' -f 1 | cut -d ':' -f 2)
                       vrstice=$(echo ${grep//:$class/','} | tr -d '\r\n')
                       vrstice=${vrstice%','} 
-                      echo "::error file=$file:: $class [$vrstice]"
+                      echo "::error file=$file:: $class [$vrstice]  ($file)"
                   fi
               done
           done
