@@ -339,10 +339,6 @@ MISC
     background: var(--background-primary) !important;
     padding: 2px 16px;
 }
-.input-UJ9Tr3 /* join server */{
-    color: var(--text-normal) !important;
-    border-bottom-color: var(--background-modifier-accent) !important;
-}
 .colorPickerSwatch-5GX3Ve.noColor-1pdBDm /* folder settings picker border*/{
     border-color: var(--background-modifier-accent) !important;
 }
