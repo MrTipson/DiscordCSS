@@ -58,16 +58,18 @@ jobs:
       - name: Compare repository selectors to reference
         run: |
           flag=true
+          blacklist="blacklist.txt"
           differences=$(comm -13 reference.txt selectors.txt)
           for file in $(dir *.css); do
               for line in $differences; do
                   grep=$(grep -no "$line" "$file") || true
-                  if [ -n "$grep" ]; then
+                  black_grep=$(grep -o "$line" "$blacklist") || true
+                  if [[ -n "$grep" && -z "$black_grep" ]]; then
                       flag=false
                       class=$(echo $grep | cut -d ' ' -f 1 | cut -d ':' -f 2)
-                      vrstice=$(echo ${grep//:$class/','} | tr -d '\r\n')
-                      vrstice=${vrstice%','} 
-                      echo "::error file=$file:: $class [$vrstice]  ($file)"
+                      lines=$(echo ${grep//:$class/','} | tr -d '\r\n')
+                      lines=${lines%','} 
+                      echo "::error file=$file:: $class [$lines]  {$file}"
                   fi
               done
           done

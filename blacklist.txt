@@ -1,0 +1,4 @@
+.css-1ba14n5-option
+.css-3vaxre-menu
+.css-4h5swf-singleValue
+.css-rzbxvl-option
