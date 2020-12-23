@@ -87,7 +87,7 @@
     --background-filter: blur(5px) /* filter property applied to the background */;
     --background-markup: rgba(0, 0, 0, 0.267) /* background for code markup (``` blocks) */;
     --background-embed: rgba(134, 134, 134, 0.164) /* background for embeds (video links, ...) */;
-    --background-modal: #111111 /* main color of a modal dialog */;
+    --background-modal: #234b80 /* main color of a modal dialog */;
     --background-dropdown: rgb(65, 65, 65) /* background of options in a dropdown */;
     --background-color: #3a5e7c /* background color (for svg backgrounds and such) */;
     --background-primary-extra: #223d53 /* pinned messages/mentions, buttons in server bar */;
