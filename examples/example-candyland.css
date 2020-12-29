@@ -8,9 +8,9 @@
     --header-secondary: #424242 /* subtext => id, active channel, code markdown, server of mention */;
     --text-normal: #000000 /* normal text */;
     --background-primary: rgba(255, 255, 255, 0.486) /* chat, call */;
-    --background-secondary: rgb(185, 229, 255) /* friends sidebar */;
+    --background-secondary: rgba(255, 255, 255, 0.233) /* friends sidebar */;
     --background-secondary-alt: var(--background-primary) /* call controls, profile */ ;
-    --background-tertiary: transparent !important /* server list, find or start convo backgr */;
+    --background-tertiary: var(--background-primary) !important /* server list, find or start convo backgr */;
     --background-floating: rgb(185, 229, 255) /* context menus */;
     --channeltextarea-background: transparent /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
@@ -20,7 +20,7 @@
     --interactive-muted: #4f545c /* muted channel, others */;
     --interactive-hover: rgb(130,130,130) /* hover color */;
     --text-link: rgb(247, 28, 255) /* hyperlink color */;
-    --interactive-active: rgb(224, 120, 0) /* selected tab */;
+    --interactive-active: rgb(255, 82, 246) /* selected tab */;
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered */;
     --background-accent: rgb(217, 219, 219) /* new messages */;
@@ -35,7 +35,7 @@
     --scrollbar-auto-thumb: rgba(109, 109, 109, 0.657) /* thick scrollbar (such as active friends) */;
     --scrollbar-auto-track: rgba(85, 85, 85, 0.342) /* thick scrollbar */;
     /* Custom variables - Theme */
-    --color-main: rgb(221, 118, 0) /* main color theme */;
+    --color-main: rgb(255, 109, 248) /* main color theme */;
     --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ffe282' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e5cb75' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ffcb7c' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ecb16c' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffb382' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ed976e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ff9d93' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e57f76' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ff8ca9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23d46c81' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ff82c1' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ba5f8c' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     --background-filter: blur(5px) /* filter property applied to the background */;
     --background-markup: rgba(21, 21, 21, 0.08) /* background for code markup (``` blocks) */;
@@ -48,6 +48,8 @@
     --progress-thumb: rgb(71, 71, 71) /* volume bar thumb */;
     --progress-track-full: rgb(230, 230, 230) /* volume bar track - filled */;
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
+    --radio-bar-accent-color: rgba(0, 0, 0, 0.719) /* border around radio buttons in settings */;
+    --radio-group-dot-foreground: black /* dot color for radio buttons in settings */;
 }
 .theme-dark {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
@@ -55,9 +57,9 @@
     --header-secondary: #cacaca /* subtext => id, active channel, code markdown, server of mention */;
     --text-normal: #d1d1d1 /* normal text */;
     --background-primary: rgba(14, 14, 14, 0.329) /* chat, call */;
-    --background-secondary: #3a5e7c /* friends sidebar */;
+    --background-secondary: #ffffff18 /* friends sidebar */;
     --background-secondary-alt: var(--background-primary) /* call controls, profile */ ;
-    --background-tertiary: rgba(53, 68, 100, 0.397) !important /* server list, find or start convo backgr */;
+    --background-tertiary: rgba(0, 0, 0, 0.24) !important /* server list, find or start convo backgr */;
     --background-floating: #3a5e7c /* context menus */;
     --channeltextarea-background: transparent /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
@@ -67,7 +69,7 @@
     --interactive-muted: #4f545c /* muted channel, others */;
     --interactive-hover: rgb(130,130,130) /* hover color */;
     --text-link: rgba(250, 108, 255, 0.726) /* hyperlink color */;
-    --interactive-active: rgba(255, 170, 72, 0.609) /* selected tab */;
+    --interactive-active: rgb(64, 242, 255) /* selected tab */;
     --text-muted: rgba(163, 163, 163, 0.7) /* non important text */;
     --channels-default: rgba(172, 172, 172, 0.952) /* channel not selected not hovered */;
     --background-accent: rgb(100, 100, 100); /* new messages */;
@@ -77,12 +79,14 @@
     --background-modifier-active: rgba(29, 29, 29, 0.425);
     --background-modifier-selected: rgba(0, 0, 0, 0.39);
     --deprecated-card-bg: transparent /* some cards in the settings */;
-    --scrollbar-thin-thumb:rgba(109, 109, 109, 0.657) /* thin scrollbar (such as channels in server) */;
+    --scrollbar-thin-thumb:rgba(192, 192, 192, 0.657) /* thin scrollbar (such as channels in server) */;
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
-    --scrollbar-auto-thumb: rgba(90, 90, 90, 0.657) /* thick scrollbar (such as active friends) */;
-    --scrollbar-auto-track: rgba(75, 75, 75, 0.342) /* thick scrollbar */;
+    --scrollbar-auto-thumb: rgba(231, 231, 231, 0.657) /* thick scrollbar (such as active friends) */;
+    --scrollbar-auto-track: rgba(185, 185, 185, 0.342) /* thick scrollbar */;
+    --radio-bar-accent-color: white /* border around radio buttons in settings */;
+    --radio-group-dot-foreground: white /* dot color for radio buttons in settings */;
     /* Custom variables - Theme */
-    --color-main: rgb(194, 103, 0) /* main color theme */;
+    --color-main: rgb(58, 176, 255) /* main color theme */;
     --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%233c74b5' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2379a2d3' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23447ab9' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2380abd2' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234b80bc' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238bb3d1' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%235387c0' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2398bbcf' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%235a8dc3' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a7c2ce' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%236293c7' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23b7c8ce' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
     --background-filter: blur(5px) /* filter property applied to the background */;
     --background-markup: rgba(0, 0, 0, 0.267) /* background for code markup (``` blocks) */;
