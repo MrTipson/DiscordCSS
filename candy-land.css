@@ -136,6 +136,9 @@ Colors
 .wrapper-2qzCYF /* call background */{
     background-color: transparent !important;
 }
+.channelName-1JRO3C /* channel name in search results */{
+    background-color: transparent;
+}
 /*-----
 Height adjust
 -----*/
@@ -174,4 +177,10 @@ MISC
 }
 .header-2V-4Sw /* server name */{
     border-radius: 8px 8px 0px 0px;
+}
+.channelSeparator-1DOiGt /* channel name in search results */{
+    text-align: center;
+}
+.channelSeparator-1DOiGt::before /* line next to channel name in search results */{
+    top: unset;
 }
