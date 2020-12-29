@@ -69,10 +69,11 @@ Positioning
 }
 .searchBar-6Kv8R2 /* find or start a conversation */{
     width:auto;
-    margin: 0px 10px;
+    margin: 10px 10px 0px 10px;
     border-radius: 8px;
 }
-.chat-3bRxxu /* chat + top bar */{
+.chat-3bRxxu /* chat + top bar */,
+.container-1D34oG /* friends tab, active friends */{
     padding-top:10px;
 }
 .sidebar-2K8pFh /* sidebar (server, channels) */{
