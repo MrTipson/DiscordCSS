@@ -1,0 +1,45 @@
+:root{
+    --csu-bumper-color: var(--interactive-active);
+    --csu-bumper-width: 6px;
+    --csu-anim-duration: .5s;
+    --csu-unread-width: 2px;
+
+}
+
+.containerDefault--pIXnN .wrapper-2jXpOf /* channel padding*/{
+    padding: 0;
+}
+/* Channel margin/background transition */
+.containerDefault--pIXnN.selected-3LIHYU .wrapper-2jXpOf > .content-1x5b-n /* selected text channel */,
+.containerDefault--pIXnN:hover .wrapper-2jXpOf > .content-1x5b-n/* any text channel */{
+    transition: none;
+    margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
+}
+.content-1x5b-n /* text channel*/{
+    border-radius: 0px;
+    margin-left: var(--csu-bumper-width);
+    transition: margin-left var(--csu-anim-duration), background-color var(--csu-anim-duration);
+}
+/* Unread */
+.unread-2lAfLh /* unread dot before a text channel */{
+    height: 100%;
+    width: var(--csu-unread-width);
+    border-radius: 0px;
+    top: unset;
+    margin-top: unset;
+}
+/* Bumper */
+.containerDefault--pIXnN:hover .wrapper-2jXpOf::before /* text channel */,
+.containerDefault--pIXnN.selected-3LIHYU .wrapper-2jXpOf:before /* selected text channel */{
+    padding-right: var(--csu-bumper-width);
+    transition: none;
+}
+.containerDefault--pIXnN .wrapper-2jXpOf:before /* text channel */{
+    content: "";
+    display:inline-block;
+    background: var(--csu-bumper-color);
+    height: 100%;
+    position: absolute;
+    left:0;
+    transition: padding-right var(--csu-anim-duration) cubic-bezier(1, 0, 1, 1);
+}
