@@ -3,7 +3,7 @@
     --csu-bumper-width: 6px;
     --csu-anim-duration: .5s;
     --csu-unread-width: 2px;
-
+    --csu-init-margin: var(--csu-bumper-width);
 }
 
 .containerDefault--pIXnN .wrapper-2jXpOf /* channel padding*/{
@@ -17,7 +17,7 @@
 }
 .content-1x5b-n /* text channel*/{
     border-radius: 0px;
-    margin-left: var(--csu-bumper-width);
+    margin-left: var(--csu-init-margin);
     transition: margin-left var(--csu-anim-duration), background-color var(--csu-anim-duration);
 }
 /* Unread */
