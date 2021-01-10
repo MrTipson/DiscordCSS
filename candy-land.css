@@ -149,10 +149,6 @@ Height adjust
 .pageWrapper-1PgVDX>.scroller-1d5FgU{
     height: calc(100% - 25px);
 }
-.searchResultMessage-1fxgXh.hit-1fVM9e /* gradients around search results */{
-    -webkit-box-shadow: 0 0 10px 6px var(--background-primary);
-    box-shadow: 0 0 10px 6px var(--background-primary);
-}
 .container-3baos1 /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
 }
@@ -178,10 +174,4 @@ MISC
 }
 .header-2V-4Sw /* server name */{
     border-radius: 8px 8px 0px 0px;
-}
-.channelSeparator-1DOiGt /* channel name in search results */{
-    text-align: center;
-}
-.channelSeparator-1DOiGt::before /* line next to channel name in search results */{
-    top: unset;
 }
