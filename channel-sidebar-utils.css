@@ -4,6 +4,9 @@
     --csu-anim-duration: .5s;
     --csu-unread-width: 2px;
     --csu-init-margin: var(--csu-bumper-width);
+    --csu-anim-transition:  cubic-bezier(1, 0, 1, 1);
+    --csu-bg-hover: var(--background-modifier-hover);
+    --csu-bg-selected: var(--background-modifier-selected);
 }
 
 .containerDefault--pIXnN .wrapper-2jXpOf /* channel padding*/{
@@ -18,7 +21,7 @@
 .content-1x5b-n /* text channel*/{
     border-radius: 0px;
     margin-left: var(--csu-init-margin);
-    transition: margin-left var(--csu-anim-duration), background-color var(--csu-anim-duration);
+    transition: margin-left var(--csu-anim-duration) var(--csu-anim-transition), background-color var(--csu-anim-duration);
 }
 /* Unread */
 .unread-2lAfLh /* unread dot before a text channel */{
@@ -41,5 +44,13 @@
     height: 100%;
     position: absolute;
     left:0;
-    transition: padding-right var(--csu-anim-duration) cubic-bezier(1, 0, 1, 1);
+    transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
+}
+/* Background */
+.wrapper-2jXpOf:hover .content-1x5b-n /* text channel */{
+    background-color: var(--csu-bg-hover);
+}
+.modeSelected-346R90 .content-1x5b-n /* text channel */,
+.modeSelected-346R90:hover .content-1x5b-n /* text channel */{
+    background-color: var(--csu-bg-selected);
 }
