@@ -2,31 +2,33 @@
 @import url("https://mrtipson.github.io/DiscordCSS/base.css");
 @import url("https://mrtipson.github.io/DiscordCSS/server-folders.css");
 @import url("https://mrtipson.github.io/DiscordCSS/call.css");
+@import url("https://mrtipson.github.io/DiscordCSS/channel-sidebar-utils.css");
 
-/* Pattern for light theme is from svgbackgrounds.com */
 .theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
-    --header-primary: rgb(105, 105, 105) /* big text */;
+    --header-primary: rgb(65, 65, 65) /* big text */;
     --header-secondary: #424242 /* subtext => id, active channel, code markdown, server of mention*/;
     --text-normal: rgb(10, 10, 10) /* normal text */;
-    --background-primary: transparent /* chat, call */;
-    --background-secondary: transparent /* friends sidebar */;
-    --background-secondary-alt: transparent /* call controls, profile */ ;
-    --background-tertiary: rgba(255, 255, 255, 0.158) !important /* server list, find or start convo backgr*/;
+    --background-primary: #fafafa /* chat, call */;
+    --background-secondary: rgb(240, 240, 240) /* friends sidebar */;
+    --background-secondary-alt: rgb(235, 235, 235) /* call controls, profile */ ;
+    --background-tertiary: rgb(228, 228, 228) !important /* server list, find or start convo backgr*/;
     --background-floating: rgb(243, 243, 243) /* context menus */;
-    --channeltextarea-background: rgb(255, 230, 253) /* message textarea */;
+    --channeltextarea-background: rgb(236, 236, 236) /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: rgba(255, 255, 255, 0.24) /* cards in settings (safe messaging, checkbox options)*/;
     --interactive-normal: rgb(72, 72, 72) /* supposedly icons */;
-    --interactive-muted: #4f545c /* muted channel, others */;
-    --interactive-hover: rgb(130,130,130) /* hover color*/;
+    --interactive-muted: #777f8b93 /* muted channel, others */;
+    --interactive-hover: rgb(15, 15, 15) /* hover color*/;
     --text-link: rgb(247, 28, 255) /* hyperlink color */;
     --interactive-active: rgb(255, 0, 221) /* selected tab*/;
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
-    --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered*/;
-    --background-accent: rgb(125, 218, 255); /* new messages */;
-    --background-message-hover: rgba(204, 204, 204, 0.425); /* message background on hover */;
+    --channels-default: rgba(97, 97, 97, 0.952) /* channel not selected not hovered*/;
+    --background-mentioned: rgba(247, 28, 255, 0.089);
+    --background-mentioned-hover: rgba(249, 64, 255, 0.151);
+    --background-accent: rgb(255, 160, 242); /* new messages */;
+    --background-message-hover: rgba(221, 221, 221, 0.281); /* message background on hover */;
     --background-modifier-accent: rgba(122, 122, 122, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(255, 184, 246, 0.246);
     --background-modifier-active: rgba(255, 184, 246, 0.246);
@@ -36,20 +38,22 @@
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
     --scrollbar-auto-thumb: rgba(83, 83, 83, 0.657) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: rgba(85, 85, 85, 0.342) /* thick scrollbar */;
+    --radio-group-dot-foreground: var(--interactive-active) /* radio button inner */;
     /* Custom variables - Theme */
-    --color-main: rgb(255, 123, 0) /* main color theme */;
+    --color-main: rgb(255, 100, 234) /* main color theme */;
     --background-primary-extra: rgba(255, 255, 255, 0.746);
+    --background-mentioned-before: var(--interactive-active);
     --background-image: none;
     --background-filter: none/* filter property applied to the background */;
     --background-markup: rgba(21, 21, 21, 0.08) /* background for code markup (``` blocks) */;
     --background-embed: rgba(255, 255, 255, 0.534) /* background for embeds (video links, ...) */;
     --background-modal: #ffffff /* main color of a modal dialog */;
     --background-dropdown: rgb(203, 224, 233) /* background of options in a dropdown */;
-    --background-color: #ffffff /* background color (for svg backgrounds and such)*/;
+    --background-color: #fafafa /* background color (for svg backgrounds and such)*/;
     --progress-thumb: rgb(71, 71, 71) /* volume bar thumb */;
     --progress-track-full: rgb(97, 97, 97) /* volume bar track - filled */;
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
-    --folder-shadow: -1px 0px 3px 0px black;
+    --folder-shadow: -1px 0px 3px 1px var(--color-main);
 }
 .theme-dark {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
@@ -57,9 +61,9 @@
     --header-secondary: #ebebeb /* subtext => id, active channel, code markdown, server of mention*/;
     --text-normal: #d1d1d1 /* normal text */;
     --background-primary: transparent /* chat, call */;
-    --background-secondary: transparent /* friends sidebar */;
+    --background-secondary: rgba(0, 0, 0, 0.192) /* friends sidebar */;
     --background-secondary-alt: transparent /* call controls, profile */ ;
-    --background-tertiary: rgba(0,0,0,0.25) !important /* server list, find or start convo backgr*/;
+    --background-tertiary: rgba(0, 0, 0, 0.493) !important /* server list, find or start convo backgr*/;
     --background-floating: rgb(17, 17, 17) /* context menus */;
     --channeltextarea-background: rgb(16, 16, 16) /* message textarea */;
     --deprecated-store-bg: black /* friends or activity or something */;
@@ -105,7 +109,4 @@
     /* Override background settings from base.css */
     background-repeat: repeat;
     background-size: auto;
-}
-.unread-1xRYoj{
-    opacity: unset;
 }
