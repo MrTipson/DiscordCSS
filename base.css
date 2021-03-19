@@ -128,6 +128,7 @@ Adding missing styling to modals, context menus
 .header-2bNvm4 /* add role */,
 .uploadModal-2ifh8j /* upload a file */,
 .scroller-1-nKid /* reacts to a channel*/,
+.container-16j22k /* reconnecting screen */,
 .headerNormal-T_seeN /* short user profile */{
     background-color: var(--background-modal) !important;
 }
