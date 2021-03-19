@@ -18,6 +18,7 @@ background-modal | `Background of modal popups` | `--background-primary` | `colo
 background-floating | `Background of not so modal popups` | `--background-primary` | `color`
 background-dropdown | `Dropdown menu` | `--background-primary` | `color`
 background-primary-extra | `Override background-primary` | `--background-primary` | `color`
+background-mentioned-before | `Color of border in front of mention` | `#faa61a` | `color`
 
 \
 `image` : background-image tag\

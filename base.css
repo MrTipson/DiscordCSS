@@ -36,6 +36,7 @@ SOFTWARE.
     --background-floating:var(--background-primary) /* for not so modal popups */;
     --background-dropdown:var(--background-primary) /* background of options in a dropdown */;
     --background-primary-extra: var(--background-primary);
+    --background-mentioned-before: #faa61a /* default value in discord */;
 }
 /*-----
 Main color
@@ -354,4 +355,6 @@ MISC
     display: -webkit-box;
     display: flex;
 }
-
+.mentioned-xhSam7:before /* Thin line in front of the mention */{
+    background-color: var(--background-mentioned-before);
+}
