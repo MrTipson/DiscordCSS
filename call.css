@@ -1,6 +1,10 @@
-.overlayTitle-8IcS01.idle-U-LIlZ /* prevent names from dissapearing */,
-.root-217Brm.idle-1j3olu .bottomControls-lIJyYL /* prevent bottom bar from moving during a call */,
-.root-217Brm.idle-1j3olu .topControls-KKImPZ /* prevent top bar from moving during a call */{
+:root{
+    --call-controls-bg: var(--background-floating);
+    --call-controls-padding: .5em 1em;
+    --call-shadow-bottom: none;
+    --call-shadow-top: none;
+}
+.overlayTitle-8IcS01.idle-U-LIlZ /* prevent names from dissapearing */{
     opacity: unset;
     -webkit-transform: unset;
     transform: unset;
@@ -12,4 +16,21 @@
 }
 .root-217Brm .gradientContainer-10lXLB /* call gradients */{
     opacity: 0;
+}
+.bottomControls-lIJyYL /* call info and buttons on hover in call */,
+.topControls-KKImPZ /* call controls on hover in calll */{
+    padding: var(--call-controls-padding);
+    background-color: var(--call-controls-bg);
+    box-sizing: border-box;
+}
+.bottomControls-lIJyYL /* call info and buttons on hover in call */{
+    border-radius: 8px 8px 0px 0px;
+    box-shadow: var(--call-shadow-bottom);
+}
+.topControls-KKImPZ /* call controls on hover in calll */{
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: var(--call-shadow-top);
+}
+.videoControls-24w7Xp /* wrapper for call controls */{
+    padding-bottom: 0;
 }
