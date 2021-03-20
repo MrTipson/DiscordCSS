@@ -337,6 +337,12 @@ MISC
 .input-2VB9rf::placeholder /* placeholder text */{
     color: var(--header-primary) !important;
 }
+.platform-win .sidebar-2K8pFh /* server channels sidebar */{
+    border-radius: unset;
+}
+.guilds-1SWlCJ /* server bar */{
+    box-sizing: border-box;
+}
 /* -- Join/Add server  -- */
 .button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN /* back button in join server modal */{
     color: var(--text-normal) !important;
