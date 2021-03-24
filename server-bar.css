@@ -23,19 +23,39 @@ SOFTWARE.
 */
 
 :root{
-    --interactive-active: #fff;
     --bar-toggle-r: 100%;
     --bar-toggle-l: none;
+
+    --sb-top: 72px;
+    --sb-right: 0px;
+    --sb-bottom: 0px;
+    --sb-left: 0px;
+
+    --sb-origin: left top;
+    --sb-rotate-bar: 90deg;
+    --sb-rotate-bar-inner: 180deg;
+    --sb-rotate-servers: 90deg;
+
+    --sb-bar-top: 0;
+    --sb-bar-left: 100%;
+    --sb-bar-height: 100vw;
+
+    --sb-label-left: calc(-50% - 42px);
+    --sb-label-top: calc(50% + 40px);
 }
 .base-3dtUhz /* friends list, chat */{
-    left: 0px;
-    top: 72px;
-    height: calc(100% - 72px);
+    left: var(--sb-left);
+    top: var(--sb-top);
+    bottom: var(--sb-bottom);
+    right: var(--sb-right);
+    height: calc(100% - var(--sb-top, var(--sb-bottom)));
 }
 .guilds-1SWlCJ /* the whole navigation bar */{
-    transform-origin: right top;
-    transform: rotate(-90deg) translateY(-72px);
-    height: 100vw;
+    top: var(--sb-bar-top);
+    left: var(--sb-bar-left);
+    transform-origin: var(--sb-origin);
+    transform: rotate(var(--sb-rotate-bar));
+    height: var(--sb-bar-height);
 }
 .guilds-1SWlCJ > .scroller-2TZvBN /* the navigation bar */{
     padding-top: 9px;
@@ -44,7 +64,10 @@ SOFTWARE.
     margin-top: 10px;
 }
 .guilds-1SWlCJ .listItem-2P_4kh .wrapper-25eVIn /* folder */{
-    transform: rotate(90deg);
+    transform: rotate(var(--sb-rotate-servers));
+}
+.guilds-1SWlCJ > * /* Server bar elements */{
+    transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
@@ -57,8 +80,8 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .tooltipRight-2JM5PQ.tooltip-2QfLtc /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
-    left: calc(-50% - 42px);
-    transform: translateY(calc(50% + 40px)) !important;
+    left: var(--sb-label-left);
+    transform: translateY(var(--sb-label-top, 0)) !important;
 }
 .tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK /* little arrow for tooltip */{
     opacity: 0;
