@@ -33,6 +33,12 @@ A utility stylesheet that moves your servers to the top of the screen.\
  <img src="https://i.imgur.com/5e3Hqee.png" width="40%">
 
 - - - -
+## server-bar-hide.css
+`https://mrtipson.github.io/DiscordCSS/server-bar-hide.css`\
+Bring animated joy to your server bar.\
+[Docs](./server-bar-hide.md)
+
+- - - -
 ## server-folders.css
 `https://mrtipson.github.io/DiscordCSS/server-folders.css`\
 A utility stylesheet that pops out servers of a folder.\
@@ -45,6 +51,12 @@ A utility stylesheet that pops out servers of a folder.\
 ## call.css
 `https://mrtipson.github.io/DiscordCSS/call.css`\
 A utility stylesheet with call related layout changes and more.
+
+- - - -
+## border-utils.css
+`https://mrtipson.github.io/DiscordCSS/border-utils.css`\
+A utility stylesheet for styling using borders.\
+[Docs](./border-utils.md)
 
 - - - -
 ## reverse-chat.css
