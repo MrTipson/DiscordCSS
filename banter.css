@@ -35,7 +35,7 @@ SOFTWARE.
     transform: initial;
     -webkit-transform: initial;
 }
-[aria-checked*="false"][aria-label*="Mute channel"]:hover{
+[aria-checked*="false"][aria-label*="Mute channel"]:hover /* mute channel bell */{
     animation-name: dingdong;
     animation-duration: .5s;
     animation-timing-function: linear;
@@ -110,7 +110,8 @@ SOFTWARE.
     background-color: rgba(0,0,0,0);
     animation: ColorTransition 2s linear infinite;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-tEMBK1, .wrapper-1BJsBx:hover .homeIcon-tEMBK1 {
+.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv /* discord home icon */,
+.wrapper-1BJsBx:hover .homeIcon-FuNwkv /* discord home icon */{
     animation: spin 1s linear infinite;
 }
 @keyframes BgTransition { 

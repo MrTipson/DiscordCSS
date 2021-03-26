@@ -43,7 +43,7 @@ Main color
 -----*/
 .searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
 .lookFilled-1Gx00P.colorGreen-29iAKY /* some buttons in nitro and others ? */,
-.circleIconButton-jET_ig.selected-ugP_am /* find new communities selected, add server hover */{
+.circleIconButton-1QV--U.selected-1JjBPm /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 /* discord icon selected */,
@@ -51,7 +51,7 @@ Main color
       color: #fff;
       background-color: var(--color-main);
 }
-.circleIconButton-jET_ig /* add server/explore servers */{
+.circleIconButton-1QV--U /* add server/explore servers */{
     color: var(--color-main);
 }
 /*-----
@@ -217,7 +217,7 @@ Split background-primary variable
 .messages-3G3erD /* messages in unreads */,
 .wrapper-2aW0bm /* buttons on message hover */,
 .childWrapper-anI2G9 /* home icon in the server bar */,
-.circleIconButton-jET_ig /* circle buttons in the server bar */{
+.circleIconButton-1QV--U /* circle buttons in the server bar */{
     background-color: var(--background-primary-extra);
 }
 /*-----
@@ -233,7 +233,7 @@ Translucent Tweaks
     background: unset;
 }
 /* -- Translucent primary causes wierd overlaps -- */
-.expandedFolderBackground-2sPsd- /* background of folder items */{
+.expandedFolderBackground-1cujaW /* background of folder items */{
     border-radius: 15px;
 }
 /* -- Impossible to use with translucent primary color -- */
@@ -353,10 +353,10 @@ MISC
     border-color: var(--background-modifier-accent) !important;
 }
 /* -- This excludes the download button and seperator from the discord online client --*/
-.tutorialContainer-SGrQ1h~* /* everything following the add servers button */{
+.tutorialContainer-30WoTp~* /* everything following the add servers button */{
     display: none;
 }
-.tutorialContainer-SGrQ1h+* /* exclude explore servers button */{
+.tutorialContainer-30WoTp+* /* exclude explore servers button */{
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
