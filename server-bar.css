@@ -57,8 +57,8 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds-1SWlCJ /* the navigation bar */{
-    padding-top: 9px;
+.guilds-1SWlCJ .scroller-1Bvpku /* the navigation bar */{
+    padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
