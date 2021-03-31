@@ -240,11 +240,6 @@ Translucent Tweaks
 .children-19S4PO:after{
     display: none;
 }
-/* -- Some of the gradients around search results, i couldnt make it look good -- */
-.searchResult-9tQ1uo:before /* gradients around search results */,
-.searchResult-9tQ1uo:after /* gradients around search results */{
-    display: none;
-}
 /*-----
 Text overrides
 -----*/
