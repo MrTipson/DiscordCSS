@@ -51,6 +51,13 @@ SOFTWARE.
     right: var(--sb-right);
     height: calc(100% - var(--sb-top, var(--sb-bottom)));
 }
+.guilds-1SWlCJ.hidden-3dXt4k+.base-3dtUhz /* hide server bar when fullscreen */{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
 .guilds-1SWlCJ /* the whole navigation bar */{
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
