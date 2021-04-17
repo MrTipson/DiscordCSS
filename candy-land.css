@@ -161,6 +161,16 @@ Settings
 .sidebarRegionScroller-3MXcoP /* settings tabs */{
     background: transparent;
 }
+/*
+Call
+Sadly there is some overlap with call.css but I think its better to do it this way
+*/
+.root-217Brm .gradientContainer-10lXLB /* call gradients */{
+    opacity: 0;
+}
+.videoControls-24w7Xp section /* header in the call screen */{
+    background-color: var(--background-primary) !important;
+}
 /*-----
 MISC
 -----*/
