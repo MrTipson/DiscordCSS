@@ -116,7 +116,7 @@ Colors
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG /* selected discover category */{
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb /* selected discover category */{
     background-color: var(--background-modifier-selected);
 }
 .sidebar-CFHs9e .themed-OHr7kt.item-PXvHYJ:active /* user setting tab :active selector */,
@@ -125,7 +125,7 @@ Colors
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);
 }
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp /* selected discover servers category */{
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o /* selected discover servers category */{
     color: var(--header-secondary);
 }
 .colorable-1bkp8v.primaryDark-3mSFDl /* buttons in the call */{
