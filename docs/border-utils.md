@@ -4,10 +4,9 @@ A utility stylesheet that provides selectors for important borders in the discor
 ## Variables
 Name | Description | Default | Type
 ---- | ----------- | ------- | -
-bu-border  | `Border between divs` | `none` | `border shorthand`
-bu-image  | `Border image between divs` | `none` | `border-image shorthand`
+bu-border  | Border between divs | none | border shorthand
+bu-image  | Border image between divs | none | border-image shorthand
   
-`
 ## Notes
 If you wish to use `border-image`, `bu-border` should be set to a trivial value which cant be none (something like `3px solid`). Note that the border width impacts the size of the border you set with `border-image` as well.
 

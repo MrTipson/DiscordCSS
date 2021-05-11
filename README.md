@@ -11,7 +11,7 @@ The Discord app needs to be patched, my suggestion would be [BeautifulDiscord](h
 </p>
 
 # Stylesheets
-All of the stylesheets are modular. Import each one by writing `@import url("<link>");` at the top of your main css file (example: `@import url("https://mrtipson.github.io/DiscordCSS/theme.css");`.\
+All of the stylesheets are modular. Import each one by writing `@import url("<link>");` at the top of your main css file (example: `@import url("https://mrtipson.github.io/DiscordCSS/css/base.css");`.\
 Once you have it imported, you can keep the default values or set the variables again to change their values.
 
 Stylesheets are listed, along with images on the wiki page [Stylesheets](docs/stylesheets.md).

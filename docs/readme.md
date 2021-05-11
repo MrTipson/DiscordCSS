@@ -4,4 +4,3 @@ This repository contains a set of CSS stylesheets made to alter the look and beh
 
 **Topics**
 - [Stylesheets list](./stylesheets.md)
-- [Deprecation](./deprecated.md)

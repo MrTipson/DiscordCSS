@@ -4,21 +4,21 @@ A utility stylesheet that moves your servers to the top of the screen.
 ## Variables
 Name | Description | Default | Type
 ---- | ----------- | ------- | -
-bar-toggle-r  | `Toggle for server-folders.css - don't change` | `100%` | `length`
-bar-toggle-l  | `Toggle for server-folders.css - don't change` | `none` | `length`
-sb-top | `Top offset for everything except servers` | `72px` | `length`
-sb-right | `Right offset for everything except servers` | `0px` | `length`
-sb-bottom | `Bottom offset for everything except servers` | `0px` | `length`
-sb-left | `Left offset for everything except servers` | `0px` | `length`
-sb-origin | `Transform origin for servers` | `left top` | `transform-origin`
-sb-rotate-bar | `Rotate angle for server bar` | `90deg` | `angle`
-sb-rotate-bar-inner | `Rotate angle for server bar inner divs` | `180deg` | `angle`
-sb-rotate-servers | `Rotate angle for server icons` | `90deg` | `angle`
-sb-bar-top | `Top offset for server bar` | `0` | `length`
-sb-bar-left | `Left offset for server bar` | `100%` | `length`
-sb-bar-height | `Server bar height/length` | `100vw` | `length`
-sb-label-left | `Left offset for server/folder name` | `calc(-50% - 42px)` | `length`
-sb-label-top | `Top offset for server/folder name` | `calc(50% + 40px)` | `length`
+bar-toggle-r  | Toggle for server-folders.css - don't change | 100% | length
+bar-toggle-l  | Toggle for server-folders.css - don't change | none | length
+sb-top | Top offset for everything except servers | 72px | length
+sb-right | Right offset for everything except servers | 0px | length
+sb-bottom | Bottom offset for everything except servers | 0px | length
+sb-left | Left offset for everything except servers | 0px | length
+sb-origin | Transform origin for servers | left top | transform-origin
+sb-rotate-bar | Rotate angle for server bar | 90deg | angle
+sb-rotate-bar-inner | Rotate angle for server bar inner divs | 180deg | angle
+sb-rotate-servers | Rotate angle for server icons | 90deg | angle
+sb-bar-top | Top offset for server bar | 0 | length
+sb-bar-left | Left offset for server bar | 100% | length
+sb-bar-height | Server bar height/length | 100vw | length
+sb-label-left | Left offset for server/folder name | calc(-50% - 42px) | length
+sb-label-top | Top offset for server/folder name | calc(50% + 40px) | length
 
 \
 `length` : px, %, ...\

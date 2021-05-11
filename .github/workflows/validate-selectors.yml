@@ -44,7 +44,7 @@ jobs:
 
       - name: Parse repository stylesheets
         run: |
-          cat *.css \
+          cat css/*.css \
               | sed 's@/\*.*\*/@@g' \
               | sed '/\/\*/,/\*\//d' \
               | tr -d '\r\n' \
@@ -60,7 +60,7 @@ jobs:
           flag=true
           blacklist="blacklist.txt"
           differences=$(comm -13 reference.txt selectors.txt)
-          for file in $(dir *.css); do
+          for file in $(dir css/*.css); do
               for line in $differences; do
                   grep=$(grep -no "$line" "$file") || true
                   black_grep=$(grep -o "$line" "$blacklist") || true

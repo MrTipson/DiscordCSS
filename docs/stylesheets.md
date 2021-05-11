@@ -1,5 +1,5 @@
 ## base.css
-`https://mrtipson.github.io/DiscordCSS/banter.css`\
+`https://mrtipson.github.io/DiscordCSS/css/banter.css`\
 The core stylesheet to any of my other themes.\
 [Docs](./base.md)
  
@@ -8,7 +8,7 @@ The core stylesheet to any of my other themes.\
 
 - - - -
 ## candy-land.css
-`https://mrtipson.github.io/DiscordCSS/candy-land.css`\
+`https://mrtipson.github.io/DiscordCSS/css/candy-land.css`\
 A layout stylesheet centered around rounded edges, compartmentalised feel and translucent backgrounds.
 
  <img src="https://i.imgur.com/UG1WMs7.png" width="40%">
@@ -18,7 +18,7 @@ A layout stylesheet centered around rounded edges, compartmentalised feel and tr
 
 - - - -
 ## channel-sidebar-utils.css
-`https://mrtipson.github.io/DiscordCSS/channel-sidebar-utils.css`\
+`https://mrtipson.github.io/DiscordCSS/css/channel-sidebar-utils.css`\
 A utility stylesheet that styles the left sidebar (server channels).\
 [Docs](./channel-sidebar-utils.md)
 
@@ -26,7 +26,7 @@ A utility stylesheet that styles the left sidebar (server channels).\
 
 - - - -
 ## server-bar.css
-`https://mrtipson.github.io/DiscordCSS/server-bar.css`\
+`https://mrtipson.github.io/DiscordCSS/css/server-bar.css`\
 A utility stylesheet that moves your servers to the top of the screen.\
 [Docs](./server-bar.md)
  
@@ -34,13 +34,13 @@ A utility stylesheet that moves your servers to the top of the screen.\
 
 - - - -
 ## server-bar-hide.css
-`https://mrtipson.github.io/DiscordCSS/server-bar-hide.css`\
+`https://mrtipson.github.io/DiscordCSS/css/server-bar-hide.css`\
 Bring animated joy to your server bar.\
 [Docs](./server-bar-hide.md)
 
 - - - -
 ## server-folders.css
-`https://mrtipson.github.io/DiscordCSS/server-folders.css`\
+`https://mrtipson.github.io/DiscordCSS/css/server-folders.css`\
 A utility stylesheet that pops out servers of a folder.\
 [Docs](./server-folders.md)
 
@@ -49,18 +49,18 @@ A utility stylesheet that pops out servers of a folder.\
 
 - - - -
 ## call.css
-`https://mrtipson.github.io/DiscordCSS/call.css`\
+`https://mrtipson.github.io/DiscordCSS/css/call.css`\
 A utility stylesheet with call related layout changes and more.
 
 - - - -
 ## border-utils.css
-`https://mrtipson.github.io/DiscordCSS/border-utils.css`\
+`https://mrtipson.github.io/DiscordCSS/css/border-utils.css`\
 A utility stylesheet for styling using borders.\
 [Docs](./border-utils.md)
 
 - - - -
 ## reverse-chat.css
-`https://mrtipson.github.io/DiscordCSS/reverse-chat.css`\
+`https://mrtipson.github.io/DiscordCSS/css/reverse-chat.css`\
 A utility stylesheet that puts the latest messages on top.\
 **! Janky implementation**\
 *(Flex direction didnt work out well so I used transforms. Makes scrolling go the wrong way.)*\
@@ -70,6 +70,6 @@ A utility stylesheet that puts the latest messages on top.\
 
 - - - -
 ## banter.css
-`https://mrtipson.github.io/DiscordCSS/banter.css`\
+`https://mrtipson.github.io/DiscordCSS/css/banter.css`\
 A stylesheet dedicated to me exploring dumb shit i can make with css in discord.\
 Not meant for everyday use but checking out what i've been up to could be fun from time to time.
