@@ -1,5 +1,5 @@
-@import url("https://mrtipson.github.io/DiscordCSS/server-bar.css");
-@import url("https://mrtipson.github.io/DiscordCSS/base.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/base.css");
 
 /* Pattern for light theme is from svgbackgrounds.com */
 .theme-light {
@@ -24,7 +24,7 @@
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered*/;
     --background-accent: rgb(125, 218, 255); /* new messages */;
-    --background-message-hover: rgba(204, 204, 204, 0.425); /* message background on hover */;
+    --background-message-hover: rgba(204, 204, 204, 0.425) /* message background on hover */;
     --background-modifier-accent: rgba(122, 122, 122, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(255, 184, 246, 0.246);
     --background-modifier-active: rgba(255, 184, 246, 0.246);
@@ -71,7 +71,7 @@
     --text-muted: rgba(163, 163, 163, 0.7) /* non important text */;
     --channels-default: rgba(199, 199, 199, 0.952) /* channel not selected not hovered*/;
     --background-accent: rgb(46, 46, 46); /* new messages */;
-    --background-message-hover: rgba(0, 0, 0, 0.253); /* message background on hover */;
+    --background-message-hover: rgba(0, 0, 0, 0.253) /* message background on hover */;
     --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(0, 0, 0, 0.534);
     --background-modifier-active: var(--background-modifier-hover);

@@ -1,6 +1,6 @@
-@import url("https://mrtipson.github.io/DiscordCSS/server-bar.css");
-@import url("https://mrtipson.github.io/DiscordCSS/base.css");
-@import url("https://mrtipson.github.io/DiscordCSS/candy-land.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/base.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/candy-land.css");
 
 .theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
@@ -24,7 +24,7 @@
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered */;
     --background-accent: rgb(217, 219, 219) /* new messages */;
-    --background-message-hover: rgba(255, 255, 255, 0.425); /* message background on hover */;
+    --background-message-hover: rgba(255, 255, 255, 0.425) /* message background on hover */;
     --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(255, 255, 255, 0.246);
     --background-modifier-active: rgba(255, 255, 255, 0.37);
@@ -73,7 +73,7 @@
     --text-muted: rgba(163, 163, 163, 0.7) /* non important text */;
     --channels-default: rgba(172, 172, 172, 0.952) /* channel not selected not hovered */;
     --background-accent: rgb(100, 100, 100); /* new messages */;
-    --background-message-hover: rgba(29, 29, 29, 0.452); /* message background on hover */;
+    --background-message-hover: rgba(29, 29, 29, 0.452) /* message background on hover */;
     --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(22, 22, 22, 0.418);
     --background-modifier-active: rgba(29, 29, 29, 0.425);

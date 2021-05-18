@@ -1,8 +1,8 @@
-@import url("https://mrtipson.github.io/DiscordCSS/server-bar.css");
-@import url("https://mrtipson.github.io/DiscordCSS/base.css");
-@import url("https://mrtipson.github.io/DiscordCSS/server-folders.css");
-@import url("https://mrtipson.github.io/DiscordCSS/call.css");
-@import url("https://mrtipson.github.io/DiscordCSS/channel-sidebar-utils.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-bar.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/base.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/server-folders.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/call.css");
+@import url("https://mrtipson.github.io/DiscordCSS/css/channel-sidebar-utils.css");
 
 .theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
@@ -28,7 +28,7 @@
     --background-mentioned: rgba(247, 28, 255, 0.089);
     --background-mentioned-hover: rgba(249, 64, 255, 0.151);
     --background-accent: rgb(255, 160, 242); /* new messages */;
-    --background-message-hover: rgba(221, 221, 221, 0.281); /* message background on hover */;
+    --background-message-hover: rgba(221, 221, 221, 0.281) /* message background on hover */;
     --background-modifier-accent: rgba(122, 122, 122, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(255, 184, 246, 0.246);
     --background-modifier-active: rgba(255, 184, 246, 0.246);
@@ -77,7 +77,7 @@
     --text-muted: rgba(163, 163, 163, 0.7) /* non important text */;
     --channels-default: rgb(228, 228, 228) /* channel not selected not hovered*/;
     --background-accent: rgb(46, 46, 46); /* new messages */;
-    --background-message-hover: rgba(0, 0, 0, 0.253); /* message background on hover */;
+    --background-message-hover: rgba(0, 0, 0, 0.253) /* message background on hover */;
     --background-modifier-accent: rgba(95, 95, 95, 0.486) /* simmilar to border, but native to discord */;
     --background-modifier-hover: rgba(0, 0, 0, 0.534);
     --background-modifier-active: #0099ff11;
