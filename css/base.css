@@ -116,10 +116,7 @@ Seperate styling for code markup and embed
 Adding missing styling to modals, context menus
 -----*/
 .regionSelectName-c5qL8O /* individual region */,
-.headerName-fajvi9 /* nickname */,
-.customStatusText-3YJeRZ /* status text */,
-.headerTag-2pZJzA /* header tag */,
-.headerTagUsernameNoNickname-2_H881 /* short user profile name (no nickname)*/{
+.headerTagUsernameNoNickname-1SSLBc /* short user profile name (no nickname)*/{
     color: var(--header-secondary) !important;
 }
 .footer-2gL1pp /* folder settings */,
@@ -129,8 +126,7 @@ Adding missing styling to modals, context menus
 .header-2bNvm4 /* add role */,
 .uploadModal-2ifh8j /* upload a file */,
 .scroller-1-nKid /* reacts to a channel*/,
-.container-16j22k /* reconnecting screen */,
-.headerNormal-T_seeN /* short user profile */{
+.container-16j22k /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
 .quickSelectPopout-X1hvgV /* call region dropdown */,
