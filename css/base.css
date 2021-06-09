@@ -253,6 +253,7 @@ Text overrides
 .emptyStateSubtext-2hdA9c /* text under the "no gifts" */,
 .container-2x5lvQ section p /* rtc debug normal text */,
 .body-3iLsc4 /* short profile role name */,
+.role-2irmRk /* user role name - override .body-3HBlXn */,
 .itemValue-JNy0LV /* debug values */{
     color: var(--text-normal) !important;
 }
