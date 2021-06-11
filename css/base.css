@@ -136,10 +136,7 @@ Adding missing styling to modals, context menus
 .container-2x5lvQ section /* rtc connnection debug */,
 .autocomplete-1vrmpx /* mention user list*/,
 .container-VSDcQc .sectionTag-pXyto9 /* add role - role list */,
-.body-3iLsc4 /* short user profile body */,
-.footer-1fjuF6 /* short user profile footer */,
-.emojiSection-3Fb9ix /* details of an emoji on click (floating more fitting over tertiary)*/,
-.footer-3mqk7D /* upload file footer */{
+.emojiSection-3Fb9ix /* details of an emoji on click (floating more fitting over tertiary)*/{
     background-color: var(--background-floating) !important;
 }
 /*-----
@@ -194,7 +191,6 @@ Adding styling to the search dropdown
 Override some variables to seperate sidebar and popup styling
 -----*/
 .quickswitcher-3JagVE /* quickswitcher */,
-.root-SR8cQa /* user profile modal */,
 .header-ykumBX /* mentions header */,
 .container-enaOkj /* mentions content */,
 .channelHeader-3Gd2xq /* channel name in mentions */,
@@ -252,8 +248,7 @@ Text overrides
 }
 .emptyStateSubtext-2hdA9c /* text under the "no gifts" */,
 .container-2x5lvQ section p /* rtc debug normal text */,
-.body-3iLsc4 /* short profile role name */,
-.role-2irmRk /* user role name - override .body-3HBlXn */,
+.body-3HBlXn /* short profile user role name */,
 .itemValue-JNy0LV /* debug values */{
     color: var(--text-normal) !important;
 }
