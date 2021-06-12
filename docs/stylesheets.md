@@ -25,6 +25,12 @@ A utility stylesheet that styles the left sidebar (server channels).\
  <img src="https://i.imgur.com/L4befo8.gif" width="30%">
 
 - - - -
+## dock-sidebar.css
+`https://mrtipson.github.io/DiscordCSS/css/dock-sidebar.css`\
+Hides sidebar and expands it on hover.\
+[Docs](./dock-sidebar.md)
+
+- - - -
 ## server-bar.css
 `https://mrtipson.github.io/DiscordCSS/css/server-bar.css`\
 A utility stylesheet that moves your servers to the top of the screen.\

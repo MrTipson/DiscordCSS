@@ -1,0 +1,88 @@
+/*
+MIT License
+
+Copyright (c) 2021 MrTipson
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+:root{
+    --ds-width: 64px;
+    --ds-transition-duration: 0s;
+    --ds-padding-user: 18px;
+    --ds-padding-icon: 0 6px;
+}
+/* Sidebar width */
+.sidebar-2K8pFh /* sidebar (channels/dms) */{
+    width: var(--ds-width);
+    transition: width var(--ds-transition-duration);
+}
+.sidebar-2K8pFh:hover /* sidebar (channels/dms) */{
+    width: 240px;
+}
+/* Visual corrections */
+.list-2luk8a /* users in voice channel */{
+    padding-left: var(--ds-padding-user);
+}
+.unread-1xRYoj /* unread bar */{
+    opacity: 0;
+}
+.sidebar-2K8pFh .children-3rEycc /* invite/settings buttons for channel */,
+.sidebar-2K8pFh .inner-tyMogq+.flex-1xMQg5 /* voice connected */,
+.actionButtons-14eAc_ /* camera/share screen */,
+.panels-j1Uci_ > .panel-24C3ux .info-WdNIDE /* name of currently shared window */,
+.panels-j1Uci_ > .panel-24C3ux .actions-aUdUfC/* sharing screen */,
+.children-L002ao /* create channel button */,
+.containerDefault--pIXnN .iconContainer-1BBaeJ /* server channel icons */{
+    display: none;
+}
+.sidebar-2K8pFh:hover .unread-1xRYoj /* unread bar */{
+    opacity: 0.9;
+}
+.sidebar-2K8pFh:hover .children-3rEycc /* invite/settings buttons for channel */,
+.sidebar-2K8pFh:hover .inner-tyMogq+.flex-1xMQg5 /* voice connected */,
+.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .info-WdNIDE /* name of currently shared window */,
+.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .actions-aUdUfC /* stop sharing button */,
+.sidebar-2K8pFh:hover .actionButtons-14eAc_ /* camera/share screen */,
+.sidebar-2K8pFh:hover .children-L002ao /* create channel button */,
+.sidebar-2K8pFh:hover .containerDefault--pIXnN .iconContainer-1BBaeJ /* server channel icons */{
+    display:flex;
+}
+.sidebar-2K8pFh:hover .overflow-WK9Ogt /* category name */,
+.sidebar-2K8pFh:hover .channelName-2YrOjO /* channel names */{
+    text-overflow: ellipsis;
+}
+.overflow-WK9Ogt /* category name */,
+.channelName-2YrOjO /* channel names */{
+    text-overflow: clip;
+}
+.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .gameWrapper-1jIQAX /* icon/name of currently shared window */,
+.sidebar-2K8pFh:hover .avatarWrapper-2yR4wp /* user profile picture (bottom left) */{
+    padding: 0;
+}
+.panels-j1Uci_ > .panel-24C3ux .gameWrapper-1jIQAX /* icon/name of currently shared window */,
+.avatarWrapper-2yR4wp /* user profile */{
+    padding: var(--ds-padding-icon);
+}
+.sidebar-2K8pFh .content-1x5b-n /* channel */{
+    padding: 0;
+}
+.sidebar-2K8pFh:hover .content-1x5b-n /* channel */{
+    padding: 0 8px;
+}
