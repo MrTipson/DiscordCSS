@@ -24,7 +24,11 @@ SOFTWARE.
 
 :root{
     --bu-border: none;
-    --bu-image: none;
+    --bu-image-src: none;
+    --bu-image-slice: 100%;
+    --bu-image-width: 1;
+    --bu-image-outset: 0;
+    --bu-image-repeat: round;
 }
 .chatContent-a9vAAp /* chat */,
 .membersWrap-2h-GB4 /* server members */,
@@ -36,5 +40,9 @@ SOFTWARE.
 .panels-j1Uci_ /* username, call controls, settings */{
     box-sizing: border-box;
     border: var(--bu-border);
-    border-image: var(--bu-image);
+    border-image-source: var(--bu-image-src);
+    border-image-slice: var(--bu-image-slice);
+    border-image-width: var(--bu-image-width);
+    border-image-outset: var(--bu-image-outset);
+    border-image-repeat: var(--bu-image-repeat);
 }
