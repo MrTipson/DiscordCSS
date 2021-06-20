@@ -23,10 +23,10 @@ SOFTWARE.
 */
 
 :root{
-    --ds-width: 64px;
+    --ds-width: 72px;
     --ds-transition-duration: 0s;
     --ds-padding-user: 18px;
-    --ds-padding-icon: 0 6px;
+    --ds-padding-icon: 0 8px;
 }
 /* Sidebar width */
 .sidebar-2K8pFh /* sidebar (channels/dms) */{
