@@ -101,15 +101,8 @@
     --progress-track-full: rgb(230, 230, 230) /* volume bar track - filled */;
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
 }
-
-/* "Fix" role management overlap with translucent backgrounds*/
+/* Remove background from headers (role permissions) */
+.contentRegion-3nDuYy .stickyHeader-hH_ZLl,
 .contentRegion-3nDuYy .titleContainer-2CXtJo{
     background-color: unset;
-}
-.contentRegion-3nDuYy .stickyHeader-hH_ZLl{
-    padding: 8px;
-    transform: translateY(40px);
-    margin-bottom: 50px;
-    border-radius: 4px;
-    background-color: #222F3B;
 }
