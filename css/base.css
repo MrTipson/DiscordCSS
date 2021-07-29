@@ -317,6 +317,24 @@ Settings
 .foreground-26ym5y /* social links in settings */{
     fill: var(--interactive-normal) !important;
 }
+.markValue-2DwdXI /* marks above setting sliders */{
+    color: var(--text-normal) !important;
+}
+.markDash-3hAolZ /* setting slider breakpoints */{
+    background-color: var(--text-muted) !important;
+}
+.background-1QDuV2 > .fieldList-21DyL8 /* account info */{
+    background-color: unset;
+}
+.lookFilled-22uAsw.select-2fjwPw /* notification overrides dropdown */{
+    border-color: var(--background-modifier-accent);
+}
+.searchInput-5YMkDH /* notification overrides dropdown */{
+    background-color: transparent;
+}
+.searchInput-5YMkDH::placeholder /* notification overrides dropdown */{
+    color: var(--text-normal);
+}
 /*-----
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
