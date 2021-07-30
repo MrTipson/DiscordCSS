@@ -72,6 +72,7 @@ Positioning
     margin: 10px 10px 0px 10px;
     border-radius: 8px;
 }
+.chat-15Vmww /* thread chat */,
 .chat-3bRxxu /* chat + top bar */,
 .container-1D34oG /* friends tab, active friends */{
     padding-top:10px;
@@ -85,6 +86,9 @@ Positioning
     margin: 0px 15px 0px 10px;
     border-radius: 8px;
     box-shadow: var(--elevation-low);
+}
+.threadSidebar-1o3BTy /* thread sidebar */{
+    padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
 .pageWrapper-1PgVDX /* discover servers */,
@@ -177,6 +181,7 @@ MISC
 .form-2fGMdU:before /* gradient next to message input */,
 .tabBody-3YRQ8W::before /* shadow under top bar (friends) */,
 .chatContent-a9vAAp::before /* shadow under thread top bar */,
+.chat-15Vmww::before /* shadow under thread top bar */,
 .content-yTz4x3::before /* shadow under top bar (implemented elsewhere) */{
     display: none;
 }
