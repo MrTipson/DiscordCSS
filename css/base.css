@@ -339,21 +339,21 @@ Settings
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
 -----*/
-[aria-label="GUILD_SETTINGS"] .contentRegionScroller-26nc1e /* outer wierd scroller */,
-[aria-label="GUILD_SETTINGS"] .scroller-Utb7tO /* permissions scroller */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .contentRegionScroller-26nc1e /* outer wierd scroller */,
+[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .scroller-Utb7tO /* permissions scroller */{
     overflow: hidden !important;
 }
-[aria-label="GUILD_SETTINGS"] .scroller-Utb7tO /* permissions scroller */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .scroller-Utb7tO /* permissions scroller */{
     height: 100%;
     position: relative;
 }
-[aria-label="GUILD_SETTINGS"] .contentWidth-xLB44s /* edit role column */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .contentWidth-xLB44s /* edit role column */{
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 24px;
 }
-[aria-label="GUILD_SETTINGS"] .stickyHeader-hH_ZLl /* edit role header */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .stickyHeader-hH_ZLl /* edit role header */{
     position: relative;
     box-shadow: none;
 }
