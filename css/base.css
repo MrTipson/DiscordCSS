@@ -188,6 +188,18 @@ Adding styling to the search dropdown
     background-color: var(--background-primary) !important;
 }
 /*-----
+Add styling to text editing toolbar (italic, bold, spoiler, ...)
+-----*/
+.toolbar-2bjZV7 /* text editing toolbar */{
+    background-color: var(--background-floating);
+}
+.toolbar-2bjZV7 > button .icon-KgGMGo /* button icons in toolbar */{
+    color: var(--interactive-normal);
+}
+.toolbar-2bjZV7 > button:hover .icon-KgGMGo /* button icons in toolbar */{
+    color: var(--interactive-hover);
+}
+/*-----
 Override background color (fix translucent primary/secondary messing stuff up)
 -----*/
 .quickswitcher-3JagVE /* quickswitcher */,
