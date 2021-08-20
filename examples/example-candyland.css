@@ -103,8 +103,3 @@
     --progress-track-full: rgb(230, 230, 230) /* volume bar track - filled */;
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
 }
-/* Remove background from headers (role permissions) */
-.contentRegion-3nDuYy .stickyHeader-hH_ZLl,
-.contentRegion-3nDuYy .titleContainer-2CXtJo{
-    background-color: unset;
-}

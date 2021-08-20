@@ -357,6 +357,10 @@ Edit roles scrollbar fix
     position: relative;
     box-shadow: none;
 }
+[aria-label="GUILD_SETTINGS"] .contentRegion-3nDuYy .stickyHeader-hH_ZLl /* Remove background from headers (role permissions) */,
+[aria-label="GUILD_SETTINGS"] .contentRegion-3nDuYy .titleContainer-2CXtJo /* Remove background from headers (role permissions) */{
+    background-color: unset;
+}
 .permissionsWrapper-1amySy /* permissions wrapper */{
     padding-right: 20px;
     overflow: hidden scroll;
