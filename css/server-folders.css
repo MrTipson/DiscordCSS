@@ -60,7 +60,7 @@ ul[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-ul[id^="folder"] > .listItem-GuPuDH /* each item in the folder */{
+ul[id^="folder"] > .listItem-1hlISG /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }
