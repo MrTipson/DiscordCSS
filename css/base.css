@@ -164,9 +164,6 @@ Adding styling to the search dropdown
 .container-3ayLPN /* search dropdown */{
     background-color: var(--background-floating) !important;
 }
-.option-96V44q:after /* gradients next to each of the options which makes it look bad */{
-    background: linear-gradient(90deg,rgba(54,57,63,0),var(--background-secondary) 80%) !important;
-}
 .queryContainer-RKFJW- /* "search for" text */,
 .searchOption-zQ-1l6 .filter-3Y_im- /* search filter */,
 .queryContainer-RKFJW- strong /* search text on the suggestion */,
@@ -183,9 +180,15 @@ Adding styling to the search dropdown
 .searchOption-zQ-1l6 .answer-1n6g43 /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
-.queryContainer-RKFJW-.focused-2bY0OD /* suggestion for search */,
-.option-96V44q.selected-rZcOL- /* search filter option when hovered */{
+.resultsGroup-r_nuzN .option-96V44q.user-O3Czj0 .displayUsername-Qekxml /* username and tags in user search */,
+.resultsGroup-r_nuzN .option-96V44q .filter-3Y_im- /* filter in search history */{
+    color: var(--text-muted);
+}
+.queryContainer-RKFJW-.focused-2bY0OD /* suggestion for search */{
     background-color: var(--background-primary) !important;
+}
+.layerContainer-yqaFcK .option-96V44q:after /* shadow after search options */{
+    background: transparent;
 }
 /*-----
 Add styling to text editing toolbar (italic, bold, spoiler, ...)
