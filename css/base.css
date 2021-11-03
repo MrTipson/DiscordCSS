@@ -43,7 +43,7 @@ Main color
 -----*/
 .searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
 .lookFilled-1Gx00P.colorGreen-29iAKY /* some buttons in nitro and others ? */,
-.circleIconButton-1XqULR.selected-2jcQaY /* find new communities selected, add server hover */{
+.circleIconButton-hZmpE8.selected-3mFF3I /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 /* discord icon selected */,
@@ -51,7 +51,7 @@ Main color
       color: #fff;
       background-color: var(--color-main);
 }
-.circleIconButton-1XqULR /* add server/explore servers */{
+.circleIconButton-hZmpE8 /* add server/explore servers */{
     color: var(--color-main);
 }
 /*-----
@@ -242,7 +242,7 @@ Translucent Tweaks
     background: unset;
 }
 /* -- Translucent primary causes wierd overlaps -- */
-.expandedFolderBackground-1cujaW /* background of folder items */{
+.expandedFolderBackground-3ZDF05 /* background of folder items */{
     border-radius: 15px;
 }
 /* -- Impossible to use with translucent primary color -- */

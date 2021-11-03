@@ -110,8 +110,8 @@ SOFTWARE.
     background-color: rgba(0,0,0,0);
     animation: ColorTransition 2s linear infinite;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-FuNwkv /* discord home icon */,
-.wrapper-1BJsBx:hover .homeIcon-FuNwkv /* discord home icon */{
+.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-AaowEC /* discord home icon */,
+.wrapper-1BJsBx:hover .homeIcon-AaowEC /* discord home icon */{
     animation: spin 1s linear infinite;
 }
 @keyframes BgTransition { 

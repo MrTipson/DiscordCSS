@@ -37,7 +37,7 @@ SOFTWARE.
 .guilds-1SWlCJ .scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-.expandedFolderBackground-1cujaW /* prevent this from extending all the way */{
+.expandedFolderBackground-3ZDF05 /* prevent this from extending all the way */{
     bottom:unset;
 }
 ul[id^="folder"] /* opened server folder */{
@@ -60,7 +60,7 @@ ul[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-ul[id^="folder"] > .listItem-1hlISG /* each item in the folder */{
+ul[id^="folder"] > .listItem-2Ig28I /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }
