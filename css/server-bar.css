@@ -43,7 +43,7 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-.base-3dtUhz /* friends list, chat */{
+.base-2jDfDU /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
@@ -51,51 +51,51 @@ SOFTWARE.
     right: var(--sb-right);
     height: calc(100% - var(--sb-top, var(--sb-bottom)));
 }
-.guilds-1SWlCJ.hidden-3dXt4k+.base-3dtUhz /* hide server bar when fullscreen */{
+.guilds-2JjMmN.hidden-10MsGQ+.base-2jDfDU /* hide server bar when fullscreen */{
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     height: 100%;
 }
-.guilds-1SWlCJ /* the whole navigation bar */{
+.guilds-2JjMmN /* the whole navigation bar */{
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
     transform-origin: var(--sb-origin);
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds-1SWlCJ .scroller-1Bvpku /* the navigation bar */{
+.guilds-2JjMmN .scroller-3X7KbA /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds-1SWlCJ .listItem-2Ig28I .wrapper-25eVIn /* folder */{
+.guilds-2JjMmN .listItem-3SmSlK .wrapper-28eC3z /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
-.guilds-1SWlCJ > * /* Server bar elements */{
+.guilds-2JjMmN > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.layer-v9HyYc > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-1MQ1bW /* pinned messages */,
-.layer-v9HyYc > [aria-label="Recent Mentions"] /* recent mentions */,
-.layer-v9HyYc > [aria-label="Unreads"] /* recent mentions */{
+.layer-2aCOJ3 > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-3zryHW /* pinned messages */,
+.layer-2aCOJ3 > [aria-label="Recent Mentions"] /* recent mentions */,
+.layer-2aCOJ3 > [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
 }
-.tooltipRight-2JM5PQ.tooltip-2QfLtc /* server name tooltip */{
+.tooltipRight-2TSb42.tooltip-14MtrL /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight-2JM5PQ>.tooltipPointer-3ZfirK /* little arrow for tooltip */{
+.tooltipRight-2TSb42>.tooltipPointer-3L49xb /* little arrow for tooltip */{
     opacity: 0;
 }
-.unreadMentionsIndicatorBottom-2mDYbI /* new message red popup bottom */,
-.unreadMentionsIndicatorTop-2-tcdU /* new message red popup top */{
+.unreadMentionsIndicatorTop-2bTgUU /* new message red popup bottom */,
+.unreadMentionsIndicatorBottom-3RJMnQ /* new message red popup bottom */{
     display: none;
 }
 

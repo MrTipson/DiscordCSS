@@ -25,169 +25,172 @@ SOFTWARE.
 /*-----
 Positioning
 -----*/
-.sidebar-2K8pFh > .container-3w7J-x[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper-1sRNjr /* all the messages */,
-.members-1998pB /* members */,
+.sidebar-1tnWFu > .container-1NXEtd[aria-label*="(server)"] /* server channels, header */,
+.messagesWrapper-RpOMA3 /* all the messages */,
+.members-3WRCEx /* members */,
 [aria-label="Search Results"] /* search results */,
 [aria-label="User area"] /* user info, call controls */,
-#private-channels /* direct messages */,
-.nowPlayingColumn-2sl4cE /* friends playing games */,
-.content-98HsJk>.sidebar-2K8pFh>.thin-1ybCId.scrollerBase-289Jih /* discover categories */,
-.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
-.peopleColumn-29fq28 /* online friends */{
+.scroller-WSmht3 /* direct messages */,
+.nowPlayingColumn-1eCBCN /* friends playing games */,
+.content-1SgpWY>.sidebar-1tnWFu>.thin-31rlnD.scrollerBase-_bVAAt /* discover categories */,
+.scroller-3j5xK2.auto-2K3UW5.scrollerBase-_bVAAt /* explore servers */,
+.peopleColumn-1wMU14 /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
 }
-.pageWrapper-1PgVDX>.scroller-1d5FgU.auto-Ge5KZx.scrollerBase-289Jih /* explore servers */,
-.applicationStore-1pNvnv .scroller-9moviB.auto-Ge5KZx.scrollerBase-289Jih /* nitro screen */{
+.pageWrapper-2PwDoS>.scroller-3j5xK2.auto-2K3UW5.scrollerBase-_bVAAt /* explore servers */,
+.applicationStore-2nk7Lo .scroller-29cQFV.auto-2K3UW5.scrollerBase-_bVAAt /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
-.channelTextArea-rNsIhG /* text area */{
+.channelTextArea-1FufC0 /* text area */{
     margin-bottom: unset;
 }
-.form-2fGMdU /* text area wrapper */{
+.form-3gdLxP /* text area wrapper */{
     padding: unset;
     margin: 10px;
 }
-.members-1998pB /* members list */{
+.members-3WRCEx /* members list */{
     padding-bottom: 10px;
 }
-.wrapper-39oAo3{
-    margin: 10px 0px;
-}
-.jumpToPresentBar-G1R9s6 /* you are viewing older messages */{
+.jumpToPresentBar-1cEnH0 /* you are viewing older messages */{
     padding-bottom: 0px;
 }
-.typing-2GQL18 /* person is typing status text */{
+.typing-2J1mQU /* person is typing status text */{
     left: 0px;
     top: -21px;
 }
-.withFrame-haYltI /* top bar for dragging/closing */{
+.withFrame-2dL45i /* top bar for dragging/closing */{
     margin-top: 0px;
     padding-top: 4px;
 }
-.searchBar-6Kv8R2 /* find or start a conversation */{
+.searchBar-3TnChZ /* find or start a conversation */{
     width:auto;
     margin: 10px 10px 0px 10px;
     border-radius: 8px;
 }
-.chat-15Vmww /* thread chat */,
-.chat-3bRxxu /* chat + top bar */,
-.container-1D34oG /* friends tab, active friends */{
-    padding-top:10px;
+.homeWrapper-L4ors0 /* nitro */,
+.content-1jQy2l /* thread chat */,
+.chat-2ZfjoI /* chat + top bar */,
+.container-2cd8Mz /* friends tab, active friends */{
+    padding-top:10px !important;
 }
-.sidebar-2K8pFh /* sidebar (server, channels) */{
+.sidebar-1tnWFu /* sidebar (server, channels) */{
     border-radius:unset !important;
 }
 [aria-label="Channel header"] /* top bar (channel name, search, icons) */,
-.container-1r6BKw /* top bar friends */{
+.container-ZMc96U /* top bar friends */{
     width: auto;
     margin: 0px 15px 0px 10px;
     border-radius: 8px;
     box-shadow: var(--elevation-low);
 }
-.threadSidebar-1o3BTy /* thread sidebar */{
+.container-3XgAHv /* thread sidebar */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
-.pageWrapper-1PgVDX /* discover servers */,
-.tabBody-3YRQ8W /* everything within the online friends */,
-.content-yTz4x3 /* everything within chat */{
+.pageWrapper-2PwDoS /* discover servers */,
+.tabBody-2dgbAs /* everything within the online friends */,
+.chat-2ZfjoI /* everything within chat */{
     padding: 0px 5px 5px 0px;
 }
-.sidebar-2K8pFh /* channels, user info */{
+.sidebar-1tnWFu /* channels, user info */{
     padding-bottom: 5px;
 }
 /*-----
 Colors
 -----*/
-.privateChannels-1nO12o /* dm sidebar */,
-.members-1998pB>div /* users on the member list */{
+.privateChannels-oVe7HL /* dm sidebar */,
+.members-3WRCEx>div /* users on the member list */{
     background-color: unset;
 }
-.sidebar-2K8pFh > .container-3w7J-x[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper-1sRNjr /* messages/chat */,
+.sidebar-1tnWFu > .container-1NXEtd[aria-label*="(server)"] /* server channels, header */,
+.messagesWrapper-RpOMA3 /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
-.searchBar-6Kv8R2 /* find or start a conversation */,
-.sidebar-2K8pFh /* sidebar (friends, channels) - override to background-primary */,
-.scroller-1JbKMe /* friends scrollbar - override to background-primary */,
-.members-1998pB /* members list - override to background-primary */,
-.nowPlayingColumn-2sl4cE /* friends in games - override to background-primary */,
-.peopleColumn-29fq28 /* online friends */{
+.searchBar-3TnChZ /* find or start a conversation */,
+.sidebar-1tnWFu /* sidebar (friends, channels) - override to background-primary */,
+.scroller-WSmht3 /* friends scrollbar - override to background-primary */,
+.members-3WRCEx /* members list - override to background-primary */,
+.nowPlayingColumn-1eCBCN /* friends in games - override to background-primary */,
+.peopleColumn-1wMU14 /* online friends */{
     background-color: var(--background-primary);
 }
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
-.categoryItem-ONe8JV.selectedCategoryItem-28UllF .itemInner-1XfZdz /* selected discover category */{
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 /* selected discover category */{
     background-color: var(--background-modifier-selected);
 }
-.sidebar-CFHs9e .themed-OHr7kt.item-PXvHYJ:active /* user setting tab :active selector */,
-.sidebar-CFHs9e .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ /* selected user setting tab */,
-.clickable-1JJAn8.container-2Pjhx-:active /* selected discover servers category */{
+.sidebar-nqHbhN .themed-2-lozF.item-3XjbnG:active /* user setting tab :active selector */,
+.sidebar-nqHbhN .themed-2-lozF.selected-g-kMVV.item-3XjbnG /* selected user setting tab */,
+.selectedCategoryItem-ZjqSui.container-1oeRFJ:active /* selected discover servers category */{
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);
 }
-.categoryItem-ONe8JV.selectedCategoryItem-28UllF /* selected discover servers category */{
+.categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui /* selected discover servers category */{
     color: var(--header-secondary);
 }
-.colorable-1bkp8v.primaryDark-3mSFDl /* buttons in the call */{
+.colorable-3rVGna.primaryDark-2UJt1G /* buttons in the call */{
     background-color: var(--background-primary);
 }
-.colorable-1bkp8v.primaryDark-3mSFDl:hover /* buttons in the call, hovered */{
+.colorable-3rVGna.primaryDark-2UJt1G:hover /* buttons in the call, hovered */{
     background-color: var(--background-secondary);
 }
-.wrapper-2qzCYF /* call background */{
+.wrapper-1gVUIN /* call background */{
     background-color: transparent !important;
 }
-.channelName-1JRO3C /* channel name in search results */{
+.container-1oAagU /* active friends */,
+.container-2o3qEW /* members sidebar */,
+.channelName-3w2Y3c /* channel name in search results */{
     background-color: transparent;
 }
 /*-----
 Height adjust
 -----*/
-.scrollerSpacer-avRLaA /* spacer at the end of messages */{
+.scrollerSpacer-3AqkT9 /* spacer at the end of messages */{
     height: 10px;
 }
-.pageWrapper-1PgVDX>.scroller-1d5FgU{
+.pageWrapper-2PwDoS>.scroller-3j5xK2{
     height: calc(100% - 25px);
 }
-.container-3baos1 /* user info, call controls */{
+.container-YkUktl /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
 }
 /*-----
 Settings
 -----*/
-.standardSidebarView-3F1I7i /* all of settings */,
-.contentRegion-3nDuYy /* right side settings */,
-.contentRegionScroller-26nc1e /* right side settings */,
-.sidebarRegionScroller-3MXcoP /* settings tabs */{
+.standardSidebarView-E9Pc3j /* all of settings */,
+.contentRegion-3HkfJJ /* right side settings */,
+.contentRegionScroller-2_GT_N /* right side settings */,
+.sidebarRegionScroller-FXiQOh /* settings tabs */{
     background: transparent;
 }
 /*
 Call
 Sadly there is some overlap with call.css but I think its better to do it this way
 */
-.root-217Brm .gradientContainer-10lXLB /* call gradients */{
+.root-22AK9z .gradientContainer-phMG8d /* call gradients */{
     opacity: 0;
 }
-.videoControls-24w7Xp section /* header in the call screen */{
+.videoControls-353CsJ section /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
 /*-----
 MISC
 -----*/
-.form-2fGMdU:before /* gradient next to message input */,
-.tabBody-3YRQ8W::before /* shadow under top bar (friends) */,
-.chatContent-a9vAAp::before /* shadow under thread top bar */,
-.chat-15Vmww::before /* shadow under thread top bar */,
-.content-yTz4x3::before /* shadow under top bar (implemented elsewhere) */{
+.form-3gdLxP:before /* gradient next to message input */,
+.tabBody-2dgbAs::before /* shadow under top bar (friends) */,
+.chatContent-3KubbW::before /* shadow under thread top bar */,
+.content-1jQy2l::before /* shadow under thread top bar */,
+.content-1jQy2l::before /* shadow under top bar (implemented elsewhere) */{
     display: none;
 }
-[aria-label="User area"] [aria-label="Share Your Screen"].button-38aScr /* screen share button */{
+[aria-label="User area"] [aria-label="Share Your Screen"].button-1EGGcP /* screen share button */{
     padding: 2px 14px /* fix clipping due to container margins */;
 }
-.header-2V-4Sw /* server name */{
+.header-3OsQeK /* server name */{
     border-radius: 8px 8px 0px 0px;
+}
+.scroller-hE2gWq /* active friends */{
+    border-left: none;
 }

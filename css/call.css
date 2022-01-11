@@ -28,33 +28,28 @@ SOFTWARE.
     --call-shadow-bottom: none;
     --call-shadow-top: none;
 }
-.overlayTitle-8IcS01.idle-U-LIlZ /* prevent names from dissapearing */{
+.overlayTitle-2efoIF.idle-3MGs7O /* prevent names from dissapearing */{
     opacity: unset;
     -webkit-transform: unset;
     transform: unset;
 }
-.videoWrapper-3VC0Ax > .tile-2naSqK /* remove backgrounds for inner player  */,
-.wrapper-1wyZBN /* same */,
-.wrapper-2qzCYF /* same */{
-    background-color: none;
-}
-.root-217Brm .gradientContainer-10lXLB /* call gradients */{
+.root-22AK9z .gradientContainer-phMG8d /* call gradients */{
     opacity: 0;
 }
-.bottomControls-lIJyYL /* call info and buttons on hover in call */,
-.topControls-KKImPZ /* call controls on hover in calll */{
+.bottomControls-31YuPK /* call info and buttons on hover in call */,
+.topControls-23RE3h /* call controls on hover in calll */{
     padding: var(--call-controls-padding);
     background-color: var(--call-controls-bg);
     box-sizing: border-box;
 }
-.bottomControls-lIJyYL /* call info and buttons on hover in call */{
+.bottomControls-31YuPK /* call info and buttons on hover in call */{
     border-radius: 8px 8px 0px 0px;
     box-shadow: var(--call-shadow-bottom);
 }
-.topControls-KKImPZ /* call controls on hover in calll */{
+.topControls-23RE3h /* call controls on hover in calll */{
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--call-shadow-top);
 }
-.videoControls-24w7Xp /* wrapper for call controls */{
+.videoControls-353CsJ /* wrapper for call controls */{
     padding-bottom: 0;
 }

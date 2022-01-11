@@ -21,17 +21,17 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-.chatContent-a9vAAp>*:nth-child(n) .avatar-1BDn8e{animation: dunkaDunka 2s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(2n) .avatar-1BDn8e{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(3n) .avatar-1BDn8e{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(4n) .avatar-1BDn8e{animation: dunkaDunka 3s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(5n) .avatar-1BDn8e{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(6n) .avatar-1BDn8e{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(7n) .avatar-1BDn8e{animation: dunkaDunka 4s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(8n) .avatar-1BDn8e{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(9n) .avatar-1BDn8e{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
-.chatContent-a9vAAp>*:nth-child(10n) .avatar-1BDn8e{animation: dunkaDunka 5s linear 0s infinite forwards;}
-.avatar-1BDn8e.clickable-1bVtEA:active /* avatar when holding click */{
+.chatContent-3KubbW>*:nth-child(n) .avatar-2e8lTP{animation: dunkaDunka 2s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(2n) .avatar-2e8lTP{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(3n) .avatar-2e8lTP{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(4n) .avatar-2e8lTP{animation: dunkaDunka 3s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(5n) .avatar-2e8lTP{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(6n) .avatar-2e8lTP{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(7n) .avatar-2e8lTP{animation: dunkaDunka 4s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(8n) .avatar-2e8lTP{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(9n) .avatar-2e8lTP{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
+.chatContent-3KubbW>*:nth-child(10n) .avatar-2e8lTP{animation: dunkaDunka 5s linear 0s infinite forwards;}
+.avatar-2e8lTP.clickable-31pE3P:active /* avatar when holding click */{
     transform: initial;
     -webkit-transform: initial;
 }
@@ -73,26 +73,28 @@ SOFTWARE.
 /*
     Wibble wobble
 */
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(n)  .avatarContainer-28iYmV{animation: move 1s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(2n) .avatarContainer-28iYmV{animation: move 1.3s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(3n) .avatarContainer-28iYmV{animation: move 1.6s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(4n) .avatarContainer-28iYmV{animation: move 2s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(5n) .avatarContainer-28iYmV{animation: move 2.3s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(6n) .avatarContainer-28iYmV{animation: move 2.6s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(7n) .avatarContainer-28iYmV{animation: move 3s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(8n) .avatarContainer-28iYmV{animation: move 3.3s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(9n) .avatarContainer-28iYmV{animation: move 3.6s linear 0s infinite forwards;}
-.list-2luk8a.list-SuzGBZ.listDefault-3ir5aS>:nth-child(10n) .avatarContainer-28iYmV{animation: move 4s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(n)  .wrapper-3t9DeA{animation: move 1s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(2n) .wrapper-3t9DeA{animation: move 1.6s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(3n) .wrapper-3t9DeA{animation: move 1.3s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(4n) .wrapper-3t9DeA{animation: move 2.6s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(5n) .wrapper-3t9DeA{animation: move 2.3s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(6n) .wrapper-3t9DeA{animation: move 3.3s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(7n) .wrapper-3t9DeA{animation: move 4s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(8n) .wrapper-3t9DeA{animation: move 2s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(9n) .wrapper-3t9DeA{animation: move 3.6s linear 0s infinite forwards;}
-.content-3YMskv>:nth-child(10n) .wrapper-3t9DeA{animation: move 3s linear 0s infinite forwards;}
+/* Avatars in voice chat */
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(n)  .avatarContainer-3FF_Km{animation: move 1s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(2n) .avatarContainer-3FF_Km{animation: move 1.3s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(3n) .avatarContainer-3FF_Km{animation: move 1.6s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(4n) .avatarContainer-3FF_Km{animation: move 2s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(5n) .avatarContainer-3FF_Km{animation: move 2.3s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(6n) .avatarContainer-3FF_Km{animation: move 2.6s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(7n) .avatarContainer-3FF_Km{animation: move 3s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(8n) .avatarContainer-3FF_Km{animation: move 3.3s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(9n) .avatarContainer-3FF_Km{animation: move 3.6s linear 0s infinite forwards;}
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(10n) .avatarContainer-3FF_Km{animation: move 4s linear 0s infinite forwards;}
+/* Avatars in dms */
+.content-2a4AW9>:nth-child(n)  .wrapper-1VLyxH{animation: move 1s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(2n) .wrapper-1VLyxH{animation: move 1.6s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(3n) .wrapper-1VLyxH{animation: move 1.3s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(4n) .wrapper-1VLyxH{animation: move 2.6s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(5n) .wrapper-1VLyxH{animation: move 2.3s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(6n) .wrapper-1VLyxH{animation: move 3.3s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(7n) .wrapper-1VLyxH{animation: move 4s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(8n) .wrapper-1VLyxH{animation: move 2s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(9n) .wrapper-1VLyxH{animation: move 3.6s linear 0s infinite forwards;}
+.content-2a4AW9>:nth-child(10n) .wrapper-1VLyxH{animation: move 3s linear 0s infinite forwards;}
 @keyframes move {
 0%   {transform: translate(0,0) rotate(3deg);}
 25%  {transform: translate(2px,0) rotate(-6deg);}
@@ -103,15 +105,15 @@ SOFTWARE.
 /*
     Spinny rainbow
 */
-.avatarContainer-28iYmV {
+.avatarContainer-3FF_Km {
     animation: move 1s linear infinite;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
+.wrapper-28eC3z.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-28eC3z:hover .childWrapper-1j_1ub {
     background-color: rgba(0,0,0,0);
     animation: ColorTransition 2s linear infinite;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .homeIcon-AaowEC /* discord home icon */,
-.wrapper-1BJsBx:hover .homeIcon-AaowEC /* discord home icon */{
+.wrapper-28eC3z.selected-1Drb7Z .homeIcon-r0w4ny /* discord home icon */,
+.wrapper-28eC3z:hover .homeIcon-r0w4ny /* discord home icon */{
     animation: spin 1s linear infinite;
 }
 @keyframes BgTransition { 

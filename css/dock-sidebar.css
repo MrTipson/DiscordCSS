@@ -29,60 +29,60 @@ SOFTWARE.
     --ds-padding-icon: 0 8px;
 }
 /* Sidebar width */
-.sidebar-2K8pFh /* sidebar (channels/dms) */{
+.sidebar-1tnWFu /* sidebar (channels/dms) */{
     width: var(--ds-width);
     transition: width var(--ds-transition-duration);
 }
-.sidebar-2K8pFh:hover /* sidebar (channels/dms) */{
+.sidebar-1tnWFu:hover /* sidebar (channels/dms) */{
     width: 240px;
 }
 /* Visual corrections */
-.list-2luk8a /* users in voice channel */{
+.list-2x9Cl9 /* users in voice channel */{
     padding-left: var(--ds-padding-user);
 }
-.unread-1xRYoj /* unread bar */{
+.unread-XRkyaQ /* unread bar */{
     opacity: 0;
 }
-.sidebar-2K8pFh .children-3rEycc /* invite/settings buttons for channel */,
-.sidebar-2K8pFh .inner-tyMogq+.flex-1xMQg5 /* voice connected */,
-.actionButtons-14eAc_ /* camera/share screen */,
-.panels-j1Uci_ > .panel-24C3ux .info-WdNIDE /* name of currently shared window */,
-.panels-j1Uci_ > .panel-24C3ux .actions-aUdUfC/* sharing screen */,
-.children-L002ao /* create channel button */,
-.containerDefault--pIXnN .iconContainer-1BBaeJ /* server channel icons */{
+.sidebar-1tnWFu .children-1MGS9G /* invite/settings buttons for channel */,
+.sidebar-1tnWFu .inner-llGtyq+.flex-3BkGQD /* voice connected */,
+.actionButtons-2vEOUh /* camera/share screen */,
+[aria-label="User area"] > .panel-2ZFCRb .info-88fTUI /* name of currently shared window */,
+[aria-label="User area"] > .panel-2ZFCRb .actions-zk2vB_/* sharing screen */,
+.children-3MeUvj /* create channel button */,
+.containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
     display: none;
 }
-.sidebar-2K8pFh:hover .unread-1xRYoj /* unread bar */{
+.sidebar-1tnWFu:hover .unread-XRkyaQ /* unread bar */{
     opacity: 0.9;
 }
-.sidebar-2K8pFh:hover .children-3rEycc /* invite/settings buttons for channel */,
-.sidebar-2K8pFh:hover .inner-tyMogq+.flex-1xMQg5 /* voice connected */,
-.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .info-WdNIDE /* name of currently shared window */,
-.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .actions-aUdUfC /* stop sharing button */,
-.sidebar-2K8pFh:hover .actionButtons-14eAc_ /* camera/share screen */,
-.sidebar-2K8pFh:hover .children-L002ao /* create channel button */,
-.sidebar-2K8pFh:hover .containerDefault--pIXnN .iconContainer-1BBaeJ /* server channel icons */{
+.sidebar-1tnWFu:hover .children-1MGS9G /* invite/settings buttons for channel */,
+.sidebar-1tnWFu:hover .inner-llGtyq+.flex-3BkGQD /* voice connected */,
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .info-88fTUI /* name of currently shared window */,
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .actions-zk2vB_ /* stop sharing button */,
+.sidebar-1tnWFu:hover .actionButtons-2vEOUh /* camera/share screen */,
+.sidebar-1tnWFu:hover .children-3MeUvj /* create channel button */,
+.sidebar-1tnWFu:hover .containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
     display:flex;
 }
-.sidebar-2K8pFh:hover .overflow-WK9Ogt /* category name */,
-.sidebar-2K8pFh:hover .channelName-2YrOjO /* channel names */{
+.sidebar-1tnWFu:hover .overflow-1wOqNV /* category name */,
+.sidebar-1tnWFu:hover .channelName-3KPsGw /* channel names */{
     text-overflow: ellipsis;
 }
-.overflow-WK9Ogt /* category name */,
-.channelName-2YrOjO /* channel names */{
+.overflow-1wOqNV /* category name */,
+.channelName-3KPsGw /* channel names */{
     text-overflow: clip;
 }
-.sidebar-2K8pFh:hover .panels-j1Uci_ > .panel-24C3ux .gameWrapper-1jIQAX /* icon/name of currently shared window */,
-.sidebar-2K8pFh:hover .avatarWrapper-2yR4wp /* user profile picture (bottom left) */{
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .gameWrapper-2TFy7F /* icon/name of currently shared window */,
+.sidebar-1tnWFu:hover .avatarWrapper-1B9FTW /* user profile picture (bottom left) */{
     padding: 0;
 }
-.panels-j1Uci_ > .panel-24C3ux .gameWrapper-1jIQAX /* icon/name of currently shared window */,
-.avatarWrapper-2yR4wp /* user profile */{
+[aria-label="User area"] > .panel-2ZFCRb .gameWrapper-2TFy7F /* icon/name of currently shared window */,
+.avatarWrapper-1B9FTW /* user profile */{
     padding: var(--ds-padding-icon);
 }
-.sidebar-2K8pFh .content-1x5b-n /* channel */{
+.sidebar-1tnWFu .content-1gYQeQ /* channel */{
     padding: 0;
 }
-.sidebar-2K8pFh:hover .content-1x5b-n /* channel */{
+.sidebar-1tnWFu:hover .content-1gYQeQ /* channel */{
     padding: 0 8px;
 }

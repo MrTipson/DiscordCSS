@@ -41,47 +41,47 @@ SOFTWARE.
 /*-----
 Main color
 -----*/
-.searchFilter-2ESiM3 /* Search bar filter (from: ,in:) */,
-.lookFilled-1Gx00P.colorGreen-29iAKY /* some buttons in nitro and others ? */,
-.circleIconButton-hZmpE8.selected-3mFF3I /* find new communities selected, add server hover */{
+.searchFilter-2UfsDk /* Search bar filter (from: ,in:) */,
+.lookFilled-yCfaCM.colorGreen-3y-Z79 /* some buttons in nitro and others ? */,
+.circleIconButton-1VxDrg.selected-2r1Hvo /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
-.wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 /* discord icon selected */,
-.wrapper-1BJsBx:hover .childWrapper-anI2G9 /* discord icon hovered */{
+.wrapper-28eC3z.selected-1Drb7Z .childWrapper-1j_1ub /* discord icon selected */,
+.wrapper-28eC3z:hover .childWrapper-1j_1ub /* discord icon hovered */{
       color: #fff;
       background-color: var(--color-main);
 }
-.circleIconButton-hZmpE8 /* add server/explore servers */{
+.circleIconButton-1VxDrg /* add server/explore servers */{
     color: var(--color-main);
 }
 /*-----
 Message scrollbar
 -----*/
-.auto-Ge5KZx.scrollerBase-289Jih /* online friends, nitro, chat messages */{
+.auto-2K3UW5.scrollerBase-_bVAAt /* online friends, nitro, chat messages */{
     overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 /*-----
 Progress bar
 -----*/
-.barInner-3NDaY_ /* user profile spotify progression bar */{
+.barInner-3dHef4 /* user profile spotify progression bar */{
     background-color: var(--progress-track-full);
 }
-.bar-3urHkF /* user profile spotify whole bar */{
+.bar-1GpknY /* user profile spotify whole bar */{
     background-color: var(--progress-track-empty);
 }
-.grabber-3mFHz2 /* User volume thumb */{
+.grabber-2GQyvM /* User volume thumb */{
     background: var(--progress-thumb);
 }
-.barFill-23-gu- /* user volume track - filled */{
+.barFill-2Bh7CX /* user volume track - filled */{
     background: var(--progress-track-full);
 }
-.theme-dark .bar-2Qqk5Z, .theme-light .bar-2Qqk5Z/* user volume track - filled */{
+.theme-dark .bar-1Bhnl9, .theme-light .bar-1Bhnl9/* user volume track - filled */{
     background: var(--progress-track-empty);
 }
 /*-----
 Background
 -----*/
-.bg-h5JY_x /* Full background */ {
+.bg-1QIAus /* Full background */ {
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -93,10 +93,10 @@ Background
 /*-----
 ?
 -----*/
-.symbol-3ffeCr>* /* a runabout? i'll steal it */{
+.symbol-34PJsf>* /* a runabout? i'll steal it */{
     display: none;
 }
-.symbol-3ffeCr /* noone will ever know */{
+.symbol-34PJsf /* noone will ever know */{
     background: url("https://i.imgur.com/YsnLupd.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -106,36 +106,32 @@ Background
 /*-----
 Seperate styling for code markup and embed
 -----*/
-.markup-2BOw-j code /* Code markup */{
+.markup-eYLPri code /* Code markup */{
     background: var(--background-markup);
 }
-.embedFull-2tM8-- /* Embed */{
+.embedFull-1HGV2S /* Embed */{
     background: var(--background-embed);
 }
 /*-----
 Adding missing styling to modals, context menus
 -----*/
-.regionSelectName-c5qL8O /* individual region */,
-.roleName-32vpEy /* short user profile name (no nickname)*/{
+.headerTagUsernameNoNickname-1TjuLc /* short user profile name (no nickname)*/{
     color: var(--header-secondary) !important;
 }
-.footer-2gL1pp /* folder settings */,
-.guildSection-1EoFKd /* emote description footer */,
-.modal-3SaIF0 /* change log */,
-.header-2bNvm4 /* add role */,
-.uploadModal-2ifh8j /* upload a file */,
-.scroller-1-nKid /* reacts to a channel*/,
-.container-16j22k /* reconnecting screen */{
+.footer-31IekZ /* folder settings */,
+.guildSection-2Zyzy8 /* emote description footer */,
+.modal-3Hrb0S /* change log */,
+.uploadModal-2ie9O_ /* upload a file */,
+.scroller-2GkvCq /* reacts to a channel*/,
+.container-2RRFHK /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
-.quickSelectPopout-X1hvgV /* call region dropdown */,
-.modal-yWgWj- /* join a server*/,
-.root-1gCeng /* folder settings */,
-.popout-VcNcHB /* channel list on server notification options */,
-.container-2x5lvQ section /* rtc connnection debug */,
-.autocomplete-1vrmpx /* mention user list*/,
-.container-VSDcQc .sectionTag-pXyto9 /* add role - role list */,
-.emojiSection-3Fb9ix /* details of an emoji on click (floating more fitting over tertiary)*/{
+.quickSelectPopout-2F0PXw /* call region dropdown */,
+.root-g14mjS /* join a server*/,
+.root-g14mjS /* folder settings */,
+.container-1ILvLB section /* rtc connnection debug */,
+.container-2McqkF /* date picker in search */,
+.autocomplete-3NRXG8 /* mention user list*/{
     background-color: var(--background-floating) !important;
 }
 /*-----
@@ -156,281 +152,288 @@ Adding styling to dropdown menus
 .css-1ba14n5-option /* active option in dropdown */{
     background-color: var(--background-modifier-hover);
 }
+.popout-1KHNAq /* dropdown - notifications */{
+    background-color: var(--background-dropdown);
+    border-color: var(--background-modifier-accent);
+}
+.popout-1KHNAq > .option-2eIyOn:hover /* dropdown - notifications */{
+    background-color: var(--background-modifier-hover)
+}
+.popout-1KHNAq > .option-2eIyOn[aria-selected="true"] /* dropdown - notifications */,
+.popout-1KHNAq > .option-2eIyOn:active /* dropdown - notifications */{
+    background-color: var(--background-modifier-selected)
+}
 /*-----
 Adding styling to the search dropdown
 -----*/
-.reactors-Blmlhw /* reactors to a message */,
-.container-3ayLPN /* search dropdown */{
+.reactors-1VXca7 /* reactors to a message */,
+.container-2McqkF /* search dropdown */{
     background-color: var(--background-floating) !important;
 }
-.queryContainer-RKFJW- /* "search for" text */,
-.searchOption-zQ-1l6 .filter-3Y_im- /* search filter */,
-.queryContainer-RKFJW- strong /* search text on the suggestion */,
-.resultsGroup-r_nuzN .header-2N-gMV /* search options header */,
-.resultsGroup-r_nuzN .plusIcon-v0BTrL /* search options plus icon */,
-.resultsGroup-r_nuzN .searchClearHistory-2cSSMO /* search clear history icon */,
-.resultsGroup-r_nuzN .searchLearnMore-3SQUAj a /* search options learn more icon */{
+.queryContainer-ZunrLZ /* "search for" text */,
+.searchOption-351dTI .filter-5YbOzJ /* search filter */,
+.queryContainer-ZunrLZ strong /* search text on the suggestion */,
+.resultsGroup-1BPR25 .header-3A13BX /* search options header */,
+.resultsGroup-1BPR25 .plusIcon-2V7coV /* search options plus icon */,
+.resultsGroup-1BPR25 .searchClearHistory-2Be-92 /* search clear history icon */,
+.resultsGroup-1BPR25 .searchLearnMore-7__o_n a /* search options learn more icon */{
     color: var(--header-primary) !important;
 }
-.option-96V44q .answer-1n6g43 /* search params (name, channel, type) */,
-.option-96V44q .nonText-3CRkO0 /* search params sometimes */,
-.option-96V44q strong /* search result channel */,
-.option-96V44q.user-O3Czj0 .displayedNick-3xxvzU /* search result user nickname */,
-.searchOption-zQ-1l6 .answer-1n6g43 /* search param placeholders */{
+.option-2KkUJO .answer-2fBfuP /* search params (name, channel, type) */,
+.option-2KkUJO .nonText-3_4gtu /* search params sometimes */,
+.option-2KkUJO strong /* search result channel */,
+.option-2KkUJO.user-23VtPS .displayedNick-2dDbfG /* search result user nickname */,
+.searchOption-351dTI .answer-2fBfuP /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
-.resultsGroup-r_nuzN .option-96V44q.user-O3Czj0 .displayUsername-Qekxml /* username and tags in user search */,
-.resultsGroup-r_nuzN .option-96V44q .filter-3Y_im- /* filter in search history */{
+.resultsGroup-1BPR25 .option-2KkUJO.user-23VtPS .displayUsername-14aOpK /* username and tags in user search */,
+.resultsGroup-1BPR25 .option-2KkUJO .filter-5YbOzJ /* filter in search history */{
     color: var(--text-muted);
 }
-.queryContainer-RKFJW-.focused-2bY0OD /* suggestion for search */{
+.resultsGroup-1BPR25:before /* seperators between option headers */{
+    border-top: var(--text-muted);
+}
+.queryContainer-ZunrLZ.focused-2FU0YH /* suggestion for search */{
     background-color: var(--background-primary) !important;
 }
-.layerContainer-yqaFcK .option-96V44q:after /* shadow after search options */{
+.resultsGroup-1BPR25 .option-2KkUJO:after /* shadow after search options */{
     background: transparent;
 }
 /*-----
 Add styling to text editing toolbar (italic, bold, spoiler, ...)
 -----*/
-.toolbar-2bjZV7 /* text editing toolbar */{
+.toolbar-37BrJ5 /* text editing toolbar */{
     background-color: var(--background-floating);
 }
-.toolbar-2bjZV7 > button .icon-KgGMGo /* button icons in toolbar */{
+.toolbar-37BrJ5 > button .icon-3g7qdA /* button icons in toolbar */{
     color: var(--interactive-normal);
 }
-.toolbar-2bjZV7 > button:hover .icon-KgGMGo /* button icons in toolbar */{
+.toolbar-37BrJ5 > button:hover .icon-3g7qdA /* button icons in toolbar */{
     color: var(--interactive-hover);
 }
 /*-----
 Override background color (fix translucent primary/secondary messing stuff up)
 -----*/
-.quickswitcher-3JagVE /* quickswitcher */,
-.header-ykumBX /* mentions header */,
-.container-enaOkj /* mentions content */,
-.channelHeader-3Gd2xq /* channel name in mentions */,
-.messagesPopoutWrap-1MQ1bW /* pinned messages */,
-.wrapper-1-Fsb8 /* emoji picker server name */,
-.container-3XJ8ns /* audit log filters */,
-.emojiPicker-3PwZFl /* emoji picker reaction */,
-.container-7uh5fX /* listed threads */,
-.popout-APcvZm /* more active threads popout*/,
-.contentWrapper-SvZHNd /* emoji picker */{
+.quickswitcher-pKcM9U /* quickswitcher */,
+.header-1w9Q93 /* mentions header */,
+.channelHeader-DFRX8q /* channel name in mentions */,
+.messagesPopoutWrap-3zryHW /* pinned messages */,
+.wrapper-1NNaWG /* emoji picker server name */,
+.container-2O1UgZ /* audit log filters */,
+.emojiPicker-6YCk8a /* emoji picker reaction */,
+.popout-TdhJ6Z /* more active threads popout*/,
+.contentWrapper-3vHNP2 /* emoji picker */{
     background-color: var(--background-floating);
 }
 /*-----
 Split background-primary variable
 -----*/
-.messageGroupWrapper-o-Zw7G /* message in pinned messages */,
-.messageContainer-gbhlwo /* message in mentions */,
-.messages-3G3erD /* messages in unreads */,
-.wrapper-2aW0bm /* buttons on message hover */,
-.childWrapper-anI2G9 /* home icon in the server bar */,
-.circleIconButton-1XqULR /* circle buttons in the server bar */{
+.messageGroupWrapper-1jf_7C /* message in pinned messages */,
+.messageContainer-3VTXBC /* message in mentions */,
+.messages-23can0 /* messages in unreads */,
+.wrapper-2vIMkT /* buttons on message hover */,
+.childWrapper-1j_1ub /* home icon in the server bar */,
+.circleIconButton-1VxDrg /* circle buttons in the server bar */{
     background-color: var(--background-primary-extra);
 }
 /*-----
 Translucent Tweaks
 -----*/
 /* -- Styling with a translucent primary 'breaks' their way of doing this -- */
-.divider-JfaTT5 /* horizontal line between days */{
+.divider-IqmEqJ /* horizontal line between days */{
     height: 20px;
     margin-top: 5px !important;
     margin-bottom: 0px !important;
 }
-.content-1o0f9g /* date between messages */{
+.content-3spvdd /* date between messages */{
     background: unset;
 }
 /* -- Translucent primary causes wierd overlaps -- */
-.expandedFolderBackground-3ZDF05 /* background of folder items */{
+.expandedFolderBackground-1kSAf6 /* background of folder items */{
     border-radius: 15px;
 }
 /* -- Impossible to use with translucent primary color -- */
-.children-19S4PO:after{
+.children-3xh0VB:after /* top bar gradient next to toolbar icons */{
     display: none;
 }
 /*-----
 Text overrides
 -----*/
-.selected-P8xTeN /* tabs in screen share */{
+.selected-2xa993 /* tabs in screen share */{
     color: var(--text-normal) !important;
     border-bottom-color: var(--background-modifier-accent) !important;
 }
-.container-OI6I9q /* tab not selected in screen share */,
-.item-30Gz8g /* debug headings */,
-.emptyStateHeader-248f_b /* title of text of "no gifts" */,
-.gameName-1RiWHm /* game name in game activity */,
-.container-2x5lvQ section strong{
+.container-2zEtSe /* tab not selected in screen share */,
+.item-3XjbnG /* debug headings */,
+.emptyStateHeader-2qdbzr /* title of text of "no gifts" */,
+.gameName-Uw4dbt /* game name in game activity */,
+.container-1ILvLB section strong{
     color: var(--header-primary) !important;
 }
-.emptyStateSubtext-2hdA9c /* text under the "no gifts" */,
-.container-2x5lvQ section p /* rtc debug normal text */,
-.body-3HBlXn /* short profile user role name */,
-.itemValue-JNy0LV /* debug values */{
+.emptyStateSubtext-1nMe5m /* text under the "no gifts" */,
+.container-1ILvLB section p /* rtc debug normal text */,
+.roleName-2ZJJYR /* short profile user role name */,
+.itemValue-3eCU6u /* debug values */{
     color: var(--text-normal) !important;
 }
-.debugButton-1Zec0y{
+.debugButton-OTfjlB /* rtd debug debug button */{
     color: var(--header-secondary) !important;
 }
 /*-----
 Buttons
 -----*/
-.actionButton-VzECiy{
+.actionButton-1YKTU0 /* add role to user */{
     color: var(--interactive-normal) !important;
     border-color: var(--interactive-normal) !important;
 }
 /*-----
 Online friends
 -----*/
-.peopleListItem-2nzedh.active-rhSpJJ /* online friends while clicking */,
-.peopleListItem-2nzedh:hover /* online friends while hover */{
+.peopleListItem-u6dGxF.active-2UF8Zh /* online friends while clicking */,
+.peopleListItem-u6dGxF:hover /* online friends while hover */{
     border: 1px solid var(--background-modifier-accent);
 }
-.outer-1AjyKL.active-1xchHY,
-.outer-1AjyKL.interactive-3B9GmY:hover /* active friends */{
+.outer-2JOHae.interactive-2zD88a:hover /* active friends */{
     background-color: var(--background-modifier-hover) !important;
 }
-.inset-3sAvek /* active friends - activity */{
+.inset-SbsSFp /* active friends - activity */{
     background-color: var(--background-modifier-selected) !important;
 }
-.container-1D34oG /* friends tab */,
-.pageWrapper-1PgVDX /* discover servers */{
+.container-2cd8Mz /* friends tab */,
+.pageWrapper-2PwDoS /* discover servers */{
     background-color: var(--background-primary) !important;
 }
 /*-----
 Settings
 -----*/
-.codeRedemptionRedirect-1wVR4b{
+.codeRedemptionRedirect-3SBiCp /* looking to redeem a discord key (billing) */{
     color: var(--text-normal) !important;
     background-color: var(--background-primary) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.gameNameInput-385LoS:focus,
-.gameNameInput-385LoS:hover /* game name in game activity */{
+.gameNameInput-3TuPuA:focus,
+.gameNameInput-3TuPuA:hover /* game name in game activity */{
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.closeButton-1tv5uR /* close button */{
+.closeButton-PCZcma /* close settings button */{
     border-color: var(--interactive-normal) !important;
 }
-.card-3Qj_Yx /* borders in settings */{
+.card-16VQ8C /* borders in settings */{
     border-color: var(--background-modifier-accent);
 }
-.card-FDVird:before /* keybinds hover */{
+.card-2ART2V:before /* keybinds hover */{
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.closeButton-1tv5uR path /* close button x icon */{
+.closeButton-PCZcma path /* close button x icon */{
     fill: var(--interactive-normal);
 }
-.keybind-KpFkfr /* close button text */{
+.keybind-13vtq8 /* close button text */{
     color: var(--interactive-normal) !important;
 }
-.link-1IoFq-:hover .foreground-26ym5y /* social links in settings */{
+.link-39xJu3:hover .foreground-2hyALB /* social links in settings */{
     fill: var(--interactive-hover) !important;
 }
-.foreground-26ym5y /* social links in settings */{
+.foreground-2hyALB /* social links in settings */{
     fill: var(--interactive-normal) !important;
 }
-.markValue-2DwdXI /* marks above setting sliders */{
+.markValue-2U_-UG /* marks above setting sliders */{
     color: var(--text-normal) !important;
 }
-.markDash-3hAolZ /* setting slider breakpoints */{
+.markDash-yk2kJ- /* setting slider breakpoints */{
     background-color: var(--text-muted) !important;
 }
-.background-1QDuV2 > .fieldList-21DyL8 /* account info */{
+.background-3d_SjE > .fieldList-in8WkP /* account info */{
     background-color: unset;
 }
-.lookFilled-22uAsw.select-2fjwPw /* notification overrides dropdown */{
-    border-color: var(--background-modifier-accent);
-}
-.searchInput-5YMkDH /* notification overrides dropdown */{
+.searchInput-3pIoTy /* notification overrides dropdown */{
     background-color: transparent;
 }
-.searchInput-5YMkDH::placeholder /* notification overrides dropdown */{
+.searchInput-3pIoTy::placeholder /* notification overrides dropdown */{
     color: var(--text-normal);
 }
 /*-----
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
 -----*/
-[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .contentRegionScroller-26nc1e /* outer wierd scroller */,
-[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .scroller-Utb7tO /* permissions scroller */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentRegionScroller-2_GT_N /* outer wierd scroller */,
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .scroller-39BnzZ /* permissions scroller */{
     overflow: hidden !important;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .scroller-Utb7tO /* permissions scroller */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .scroller-39BnzZ /* permissions scroller */{
     height: 100%;
     position: relative;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .contentWidth-xLB44s /* edit role column */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentWidth-3aWel5 /* edit role column */{
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 24px;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-14yMzC .stickyHeader-hH_ZLl /* edit role header */{
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .stickyHeader-1Sunlx /* edit role header */{
     position: relative;
     box-shadow: none;
 }
-[aria-label="GUILD_SETTINGS"] .contentRegion-3nDuYy .stickyHeader-hH_ZLl /* Remove background from headers (role permissions) */,
-[aria-label="GUILD_SETTINGS"] .contentRegion-3nDuYy .titleContainer-2CXtJo /* Remove background from headers (role permissions) */{
+[aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ .stickyHeader-1Sunlx /* Remove background from headers (role permissions) */,
+[aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ .titleContainer-16mFj2 /* Remove background from headers (role permissions) */{
     background-color: unset;
 }
-.permissionsWrapper-1amySy /* permissions wrapper */{
+.permissionsWrapper-34gbP6 /* permissions wrapper */{
     padding-right: 20px;
     overflow: hidden scroll;
     height: 100%;
 }
-.permissionsWrapper-1amySy::-webkit-scrollbar-track{
+.permissionsWrapper-34gbP6::-webkit-scrollbar-track{
     background-color: var(--scrollbar-thin-track);
     border: 2px solid var(--scrollbar-thin-track);
 }
-.permissionsWrapper-1amySy::-webkit-scrollbar{
+.permissionsWrapper-34gbP6::-webkit-scrollbar{
     width: 8px;
     height: 8px;
 }
-.permissionsWrapper-1amySy::-webkit-scrollbar-thumb{
+.permissionsWrapper-34gbP6::-webkit-scrollbar-thumb{
     background-clip: padding-box;
     border: 2px solid transparent;
     border-radius: 4px;
     background-color: var(--scrollbar-thin-thumb);
     min-height: 40px;
 }
-.clearButtonWrapper-1WPBSh /* clear permissions button */{
+.clearButtonWrapper-3P4Ikn /* clear permissions button */{
     right: 20px;
 }
 /*-----
 MISC
 -----*/
-.quickswitcher-3JagVE>.scroller-zPkAnE /* quickswitcher */{
+.quickswitcher-pKcM9U>.scroller-2qwVWY /* quickswitcher */{
     margin-top: 0px;
 }
-.input-2VB9rf::placeholder /* placeholder text */{
-    color: var(--header-primary) !important;
-}
-.platform-win .sidebar-2K8pFh /* server channels sidebar */{
+.platform-win .sidebar-1tnWFu /* server channels sidebar */{
     border-radius: unset;
 }
-.guilds-1SWlCJ /* server bar */{
+.guilds-2JjMmN /* server bar */{
     box-sizing: border-box;
 }
 /* -- Join/Add server  -- */
-.button-38aScr.lookBlank-3eh9lL.colorBrand-3pXr91.sizeMin-1mJd1x.grow-q77ONN /* back button in join server modal */{
-    color: var(--text-normal) !important;
-    background: var(--background-primary) !important;
-    padding: 2px 16px;
+.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorPrimary-2AuQVo.sizeMin-DfpWCE.grow-2sR_-F /* back button in join server modal */{
+    color: var(--text-normal);
+    padding: 2px 8px;
 }
-.colorPickerSwatch-5GX3Ve.noColor-1pdBDm /* folder settings picker border*/{
+.colorPickerSwatch-RTUGRR.noColor-1Oln62 /* folder settings picker border*/{
     border-color: var(--background-modifier-accent) !important;
 }
 /* -- This excludes the download button and seperator from the discord online client --*/
-.tutorialContainer-32VdNI~* /* everything following the add servers button */{
+.tutorialContainer-2jwoiB~* /* everything following the add servers button */{
     display: none;
 }
-.tutorialContainer-32VdNI+* /* exclude explore servers button */{
+.tutorialContainer-2jwoiB+* /* exclude explore servers button */{
     display: -ms-flexbox;
     display: -webkit-box;
     display: flex;
 }
-.mentioned-xhSam7:before /* Thin line in front of the mention */{
+.mentioned-Tre-dv:before /* Thin line in front of the mention */{
     background-color: var(--background-mentioned-before);
+}
+.callContainer-HtHELf /* remove black background in call */{
+    background-color: transparent;
 }

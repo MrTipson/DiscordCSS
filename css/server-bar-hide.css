@@ -25,12 +25,12 @@ SOFTWARE.
     --sb-collapsed-width: 10px;
     --sb-transition-duration: .5s;
 }
-.guilds-1SWlCJ /* servers */{
+.guilds-2JjMmN /* servers */{
     overflow: hidden !important;
     width: var(--sb-collapsed-width, 72px);
     transition: width var(--sb-transition-duration);
 }
-.guilds-1SWlCJ:hover /* expand server bar on hover */{
+.guilds-2JjMmN:hover /* expand server bar on hover */{
     width: 72px;
     animation: server-bar-overflow 0s linear 250ms forwards
 }

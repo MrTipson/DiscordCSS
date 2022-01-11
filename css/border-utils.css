@@ -30,14 +30,14 @@ SOFTWARE.
     --bu-image-outset: 0;
     --bu-image-repeat: round;
 }
-.chatContent-a9vAAp /* chat */,
-.membersWrap-2h-GB4 /* server members */,
-.title-3qD0b- /* top bar - channel name, description, search */,
-.sidebar-2K8pFh > nav /* channels, dms */,
-.guilds-1SWlCJ /* servers */,
-.applicationStore-1pNvnv /* nitro tab */,
-.container-1D34oG /* online friends tab */,
-.panels-j1Uci_ /* username, call controls, settings */{
+.chatContent-3KubbW /* chat */,
+.membersWrap-3NUR2t /* server members */,
+.title-31SJ6t /* top bar - channel name, description, search */,
+.sidebar-1tnWFu > nav /* channels, dms */,
+.guilds-2JjMmN /* servers */,
+.applicationStore-2nk7Lo /* nitro tab */,
+.container-2cd8Mz /* online friends tab */,
+[aria-label="User area"] /* username, call controls, settings */{
     box-sizing: border-box;
     border: var(--bu-border);
     border-image-source: var(--bu-image-src);
