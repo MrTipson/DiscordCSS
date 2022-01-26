@@ -126,13 +126,14 @@ Adding missing styling to modals, context menus
 .container-2RRFHK /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
-.quickSelectPopout-2F0PXw /* call region dropdown */,
-.root-g14mjS /* join a server*/,
-.root-g14mjS /* folder settings */,
+.layerContainer-2v_Sit .quickSelectPopout-2F0PXw /* call region dropdown */,
+.layerContainer-2v_Sit .root-g14mjS /* join a server, folder settings (any modal popup, really) */,
 .container-1ILvLB section /* rtc connnection debug */,
-.container-2McqkF /* date picker in search */,
-.autocomplete-3NRXG8 /* mention user list*/{
-    background-color: var(--background-floating) !important;
+.form-3gdLxP .autocomplete-3NRXG8 /* mention autocomplete user list*/{
+    background-color: var(--background-floating);
+}
+.autocomplete-3NRXG8 .selected-3H3-RC /* hovered username in mention autocomplete */{
+    background-color: var(--background-modifier-hover);
 }
 /*-----
 Adding styling to dropdown menus
@@ -186,6 +187,7 @@ Adding styling to the search dropdown
 .searchOption-351dTI .answer-2fBfuP /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
+.hint-3D5yHh /* search hint */,
 .resultsGroup-1BPR25 .option-2KkUJO.user-23VtPS .displayUsername-14aOpK /* username and tags in user search */,
 .resultsGroup-1BPR25 .option-2KkUJO .filter-5YbOzJ /* filter in search history */{
     color: var(--text-muted);
@@ -407,6 +409,11 @@ MISC
 -----*/
 .quickswitcher-pKcM9U>.scroller-2qwVWY /* quickswitcher */{
     margin-top: 0px;
+    background-color: transparent;
+    margin-right: 0px;
+}
+.input-3r5zZY::placeholder{
+    color: var(--text-normal);
 }
 .platform-win .sidebar-1tnWFu /* server channels sidebar */{
     border-radius: unset;
@@ -436,4 +443,12 @@ MISC
 }
 .callContainer-HtHELf /* remove black background in call */{
     background-color: transparent;
+}
+.quickSelectPopout-2F0PXw .regionSelectName-1Tj9C9 /* region dropdown in call */,
+[aria-label="Notification Settings"] .channelName-IPB6B3 /* notification settings channel name*/,
+[aria-label="Notification Settings"] .override-1sK4r0 /* notification settings channel icon (#) */{
+    color: var(--text-normal);
+}
+[aria-label="Notification Settings"] .guildName-1kreI8 /* notification settings server name */{
+    color: var(--header-secondary);
 }
