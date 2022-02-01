@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-.theme-dark,.theme-light{
+:root{
     --folder-background: var(--background-floating) /* background */;
     --folder-radius: 8px /* border-radius*/;
     --folder-border: none /* border */;
