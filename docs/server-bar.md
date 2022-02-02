@@ -26,7 +26,7 @@ sb-label-top | Top offset for server/folder name | calc(50% + 40px) | length
 
 
 ## Sample configurations
-Default donfiguration is  `top`.
+Default configuration is  `top`.
 <details>
 <summary>Left (revert to discord style)</summary>
 

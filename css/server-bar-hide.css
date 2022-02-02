@@ -32,7 +32,24 @@ SOFTWARE.
 }
 .guilds-2JjMmN:hover /* expand server bar on hover */{
     width: 72px;
+    overflow: visible !important;
     animation: server-bar-overflow 0s linear 250ms forwards
+}
+.guilds-2JjMmN ~ .base-2jDfDU /* friends list, chat */{
+    position: absolute;
+    left: var(--sb-collapsed-left, var(--sb-collapsed-width));
+    top: var(--sb-collapsed-top, 0px);
+    bottom: var(--sb-collapsed-bottom, 0px);
+    right: var(--sb-collapsed-right, 0px);
+    transition-property: var(--sb-transition-property, left);
+    transition-duration: var(--sb-transition-duration);
+}
+.guilds-2JjMmN:hover ~ .base-2jDfDU /* friends list, chat */{
+    position: absolute;
+    left: var(--sb-left, 72px);
+    top: var(--sb-top, 0px);
+    bottom: var(--sb-bottom, 0px);
+    right: var(--sb-right, 0px);
 }
 @keyframes server-bar-overflow{
     from{

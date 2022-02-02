@@ -23,6 +23,11 @@ SOFTWARE.
 */
 
 :root{
+    /* These are settings for server-bar-hide.css */
+    --sb-collapsed-left: 0px;
+    --sb-collapsed-top: var(--sb-collapsed-width, 10px);
+    --sb-transition-property: top;
+    /* These are toggles for server-folders.css */
     --bar-toggle-r: 100%;
     --bar-toggle-l: none;
 
@@ -49,7 +54,6 @@ SOFTWARE.
     top: var(--sb-top);
     bottom: var(--sb-bottom);
     right: var(--sb-right);
-    height: calc(100% - var(--sb-top, var(--sb-bottom)));
 }
 .guilds-2JjMmN.hidden-10MsGQ+.base-2jDfDU /* hide server bar when fullscreen */{
     top: 0;
@@ -80,9 +84,9 @@ SOFTWARE.
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.layer-2aCOJ3 > [aria-label*="Pinned Messages"] > .messagesPopoutWrap-3zryHW /* pinned messages */,
-.layer-2aCOJ3 > [aria-label="Recent Mentions"] /* recent mentions */,
-.layer-2aCOJ3 > [aria-label="Unreads"] /* recent mentions */{
+.layer-2aCOJ3 [aria-label*="Pinned Messages"] > .messagesPopoutWrap-3zryHW /* pinned messages */,
+.layer-2aCOJ3 [aria-label="Recent Mentions"] /* recent mentions */,
+.layer-2aCOJ3 [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
 }
 .tooltipRight-2TSb42.tooltip-14MtrL /* server name tooltip */{
