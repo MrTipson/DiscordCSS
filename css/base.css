@@ -172,33 +172,33 @@ Adding styling to the search dropdown
     background-color: var(--background-floating) !important;
 }
 .queryContainer-ZunrLZ /* "search for" text */,
-.searchOption-351dTI .filter-5YbOzJ /* search filter */,
+.searchOption-3u1gRt .filter-2QaH9y /* search filter */,
 .queryContainer-ZunrLZ strong /* search text on the suggestion */,
-.resultsGroup-1BPR25 .header-3A13BX /* search options header */,
-.resultsGroup-1BPR25 .plusIcon-2V7coV /* search options plus icon */,
-.resultsGroup-1BPR25 .searchClearHistory-2Be-92 /* search clear history icon */,
-.resultsGroup-1BPR25 .searchLearnMore-7__o_n a /* search options learn more icon */{
+.resultsGroup-cfY57t .header-1BR0Ro /* search options header */,
+.resultsGroup-cfY57t .plusIcon-1RVszG /* search options plus icon */,
+.resultsGroup-cfY57t .searchClearHistory-3nIKUO /* search clear history icon */,
+.resultsGroup-cfY57t .searchLearnMore-1gNL3A a /* search options learn more icon */{
     color: var(--header-primary) !important;
 }
-.option-2KkUJO .answer-2fBfuP /* search params (name, channel, type) */,
-.option-2KkUJO .nonText-3_4gtu /* search params sometimes */,
-.option-2KkUJO strong /* search result channel */,
-.option-2KkUJO.user-23VtPS .displayedNick-2dDbfG /* search result user nickname */,
-.searchOption-351dTI .answer-2fBfuP /* search param placeholders */{
+.option-ayUoaq .answer-14OVbQ /* search params (name, channel, type) */,
+.option-ayUoaq .nonText-28q_Ot /* search params sometimes */,
+.option-ayUoaq strong /* search result channel */,
+.option-ayUoaq.user-1dKxvu .displayedNick-1atSpT /* search result user nickname */,
+.searchOption-3u1gRt .answer-14OVbQ /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
-.hint-3D5yHh /* search hint */,
-.resultsGroup-1BPR25 .option-2KkUJO.user-23VtPS .displayUsername-14aOpK /* username and tags in user search */,
-.resultsGroup-1BPR25 .option-2KkUJO .filter-5YbOzJ /* filter in search history */{
+.hint-xfbpCV /* search hint */,
+.resultsGroup-cfY57t .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm /* username and tags in user search */,
+.resultsGroup-cfY57t .option-ayUoaq .filter-2QaH9y /* filter in search history */{
     color: var(--text-muted);
 }
-.resultsGroup-1BPR25:before /* seperators between option headers */{
+.resultsGroup-cfY57t:before /* seperators between option headers */{
     border-top: var(--text-muted);
 }
 .queryContainer-ZunrLZ.focused-2FU0YH /* suggestion for search */{
     background-color: var(--background-primary) !important;
 }
-.resultsGroup-1BPR25 .option-2KkUJO:after /* shadow after search options */{
+.resultsGroup-cfY57t .option-ayUoaq:after /* shadow after search options */{
     background: transparent;
 }
 /*-----
@@ -267,12 +267,12 @@ Text overrides
 }
 .container-2zEtSe /* tab not selected in screen share */,
 .item-3XjbnG /* debug headings */,
-.emptyStateHeader-2qdbzr /* title of text of "no gifts" */,
-.gameName-Uw4dbt /* game name in game activity */,
+.emptyStateHeader-Wexj4l /* title of text of "no gifts" */,
+.gameName-zbZetm /* game name in game activity */,
 .container-1ILvLB section strong{
     color: var(--header-primary) !important;
 }
-.emptyStateSubtext-1nMe5m /* text under the "no gifts" */,
+.emptyStateSubtext-29V2rK /* text under the "no gifts" */,
 .container-1ILvLB section p /* rtc debug normal text */,
 .roleName-2ZJJYR /* short profile user role name */,
 .itemValue-1-Xx5h /* debug values */{
@@ -308,13 +308,13 @@ Online friends
 /*-----
 Settings
 -----*/
-.codeRedemptionRedirect-3SBiCp /* looking to redeem a discord key (billing) */{
+.codeRedemptionRedirect-2hYMSQ /* looking to redeem a discord key (billing) */{
     color: var(--text-normal) !important;
     background-color: var(--background-primary) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.gameNameInput-3TuPuA:focus,
-.gameNameInput-3TuPuA:hover /* game name in game activity */{
+.gameNameInput-2wbDJ9:focus,
+.gameNameInput-2wbDJ9:hover /* game name in game activity */{
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
 }
@@ -334,10 +334,10 @@ Settings
 .keybind-13vtq8 /* close button text */{
     color: var(--interactive-normal) !important;
 }
-.link-39xJu3:hover .foreground-2hyALB /* social links in settings */{
+.link-1-SDSV:hover .foreground-3Wtm7n /* social links in settings */{
     fill: var(--interactive-hover) !important;
 }
-.foreground-2hyALB /* social links in settings */{
+.foreground-3Wtm7n /* social links in settings */{
     fill: var(--interactive-normal) !important;
 }
 .markValue-2U_-UG /* marks above setting sliders */{
