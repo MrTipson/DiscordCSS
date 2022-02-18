@@ -220,10 +220,12 @@ Override background color (fix translucent primary/secondary messing stuff up)
 .header-1w9Q93 /* mentions header */,
 .channelHeader-DFRX8q /* channel name in mentions */,
 .messagesPopoutWrap-3zryHW /* pinned messages */,
+.container-2ebMPP /* unreads inbox */,
 .wrapper-1NNaWG /* emoji picker server name */,
 .container-2O1UgZ /* audit log filters */,
 .emojiPicker-6YCk8a /* emoji picker reaction */,
 .popout-TdhJ6Z /* more active threads popout*/,
+.container-18GwIk /* other active threads popout*/,
 .contentWrapper-3vHNP2 /* emoji picker */{
     background-color: var(--background-floating);
 }
