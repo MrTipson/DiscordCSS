@@ -56,13 +56,18 @@ SOFTWARE.
     right: var(--sb-right);
 }
 .guilds-2JjMmN.hidden-10MsGQ+.base-2jDfDU /* hide server bar when fullscreen */{
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     height: 100%;
 }
+.container-1eFtFS /* wrapper around base and navigation bar */{
+    position: relative;
+}
 .guilds-2JjMmN /* the whole navigation bar */{
+    position: absolute;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
     transform-origin: var(--sb-origin);
