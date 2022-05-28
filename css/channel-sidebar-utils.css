@@ -37,8 +37,8 @@ SOFTWARE.
     padding: 0;
 }
 /* Channel margin/background transition */
-.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG > .content-1gYQeQ /* selected text channel */,
-.containerDefault-YUSmu3:hover .wrapper-NhbLHG > .content-1gYQeQ/* any text channel */{
+.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .content-1gYQeQ /* selected text channel */,
+.containerDefault-YUSmu3:hover .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .content-1gYQeQ/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
