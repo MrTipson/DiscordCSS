@@ -132,9 +132,6 @@ Adding missing styling to modals, context menus
 .form-3gdLxP .autocomplete-3NRXG8 /* mention autocomplete user list*/{
     background-color: var(--background-floating);
 }
-.autocomplete-3NRXG8 .selected-3H3-RC /* hovered username in mention autocomplete */{
-    background-color: var(--background-modifier-hover);
-}
 /*-----
 Adding styling to dropdown menus
 -----*/
