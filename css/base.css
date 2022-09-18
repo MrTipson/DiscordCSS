@@ -355,6 +355,20 @@ Settings
     color: var(--text-normal);
 }
 /*-----
+Forums
+-----*/
+.theme-light .container-3wLKDe,
+.theme-dark .container-3wLKDe /* forums background */ {
+    background-color: transparent;
+}
+.mainCard-3KBsBI /* search or create post and all the posts */,
+.container-2qVG6q:hover /* posts on hover */ {
+    background-color: var(--background-tertiary);
+}
+.header-1RJoTb /* forum post sticky */ {
+    background-color: var(--background-floating);
+}
+/*-----
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
 -----*/
