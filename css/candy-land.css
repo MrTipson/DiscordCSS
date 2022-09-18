@@ -38,6 +38,10 @@ Positioning
     margin: 10px !important;
     border-radius: 8px;
 }
+.withTagAsButton-OsgQ9L /* user info (next to call controls) */,
+.withTagless-10ooWt /* user info (next to call controls) */ {
+    min-width: unset;
+}
 .pageWrapper-2PwDoS>.scroller-3j5xK2.auto-2K3UW5.scrollerBase-_bVAAt /* explore servers */,
 .applicationStore-2nk7Lo .scroller-29cQFV.auto-2K3UW5.scrollerBase-_bVAAt /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
