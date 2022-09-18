@@ -32,9 +32,9 @@ SOFTWARE.
     --background-filter:none /* filter property applied to the background */;
     --background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
     --background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
-    --background-modal:var(--background-primary) /* main color of a modal dialog */;
+    --background-modal:var(--background-floating) /* main color of a modal dialog */;
     --background-floating:var(--background-primary) /* for not so modal popups */;
-    --background-dropdown:var(--background-primary) /* background of options in a dropdown */;
+    --background-dropdown:var(--background-floating) /* background of options in a dropdown */;
     --background-primary-extra: var(--background-primary);
     --background-mentioned-before: #faa61a /* default value in discord */;
 }
