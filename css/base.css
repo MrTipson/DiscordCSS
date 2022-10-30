@@ -133,6 +133,13 @@ Adding missing styling to modals, context menus
     background-color: var(--background-floating);
 }
 /*-----
+Short user profile gradients (non-nitro)
+-----*/
+.userProfileInnerThemedNonPremium-1gT-zY /* short user profile */{
+    --profile-gradient-primary-color: var(--background-floating);
+    --profile-gradient-secondary-color: var(--background-floating);
+}
+/*-----
 Adding styling to dropdown menus
 -----*/
 .css-3vaxre-menu /* dropdown menu */{
