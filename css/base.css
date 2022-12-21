@@ -133,6 +133,15 @@ Adding missing styling to modals, context menus
     background-color: var(--background-floating);
 }
 /*-----
+New home features
+-----*/
+.background-fkKrXt /* home tabs */,
+.container-2IKOsH /* Body for home tabs */,
+.container-1um7CU /* Body for browse channels */,
+.header-3xB4vB /* Header for home tabs */ {
+	background-color: var(--background-primary) !important;
+}
+/*-----
 Short user profile gradients (non-nitro)
 -----*/
 .userProfileInnerThemedNonPremium-1gT-zY /* short user profile */{
