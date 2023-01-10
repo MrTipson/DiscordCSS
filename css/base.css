@@ -115,7 +115,7 @@ Seperate styling for code markup and embed
 /*-----
 Adding missing styling to modals, context menus
 -----*/
-.headerTagUsernameNoNickname-1TjuLc /* short user profile name (no nickname)*/{
+.userTagUsernameNoNickname-2e_xaO /* short user profile name (no nickname)*/{
     color: var(--header-secondary) !important;
 }
 .footer-31IekZ /* folder settings */,
