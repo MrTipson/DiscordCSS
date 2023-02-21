@@ -42,7 +42,6 @@ SOFTWARE.
 Main color
 -----*/
 .searchFilter-2UfsDk /* Search bar filter (from: ,in:) */,
-.lookFilled-yCfaCM.colorGreen-3y-Z79 /* some buttons in nitro and others ? */,
 .circleIconButton-1VxDrg.selected-2r1Hvo /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
@@ -69,13 +68,13 @@ Progress bar
 .bar-1GpknY /* user profile spotify whole bar */{
     background-color: var(--progress-track-empty);
 }
-.grabber-2GQyvM /* User volume thumb */{
+.grabber-3R-Rx9 /* User volume thumb */{
     background: var(--progress-thumb);
 }
-.barFill-2Bh7CX /* user volume track - filled */{
+.barFill-3RgCsY /* user volume track - filled */{
     background: var(--progress-track-full);
 }
-.theme-dark .bar-1Bhnl9, .theme-light .bar-1Bhnl9/* user volume track - filled */{
+.theme-dark .bar-2H7Q9u, .theme-light .bar-2H7Q9u/* user volume track - filled */{
     background: var(--progress-track-empty);
 }
 /*-----
@@ -235,7 +234,7 @@ Override background color (fix translucent primary/secondary messing stuff up)
 .messagesPopoutWrap-3zryHW /* pinned messages */,
 .container-2ebMPP /* unreads inbox */,
 .wrapper-1NNaWG /* emoji picker server name */,
-.container-2O1UgZ /* audit log filters */,
+.container-2kTWmC /* audit log filters */,
 .emojiPicker-6YCk8a /* emoji picker reaction */,
 .popout-TdhJ6Z /* more active threads popout*/,
 .container-18GwIk /* other active threads popout*/,
@@ -451,7 +450,7 @@ MISC
     box-sizing: border-box;
 }
 /* -- Join/Add server  -- */
-.button-f2h6uQ.lookLink-15mFoz.lowSaturationUnderline-Z6CW6z.colorPrimary-2AuQVo.sizeMin-DfpWCE.grow-2sR_-F /* back button in join server modal */{
+.circleIconButton-1VxDrg /* back button in join server modal */{
     color: var(--text-normal);
     padding: 2px 8px;
 }
