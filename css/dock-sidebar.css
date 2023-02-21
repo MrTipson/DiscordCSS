@@ -52,6 +52,9 @@ SOFTWARE.
 .containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
     display: none;
 }
+.container-YkUktl /* profile image/mute/deafen/settings */{
+	overflow: hidden;
+}
 .sidebar-1tnWFu:hover .unread-XRkyaQ /* unread bar */{
     opacity: 0.9;
 }
