@@ -165,15 +165,15 @@ Adding styling to dropdown menus
 .css-1ba14n5-option /* active option in dropdown */{
     background-color: var(--background-modifier-hover);
 }
-.popout-1KHNAq /* dropdown - notifications */{
+.popout-15UxD6 /* dropdown - notifications */{
     background-color: var(--background-dropdown);
     border-color: var(--background-modifier-accent);
 }
-.popout-1KHNAq > .option-2eIyOn:hover /* dropdown - notifications */{
+.popout-15UxD6 > .option-Uc12mm:hover /* dropdown - notifications */{
     background-color: var(--background-modifier-hover)
 }
-.popout-1KHNAq > .option-2eIyOn[aria-selected="true"] /* dropdown - notifications */,
-.popout-1KHNAq > .option-2eIyOn:active /* dropdown - notifications */{
+.popout-15UxD6 > .option-Uc12mm[aria-selected="true"] /* dropdown - notifications */,
+.popout-15UxD6 > .option-Uc12mm:active /* dropdown - notifications */{
     background-color: var(--background-modifier-selected)
 }
 /*-----
@@ -272,6 +272,12 @@ Translucent Tweaks
 .children-3xh0VB:after /* top bar gradient next to toolbar icons */{
     display: none;
 }
+/* These seem to be new additions using --bg-overlay-chat, but dont play well with other styles */
+.chatContent-3KubbW /* chat container */,
+.member-48YF_l /* server member */,
+.theme-light .container-YkUktl, .theme-dark .container-YkUktl /* profile/mute/settings */{
+	background: unset;
+}
 /*-----
 Text overrides
 -----*/
@@ -354,19 +360,19 @@ Settings
 .foreground-3Wtm7n /* social links in settings */{
     fill: var(--interactive-normal) !important;
 }
-.markValue-2U_-UG /* marks above setting sliders */{
+.markValue-21gAVC /* marks above setting sliders */{
     color: var(--text-normal) !important;
 }
-.markDash-yk2kJ- /* setting slider breakpoints */{
+.markDash-1ATsxA /* setting slider breakpoints */{
     background-color: var(--text-muted) !important;
 }
 .background-3d_SjE > .fieldList-in8WkP /* account info */{
     background-color: unset;
 }
-.searchInput-3pIoTy /* notification overrides dropdown */{
+.searchInput-2-KiNf /* notification overrides dropdown */{
     background-color: transparent;
 }
-.searchInput-3pIoTy::placeholder /* notification overrides dropdown */{
+.searchInput-2-KiNf::placeholder /* notification overrides dropdown */{
     color: var(--text-normal);
 }
 /*-----
