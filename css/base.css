@@ -341,9 +341,6 @@ Settings
 .closeButton-PCZcma /* close settings button */{
     border-color: var(--interactive-normal) !important;
 }
-.card-16VQ8C /* borders in settings */{
-    border-color: var(--background-modifier-accent);
-}
 .card-2ART2V:before /* keybinds hover */{
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
