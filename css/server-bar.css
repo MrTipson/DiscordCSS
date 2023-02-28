@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 MrTipson
+Copyright (c) 2023 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -89,18 +89,18 @@ SOFTWARE.
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.layer-2aCOJ3 [aria-label*="Pinned Messages"] > .messagesPopoutWrap-3zryHW /* pinned messages */,
-.layer-2aCOJ3 [aria-label="Recent Mentions"] /* recent mentions */,
-.layer-2aCOJ3 [aria-label="Unreads"] /* recent mentions */{
+.layer-2BGhQ8 [aria-label*="Pinned Messages"] > .messagesPopoutWrap-3zryHW /* pinned messages */,
+.layer-2BGhQ8 [aria-label="Recent Mentions"] /* recent mentions */,
+.layer-2BGhQ8 [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
 }
-.tooltipRight-2TSb42.tooltip-14MtrL /* server name tooltip */{
+.tooltipRight-1UPNyA.tooltip-33Jwqe /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight-2TSb42>.tooltipPointer-3L49xb /* little arrow for tooltip */{
+.tooltipRight-1UPNyA>.tooltipPointer-sMBQqe /* little arrow for tooltip */{
     opacity: 0;
 }
 .unreadMentionsIndicatorTop-2bTgUU /* new message red popup bottom */,

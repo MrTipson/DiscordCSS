@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 MrTipson
+Copyright (c) 2023 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,7 @@ SOFTWARE.
     z-index: 101;
     overflow: unset;
 }
-.guilds-2JjMmN .scroller-3X7KbA.none-2-_0dP.scrollerBase-_bVAAt /* inner server bar - the one that scrolls */{
+.guilds-2JjMmN .scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 .expandedFolderBackground-1kSAf6 /* prevent this from extending all the way */{

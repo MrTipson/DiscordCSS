@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 MrTipson
+Copyright (c) 2023 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -85,16 +85,16 @@ SOFTWARE.
 .list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(9n) .avatarContainer-3FF_Km{animation: move 3.6s linear 0s infinite forwards;}
 .list-2x9Cl9.list-2kKmFw.listDefault-2F-w65>:nth-child(10n) .avatarContainer-3FF_Km{animation: move 4s linear 0s infinite forwards;}
 /* Avatars in dms */
-.content-2a4AW9>:nth-child(n)  .wrapper-1VLyxH{animation: move 1s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(2n) .wrapper-1VLyxH{animation: move 1.6s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(3n) .wrapper-1VLyxH{animation: move 1.3s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(4n) .wrapper-1VLyxH{animation: move 2.6s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(5n) .wrapper-1VLyxH{animation: move 2.3s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(6n) .wrapper-1VLyxH{animation: move 3.3s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(7n) .wrapper-1VLyxH{animation: move 4s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(8n) .wrapper-1VLyxH{animation: move 2s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(9n) .wrapper-1VLyxH{animation: move 3.6s linear 0s infinite forwards;}
-.content-2a4AW9>:nth-child(10n) .wrapper-1VLyxH{animation: move 3s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(n)  .wrapper-1VLyxH{animation: move 1s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(2n) .wrapper-1VLyxH{animation: move 1.6s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(3n) .wrapper-1VLyxH{animation: move 1.3s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(4n) .wrapper-1VLyxH{animation: move 2.6s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(5n) .wrapper-1VLyxH{animation: move 2.3s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(6n) .wrapper-1VLyxH{animation: move 3.3s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(7n) .wrapper-1VLyxH{animation: move 4s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(8n) .wrapper-1VLyxH{animation: move 2s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(9n) .wrapper-1VLyxH{animation: move 3.6s linear 0s infinite forwards;}
+.content-yjf30S>:nth-child(10n) .wrapper-1VLyxH{animation: move 3s linear 0s infinite forwards;}
 @keyframes move {
 0%   {transform: translate(0,0) rotate(3deg);}
 25%  {transform: translate(2px,0) rotate(-6deg);}

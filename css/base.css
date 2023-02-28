@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 MrTipson
+Copyright (c) 2023 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -56,7 +56,7 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.auto-2K3UW5.scrollerBase-_bVAAt /* online friends, nitro, chat messages */{
+.auto-2TJ1RH.scrollerBase-1Pkza4 /* online friends, nitro, chat messages */{
     overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 /*-----
@@ -117,7 +117,6 @@ Adding missing styling to modals, context menus
 .userTagUsernameNoNickname-2e_xaO /* short user profile name (no nickname)*/{
     color: var(--header-secondary) !important;
 }
-.footer-31IekZ /* folder settings */,
 .guildSection-2Zyzy8 /* emote description footer */,
 .modal-3Hrb0S /* change log */,
 .uploadModal-2ie9O_ /* upload a file */,
@@ -125,8 +124,6 @@ Adding missing styling to modals, context menus
 .container-2RRFHK /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
-.layerContainer-2v_Sit .quickSelectPopout-2F0PXw /* call region dropdown */,
-.layerContainer-2v_Sit .root-g14mjS /* join a server, folder settings (any modal popup, really) */,
 .container-1ILvLB section /* rtc connnection debug */,
 .form-3gdLxP .autocomplete-3NRXG8 /* mention autocomplete user list*/{
     background-color: var(--background-floating);

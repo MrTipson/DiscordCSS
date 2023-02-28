@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2021 MrTipson
+Copyright (c) 2023 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -32,8 +32,8 @@ Positioning
 [aria-label="User area"] /* user info, call controls */,
 .scroller-WSmht3 /* direct messages */,
 .nowPlayingColumn-1eCBCN /* friends playing games */,
-.content-1SgpWY>.sidebar-1tnWFu>.thin-31rlnD.scrollerBase-_bVAAt /* discover categories */,
-.scroller-3j5xK2.auto-2K3UW5.scrollerBase-_bVAAt /* explore servers */,
+.content-1SgpWY>.sidebar-1tnWFu>.thin-RnSY0a.scrollerBase-1Pkza4 /* discover categories */,
+.scroller-3j5xK2.auto-2TJ1RH.scrollerBase-1Pkza4 /* explore servers */,
 .peopleColumn-1wMU14 /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
@@ -42,8 +42,8 @@ Positioning
 .withTagless-10ooWt /* user info (next to call controls) */ {
     min-width: unset;
 }
-.pageWrapper-2PwDoS>.scroller-3j5xK2.auto-2K3UW5.scrollerBase-_bVAAt /* explore servers */,
-.applicationStore-2nk7Lo .scroller-29cQFV.auto-2K3UW5.scrollerBase-_bVAAt /* nitro screen */{
+.pageWrapper-2PwDoS>.scroller-3j5xK2.auto-2TJ1RH.scrollerBase-1Pkza4 /* explore servers */,
+.applicationStore-2nk7Lo .scroller-29cQFV.auto-2TJ1RH.scrollerBase-1Pkza4 /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
