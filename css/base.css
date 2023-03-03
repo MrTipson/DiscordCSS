@@ -37,6 +37,8 @@ SOFTWARE.
     --background-dropdown:var(--background-floating) /* background of options in a dropdown */;
     --background-primary-extra: var(--background-primary);
     --background-mentioned-before: #faa61a /* default value in discord */;
+	/* make discord use our modal variable */
+	--modal-background: var(--background-modal);
 }
 /*-----
 Main color
