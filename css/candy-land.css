@@ -125,8 +125,8 @@ Colors
 .categoryItem-Kc_HK_.selectedCategoryItem-ZjqSui .itemInner-3e_4G4 /* selected discover category */{
     background-color: var(--background-modifier-selected);
 }
-.sidebar-nqHbhN .themed-2-lozF.item-3XjbnG:active /* user setting tab :active selector */,
-.sidebar-nqHbhN .themed-2-lozF.selected-g-kMVV.item-3XjbnG /* selected user setting tab */,
+.sidebar-nqHbhN .themed-qqoYp3.item-2GWPIy:active /* user setting tab :active selector */,
+.sidebar-nqHbhN .themed-qqoYp3.selected-1sf9UK.item-2GWPIy /* selected user setting tab */,
 .selectedCategoryItem-ZjqSui.container-1oeRFJ:active /* selected discover servers category */{
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);

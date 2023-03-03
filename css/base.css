@@ -45,8 +45,8 @@ Main color
 .circleIconButton-1VxDrg.selected-2r1Hvo /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
-.wrapper-28eC3z.selected-1Drb7Z .childWrapper-1j_1ub /* discord icon selected */,
-.wrapper-28eC3z:hover .childWrapper-1j_1ub /* discord icon hovered */{
+.wrapper-2PSQCG.selected-1Drb7Z .childWrapper-1j_1ub /* discord icon selected */,
+.wrapper-2PSQCG:hover .childWrapper-1j_1ub /* discord icon hovered */{
       color: #fff;
       background-color: var(--color-main);
 }
@@ -278,12 +278,7 @@ Translucent Tweaks
 /*-----
 Text overrides
 -----*/
-.selected-2xa993 /* tabs in screen share */{
-    color: var(--text-normal) !important;
-    border-bottom-color: var(--background-modifier-accent) !important;
-}
-.container-2zEtSe /* tab not selected in screen share */,
-.item-3XjbnG /* debug headings */,
+.item-2GWPIy /* debug headings */,
 .emptyStateHeader-Wexj4l /* title of text of "no gifts" */,
 .gameName-zbZetm /* game name in game activity */,
 .container-1ILvLB section strong{
