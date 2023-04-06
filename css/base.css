@@ -116,7 +116,7 @@ Seperate styling for code markup and embed
 /*-----
 Adding missing styling to modals, context menus
 -----*/
-.userTagUsernameNoNickname-2e_xaO /* short user profile name (no nickname)*/{
+.userTagUsernameNoNickname-2lKUnI /* short user profile name (no nickname)*/{
     color: var(--header-secondary) !important;
 }
 .guildSection-2Zyzy8 /* emote description footer */,
@@ -142,7 +142,7 @@ New home features
 /*-----
 Short user profile gradients (non-nitro)
 -----*/
-.userProfileInnerThemedNonPremium-1gT-zY /* short user profile */{
+.userProfileInnerThemedNonPremium-2AJg-H /* short user profile */{
     --profile-gradient-primary-color: var(--background-floating);
     --profile-gradient-secondary-color: var(--background-floating);
 }
