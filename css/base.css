@@ -126,6 +126,7 @@ Adding missing styling to modals, context menus
 .container-2RRFHK /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
+.contentWrapper-2f9yME /* reaction emotes popup */,
 .container-1ILvLB section /* rtc connnection debug */,
 .form-3gdLxP .autocomplete-3NRXG8 /* mention autocomplete user list*/{
     background-color: var(--background-floating);
