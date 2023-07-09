@@ -68,11 +68,11 @@ SOFTWARE.
     display:flex;
 }
 .sidebar-1tnWFu:hover .overflow-1wOqNV /* category name */,
-.sidebar-1tnWFu:hover .channelName-3KPsGw /* channel names */{
+.sidebar-1tnWFu:hover .name-28HaxV /* channel names */{
     text-overflow: ellipsis;
 }
 .overflow-1wOqNV /* category name */,
-.channelName-3KPsGw /* channel names */{
+.name-28HaxV /* channel names */{
     text-overflow: clip;
 }
 .sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .gameWrapper-2TFy7F /* icon/name of currently shared window */,
@@ -83,9 +83,9 @@ SOFTWARE.
 .avatarWrapper-1B9FTW /* user profile */{
     padding: var(--ds-padding-icon);
 }
-.sidebar-1tnWFu .content-1gYQeQ /* channel */{
-    padding: 0;
+.sidebar-1tnWFu .link-1_kTxV /* channel */{
+    padding: 6px 0px;
 }
-.sidebar-1tnWFu:hover .content-1gYQeQ /* channel */{
-    padding: 0 8px;
+.sidebar-1tnWFu:hover .link-1_kTxV /* channel */{
+    padding: 6px 8px;
 }

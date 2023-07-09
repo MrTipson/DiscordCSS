@@ -37,12 +37,12 @@ SOFTWARE.
     padding: 0;
 }
 /* Channel margin/background transition */
-.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .content-1gYQeQ /* selected text channel */,
-.containerDefault-YUSmu3:hover .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .content-1gYQeQ/* any text channel */{
+.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .link-1_kTxV /* selected text channel */,
+.containerDefault-YUSmu3:hover .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .link-1_kTxV/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
-.content-1gYQeQ /* text channel*/{
+.link-1_kTxV /* text channel*/{
     border-radius: 0px;
     margin-left: var(--csu-init-margin);
     transition: margin-left var(--csu-anim-duration) var(--csu-anim-transition), background-color var(--csu-anim-duration);
@@ -71,10 +71,10 @@ SOFTWARE.
     transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
 }
 /* Background */
-.wrapper-NhbLHG:hover .content-1gYQeQ /* text channel */{
+.wrapper-NhbLHG:hover .link-1_kTxV /* text channel */{
     background-color: var(--csu-bg-hover);
 }
-.modeSelected-3DmyhH .content-1gYQeQ /* text channel */,
-.modeSelected-3DmyhH:hover .content-1gYQeQ /* text channel */{
+.modeSelected-3DmyhH .link-1_kTxV /* text channel */,
+.modeSelected-3DmyhH:hover .link-1_kTxV /* text channel */{
     background-color: var(--csu-bg-selected);
 }
