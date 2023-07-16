@@ -35,6 +35,7 @@ SOFTWARE.
 
 .containerDefault-YUSmu3 .wrapper-NhbLHG /* channel padding*/{
     padding: 0;
+    margin-left: 0;
 }
 /* Channel margin/background transition */
 .containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .link-1_kTxV /* selected text channel */,
@@ -54,6 +55,7 @@ SOFTWARE.
     border-radius: 0px;
     top: unset;
     margin-top: unset;
+    left: 0;
 }
 /* Bumper */
 .containerDefault-YUSmu3:hover .wrapper-NhbLHG::before /* text channel */,
