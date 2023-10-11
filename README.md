@@ -34,6 +34,14 @@ Stylesheets are listed, along with images on the wiki page [Stylesheets](docs/st
 Finished themes can be found in the [examples](examples/).\
 These are their own stylesheets that provide a unique look incorporating various core stylesheets from this repository.
 
+# Dev tools (windows desktop app)
+
+Dev tools in the desktop app are locked behind a flag in the `%appdata%/discord/settings.json` file (AppData/Roaming).
+```json
+"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
+```
+
+
 # License
 
 This project is licensed under [the MIT license](https://github.com/MrTipson/DiscordCSS/blob/HEAD/LICENSE).
