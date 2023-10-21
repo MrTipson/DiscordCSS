@@ -79,7 +79,9 @@ Positioning
 .container-2cd8Mz /* friends tab, active friends */{
     padding-top:10px !important;
 }
-.sidebar-1tnWFu /* sidebar (server, channels) */{
+.sidebar-1tnWFu /* sidebar (server, channels) */,
+.container-3s2w-i /* thread (split view) */,
+.chat-9g_3Xj.threadSidebarOpen-lv7sGl /* chat with thread sidebar open */{
     border-radius:unset !important;
 }
 [aria-label="Channel header"] /* top bar (channel name, search, icons) */,
@@ -89,7 +91,7 @@ Positioning
     border-radius: 8px;
     box-shadow: var(--elevation-low);
 }
-.container-3XgAHv /* thread sidebar */{
+.container-3s2w-i /* thread sidebar (split view) */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
@@ -183,7 +185,8 @@ MISC
 -----*/
 .form-3qe0Ni:before /* gradient next to message input */,
 .tabBody-2dgbAs::before /* shadow under top bar (friends) */,
-.content-18rAwf::before /* shadow under top bar (channel/thread name) */{
+.content-18rAwf::before /* shadow under top bar (channel/thread name) */,
+.chat-1-OBC7::before /* shadow under top bar (thread split view) */{
     display: none;
 }
 [aria-label="User area"] .button-ejjZWC /* screen share button */{
