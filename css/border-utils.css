@@ -30,9 +30,9 @@ SOFTWARE.
     --bu-image-outset: 0;
     --bu-image-repeat: round;
 }
-.chatContent-3KubbW /* chat */,
-.membersWrap-3NUR2t /* server members */,
-.title-31SJ6t /* top bar - channel name, description, search */,
+.chatContent-2O4SXb /* chat */,
+.membersWrap-3GwLFp /* server members */,
+[aria-label="Channel header"] /* top bar - channel name, description, search (selecotr used to be .title)*/,
 .sidebar-1tnWFu > nav /* channels, dms */,
 .guilds-2JjMmN /* servers */,
 .applicationStore-2nk7Lo /* nitro tab */,

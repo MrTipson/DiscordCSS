@@ -128,7 +128,7 @@ Adding missing styling to modals, context menus
 }
 .contentWrapper-2f9yME /* reaction emotes popup */,
 .container-1ILvLB section /* rtc connnection debug */,
-.form-3gdLxP .autocomplete-3NRXG8 /* mention autocomplete user list*/{
+.form-3qe0Ni .autocomplete-3NRXG8 /* mention autocomplete user list*/{
     background-color: var(--background-floating);
 }
 /*-----
@@ -273,9 +273,9 @@ Translucent Tweaks
     display: none;
 }
 /* These seem to be new additions using --bg-overlay-chat, but dont play well with other styles */
-.chatContent-3KubbW /* chat container */,
-.member-48YF_l /* server member */,
-.theme-light .container-YkUktl, .theme-dark .container-YkUktl /* profile/mute/settings */{
+.chatContent-2O4SXb /* chat container */,
+.member-2iQhp7 /* server member */,
+.theme-light .container-1CH86i, .theme-dark .container-1CH86i /* profile/mute/settings */{
 	background: unset;
 }
 /*-----
@@ -317,7 +317,7 @@ Online friends
     background-color: var(--background-modifier-selected) !important;
 }
 .container-2cd8Mz /* friends tab */,
-.pageWrapper-2PwDoS /* discover servers */{
+.pageWrapper-eg3-6i /* discover servers */{
     background-color: var(--background-primary) !important;
 }
 /*-----

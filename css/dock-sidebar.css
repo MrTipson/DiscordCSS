@@ -44,25 +44,25 @@ SOFTWARE.
     opacity: 0;
 }
 .sidebar-1tnWFu .children-1MGS9G /* invite/settings buttons for channel */,
-.sidebar-1tnWFu .inner-llGtyq+.flex-3BkGQD /* voice connected */,
-.actionButtons-2vEOUh /* camera/share screen */,
-[aria-label="User area"] > .panel-2ZFCRb .info-88fTUI /* name of currently shared window */,
-[aria-label="User area"] > .panel-2ZFCRb .actions-zk2vB_/* sharing screen */,
+.sidebar-1tnWFu .inner-C_MH0f+.flex-3BkGQD /* voice connected */,
+.actionButtons-1DmM2g /* camera/share screen */,
+[aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
+[aria-label="User area"] > .panel-ufc1-o .actions-_dBVGH/* sharing screen */,
 .children-3MeUvj /* create channel button */,
 .containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
     display: none;
 }
-.container-YkUktl /* profile image/mute/deafen/settings */{
+.container-1CH86i /* profile image/mute/deafen/settings */{
 	overflow: hidden;
 }
 .sidebar-1tnWFu:hover .unread-XRkyaQ /* unread bar */{
     opacity: 0.9;
 }
 .sidebar-1tnWFu:hover .children-1MGS9G /* invite/settings buttons for channel */,
-.sidebar-1tnWFu:hover .inner-llGtyq+.flex-3BkGQD /* voice connected */,
-.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .info-88fTUI /* name of currently shared window */,
-.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .actions-zk2vB_ /* stop sharing button */,
-.sidebar-1tnWFu:hover .actionButtons-2vEOUh /* camera/share screen */,
+.sidebar-1tnWFu:hover .inner-C_MH0f+.flex-3BkGQD /* voice connected */,
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-ufc1-o .actions-zk2vB_ /* stop sharing button */,
+.sidebar-1tnWFu:hover .actionButtons-1DmM2g /* camera/share screen */,
 .sidebar-1tnWFu:hover .children-3MeUvj /* create channel button */,
 .sidebar-1tnWFu:hover .containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
     display:flex;
@@ -75,11 +75,11 @@ SOFTWARE.
 .name-28HaxV /* channel names */{
     text-overflow: clip;
 }
-.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-2ZFCRb .gameWrapper-2TFy7F /* icon/name of currently shared window */,
+.sidebar-1tnWFu:hover [aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
 .sidebar-1tnWFu:hover .avatarWrapper-1B9FTW /* user profile picture (bottom left) */{
     padding: 0;
 }
-[aria-label="User area"] > .panel-2ZFCRb .gameWrapper-2TFy7F /* icon/name of currently shared window */,
+[aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
 .avatarWrapper-1B9FTW /* user profile */{
     padding: var(--ds-padding-icon);
 }
