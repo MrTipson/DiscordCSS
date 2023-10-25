@@ -47,8 +47,8 @@ Main color
 .circleIconButton-1VxDrg.selected-2r1Hvo /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
-.wrapper-2PSQCG.selected-1Drb7Z .childWrapper-1j_1ub /* discord icon selected */,
-.wrapper-2PSQCG:hover .childWrapper-1j_1ub /* discord icon hovered */{
+.wrapper-2PSQCG.selected_f5ec8e .childWrapper__01b9c /* discord icon selected */,
+.wrapper-2PSQCG:hover .childWrapper__01b9c /* discord icon hovered */{
       color: #fff;
       background-color: var(--color-main);
 }
@@ -58,7 +58,7 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.auto-2TJ1RH.scrollerBase-1Pkza4 /* online friends, nitro, chat messages */{
+.auto_a48086.scrollerBase_dc3aa9 /* online friends, nitro, chat messages */{
     overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 /*-----
@@ -128,7 +128,7 @@ Adding missing styling to modals, context menus
 }
 .contentWrapper-2f9yME /* reaction emotes popup */,
 .container-1ILvLB section /* rtc connnection debug */,
-.form-3qe0Ni .autocomplete-3NRXG8 /* mention autocomplete user list*/{
+.form__13a2c .autocomplete-3NRXG8 /* mention autocomplete user list*/{
     background-color: var(--background-floating);
 }
 /*-----
@@ -248,7 +248,7 @@ Split background-primary variable
 .messageContainer-3VTXBC /* message in mentions */,
 .messages-23can0 /* messages in unreads */,
 .wrapper-2vIMkT /* buttons on message hover */,
-.childWrapper-1j_1ub /* home icon in the server bar */,
+.childWrapper__01b9c /* home icon in the server bar */,
 .circleIconButton-1VxDrg /* circle buttons in the server bar */{
     background-color: var(--background-primary-extra);
 }
@@ -273,15 +273,15 @@ Translucent Tweaks
     display: none;
 }
 /* These seem to be new additions using --bg-overlay-chat, but dont play well with other styles */
-.chatContent-2O4SXb /* chat container */,
+.chatContent__5dca8 /* chat container */,
 .member-2iQhp7 /* server member */,
-.theme-light .container-1CH86i, .theme-dark .container-1CH86i /* profile/mute/settings */{
+.theme-light .container_ca50b9, .theme-dark .container_ca50b9 /* profile/mute/settings */{
 	background: unset;
 }
 /*-----
 Text overrides
 -----*/
-.item-2GWPIy /* debug headings */,
+.item__48dda /* debug headings */,
 .emptyStateHeader-Wexj4l /* title of text of "no gifts" */,
 .gameName-zbZetm /* game name in game activity */,
 .container-1ILvLB section strong{
@@ -316,8 +316,8 @@ Online friends
 .inset-SbsSFp /* active friends - activity */{
     background-color: var(--background-modifier-selected) !important;
 }
-.container-2cd8Mz /* friends tab */,
-.pageWrapper-eg3-6i /* discover servers */{
+.container__5c7e7 /* friends tab */,
+.pageWrapper_fef757 /* discover servers */{
     background-color: var(--background-primary) !important;
 }
 /*-----
@@ -385,7 +385,7 @@ Forums
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
 -----*/
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentRegionScroller-2_GT_N /* outer wierd scroller */,
+[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentRegionScroller__86c79 /* outer wierd scroller */,
 [aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .scroller-39BnzZ /* permissions scroller */{
     overflow: hidden !important;
 }
@@ -403,8 +403,8 @@ Edit roles scrollbar fix
     position: relative;
     box-shadow: none;
 }
-[aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ .stickyHeader-1Sunlx /* Remove background from headers (role permissions) */,
-[aria-label="GUILD_SETTINGS"] .contentRegion-3HkfJJ .titleContainer-16mFj2 /* Remove background from headers (role permissions) */{
+[aria-label="GUILD_SETTINGS"] .contentRegion__0bec1 .stickyHeader-1Sunlx /* Remove background from headers (role permissions) */,
+[aria-label="GUILD_SETTINGS"] .contentRegion__0bec1 .titleContainer-16mFj2 /* Remove background from headers (role permissions) */{
     background-color: unset;
 }
 .permissionsWrapper-34gbP6 /* permissions wrapper */{
@@ -441,10 +441,10 @@ MISC
 .input-3r5zZY::placeholder{
     color: var(--text-normal);
 }
-.platform-win .sidebar-1tnWFu /* server channels sidebar */{
+.platform-win .sidebar_ded4b5 /* server channels sidebar */{
     border-radius: unset;
 }
-.guilds-2JjMmN /* server bar */{
+.guilds__2b93a /* server bar */{
     box-sizing: border-box;
 }
 /* -- Join/Add server  -- */

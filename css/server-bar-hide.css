@@ -25,17 +25,17 @@ SOFTWARE.
     --sb-collapsed-width: 10px;
     --sb-transition-duration: .5s;
 }
-.guilds-2JjMmN /* servers */{
+.guilds__2b93a /* servers */{
     overflow: hidden !important;
     width: var(--sb-collapsed-width, 72px);
     transition: width var(--sb-transition-duration);
 }
-.guilds-2JjMmN:hover /* expand server bar on hover */{
+.guilds__2b93a:hover /* expand server bar on hover */{
     width: 72px;
     overflow: visible !important;
     animation: server-bar-overflow 0s linear 250ms forwards
 }
-.guilds-2JjMmN ~ .base-2jDfDU /* friends list, chat */{
+.guilds__2b93a ~ .base__3e6af /* friends list, chat */{
     position: absolute;
     left: var(--sb-collapsed-left, var(--sb-collapsed-width));
     top: var(--sb-collapsed-top, 0px);
@@ -44,7 +44,7 @@ SOFTWARE.
     transition-property: var(--sb-transition-property, left);
     transition-duration: var(--sb-transition-duration);
 }
-.guilds-2JjMmN:hover ~ .base-2jDfDU /* friends list, chat */{
+.guilds__2b93a:hover ~ .base__3e6af /* friends list, chat */{
     position: absolute;
     left: var(--sb-left, 72px);
     top: var(--sb-top, 0px);

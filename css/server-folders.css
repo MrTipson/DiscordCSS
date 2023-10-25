@@ -30,11 +30,11 @@ SOFTWARE.
     --folder-offset: 0px /* offset from the top */;
 }
 
-.guilds-2JjMmN /* the whole server bar (<nav>)*/{
+.guilds__2b93a /* the whole server bar (<nav>)*/{
     z-index: 101;
     overflow: unset;
 }
-.guilds-2JjMmN .scroller-3X7KbA.none-1rXy4P.scrollerBase-1Pkza4 /* inner server bar - the one that scrolls */{
+.guilds__2b93a .scroller-3X7KbA.none-1rXy4P.scrollerBase_dc3aa9 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 .expandedFolderBackground-1kSAf6 /* prevent this from extending all the way */{
