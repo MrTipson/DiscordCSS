@@ -28,7 +28,7 @@ jobs:
 
       - name: Download CSS file
         run: |
-          wget -O stylesheet.txt discord.com/assets/$(curl --list-only https://discord.com/app | grep -o "stylesheet.*/>" | cut -d " " -f2 | cut -d "/" -f3 | sed s/\"//)
+          wget -O stylesheet.txt discord.com/$(curl --list-only https://discord.com/app | grep -o "<.*stylesheet.*/>" | cut -d " " -f2 | cut -d \" -f2)
 
       - name: Parse discord stylesheet
         run: |
