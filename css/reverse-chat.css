@@ -32,27 +32,27 @@ SOFTWARE.
 .messagesWrapper_ea2b0b /* chat messages */{
     transform: rotateX(180deg);
 }
-.messagesWrapper_ea2b0b .scrollerInner-2PPAp2 > * /* all chat content */{
+.messagesWrapper_ea2b0b .scrollerInner__059a5 > * /* all chat content */{
     transform: rotateX(-180deg);
 }
-.messagesWrapper_ea2b0b .scrollerInner-2PPAp2:first-child /* messages */{
+.messagesWrapper_ea2b0b .scrollerInner__059a5:first-child /* messages */{
     margin-bottom: 24px;
 }
 .messagesWrapper_ea2b0b .scrollerSpacer__9cd32 /* spacer after the last message */{
     display: none;
 }
 .jumpToPresentBar__0ff7f /* jump to present */,
-.newMessagesBar-1hF-9G /* new messages bar (mark as read) */{
+.newMessagesBar__8b6d7 /* new messages bar (mark as read) */{
     transform: rotateX(-180deg);
 }
 .jumpToPresentBar__0ff7f /* jump to present (messages) */{
     top: 0px;
 }
-.newMessagesBar-1hF-9G /* mark as read (messages) */{
+.newMessagesBar__8b6d7 /* mark as read (messages) */{
     bottom: 0px;
     top: unset;
 }
-.positionContainer-dMArNx /* emoji bar */{
+.positionContainer__0c914 /* emoji bar */{
     bottom: unset;
     margin-top: 20px;
 }

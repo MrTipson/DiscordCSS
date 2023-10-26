@@ -34,7 +34,7 @@ SOFTWARE.
     z-index: 101;
     overflow: unset;
 }
-.guilds__2b93a .scroller-3X7KbA.none-1rXy4P.scrollerBase_dc3aa9 /* inner server bar - the one that scrolls */{
+.guilds__2b93a .scroller__3d071.none__51a8f.scrollerBase_dc3aa9 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 .expandedFolderBackground__1bec6 /* prevent this from extending all the way */{
@@ -60,7 +60,7 @@ ul[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-ul[id^="folder"] > .listItem-3SmSlK /* each item in the folder */{
+ul[id^="folder"] > .listItem_fa7b36 /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }

@@ -37,19 +37,19 @@ SOFTWARE.
     width: 240px;
 }
 /* Visual corrections */
-.list-2x9Cl9 /* users in voice channel */{
+.list__02208 /* users in voice channel */{
     padding-left: var(--ds-padding-user);
 }
 .unread-XRkyaQ /* unread bar */{
     opacity: 0;
 }
-.sidebar_ded4b5 .children-1MGS9G /* invite/settings buttons for channel */,
+.sidebar_ded4b5 .children_a486f8 /* invite/settings buttons for channel */,
 .sidebar_ded4b5 .inner-C_MH0f+.flex-2S1XBF /* voice connected */,
 .actionButtons-1DmM2g /* camera/share screen */,
 [aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
 [aria-label="User area"] > .panel-ufc1-o .actions-_dBVGH/* sharing screen */,
 .children-3MeUvj /* create channel button */,
-.containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
+.containerDefault__3187b .iconContainer__3f9b0 /* server channel icons */{
     display: none;
 }
 .container_ca50b9 /* profile image/mute/deafen/settings */{
@@ -58,34 +58,34 @@ SOFTWARE.
 .sidebar_ded4b5:hover .unread-XRkyaQ /* unread bar */{
     opacity: 0.9;
 }
-.sidebar_ded4b5:hover .children-1MGS9G /* invite/settings buttons for channel */,
+.sidebar_ded4b5:hover .children_a486f8 /* invite/settings buttons for channel */,
 .sidebar_ded4b5:hover .inner-C_MH0f+.flex-2S1XBF /* voice connected */,
 .sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
 .sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .actions-_dBVGH /* stop sharing button */,
 .sidebar_ded4b5:hover .actionButtons-1DmM2g /* camera/share screen */,
 .sidebar_ded4b5:hover .children-3MeUvj /* create channel button */,
-.sidebar_ded4b5:hover .containerDefault-YUSmu3 .iconContainer-21RCa3 /* server channel icons */{
+.sidebar_ded4b5:hover .containerDefault__3187b .iconContainer__3f9b0 /* server channel icons */{
     display:flex;
 }
-.sidebar_ded4b5:hover .overflow-1wOqNV /* category name */,
-.sidebar_ded4b5:hover .name-28HaxV /* channel names */{
+.sidebar_ded4b5:hover .overflow__87fe8 /* category name */,
+.sidebar_ded4b5:hover .name__8d1ec /* channel names */{
     text-overflow: ellipsis;
 }
-.overflow-1wOqNV /* category name */,
-.name-28HaxV /* channel names */{
+.overflow__87fe8 /* category name */,
+.name__8d1ec /* channel names */{
     text-overflow: clip;
 }
 .sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
-.sidebar_ded4b5:hover .avatarWrapper-12uuu4 /* user profile picture (bottom left) */{
+.sidebar_ded4b5:hover .avatarWrapper_ba5175 /* user profile picture (bottom left) */{
     padding: 0;
 }
 [aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
-.avatarWrapper-12uuu4 /* user profile */{
+.avatarWrapper_ba5175 /* user profile */{
     padding: var(--ds-padding-icon);
 }
-.sidebar_ded4b5 .link-1_kTxV /* channel */{
+.sidebar_ded4b5 .link__95dc0 /* channel */{
     padding: 6px 0px;
 }
-.sidebar_ded4b5:hover .link-1_kTxV /* channel */{
+.sidebar_ded4b5:hover .link__95dc0 /* channel */{
     padding: 6px 8px;
 }

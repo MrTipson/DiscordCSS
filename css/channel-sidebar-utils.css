@@ -33,23 +33,23 @@ SOFTWARE.
     --csu-bg-selected: var(--background-modifier-selected);
 }
 
-.containerDefault-YUSmu3 .wrapper-NhbLHG /* channel padding*/{
+.containerDefault__3187b .wrapper__7bcde /* channel padding*/{
     padding: 0;
     margin-left: 0;
 }
 /* Channel margin/background transition */
-.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .link-1_kTxV /* selected text channel */,
-.containerDefault-YUSmu3:hover .wrapper-NhbLHG:not(.typeThread-2Aqh6X) > .link-1_kTxV/* any text channel */{
+.containerDefault__3187b.selected__3b4cb > .wrapper__7bcde:not(.typeThread__2f91c) .link__95dc0 /* selected text channel */,
+.containerDefault__3187b:hover .wrapper__7bcde:not(.typeThread__2f91c) > .link__95dc0/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
-.link-1_kTxV /* text channel*/{
+.link__95dc0 /* text channel*/{
     border-radius: 0px;
     margin-left: var(--csu-init-margin);
     transition: margin-left var(--csu-anim-duration) var(--csu-anim-transition), background-color var(--csu-anim-duration);
 }
 /* Unread */
-.unread-36eUEm /* unread dot before a text channel */{
+.unread__48cf4 /* unread dot before a text channel */{
     height: 100%;
     width: var(--csu-unread-width);
     border-radius: 0px;
@@ -58,12 +58,12 @@ SOFTWARE.
     left: 0;
 }
 /* Bumper */
-.containerDefault-YUSmu3:hover .wrapper-NhbLHG::before /* text channel */,
-.containerDefault-YUSmu3.selected-2TbFuo .wrapper-NhbLHG:before /* selected text channel */{
+.containerDefault__3187b:hover .wrapper__7bcde::before /* text channel */,
+.containerDefault__3187b.selected__3b4cb .wrapper__7bcde:before /* selected text channel */{
     padding-right: var(--csu-bumper-width);
     transition: none;
 }
-.containerDefault-YUSmu3 .wrapper-NhbLHG:before /* text channel */{
+.containerDefault__3187b .wrapper__7bcde:before /* text channel */{
     content: "";
     display:inline-block;
     background: var(--csu-bumper-color);
@@ -73,10 +73,10 @@ SOFTWARE.
     transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
 }
 /* Background */
-.wrapper-NhbLHG:hover .link-1_kTxV /* text channel */{
+.wrapper__7bcde:hover .link__95dc0 /* text channel */{
     background-color: var(--csu-bg-hover);
 }
-.modeSelected-3DmyhH .link-1_kTxV /* text channel */,
-.modeSelected-3DmyhH:hover .link-1_kTxV /* text channel */{
+.modeSelected__487d6 .link__95dc0 /* text channel */,
+.modeSelected__487d6:hover .link__95dc0 /* text channel */{
     background-color: var(--csu-bg-selected);
 }
