@@ -44,7 +44,7 @@ SOFTWARE.
 Main color
 -----*/
 .searchFilter-2UfsDk /* Search bar filter (from: ,in:) */,
-.circleIconButton-1VxDrg.selected-2r1Hvo /* find new communities selected, add server hover */{
+.circleIconButton_d8df29.selected-2r1Hvo /* find new communities selected, add server hover */{
   background-color: var(--color-main) !important;
 }
 .wrapper-2PSQCG.selected_f5ec8e .childWrapper__01b9c /* discord icon selected */,
@@ -52,7 +52,7 @@ Main color
       color: #fff;
       background-color: var(--color-main);
 }
-.circleIconButton-1VxDrg /* add server/explore servers */{
+.circleIconButton_d8df29 /* add server/explore servers */{
     color: var(--color-main);
 }
 /*-----
@@ -64,25 +64,25 @@ Message scrollbar
 /*-----
 Progress bar
 -----*/
-.barInner-3dHef4 /* user profile spotify progression bar */{
+.barInner_d1abc6 /* user profile spotify progression bar */{
     background-color: var(--progress-track-full);
 }
-.bar-1GpknY /* user profile spotify whole bar */{
+.bar_e63719 /* user profile spotify whole bar */{
     background-color: var(--progress-track-empty);
 }
-.grabber-3R-Rx9 /* User volume thumb */{
+.grabber_d2868c /* User volume thumb */{
     background: var(--progress-thumb);
 }
-.barFill-3RgCsY /* user volume track - filled */{
+.barFill__30e17 /* user volume track - filled */{
     background: var(--progress-track-full);
 }
-.theme-dark .bar-2H7Q9u, .theme-light .bar-2H7Q9u/* user volume track - filled */{
+.theme-dark .bar_e58961, .theme-light .bar_e58961/* user volume track - filled */{
     background: var(--progress-track-empty);
 }
 /*-----
 Background
 -----*/
-.bg-1QIAus /* Full background */ {
+.bg__7adbf /* Full background */ {
     background-image: var(--background-image);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -128,7 +128,7 @@ Adding missing styling to modals, context menus
 }
 .contentWrapper-2f9yME /* reaction emotes popup */,
 .container-1ILvLB section /* rtc connnection debug */,
-.form__13a2c .autocomplete-3NRXG8 /* mention autocomplete user list*/{
+.form__13a2c .autocomplete_df266d /* mention autocomplete user list*/{
     background-color: var(--background-floating);
 }
 /*-----
@@ -136,7 +136,7 @@ New home features
 -----*/
 .background-fkKrXt /* home tabs */,
 .container-2IKOsH /* Body for home tabs */,
-.container-1um7CU /* Body for browse channels */,
+.container__11d72 /* Body for browse channels */,
 .header-3xB4vB /* Header for home tabs */ {
 	background-color: var(--background-primary) !important;
 }
@@ -192,11 +192,11 @@ Adding styling to the search dropdown
 .resultsGroup-cfY57t .searchLearnMore-1gNL3A a /* search options learn more icon */{
     color: var(--header-primary) !important;
 }
-.option-ayUoaq .answer-14OVbQ /* search params (name, channel, type) */,
+.option-ayUoaq .answer__9ff92 /* search params (name, channel, type) */,
 .option-ayUoaq .nonText-28q_Ot /* search params sometimes */,
 .option-ayUoaq strong /* search result channel */,
 .option-ayUoaq.user-1dKxvu .displayedNick-1atSpT /* search result user nickname */,
-.searchOption-3u1gRt .answer-14OVbQ /* search param placeholders */{
+.searchOption-3u1gRt .answer__9ff92 /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
 .hint-xfbpCV /* search hint */,
@@ -230,14 +230,13 @@ Override background color (fix translucent primary/secondary messing stuff up)
 -----*/
 .quickswitcher-pKcM9U /* quickswitcher */,
 .header-1w9Q93 /* mentions header */,
-.channelHeader-DFRX8q /* channel name in mentions */,
+.channelHeader__5d30c /* channel name in mentions */,
 .messagesPopoutWrap-3zryHW /* pinned messages */,
 .container-2ebMPP /* unreads inbox */,
 .wrapper-1NNaWG /* emoji picker server name */,
 .container-2kTWmC /* audit log filters */,
 .emojiPicker-6YCk8a /* emoji picker reaction */,
 .popout-TdhJ6Z /* more active threads popout*/,
-.container-18GwIk /* other active threads popout*/,
 .contentWrapper-3vHNP2 /* emoji picker */{
     background-color: var(--background-floating);
 }
@@ -249,7 +248,7 @@ Split background-primary variable
 .messages-23can0 /* messages in unreads */,
 .wrapper-2vIMkT /* buttons on message hover */,
 .childWrapper__01b9c /* home icon in the server bar */,
-.circleIconButton-1VxDrg /* circle buttons in the server bar */{
+.circleIconButton_d8df29 /* circle buttons in the server bar */{
     background-color: var(--background-primary-extra);
 }
 /*-----
@@ -269,7 +268,7 @@ Translucent Tweaks
     border-radius: 15px;
 }
 /* -- Impossible to use with translucent primary color -- */
-.children-3xh0VB:after /* top bar gradient next to toolbar icons */{
+.children__32014:after /* top bar gradient next to toolbar icons */{
     display: none;
 }
 /* These seem to be new additions using --bg-overlay-chat, but dont play well with other styles */
@@ -299,15 +298,14 @@ Text overrides
 /*-----
 Buttons
 -----*/
-.actionButton-1YKTU0 /* add role to user */{
+.actionButton__81eaa /* add role to user */{
     color: var(--interactive-normal) !important;
     border-color: var(--interactive-normal) !important;
 }
 /*-----
 Online friends
 -----*/
-.peopleListItem-u6dGxF.active-2UF8Zh /* online friends while clicking */,
-.peopleListItem-u6dGxF:hover /* online friends while hover */{
+.peopleListItem_d14722:hover /* online friends while hover */{
     border: 1px solid var(--background-modifier-accent);
 }
 .outer-2JOHae.interactive-2zD88a:hover /* active friends */{
@@ -323,7 +321,7 @@ Online friends
 /*-----
 Settings
 -----*/
-.codeRedemptionRedirect-2hYMSQ /* looking to redeem a discord key (billing) */{
+.codeRedemptionRedirect_bc7f36 /* looking to redeem a discord key (billing) */{
     color: var(--text-normal) !important;
     background-color: var(--background-primary) !important;
     border-color: var(--background-modifier-accent) !important;
@@ -333,14 +331,14 @@ Settings
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.closeButton-PCZcma /* close settings button */{
+.closeButton__34341 /* close settings button */{
     border-color: var(--interactive-normal) !important;
 }
 .card-2ART2V:before /* keybinds hover */{
     background-color: var(--background-modifier-hover) !important;
     border-color: var(--background-modifier-accent) !important;
 }
-.closeButton-PCZcma path /* close button x icon */{
+.closeButton__34341 path /* close button x icon */{
     fill: var(--interactive-normal);
 }
 .keybind-13vtq8 /* close button text */{
@@ -358,7 +356,7 @@ Settings
 .markDash-1ATsxA /* setting slider breakpoints */{
     background-color: var(--text-muted) !important;
 }
-.background-3d_SjE > .fieldList-in8WkP /* account info */{
+.background_b61fcc > .fieldList_aab0de /* account info */{
     background-color: unset;
 }
 .searchInput-2-KiNf /* notification overrides dropdown */{
@@ -448,11 +446,11 @@ MISC
     box-sizing: border-box;
 }
 /* -- Join/Add server  -- */
-.circleIconButton-1VxDrg /* back button in join server modal */{
+.circleIconButton_d8df29 /* back button in join server modal */{
     color: var(--text-normal);
     padding: 2px 8px;
 }
-.colorPickerSwatch-RTUGRR.noColor-1Oln62 /* folder settings picker border*/{
+.colorPickerSwatch__87597.noColor_bf5131 /* folder settings picker border*/{
     border-color: var(--background-modifier-accent) !important;
 }
 /* -- This excludes the download button and seperator from the discord online client --*/
@@ -471,10 +469,10 @@ MISC
     background-color: transparent;
 }
 .quickSelectPopout-2F0PXw .regionSelectName-1Tj9C9 /* region dropdown in call */,
-[aria-label="Notification Settings"] .channelName-IPB6B3 /* notification settings channel name*/,
-[aria-label="Notification Settings"] .override-1sK4r0 /* notification settings channel icon (#) */{
+[aria-label="Notification Settings"] .channelName_a1ccf5 /* notification settings channel name*/,
+[aria-label="Notification Settings"] .override_f2098b /* notification settings channel icon (#) */{
     color: var(--text-normal);
 }
-[aria-label="Notification Settings"] .guildName-1kreI8 /* notification settings server name */{
+[aria-label="Notification Settings"] .guildName_b9dc9e /* notification settings modal server name */{
     color: var(--header-secondary);
 }
