@@ -39,7 +39,7 @@ Positioning
     border-radius: 8px;
 }
 .withTagAsButton_cc125f /* user info (next to call controls) */,
-.withTagless-Lx3LMo /* user info (next to call controls) */ {
+.withTagless__98b7d /* user info (next to call controls) */ {
     min-width: unset;
 }
 .pageWrapper_fef757>.scroller__1f4dd.auto_a48086.scrollerBase_dc3aa9 /* explore servers */,
@@ -64,7 +64,7 @@ Positioning
     left: 0px;
     top: -21px;
 }
-.withFrame-1sEfxu /* top bar for dragging/closing */{
+.withFrame__485f4 /* top bar for dragging/closing */{
     margin-top: 0px;
     padding-top: 4px;
 }
@@ -136,13 +136,13 @@ Colors
 .categoryItem_b1be5c.selectedCategoryItem__0bf4c /* selected discover servers category */{
     color: var(--header-secondary);
 }
-.colorable-3rVGna.primaryDark-2UJt1G /* buttons in the call */{
+.colorable_c84c4c.primaryDark__6b700 /* buttons in the call */{
     background-color: var(--background-primary);
 }
-.colorable-3rVGna.primaryDark-2UJt1G:hover /* buttons in the call, hovered */{
+.colorable_c84c4c.primaryDark__6b700:hover /* buttons in the call, hovered */{
     background-color: var(--background-secondary);
 }
-.wrapper-1gVUIN /* call background */{
+.wrapper_bd2abe /* call background */{
     background-color: transparent !important;
 }
 .container__5c7e7 /* active friends */,
@@ -174,10 +174,10 @@ Settings
 Call
 Sadly there is some overlap with call.css but I think its better to do it this way
 */
-.root-22AK9z .gradientContainer-phMG8d /* call gradients */{
+.root__3eef0 .gradientContainer__9a5a6 /* call gradients */{
     opacity: 0;
 }
-.videoControls-353CsJ section /* header in the call screen */{
+.videoControls__40f61 section /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
 /*-----
@@ -189,12 +189,12 @@ MISC
 .chat_f8f70f::before /* shadow under top bar (thread split view) */{
     display: none;
 }
-[aria-label="User area"] .button-ejjZWC /* screen share button */{
+[aria-label="User area"] .button_afdfd9 /* screen share button */{
     padding: 2px 8px;
 }
 .header__104ca /* server name */{
     border-radius: 8px 8px 0px 0px;
 }
-.scroller-hE2gWq /* active friends */{
+.scroller__00e7e /* active friends */{
     border-left: none;
 }

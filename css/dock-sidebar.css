@@ -40,30 +40,30 @@ SOFTWARE.
 .list__02208 /* users in voice channel */{
     padding-left: var(--ds-padding-user);
 }
-.unread-XRkyaQ /* unread bar */{
+.unread__75c9f /* unread bar */{
     opacity: 0;
 }
 .sidebar_ded4b5 .children_a486f8 /* invite/settings buttons for channel */,
-.sidebar_ded4b5 .inner-C_MH0f+.flex-2S1XBF /* voice connected */,
-.actionButtons-1DmM2g /* camera/share screen */,
-[aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
-[aria-label="User area"] > .panel-ufc1-o .actions-_dBVGH/* sharing screen */,
-.children-3MeUvj /* create channel button */,
+.sidebar_ded4b5 .inner-C_MH0f+.flex_f5fbb7 /* voice connected */,
+.actionButtons_b58cbb /* camera/share screen */,
+[aria-label="User area"] > .panel_bd8c76 .info_c28002 /* name of currently shared window */,
+[aria-label="User area"] > .panel_bd8c76 .actions__9256d/* sharing screen */,
+.children_d4d259 /* create channel button */,
 .containerDefault__3187b .iconContainer__3f9b0 /* server channel icons */{
     display: none;
 }
 .container_ca50b9 /* profile image/mute/deafen/settings */{
 	overflow: hidden;
 }
-.sidebar_ded4b5:hover .unread-XRkyaQ /* unread bar */{
+.sidebar_ded4b5:hover .unread__75c9f /* unread bar */{
     opacity: 0.9;
 }
 .sidebar_ded4b5:hover .children_a486f8 /* invite/settings buttons for channel */,
-.sidebar_ded4b5:hover .inner-C_MH0f+.flex-2S1XBF /* voice connected */,
-.sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .info-2PZl4A /* name of currently shared window */,
-.sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .actions-_dBVGH /* stop sharing button */,
-.sidebar_ded4b5:hover .actionButtons-1DmM2g /* camera/share screen */,
-.sidebar_ded4b5:hover .children-3MeUvj /* create channel button */,
+.sidebar_ded4b5:hover .inner-C_MH0f+.flex_f5fbb7 /* voice connected */,
+.sidebar_ded4b5:hover [aria-label="User area"] > .panel_bd8c76 .info_c28002 /* name of currently shared window */,
+.sidebar_ded4b5:hover [aria-label="User area"] > .panel_bd8c76 .actions__9256d /* stop sharing button */,
+.sidebar_ded4b5:hover .actionButtons_b58cbb /* camera/share screen */,
+.sidebar_ded4b5:hover .children_d4d259 /* create channel button */,
 .sidebar_ded4b5:hover .containerDefault__3187b .iconContainer__3f9b0 /* server channel icons */{
     display:flex;
 }
@@ -75,11 +75,11 @@ SOFTWARE.
 .name__8d1ec /* channel names */{
     text-overflow: clip;
 }
-.sidebar_ded4b5:hover [aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
+.sidebar_ded4b5:hover [aria-label="User area"] > .panel_bd8c76 .gameWrapper__5b041 /* icon/name of currently shared window */,
 .sidebar_ded4b5:hover .avatarWrapper_ba5175 /* user profile picture (bottom left) */{
     padding: 0;
 }
-[aria-label="User area"] > .panel-ufc1-o .gameWrapper-1gvhsy /* icon/name of currently shared window */,
+[aria-label="User area"] > .panel_bd8c76 .gameWrapper__5b041 /* icon/name of currently shared window */,
 .avatarWrapper_ba5175 /* user profile */{
     padding: var(--ds-padding-icon);
 }

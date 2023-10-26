@@ -55,7 +55,7 @@ SOFTWARE.
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.guilds__2b93a.hidden-10MsGQ+.base__3e6af /* hide server bar when fullscreen */{
+.guilds__2b93a.hidden__7c832+.base__3e6af /* hide server bar when fullscreen */{
     position: absolute;
     top: 0;
     left: 0;
