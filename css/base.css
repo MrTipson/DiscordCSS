@@ -39,6 +39,9 @@ SOFTWARE.
     --background-mentioned-before: #faa61a /* default value in discord */;
 	/* make discord use our modal variable */
 	--modal-background: var(--background-modal);
+	--search-popout-option-user-username: var(--text-muted);
+	--search-popout-option-user-nickname: var(--header-secondary);
+	--search-popout-option-non-text-color: var(--header-secondary);
 }
 /*-----
 Main color
@@ -110,7 +113,7 @@ Seperate styling for code markup and embed
 .markup-eYLPri code /* Code markup */{
     background: var(--background-markup);
 }
-.embedFull-1HGV2S /* Embed */{
+.embedFull__8dc21 /* Embed */{
     background: var(--background-embed);
 }
 /*-----
@@ -126,7 +129,7 @@ Adding missing styling to modals, context menus
 .container-VXcBeg /* reconnecting screen */{
     background-color: var(--background-modal) !important;
 }
-.contentWrapper-2f9yME /* reaction emotes popup */,
+.contentWrapper_eab878 /* reaction emotes popup */,
 .container-1ILvLB section /* rtc connnection debug */,
 .form__13a2c .autocomplete_df266d /* mention autocomplete user list*/{
     background-color: var(--background-floating);
@@ -179,8 +182,7 @@ Adding styling to dropdown menus
 /*-----
 Adding styling to the search dropdown
 -----*/
-.reactors-1VXca7 /* reactors to a message */,
-.container-2McqkF /* search dropdown */{
+.reactors-1VXca7 /* reactors to a message */{
     background-color: var(--background-floating) !important;
 }
 .queryContainer-ZunrLZ /* "search for" text */,
@@ -192,16 +194,13 @@ Adding styling to the search dropdown
 .resultsGroup-cfY57t .searchLearnMore-1gNL3A a /* search options learn more icon */{
     color: var(--header-primary) !important;
 }
-.option-ayUoaq .answer__9ff92 /* search params (name, channel, type) */,
-.option-ayUoaq .nonText-28q_Ot /* search params sometimes */,
-.option-ayUoaq strong /* search result channel */,
-.option-ayUoaq.user-1dKxvu .displayedNick-1atSpT /* search result user nickname */,
+.option_b5597b .answer__9ff92 /* search params (name, channel, type) */,
+.option_b5597b strong /* search result channel */,
 .searchOption-3u1gRt .answer__9ff92 /* search param placeholders */{
     color: var(--header-secondary) !important;
 }
-.hint-xfbpCV /* search hint */,
-.resultsGroup-cfY57t .option-ayUoaq.user-1dKxvu .displayUsername-UTerwm /* username and tags in user search */,
-.resultsGroup-cfY57t .option-ayUoaq .filter-2QaH9y /* filter in search history */{
+.hint-xfbpCV /* search hint */
+{
     color: var(--text-muted);
 }
 .resultsGroup-cfY57t:before /* seperators between option headers */{
@@ -210,7 +209,7 @@ Adding styling to the search dropdown
 .queryContainer-ZunrLZ.focused-2FU0YH /* suggestion for search */{
     background-color: var(--background-primary) !important;
 }
-.resultsGroup-cfY57t .option-ayUoaq:after /* shadow after search options */{
+.resultsGroup-cfY57t .option_b5597b:after /* shadow after search options */{
     background: transparent;
 }
 /*-----
@@ -232,12 +231,12 @@ Override background color (fix translucent primary/secondary messing stuff up)
 .header-1w9Q93 /* mentions header */,
 .channelHeader__5d30c /* channel name in mentions */,
 .messagesPopoutWrap-3zryHW /* pinned messages */,
-.container-2ebMPP /* unreads inbox */,
+.container__23c08 /* unreads inbox */,
 .wrapper-1NNaWG /* emoji picker server name */,
-.container-2kTWmC /* audit log filters */,
-.emojiPicker-6YCk8a /* emoji picker reaction */,
+.container_d27846 /* audit log filters */,
+.contentWrapper_eab878 /* emoji picker reaction */,
 .popout-TdhJ6Z /* more active threads popout*/,
-.contentWrapper-3vHNP2 /* emoji picker */{
+.contentWrapper__321ed /* emoji picker */{
     background-color: var(--background-floating);
 }
 /*-----
@@ -255,16 +254,16 @@ Split background-primary variable
 Translucent Tweaks
 -----*/
 /* -- Styling with a translucent primary 'breaks' their way of doing this -- */
-.divider-IqmEqJ /* horizontal line between days */{
+.divider__8cf56 /* horizontal line between days */{
     height: 20px;
     margin-top: 5px !important;
     margin-bottom: 0px !important;
 }
-.content-3spvdd /* date between messages */{
+.content_d67847 /* date between messages */{
     background: unset;
 }
 /* -- Translucent primary causes wierd overlaps -- */
-.expandedFolderBackground-1kSAf6 /* background of folder items */{
+.expandedFolderBackground__1bec6 /* background of folder items */{
     border-radius: 15px;
 }
 /* -- Impossible to use with translucent primary color -- */
@@ -281,12 +280,12 @@ Translucent Tweaks
 Text overrides
 -----*/
 .item__48dda /* debug headings */,
-.emptyStateHeader-Wexj4l /* title of text of "no gifts" */,
+.emptyStateHeader_eb7b9f /* title of text of "no gifts" */,
 .gameName-zbZetm /* game name in game activity */,
 .container-1ILvLB section strong{
     color: var(--header-primary) !important;
 }
-.emptyStateSubtext-29V2rK /* text under the "no gifts" */,
+.emptyStateSubtext__6dea4 /* text under the "no gifts" */,
 .container-1ILvLB section p /* rtc debug normal text */,
 .roleName-2ZJJYR /* short profile user role name */,
 .itemValue-1-Xx5h /* debug values */{
@@ -368,12 +367,12 @@ Settings
 /*-----
 Forums
 -----*/
-.theme-light .container-3wLKDe,
-.theme-dark .container-3wLKDe /* forums background */ {
+.theme-light .container_b181b6,
+.theme-dark .container_b181b6 /* forums background */ {
     background-color: transparent;
 }
-.mainCard-3KBsBI /* search or create post and all the posts */,
-.container-q2_DnH:hover /* posts on hover */ {
+.mainCard__8a660 /* search or create post and all the posts */,
+.container__15ddf:hover /* posts on hover */ {
     background-color: var(--background-tertiary);
 }
 .header-1RJoTb /* forum post sticky */ {
@@ -383,26 +382,26 @@ Forums
 Edit roles scrollbar fix
 ~ For translucent primary colors the sticky header is seethrough
 -----*/
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentRegionScroller__86c79 /* outer wierd scroller */,
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .scroller-39BnzZ /* permissions scroller */{
+.contentContainer__23092 .contentRegionScroller__86c79 /* outer wierd scroller */,
+.contentContainer__23092 .scroller__79060 /* permissions scroller */{
     overflow: hidden !important;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .scroller-39BnzZ /* permissions scroller */{
+.contentContainer__23092 .scroller__79060 /* permissions scroller */{
     height: 100%;
     position: relative;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .contentWidth-3aWel5 /* edit role column */{
+.contentContainer__23092 .contentWidth_b55791 /* edit role column */{
     height: 100%;
     display: flex;
     flex-direction: column;
     padding: 0 24px;
 }
-[aria-label="GUILD_SETTINGS"] .contentContainer-3hXFtK .stickyHeader-1Sunlx /* edit role header */{
+.contentContainer__23092 .stickyHeader_c6fe8d /* edit role header */{
     position: relative;
     box-shadow: none;
 }
-[aria-label="GUILD_SETTINGS"] .contentRegion__0bec1 .stickyHeader-1Sunlx /* Remove background from headers (role permissions) */,
-[aria-label="GUILD_SETTINGS"] .contentRegion__0bec1 .titleContainer-16mFj2 /* Remove background from headers (role permissions) */{
+.contentRegion__0bec1 .stickyHeader_c6fe8d /* Remove background from headers (role permissions) */,
+.contentRegion__0bec1 .titleContainer__2370f /* Remove background from headers (role permissions) */{
     background-color: unset;
 }
 .permissionsWrapper-34gbP6 /* permissions wrapper */{
