@@ -44,7 +44,7 @@ SOFTWARE.
     opacity: 0;
 }
 .sidebar_ded4b5 .children_a486f8 /* invite/settings buttons for channel */,
-.sidebar_ded4b5 .inner-C_MH0f+.flex_f5fbb7 /* voice connected */,
+.sidebar_ded4b5 .inner_ab95dc+.flex_f5fbb7 /* voice connected */,
 .actionButtons_b58cbb /* camera/share screen */,
 [aria-label="User area"] > .panel_bd8c76 .info_c28002 /* name of currently shared window */,
 [aria-label="User area"] > .panel_bd8c76 .actions__9256d/* sharing screen */,
@@ -59,7 +59,7 @@ SOFTWARE.
     opacity: 0.9;
 }
 .sidebar_ded4b5:hover .children_a486f8 /* invite/settings buttons for channel */,
-.sidebar_ded4b5:hover .inner-C_MH0f+.flex_f5fbb7 /* voice connected */,
+.sidebar_ded4b5:hover .inner_ab95dc+.flex_f5fbb7 /* voice connected */,
 .sidebar_ded4b5:hover [aria-label="User area"] > .panel_bd8c76 .info_c28002 /* name of currently shared window */,
 .sidebar_ded4b5:hover [aria-label="User area"] > .panel_bd8c76 .actions__9256d /* stop sharing button */,
 .sidebar_ded4b5:hover .actionButtons_b58cbb /* camera/share screen */,
