@@ -23,27 +23,210 @@ SOFTWARE.
 */
 
 :root{
+	/* Usually my stylesheets only start with the properties they define
+	but this is different, since it will hopefully make editing using my extension easier.
+	It *should* contain everything you need to create a basic theme. */
     --color-main:#7289da /* main color theme */;
-    --progress-track-full:rgb(114 118 125) /* volume bar track - filled */;
-    --progress-track-empty: rgb(182 184 188)/* volume bar track - empty */;
-    --progress-thumb:rgb(48 51 56) /* volume bar thumb */;
+	/* Text */
+	--header-primary: var(--header-primary);
+	--header-secondary: var(--header-secondary);
+	--text-normal: var(--text-normal);
+	--text-link: var(--text-link);
+	--text-muted: var(--text-muted);
+	--channels-default: var(--channels-default);
+	/* Interactive */
+	--interactive-normal: var(--interactive-normal);
+	--interactive-hover: var(--interactive-hover);
+	--interactive-muted: var(--interactive-muted);
+	--interactive-active: var(--interactive-active);
+	/* App background */
     --background-image: none /* background image, eg. url("link") */;
     --background-color:none /* background color (for svg backgrounds and such)*/;
     --background-filter:none /* filter property applied to the background */;
-    --background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
+    /* Background overrides */
+	--background-primary: var(--background-primary);
+	--background-secondary: var(--background-secondary);
+	--background-secondary-alt: var(--background-secondary-alt);
+	--background-tertiary: var(--background-tertiary);
+	--background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
     --background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
     --background-modal:var(--background-floating) /* main color of a modal dialog */;
     --background-floating:var(--background-primary) /* for not so modal popups */;
     --background-dropdown:var(--background-floating) /* background of options in a dropdown */;
-    --background-primary-extra: var(--background-primary);
-    --background-mentioned-before: #faa61a /* default value in discord */;
-	/* make discord use our modal variable */
-	--modal-background: var(--background-modal);
+	--input-background: var(--background-secondary);
+	/* Background modifiers*/
+	--background-modifier-active: var(--background-modifier-active);
+	--background-modifier-hover: var(--background-modifier-hover);
+	--background-modifier-selected: var(--background-tertiary);
+	--background-modifier-accent: var(--background-modifier-accent);
+	/* More specific background stuff */
+	--channeltextarea-background: var(--channeltextarea-background);
+	--background-message-hover: var(--background-message-hover);
+    --background-mentioned-before: #faa61a /* default value in discord */;	
+	/* message search */
 	--search-popout-option-user-username: var(--text-muted);
 	--search-popout-option-user-nickname: var(--header-secondary);
 	--search-popout-option-non-text-color: var(--header-secondary);
+	/* User profile popup */
+	--profile-gradient-primary-color: var(--background-floating);
+	--profile-gradient-secondary-color: var(--background-floating);
+	--profile-body-background-color: var(--background-floating);
+	/* Volume bar */
+    --progress-thumb: var(--header-primary) /* volume bar thumb */;
+    --progress-track-full: var(--text-normal) /* volume bar track - filled */;
+    --progress-track-empty: var(--text-muted) /* volume bar track - empty */;
+	/* Ignore this */
+	--modal-background: var(--background-modal);
+}
+
+/*-----
+Background
+-----*/
+.bg__12180 /* Full background */ {
+	background: var(--background);
+    background-image: var(--background-image);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: cover;
+    background-color: var(--background-color);
+    filter: var(--background-filter);
+}
+
+/*-----
+Main color
+-----*/
+.circleIconButton_d8df29.selected__5250e /* find new communities selected, add server hover */{
+  background-color: var(--color-main) !important;
+}
+.wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c /* discord icon selected */,
+.wrapper_d281dd:hover .childWrapper__01b9c /* discord icon hovered */{
+      color: #fff;
+      background-color: var(--color-main);
+}
+.circleIconButton_d8df29 /* add server/explore servers */{
+    color: var(--color-main);
+}
+
+/*-----
+Message scrollbar
+-----*/
+.auto_a48086.scrollerBase_dc3aa9 /* online friends, nitro, chat messages */{
+    overflow: auto !important /* hide scroll track when no scroll needed */;
+}
+
+/*-----
+Exclude the download button and seperator from the discord web client
+-----*/
+.tutorialContainer_dc6fde~* /* everything following the add servers button */{
+	display: none;
+}
+.tutorialContainer_dc6fde+* /* exclude explore servers button */{
+	display: -ms-flexbox;
+	display: -webkit-box;
+	display: flex;
 }
 
 /*
-this stylesheet has been nuked and will be subject to a complete rewrite
+background-floating overrides
 */
+.profileColors__2e2f0 /* small user profiles (popup) */{
+	--profile-gradient-primary-color: var(--profile-gradient-primary-color, var(--background-floating));
+	--profile-gradient-secondary-color: var(--profile-gradient-secondary-color, var(--background-floating));
+}
+.contentWrapper__321ed /* emoji picker */,
+.messagesPopoutWrap_b3b384 /* pinned messages */,
+.container__20de0 /* unreads */,
+.container__23c08 /* inbox (for you) */,
+.container__8261a /* threads (next to pins) */,
+.autocomplete_df266d /* autocomplete commands */{
+	background-color: var(--background-floating);
+}
+/*
+Background-modal overrides
+*/
+.quickswitcher_a3d29a /* quickswitcher */{
+	background-color: var(--background-modal);
+}
+/*
+Background-tertiary overrides
+*/
+.codeRedemptionRedirect_bc7f36 /* user settings > billing > key redemption redirect notice */,
+.itemFilled__373d7 /* user settings > text & images > show spoiler content (radio buttons) */{
+	background-color: var(--background-tertiary);
+}
+
+/*
+Dropdown overrides
+*/
+.popout_a6e77f /* audio device select */{
+	background-color: var(--background-dropdown);
+}
+
+/*-----
+Markup, embed background
+-----*/
+.markup_a7e664 code /* Code markup */{
+    background-color: var(--background-markup);
+}
+.embedFull__8dc21 /* Embed */{
+    background-color: var(--background-embed);
+}
+
+/*
+Text input background
+*/
+.searchBox_ff53b2 /* search for threads (threads popup next to pins) */,
+.input_d266e7 /* user settings > profiles > display name */,
+.searchBar_e4ea2a > .searchBarComponent__22760 /* quickswitcher */{
+	background-color: var(--input-background);
+}
+
+/*
+Progress bars / draggables
+*/
+.barFill__30e17 /* user volume */,
+.barInner_d1abc6 /* spotify track progress */{
+	background-color: var(--progress-track-full);
+}
+.grabber_d2868c /* user volume */{
+	background-color: var(--progress-thumb);
+	border: none;
+}
+.bar_e63719 /* spotify track progress */,
+.bar_e58961 /* user volume */ {
+	background-color: var(--progress-track-empty);
+}
+
+/*
+Background removals
+*/
+.channelTextArea__2e60f /* message text input - is changed in inner element */{
+	background-color: unset;
+}
+/*
+Setting scroller fixes
+(the full page scroller doesnt play well with transparency)
+*/
+.contentContainer__23092 .scrollerBase_dc3aa9 /* covers all scrollers in role editing*/ {
+	height: calc(100% - 200px);
+	top: 200px;
+}
+.contentContainer__23092 .scrollerBase_dc3aa9 div:empty /* some empty div spacers */ {
+	display: none;
+}
+.contentContainer__23092 > .scroller__79060 /* role edit - display tab*/,
+.contentContainer__23092 > .scroller__0a86c /* role edit - links tab */ {
+	height: calc(100% - 150px);
+	top: 150px;
+}
+.stickyHeader_c6fe8d /* Roles sticky header*/{
+	position: fixed;
+	top: 0;
+}
+.stickyHeaderElevated__89bcf /* roles sticky header */ {
+	box-shadow: none;
+}
+.contentRegionScroller__86c79 /* full page scroller used in settings tabs */{
+	overflow: auto;
+}
