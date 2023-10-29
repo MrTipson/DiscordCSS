@@ -30,10 +30,11 @@ Positioning
 .members__9f47b /* members */,
 [aria-label="Search Results"] /* search results */,
 [aria-label="User area"] /* user info, call controls */,
-.scroller__1f96e /* direct messages */,
+.privateChannels__93473 > .scroller__4b984 /* direct messages */,
 .nowPlayingColumn_f5023f /* friends playing games */,
 .content__4bf10>.sidebar_ded4b5>.thin_b1c063.scrollerBase_dc3aa9 /* discover categories */,
 .scroller__1f4dd.auto_a48086.scrollerBase_dc3aa9 /* explore servers */,
+.container_b181b6 /* forums */,
 .peopleColumn__51df3 /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
@@ -74,7 +75,6 @@ Positioning
     border-radius: 8px;
 }
 .homeWrapper__59a03 /* nitro */,
-.content__1a4fe /* thread chat */,
 .chat__52833 /* chat + top bar */,
 .container__5c7e7 /* friends tab, active friends */{
     padding-top:10px !important;
@@ -87,7 +87,7 @@ Positioning
 [aria-label="Channel header"] /* top bar (channel name, search, icons) */,
 .container__11d72 /* top bar friends */{
     width: auto;
-    margin: 0px 15px 0px 10px;
+    margin: 0px 10px;
     border-radius: 8px;
     box-shadow: var(--elevation-low);
 }
@@ -114,11 +114,10 @@ Colors
 .messagesWrapper_ea2b0b /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
 .searchBar_e4ea2a /* find or start a conversation */,
-.sidebar_ded4b5 /* sidebar (friends, channels) - override to background-primary */,
-.scroller__1f96e /* friends scrollbar - override to background-primary */,
 .members__9f47b /* members list - override to background-primary */,
 .nowPlayingColumn_f5023f /* friends in games - override to background-primary */,
-.peopleColumn__51df3 /* online friends */{
+.peopleColumn__51df3 /* online friends */,
+.themed_b152d4 /* friends top bar */{
     background-color: var(--background-primary);
 }
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
@@ -142,11 +141,15 @@ Colors
 .colorable_c84c4c.primaryDark__6b700:hover /* buttons in the call, hovered */{
     background-color: var(--background-secondary);
 }
-.wrapper_bd2abe /* call background */{
+.wrapper_bd2abe /* call background */,
+.container_ca50b9 /* user area wrapper */ {
     background-color: transparent !important;
 }
 .container__5c7e7 /* active friends */,
-.container_b2ce9c /* members sidebar */ {
+.container_b2ce9c /* members sidebar */,
+.chatContent__5dca8 /* chat/message input wrapper */,
+.chat__52833 /* chat + header wrapper */,
+.sidebar_ded4b5 /* left sidebar (quickswitcher, friends, user area) */{
     background-color: transparent;
 }
 /*-----

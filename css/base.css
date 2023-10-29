@@ -77,6 +77,7 @@ SOFTWARE.
     --progress-track-empty: var(--text-muted) /* volume bar track - empty */;
 	/* Ignore this */
 	--modal-background: var(--background-modal);
+	--home-background: var(--background-primary);
 }
 
 /*-----
@@ -148,6 +149,16 @@ Background-modal overrides
 .quickswitcher_a3d29a /* quickswitcher */{
 	background-color: var(--background-modal);
 }
+.pageWrapper_fef757.pageWrapper_fef757 /* explore servers */{
+	background-color: var(--background-primary);
+}
+/*
+Background-secondary overrides
+*/
+.header__60bef.header__60bef /* browse channels header */,
+.container__10dc7.container__10dc7 /* browse channels body */{
+	background-color: var(--background-secondary);
+}
 /*
 Background-tertiary overrides
 */
@@ -201,7 +212,8 @@ Progress bars / draggables
 /*
 Background removals
 */
-.channelTextArea__2e60f /* message text input - is changed in inner element */{
+.channelTextArea__2e60f /* message text input - is changed in inner element */,
+.container__7590f.container__7590f /* browse channels body (inner) */{
 	background-color: unset;
 }
 /*
