@@ -23,19 +23,27 @@ SOFTWARE.
 */
 
 :root{
-    --color-main:#7289da /* main color theme */;
+	--color-main:#7289da /* main color theme */;
 	/* App background */
-    --background-image: none /* background image, eg. url("link") */;
-    --background-color:none /* background color (for svg backgrounds and such)*/;
-    --background-filter:none /* filter property applied to the background */;
-    /* Background overrides */
+	--background-image: none /* background image, eg. url("link") */;
+	--background-color:none /* background color (for svg backgrounds and such)*/;
+	--background-filter:none /* filter property applied to the background */;
+	/* Background overrides */
 	--background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
-    --background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
-    --background-modal:var(--background-floating) /* main color of a modal dialog */;
-    --background-dropdown:var(--background-floating) /* background of options in a dropdown */;
+	--background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
+	--background-modal:var(--background-floating) /* main color of a modal dialog */;
+	--background-dropdown:var(--background-floating) /* background of options in a dropdown */;
 	/* Ignore this */
 	--modal-background: var(--background-modal);
 	--home-background: var(--background-primary);
+	/* Gradients for user profiles */
+	--profile-gradient-primary: var(--background-floating);
+	--profile-gradient-secondary: var(--background-floating);
+	--profile-body-background: var(--background-floating);
+	/* Progress bar (i.e. spotify) */
+	--progress-thumb: var(--header-primary) /* volume bar thumb */;
+    --progress-track-full: var(--text-normal) /* volume bar track - filled */;
+    --progress-track-empty: var(--text-muted) /* volume bar track - empty */;
 }
 
 /*-----
@@ -43,35 +51,35 @@ Background
 -----*/
 .bg__12180 /* Full background */ {
 	background: var(--background);
-    background-image: var(--background-image);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left top;
-    background-size: cover;
-    background-color: var(--background-color);
-    filter: var(--background-filter);
+	background-image: var(--background-image);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: left top;
+	background-size: cover;
+	background-color: var(--background-color);
+	filter: var(--background-filter);
 }
 
 /*-----
 Main color
 -----*/
 .circleIconButton_d8df29.selected__5250e /* find new communities selected, add server hover */{
-  background-color: var(--color-main) !important;
+	background-color: var(--color-main) !important;
 }
 .wrapper_d281dd.selected_f5ec8e .childWrapper__01b9c /* discord icon selected */,
 .wrapper_d281dd:hover .childWrapper__01b9c /* discord icon hovered */{
-      color: #fff;
-      background-color: var(--color-main);
+	color: #fff;
+	background-color: var(--color-main);
 }
 .circleIconButton_d8df29 /* add server/explore servers */{
-    color: var(--color-main);
+	color: var(--color-main);
 }
 
 /*-----
 Message scrollbar
 -----*/
 .auto_a48086.scrollerBase_dc3aa9 /* online friends, nitro, chat messages */{
-    overflow: auto !important /* hide scroll track when no scroll needed */;
+	overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 
 /*-----
@@ -90,8 +98,9 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 */
 .profileColors__2e2f0 /* small user profiles (popup) */{
-	--profile-gradient-primary-color: var(--profile-gradient-primary-color, var(--background-floating));
-	--profile-gradient-secondary-color: var(--profile-gradient-secondary-color, var(--background-floating));
+	--profile-gradient-primary-color: var(--profile-gradient-primary);
+	--profile-gradient-secondary-color: var(--profile-gradient-secondary);
+	--profile-body-background-color: var(--profile-body-background);
 }
 .contentWrapper__321ed /* emoji picker */,
 .messagesPopoutWrap_b3b384 /* pinned messages */,
@@ -136,10 +145,10 @@ Dropdown overrides
 Markup, embed background
 -----*/
 .markup_a7e664 code /* Code markup */{
-    background-color: var(--background-markup);
+	background-color: var(--background-markup);
 }
 .embedFull__8dc21 /* Embed */{
-    background-color: var(--background-embed);
+	background-color: var(--background-embed);
 }
 
 /*
