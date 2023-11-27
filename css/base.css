@@ -23,58 +23,16 @@ SOFTWARE.
 */
 
 :root{
-	/* Usually my stylesheets only start with the properties they define
-	but this is different, since it will hopefully make editing using my extension easier.
-	It *should* contain everything you need to create a basic theme. */
     --color-main:#7289da /* main color theme */;
-	/* Text */
-	--header-primary: var(--header-primary);
-	--header-secondary: var(--header-secondary);
-	--text-normal: var(--text-normal);
-	--text-link: var(--text-link);
-	--text-muted: var(--text-muted);
-	--channels-default: var(--channels-default);
-	/* Interactive */
-	--interactive-normal: var(--interactive-normal);
-	--interactive-hover: var(--interactive-hover);
-	--interactive-muted: var(--interactive-muted);
-	--interactive-active: var(--interactive-active);
 	/* App background */
     --background-image: none /* background image, eg. url("link") */;
     --background-color:none /* background color (for svg backgrounds and such)*/;
     --background-filter:none /* filter property applied to the background */;
     /* Background overrides */
-	--background-primary: var(--background-primary);
-	--background-secondary: var(--background-secondary);
-	--background-secondary-alt: var(--background-secondary-alt);
-	--background-tertiary: var(--background-tertiary);
 	--background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
     --background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
     --background-modal:var(--background-floating) /* main color of a modal dialog */;
-    --background-floating:var(--background-primary) /* for not so modal popups */;
     --background-dropdown:var(--background-floating) /* background of options in a dropdown */;
-	--input-background: var(--background-secondary);
-	/* Background modifiers*/
-	--background-modifier-active: var(--background-modifier-active);
-	--background-modifier-hover: var(--background-modifier-hover);
-	--background-modifier-selected: var(--background-tertiary);
-	--background-modifier-accent: var(--background-modifier-accent);
-	/* More specific background stuff */
-	--channeltextarea-background: var(--channeltextarea-background);
-	--background-message-hover: var(--background-message-hover);
-    --background-mentioned-before: #faa61a /* default value in discord */;	
-	/* message search */
-	--search-popout-option-user-username: var(--text-muted);
-	--search-popout-option-user-nickname: var(--header-secondary);
-	--search-popout-option-non-text-color: var(--header-secondary);
-	/* User profile popup */
-	--profile-gradient-primary-color: var(--background-floating);
-	--profile-gradient-secondary-color: var(--background-floating);
-	--profile-body-background-color: var(--background-floating);
-	/* Volume bar */
-    --progress-thumb: var(--header-primary) /* volume bar thumb */;
-    --progress-track-full: var(--text-normal) /* volume bar track - filled */;
-    --progress-track-empty: var(--text-muted) /* volume bar track - empty */;
 	/* Ignore this */
 	--modal-background: var(--background-modal);
 	--home-background: var(--background-primary);
