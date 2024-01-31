@@ -102,7 +102,9 @@ background-floating overrides
 	--profile-gradient-secondary-color: var(--profile-gradient-secondary);
 	--profile-body-background-color: var(--profile-body-background);
 }
-.contentWrapper__321ed /* emoji picker */,
+.header__55964 /* emoji picker header */,
+.emojiPicker_b65ce9 /* emoji picker body */,
+.reactors__20ab0 /* message reactions - reactors */,
 .messagesPopoutWrap_b3b384 /* pinned messages */,
 .container__20de0 /* unreads */,
 .container__23c08 /* inbox (for you) */,
@@ -113,6 +115,8 @@ background-floating overrides
 /*
 Background-modal overrides
 */
+.wrapper_cd625e /* emoji picker servers */,
+.scroller__5fda0 /* message reactions - emotes */,
 .quickswitcher_a3d29a /* quickswitcher */{
 	background-color: var(--background-modal);
 }
@@ -183,6 +187,9 @@ Background removals
 .container__7590f.container__7590f /* browse channels body (inner) */{
 	background-color: unset;
 }
+.container_d667ff /* user island duplicate styling */ {
+	background: unset;
+}
 /*
 Setting scroller fixes
 (the full page scroller doesnt play well with transparency)
@@ -208,4 +215,17 @@ Setting scroller fixes
 }
 .contentRegionScroller__86c79 /* full page scroller used in settings tabs */{
 	overflow: auto;
+}
+/* New date divider between messages */
+.divider__8cf56.hasContent__8519e {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	height: unset;
+}
+.content_d67847 /* divider content */ {
+	background: unset;
+}
+/* Gradient for overflowing channel description */
+.children__32014:after {
+	display: none;
 }
