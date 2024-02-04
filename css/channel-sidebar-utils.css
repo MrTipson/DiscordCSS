@@ -33,7 +33,7 @@ SOFTWARE.
     --csu-bg-selected: var(--background-modifier-selected);
 }
 
-.containerDefault__3187b .wrapper__7bcde /* channel padding*/{
+.containerDefault__3187b .wrapper__7bcde:not(.typeThread__2f91c) /* channel padding*/{
     padding: 0;
     margin-left: 0;
 }
@@ -58,12 +58,12 @@ SOFTWARE.
     left: 0;
 }
 /* Bumper */
-.containerDefault__3187b:hover .wrapper__7bcde::before /* text channel */,
-.containerDefault__3187b.selected__3b4cb .wrapper__7bcde:before /* selected text channel */{
+.containerDefault__3187b:hover::before /* text channel */,
+.containerDefault__3187b.selected__3b4cb:before /* selected text channel */{
     padding-right: var(--csu-bumper-width);
     transition: none;
 }
-.containerDefault__3187b .wrapper__7bcde:before /* text channel */{
+.containerDefault__3187b:before /* text channel */{
     content: "";
     display:inline-block;
     background: var(--csu-bumper-color);

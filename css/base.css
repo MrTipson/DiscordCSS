@@ -109,7 +109,7 @@ background-floating overrides
 .container__20de0 /* unreads */,
 .container__23c08 /* inbox (for you) */,
 .container__8261a /* threads (next to pins) */,
-.autocomplete_df266d /* autocomplete commands */{
+.autocomplete_df266d.autocomplete_df266d /* autocomplete commands */{
 	background-color: var(--background-floating);
 }
 /*
@@ -164,6 +164,14 @@ Text input background
 	background-color: var(--input-background);
 }
 
+/* friends tab - active now */
+.outer_a41cf3.outer_a41cf3.interactive__01cfa:hover /* friends tab - active now */ {
+	background-color: var(--background-modifier-hover);
+}
+.outer_a41cf3.outer_a41cf3.active__76f42  /* friends tab - active now */ {
+	background-color: var(--background-modifier-active);
+}
+
 /*
 Progress bars / draggables
 */
@@ -187,6 +195,8 @@ Background removals
 .container__7590f.container__7590f /* browse channels body (inner) */{
 	background-color: unset;
 }
+.panel_bd8c76.panel_bd8c76 /* current/suggested streamed window/app */,
+.container__0a6a9 /* friends tab - active now */,
 .container_d667ff /* user island duplicate styling */ {
 	background: unset;
 }
