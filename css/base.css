@@ -120,6 +120,9 @@ Background-modal overrides
 .quickswitcher_a3d29a /* quickswitcher */{
 	background-color: var(--background-modal);
 }
+/*
+Background-primary overrides
+*/
 .pageWrapper_fef757.pageWrapper_fef757 /* explore servers */{
 	background-color: var(--background-primary);
 }
@@ -191,6 +194,7 @@ Progress bars / draggables
 /*
 Background removals
 */
+.scrollerContainer_bf5dbd.scrollerContainer_bf5dbd /* server customisation (roles) */,
 .channelTextArea__2e60f /* message text input - is changed in inner element */,
 .container__7590f.container__7590f /* browse channels body (inner) */{
 	background-color: unset;
