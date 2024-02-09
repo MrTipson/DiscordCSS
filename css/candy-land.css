@@ -92,7 +92,7 @@ Positioning
     border-radius: 8px;
     box-shadow: var(--elevation-low);
 }
-.container_def45c /* thread sidebar (split view) */{
+:not(.channelChatWrapper__3e57d) > .container_def45c /* thread sidebar (split view) */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
@@ -191,6 +191,7 @@ MISC
 .form__13a2c:before /* gradient next to message input */,
 .tabBody_b3d268::before /* shadow under top bar (friends) */,
 .content__1a4fe::before /* shadow under top bar (channel/thread name) */,
+.chat_f8f70f:before /* shadow under top bar (voice text chat) */,
 .chat__1d65d::before /* shadow under top bar (thread split view) */{
     display: none;
 }
