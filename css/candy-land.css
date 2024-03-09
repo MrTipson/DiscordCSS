@@ -118,6 +118,7 @@ Colors
 .members__9f47b /* members list - override to background-primary */,
 .nowPlayingColumn_f5023f /* friends in games - override to background-primary */,
 .peopleColumn__51df3 /* online friends */,
+.scroller__4b984.scroller__4b984 /* direct messages */,
 .themed_b152d4 /* friends top bar */{
     background-color: var(--background-primary);
 }
