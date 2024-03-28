@@ -35,7 +35,7 @@ SOFTWARE.
     overflow: visible !important;
     animation: server-bar-overflow 0s linear 250ms forwards
 }
-.guilds__2b93a ~ .base__3e6af /* friends list, chat */{
+.guilds__2b93a ~ .base_c0676e /* friends list, chat */{
     position: absolute;
     left: var(--sb-collapsed-left, var(--sb-collapsed-width));
     top: var(--sb-collapsed-top, 0px);
@@ -44,7 +44,7 @@ SOFTWARE.
     transition-property: var(--sb-transition-property, left);
     transition-duration: var(--sb-transition-duration);
 }
-.guilds__2b93a:hover ~ .base__3e6af /* friends list, chat */{
+.guilds__2b93a:hover ~ .base_c0676e /* friends list, chat */{
     position: absolute;
     left: var(--sb-left, 72px);
     top: var(--sb-top, 0px);

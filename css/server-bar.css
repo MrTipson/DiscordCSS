@@ -48,14 +48,14 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-.base__3e6af /* friends list, chat */{
+.base_c0676e /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.guilds__2b93a.hidden__7c832+.base__3e6af /* hide server bar when fullscreen */{
+.guilds__2b93a.hidden__7c832+.base_c0676e /* hide server bar when fullscreen */{
     position: absolute;
     top: 0;
     left: 0;
@@ -63,7 +63,7 @@ SOFTWARE.
     right: 0;
     height: 100%;
 }
-.container__037ed /* wrapper around base and navigation bar */{
+.container_d1f8f5 /* wrapper around base and navigation bar */{
     position: relative;
 }
 .guilds__2b93a /* the whole navigation bar */{
@@ -74,13 +74,13 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds__2b93a .scroller__3d071 /* the navigation bar */{
+.guilds__2b93a .scroller_de945b /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds__2b93a .listItem_fa7b36 .wrapper__3af0b /* folder */{
+.guilds__2b93a .listItem__48528 .wrapper__9916c /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
 .guilds__2b93a > * /* Server bar elements */{
@@ -89,22 +89,22 @@ SOFTWARE.
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.layer_ec16dd [aria-label*="Pinned Messages"] > .messagesPopoutWrap_b3b384 /* pinned messages */,
-.layer_ec16dd [aria-label="Recent Mentions"] /* recent mentions */,
-.layer_ec16dd [aria-label="Unreads"] /* recent mentions */{
+.layer__6b5c3 [aria-label*="Pinned Messages"] > .messagesPopoutWrap__10dd1 /* pinned messages */,
+.layer__6b5c3 [aria-label="Recent Mentions"] /* recent mentions */,
+.layer__6b5c3 [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
 }
-.tooltipRight_e5fa1c.tooltip__01384 /* server name tooltip */{
+.tooltipRight__2c7a5.tooltip__7b090 /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight_e5fa1c>.tooltipPointer_a79354 /* little arrow for tooltip */{
+.tooltipRight__2c7a5>.tooltipPointer_f7411c /* little arrow for tooltip */{
     opacity: 0;
 }
-.unreadMentionsIndicatorTop_ada847 /* new message red popup bottom */,
-.unreadMentionsIndicatorBottom_fdb943 /* new message red popup bottom */{
+.unreadMentionsIndicatorTop__153ad /* new message red popup bottom */,
+.unreadMentionsIndicatorBottom__9351c /* new message red popup bottom */{
     display: none;
 }
 

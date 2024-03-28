@@ -34,10 +34,10 @@ SOFTWARE.
     z-index: 101;
     overflow: unset;
 }
-.guilds__2b93a .scroller__3d071.none__3919e.scrollerBase__2b744 /* inner server bar - the one that scrolls */{
+.guilds__2b93a .scroller_de945b.none_ff9f86.scrollerBase__65223 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-.expandedFolderBackground__1bec6 /* prevent this from extending all the way */{
+.expandedFolderBackground_b1385f /* prevent this from extending all the way */{
     bottom:unset;
 }
 ul[id^="folder"] /* opened server folder */{
@@ -60,7 +60,7 @@ ul[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-ul[id^="folder"] > .listItem_fa7b36 /* each item in the folder */{
+ul[id^="folder"] > .listItem__48528 /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }

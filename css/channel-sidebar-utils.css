@@ -33,17 +33,17 @@ SOFTWARE.
     --csu-bg-selected: var(--background-modifier-selected);
 }
 
-.containerDefault__3187b .wrapper__7bcde:not(.typeThread__2f91c) /* channel padding*/{
+.containerDefault_ae2ea4 .wrapper__612a5:not(.typeThread__5fb37) /* channel padding*/{
     padding: 0;
     margin-left: 0;
 }
 /* Channel margin/background transition */
-.containerDefault__3187b.selected__3b4cb > .wrapper__7bcde:not(.typeThread__2f91c) .link__95dc0 /* selected text channel */,
-.containerDefault__3187b:hover .wrapper__7bcde:not(.typeThread__2f91c) > .link__95dc0/* any text channel */{
+.containerDefault_ae2ea4.selected__11b62 > .wrapper__612a5:not(.typeThread__5fb37) .link_ddbb36 /* selected text channel */,
+.containerDefault_ae2ea4:hover .wrapper__612a5:not(.typeThread__5fb37) > .link_ddbb36/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
-.link__95dc0 /* text channel*/{
+.link_ddbb36 /* text channel*/{
     border-radius: 0px;
     margin-left: var(--csu-init-margin);
     transition: margin-left var(--csu-anim-duration) var(--csu-anim-transition), background-color var(--csu-anim-duration);
@@ -58,12 +58,12 @@ SOFTWARE.
     left: 0;
 }
 /* Bumper */
-.containerDefault__3187b:hover::before /* text channel */,
-.containerDefault__3187b.selected__3b4cb:before /* selected text channel */{
+.containerDefault_ae2ea4:hover::before /* text channel */,
+.containerDefault_ae2ea4.selected__11b62:before /* selected text channel */{
     padding-right: var(--csu-bumper-width);
     transition: none;
 }
-.containerDefault__3187b:before /* text channel */{
+.containerDefault_ae2ea4:before /* text channel */{
     content: "";
     display:inline-block;
     background: var(--csu-bumper-color);
@@ -73,10 +73,10 @@ SOFTWARE.
     transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
 }
 /* Background */
-.wrapper__7bcde:hover .link__95dc0 /* text channel */{
+.wrapper__612a5:hover .link_ddbb36 /* text channel */{
     background-color: var(--csu-bg-hover);
 }
-.modeSelected__487d6 .link__95dc0 /* text channel */,
-.modeSelected__487d6:hover .link__95dc0 /* text channel */{
+.modeSelected__473f1 .link_ddbb36 /* text channel */,
+.modeSelected__473f1:hover .link_ddbb36 /* text channel */{
     background-color: var(--csu-bg-selected);
 }

@@ -28,28 +28,28 @@ SOFTWARE.
     --call-shadow-bottom: none;
     --call-shadow-top: none;
 }
-.overlayTitle_a9f7c6.idle__90385 /* prevent names from dissapearing */{
+.overlayTitle_de9b41.idle__90385 /* prevent names from dissapearing */{
     opacity: unset;
     -webkit-transform: unset;
     transform: unset;
 }
-.root__3eef0 .gradientContainer__9a5a6 /* call gradients */{
+.root__3eef0 .gradientContainer_cdada6 /* call gradients */{
     opacity: 0;
 }
-.bottomControls__8bd89 /* call info and buttons on hover in call */,
-.topControls_d202b0 /* call controls on hover in calll */{
+.bottomControls__72d8d /* call info and buttons on hover in call */,
+.topControls_e834ab /* call controls on hover in calll */{
     padding: var(--call-controls-padding);
     background-color: var(--call-controls-bg);
     box-sizing: border-box;
 }
-.bottomControls__8bd89 /* call info and buttons on hover in call */{
+.bottomControls__72d8d /* call info and buttons on hover in call */{
     border-radius: 8px 8px 0px 0px;
     box-shadow: var(--call-shadow-bottom);
 }
-.topControls_d202b0 /* call controls on hover in calll */{
+.topControls_e834ab /* call controls on hover in calll */{
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--call-shadow-top);
 }
-.videoControls__40f61 /* wrapper for call controls */{
+.videoControls_af6621 /* wrapper for call controls */{
     padding-bottom: 0;
 }

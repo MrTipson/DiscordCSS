@@ -22,39 +22,36 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-.chatContent__5dca8 /* chat/input container */{
+.chatContent_f087cb /* chat/input container */{
     flex-direction: column-reverse;
 }
-.channelTextArea__2e60f /* message input */{
+.channelTextArea_c2094b /* message input */{
     margin-bottom: 0px;
     margin-top: 24px;
 }
-.messagesWrapper_ea2b0b /* chat messages */{
+.messagesWrapper_add28b /* chat messages */{
     transform: rotateX(180deg);
 }
-.messagesWrapper_ea2b0b .scrollerInner__059a5 > * /* all chat content */{
+.messagesWrapper_add28b .scrollerInner__37fee > * /* all chat content */{
     transform: rotateX(-180deg);
 }
-.messagesWrapper_ea2b0b .scrollerInner__059a5:first-child /* messages */{
+.messagesWrapper_add28b .scrollerInner__37fee:first-child /* messages */{
     margin-bottom: 24px;
 }
-.messagesWrapper_ea2b0b .scrollerSpacer__9cd32 /* spacer after the last message */{
+.messagesWrapper_add28b .scrollerSpacer__6b1b6 /* spacer after the last message */{
     display: none;
 }
-.jumpToPresentBar__0ff7f /* jump to present */,
-.newMessagesBar__8b6d7 /* new messages bar (mark as read) */{
+.jumpToPresentBar__69174 /* jump to present */,
+.newMessagesBar__8b272 /* new messages bar (mark as read) */{
     transform: rotateX(-180deg);
 }
-.jumpToPresentBar__0ff7f /* jump to present (messages) */{
+.jumpToPresentBar__69174 /* jump to present (messages) */{
     top: 0px;
+	bottom: unset;
 }
-.newMessagesBar__8b6d7 /* mark as read (messages) */{
+.newMessagesBar__8b272 /* mark as read (messages) */{
     bottom: 0px;
     top: unset;
-}
-.positionContainer__0c914 /* emoji bar */{
-    bottom: unset;
-    margin-top: 20px;
 }
 .typing__6fd1d /* someone is typing*/{
     top: 3px;
