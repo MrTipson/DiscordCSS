@@ -37,8 +37,8 @@ SOFTWARE.
 .guilds__2b93a .scroller_de945b.none_ff9f86.scrollerBase__65223 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-.expandedFolderBackground_b1385f /* prevent this from extending all the way */{
-    bottom:unset;
+.expandedFolderBackground_b1385f {
+    display: none;
 }
 ul[id^="folder"] /* opened server folder */{
     /* customisable */

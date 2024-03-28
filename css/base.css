@@ -160,7 +160,6 @@ Markup, embed background
 /*
 Text input background
 */
-.searchBox_ff53b2 /* search for threads (threads popup next to pins) */,
 .input_f27786 /* user settings > profiles > display name */,
 .input__2a648 /* quickswitcher */{
 	background-color: var(--input-background);
@@ -193,7 +192,8 @@ Progress bars / draggables
 /*
 Background removals
 */
-.scrollerContainer_bf5dbd.scrollerContainer_bf5dbd /* server customisation (roles) */,
+.header_ee0bd9 /* server role edit header*/,
+.titleContainer_d09261 /* server role list header */,
 .channelTextArea_c2094b /* message text input - is changed in inner element */,
 .container__6b2e5.container__6b2e5 /* browse channels body (inner) */{
 	background-color: unset;
@@ -201,7 +201,7 @@ Background removals
 .panel_bd8c76.panel_bd8c76 /* current/suggested streamed window/app */,
 .container__3673d /* friends tab - active now */,
 .callContainer__1477d /* call black background */,
-.container_debb33 /* user island duplicate styling */ {
+.container_debb33.container_debb33 /* user island duplicate styling */ {
 	background: unset;
 }
 /*

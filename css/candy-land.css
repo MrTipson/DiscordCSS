@@ -49,6 +49,7 @@ Positioning
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
+.wrapper__57349 /* follow announcement channel for updates */,
 .channelTextArea_c2094b /* text area */{
     margin-bottom: unset;
 }
@@ -86,13 +87,13 @@ Positioning
     border-radius:unset !important;
 }
 [aria-label="Channel header"] /* top bar (channel name, search, icons) */,
-.container__11d72 /* top bar friends */{
+.container__26baa /* top bar friends */{
     width: auto;
     margin: 0px 10px;
     border-radius: 8px;
     box-shadow: var(--elevation-low);
 }
-:not(.channelChatWrapper__3e57d) > .container__694a1 /* thread sidebar (split view) */{
+.container__694a1 /* thread sidebar (split view) */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
@@ -156,7 +157,7 @@ Height adjust
 .pageWrapper_c182d3>.scroller__26b89{
     height: calc(100% - 25px);
 }
-.container_e1958d /* user info, call controls */{
+.container_debb33 /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
 }
 /*-----
