@@ -97,7 +97,7 @@ Exclude the download button and seperator from the discord web client
 /*
 background-floating overrides
 */
-.profileColors_ac6ab4 /* small user profiles (popup) */{
+.userProfileInnerThemedNonPremium_b64fb4 /* small user profiles (popup) */{
 	--profile-gradient-primary-color: var(--profile-gradient-primary);
 	--profile-gradient-secondary-color: var(--profile-gradient-secondary);
 	--profile-body-background-color: var(--profile-body-background);
@@ -108,6 +108,7 @@ background-floating overrides
 .container_eb737e /* unreads */,
 .container_c96c91 /* inbox (for you) */,
 .container_f93da8 /* threads (next to pins) */,
+.popout__4c91f /* activity status */,
 .autocomplete__743a5.autocomplete__743a5 /* autocomplete commands */{
 	background-color: var(--background-floating);
 }
