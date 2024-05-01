@@ -108,7 +108,8 @@ background-floating overrides
 .container_eb737e /* unreads */,
 .container_c96c91 /* inbox (for you) */,
 .container_f93da8 /* threads (next to pins) */,
-.popout__4c91f /* activity status */,
+.popout__4c91f /* my activity status */,
+.popout__7a706 /* other's activity status */,
 .autocomplete__743a5.autocomplete__743a5 /* autocomplete commands */{
 	background-color: var(--background-floating);
 }
