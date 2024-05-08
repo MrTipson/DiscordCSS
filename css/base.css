@@ -110,6 +110,8 @@ background-floating overrides
 .container_f93da8 /* threads (next to pins) */,
 .popout__4c91f /* my activity status */,
 .popout__7a706 /* other's activity status */,
+.header_e5d8b2 /* reaction emoji picker header */,
+.emojiPicker__5e2e2 /* reaction emoji picker body */,
 .autocomplete__743a5.autocomplete__743a5 /* autocomplete commands */{
 	background-color: var(--background-floating);
 }
@@ -118,6 +120,7 @@ Background-modal overrides
 */
 .wrapper__45980 /* emoji picker servers */,
 .scroller__9a4f3 /* message reactions - emotes */,
+.wrapper__91b2c /* reaction picker server headers */,
 .quickswitcher_b5bb0a /* quickswitcher */{
 	background-color: var(--background-modal);
 }
@@ -244,4 +247,8 @@ Setting scroller fixes
 /* Gradient for overflowing channel description */
 .children_cde9af:after {
 	display: none;
+}
+/* remove left gap in emoji picker body */
+.emojiPicker__5e2e2 .listItems__49027 {
+	left: 0px !important;
 }
