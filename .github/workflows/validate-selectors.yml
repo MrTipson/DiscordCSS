@@ -60,6 +60,7 @@ jobs:
 
       - name: Compare repository selectors to reference
         run: |
+          declare -A seen_classes
           flag=true
           blacklist="blacklist.txt"
           differences=$(comm -13 reference.txt selectors.txt)
@@ -72,7 +73,13 @@ jobs:
                       class=$(echo $grep | cut -d ' ' -f 1 | cut -d ':' -f 2)
                       lines=$(echo ${grep//:$class/','} | tr -d '\r\n')
                       lines=${lines%','} 
-                      echo "::error file=$file:: $class [$lines]  {$file}"
+                      if [[ "${seen_classes[$class]}" ]]; then
+                        level="::warning"
+                      else
+                        level="::error"
+                      fi
+                      echo "$level file=$file:: $class [$lines]  {$file}"
+                      seen_classes[$class]=true
                   fi
               done
           done
