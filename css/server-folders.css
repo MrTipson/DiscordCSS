@@ -30,14 +30,14 @@ SOFTWARE.
     --folder-offset: 0px /* offset from the top */;
 }
 
-.guilds__2b93a /* the whole server bar (<nav>)*/{
+.guilds_a4d4d9 /* the whole server bar (<nav>)*/{
     z-index: 101;
     overflow: unset;
 }
-.guilds__2b93a .scroller_de945b.none_ff9f86.scrollerBase__65223 /* inner server bar - the one that scrolls */{
+.guilds_a4d4d9 .scroller_fea3ef.none_c49869.scrollerBase_c49869 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-.expandedFolderBackground_b1385f {
+.expandedFolderBackground_bc7085 {
     display: none;
 }
 ul[id^="folder"] /* opened server folder */{
@@ -60,7 +60,7 @@ ul[id^="folder"] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around;
 }
-ul[id^="folder"] > .listItem__48528 /* each item in the folder */{
+ul[id^="folder"] > .listItem_c96c45 /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }

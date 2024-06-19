@@ -48,14 +48,14 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-.base_c0676e /* friends list, chat */{
+.base_a4d4d9 /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.guilds__2b93a.hidden__7c832+.base_c0676e /* hide server bar when fullscreen */{
+.guilds_a4d4d9.hidden_fea3ef+.base_a4d4d9 /* hide server bar when fullscreen */{
     position: absolute;
     top: 0;
     left: 0;
@@ -63,10 +63,10 @@ SOFTWARE.
     right: 0;
     height: 100%;
 }
-.container_d1f8f5 /* wrapper around base and navigation bar */{
+.container_a4d4d9 /* wrapper around base and navigation bar */{
     position: relative;
 }
-.guilds__2b93a /* the whole navigation bar */{
+.guilds_a4d4d9 /* the whole navigation bar */{
     position: absolute;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
@@ -74,37 +74,37 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds__2b93a .scroller_de945b /* the navigation bar */{
+.guilds_a4d4d9 .scroller_fea3ef /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds__2b93a .listItem__48528 .wrapper__9916c /* folder */{
+.guilds_a4d4d9 .listItem_c96c45 .wrapper_c5f96a /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
-.guilds__2b93a > * /* Server bar elements */{
+.guilds_a4d4d9 > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.layer__6b5c3 [aria-label*="Pinned Messages"] > .messagesPopoutWrap__10dd1 /* pinned messages */,
-.layer__6b5c3 [aria-label="Recent Mentions"] /* recent mentions */,
-.layer__6b5c3 [aria-label="Unreads"] /* recent mentions */{
+.layer_cd0de5 [aria-label*="Pinned Messages"] > .messagesPopoutWrap_ac90a2 /* pinned messages */,
+.layer_cd0de5 [aria-label="Recent Mentions"] /* recent mentions */,
+.layer_cd0de5 [aria-label="Unreads"] /* recent mentions */{
     max-height: 80vh !important;
 }
-.tooltipRight__2c7a5.tooltip__7b090 /* server name tooltip */{
+.tooltipRight_b6c360.tooltip_b6c360 /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight__2c7a5>.tooltipPointer_f7411c /* little arrow for tooltip */{
+.tooltipRight_b6c360>.tooltipPointer_b6c360 /* little arrow for tooltip */{
     opacity: 0;
 }
-.unreadMentionsIndicatorTop__153ad /* new message red popup bottom */,
-.unreadMentionsIndicatorBottom__9351c /* new message red popup bottom */{
+.unreadMentionsIndicatorTop_fea3ef /* new message red popup bottom */,
+.unreadMentionsIndicatorBottom_fea3ef /* new message red popup bottom */{
     display: none;
 }
 

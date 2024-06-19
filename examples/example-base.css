@@ -16,6 +16,7 @@
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: rgba(255, 255, 255, 0.24) /* cards in settings (safe messaging, checkbox options)*/;
+	--autocomplete-bg: var(--background-floating) /* bot commands bg */;
     --interactive-normal: rgb(72, 72, 72) /* supposedly icons */;
     --interactive-muted: #4f545c /* muted channel, others */;
     --interactive-hover: rgb(130,130,130) /* hover color*/;
@@ -63,6 +64,7 @@
     --deprecated-store-bg: black /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: rgb(42, 42, 42) /* quick search text box */;
     --deprecated-card-editable-bg: rgba(77, 77, 77, 0.24) /* cards in settings (safe messaging, checkbox options)*/;
+	--autocomplete-bg: var(--background-floating) /* bot commands bg */;
     --interactive-normal: rgb(228, 228, 228) /* supposedly icons */;
     --interactive-muted: #4f545c /* muted channel, others */;
     --interactive-hover: rgb(130,130,130) /* hover color*/;
