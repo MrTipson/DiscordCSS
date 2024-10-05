@@ -35,6 +35,7 @@
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
     --scrollbar-auto-thumb: rgba(83, 83, 83, 0.657) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: rgba(85, 85, 85, 0.342) /* thick scrollbar */;
+	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(255, 123, 0) /* main color theme */;
     --background-primary-extra: rgba(255, 255, 255, 0.746);
@@ -83,6 +84,7 @@
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
     --scrollbar-auto-thumb: rgb(189, 189, 189) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: rgba(17, 17, 17, 0.315) /* thick scrollbar */;
+	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(31, 149, 153) /* main color theme */;
     --background-primary-extra: rgba(0, 0, 0, 0.466);

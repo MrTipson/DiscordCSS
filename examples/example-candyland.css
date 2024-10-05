@@ -36,6 +36,7 @@
     --scrollbar-auto-thumb: rgba(109, 109, 109, 0.657) /* thick scrollbar (such as active friends) */;
     --scrollbar-auto-track: rgba(85, 85, 85, 0.342) /* thick scrollbar */;
     --elevation-low: 0 1px 0 rgba(4,4,5,0.2),0 1.5px 0 rgba(6,6,7,0.05),0 2px 0 rgba(4,4,5,0.05);
+	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(255, 109, 248) /* main color theme */;
     --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23ffe282' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e5cb75' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23ffcb7c' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23ecb16c' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23ffb382' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23ed976e' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23ff9d93' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e57f76' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23ff8ca9' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23d46c81' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23ff82c1' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23ba5f8c' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
@@ -89,6 +90,7 @@
     --radio-bar-accent-color: white /* border around radio buttons in settings */;
     --radio-group-dot-foreground: white /* dot color for radio buttons in settings */;
     --elevation-low: 0 1px 0 rgba(251,251,250,0.2),0 1.5px 0 rgba(249,249,248,0.05),0 2px 0 rgba(251,251,250,0.05);
+	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(58, 176, 255) /* main color theme */;
     --background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%233c74b5' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%2379a2d3' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23447ab9' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%2380abd2' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234b80bc' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%238bb3d1' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%235387c0' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%2398bbcf' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%235a8dc3' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a7c2ce' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%236293c7' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23b7c8ce' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
