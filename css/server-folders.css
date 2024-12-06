@@ -55,7 +55,9 @@ ul[id^="folder"] /* opened server folder */{
     position: absolute;
     writing-mode: vertical-lr; /* prevent flex column jank */
     height: max-content !important; /* prevent animation jank */
+	width: unset; /* override their stack class */
     /* flex */
+	flex-direction: unset !important; /* override their stack class */
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
