@@ -1,4 +1,5 @@
 #! /usr/bin/env sh
+# Inspired by discocss and beautifuldiscord
 
 help() {
   echo "Usage: $0 [option...]"
@@ -6,6 +7,7 @@ help() {
   echo "  -r, --reverse       Remove injected code"
   echo "  -c, --css           CSS file to watch"
   echo "  -d, --discord       Location of discord files"
+  echo "  -t, --transparency  Enable transparency"
   echo "  -h, --help          Show this message"
   echo
   exit
@@ -21,6 +23,9 @@ while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
     ;;
   -d | --discord )
     shift; discord=$1
+    ;;
+  -t | --transparency )
+    transparency="1"
     ;;
   -h | --help )
     help
@@ -44,16 +49,23 @@ with1="require(\"../../$filename_main\")(mainWindow)"
 # Popup injector
 replace2="popoutWindows.openOrFocusWindow(url, frameName, features)"
 with2="require(\"../../$filename_popup\")(popoutWindows)(url,frameName,features)"
+# Transparency
+replace3="transparent: false,"
+with3="transparent: true, " # extra space to make sure length doesn't change
 
 if [[ $undo ]]; then
   rm -f "$discord/$filename_main.js" "$discord/$filename_popup.js" "$discord/cssinject.js" &&
-  sed -i -e "s#$with1#$replace1#" -e "s#$with2#$replace2#" "$discord/core.asar" &&
+  sed -i -e "s#$with1#$replace1#" -e "s#$with2#$replace2#" -e "s#$with3#$replace3#" "$discord/core.asar" &&
   echo "Removed injected code." ||
   echo "Encountered error."
   exit
 fi
 
 if [[ $css ]]; then
+  if [[ $transparency ]]; then
+    setbg=$(printf "\n  %s" "window.setBackgroundColor(\"#0000\");")
+    sed -i -e "s#$replace3#$with3#" "$discord/core.asar" || (echo "Encountered error." && exit)
+  fi
   sed -i -e "s#$replace1#$with1#" -e "s#$replace2#$with2#" "$discord/core.asar" &&
 
   cat <<EOF > "$discord/$filename_main.js" &&
@@ -94,15 +106,33 @@ watcher.addListener("change", () => {
   css = readFile();
 });
 
+// Add https sites which appear in the main css file to the allow list
+const cspSites = [...new Set(css.match(/https:\/\/[^/]+/g))].join(" ")
+require("electron").session.defaultSession.webRequest.onHeadersReceived((details, callback) => {
+  const policy = details.responseHeaders["content-security-policy"];
+  if (policy) {
+    policy[0] = policy[0]
+      .replace("style-src", \`style-src \${cspSites}\`)
+      .replace("img-src", \`img-src \${cspSites}\`)
+      .replace("font-src", \`font-src \${cspSites}\`)
+  }
+  callback({
+    responseHeaders: {
+      ...details.responseHeaders,
+      ...policy && {"content-security-policy": policy}
+    }
+  })
+});
+
 exports.setup = setup;
 exports.reload = reload;
 exports.addListener = addListener;
 
 function readFile() {
-  return fs.existsSync(filename) ? fs.readFileSync(filename, readOpts) : "";
+  return fs.existsSync(filename) ? fs.readFileSync(filename, readOpts).replaceAll("\`", "\\\\\`") : "";
 }
 
-function setup(window) {
+function setup(window) {$setbg
   window.webContents.executeJavaScript(\`
     const discordcssWrapper = document.createElement("style");
     discordcssWrapper.id = "discordcss-wrapper";
