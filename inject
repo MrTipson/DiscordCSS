@@ -1,0 +1,131 @@
+#! /usr/bin/env sh
+
+help() {
+  echo "Usage: $0 [option...]"
+  echo
+  echo "  -r, --reverse       Remove injected code"
+  echo "  -c, --css           CSS file to watch"
+  echo "  -d, --discord       Location of discord files"
+  echo "  -h, --help          Show this message"
+  echo
+  exit
+}
+
+discord="${XDG_CONFIG_HOME:=$HOME/.config}/discord/"
+while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
+  -r | --reverse )
+    undo="1"
+    ;;
+  -c | --css )
+    shift; css=$(realpath $1)
+    ;;
+  -d | --discord )
+    shift; discord=$1
+    ;;
+  -h | --help )
+    help
+    exit
+esac; shift; done
+if [[ "$1" == '--' ]]; then shift; fi
+
+discord="$(echo $discord/*/modules/discord_desktop_core)"
+if [[ ! -d $discord ]]; then
+  echo "Directory $discord does not exist."
+  exit
+fi
+
+# The sum of filename lengths should not be changed
+# (unless discord breaks something)
+filename_main="cssmain"
+filename_popup="csspopup"
+# Main window injector
+replace1="mainWindow.webContents.setWindowOpenHandler"
+with1="require(\"../../$filename_main\")(mainWindow)"
+# Popup injector
+replace2="popoutWindows.openOrFocusWindow(url, frameName, features)"
+with2="require(\"../../$filename_popup\")(popoutWindows)(url,frameName,features)"
+
+if [[ $undo ]]; then
+  rm -f "$discord/$filename_main.js" "$discord/$filename_popup.js" "$discord/cssinject.js" &&
+  sed -i -e "s#$with1#$replace1#" -e "s#$with2#$replace2#" "$discord/core.asar" &&
+  echo "Removed injected code." ||
+  echo "Encountered error."
+  exit
+fi
+
+if [[ $css ]]; then
+  sed -i -e "s#$replace1#$with1#" -e "s#$replace2#$with2#" "$discord/core.asar" &&
+
+  cat <<EOF > "$discord/$filename_main.js" &&
+// mrtipson/DiscordCSS: inject css for main window
+const css = require("./cssinject");
+module.exports = function(mainWindow) {
+  mainWindow.webContents.on("did-finish-load", () => css.setup(mainWindow));
+  css.addListener(() => css.reload(mainWindow));
+  return (h) => mainWindow.webContents.setWindowOpenHandler(h);
+}
+EOF
+
+  cat <<EOF > "$discord/$filename_popup.js" &&
+// mrtipson/DiscordCSS: injection point for popup windows
+const css = require("./cssinject");
+module.exports = function(popoutWindows) {
+
+  const original = popoutWindows.setupPopout;
+  popoutWindows.setupPopout = (popoutWindow, ...rest) => {
+    original(popoutWindow, ...rest);
+    css.setup(popoutWindow);
+  };
+
+  css.addListener(() => popoutWindows.getAllWindows().map(css.reload));
+  return popoutWindows.openOrFocusWindow;
+}
+EOF
+
+  cat <<EOF > "$discord/cssinject.js" &&
+// mrtipson/DiscordCSS: shared css loader for all window types
+const fs = require("fs");
+const filename = "/home/tipson/.config/discord/custom.css";
+const readOpts = { encoding: 'utf8', flag: 'r' };
+const watcher = fs.watch(filename, { persistent: false });
+
+let css = readFile();
+watcher.addListener("change", () => {
+  css = readFile();
+});
+
+exports.setup = setup;
+exports.reload = reload;
+exports.addListener = addListener;
+
+function readFile() {
+  return fs.existsSync(filename) ? fs.readFileSync(filename, readOpts) : "";
+}
+
+function setup(window) {
+  window.webContents.executeJavaScript(\`
+    const discordcssWrapper = document.createElement("style");
+    discordcssWrapper.id = "discordcss-wrapper";
+    document.documentElement.append(discordcssWrapper);
+  \`);
+  reload(window);
+}
+
+function reload(window) {
+  let css = readFile();
+  window.webContents.executeJavaScript(\`
+    discordcssWrapper.innerHTML = \\\`\${css}\\\`;
+  \`);
+}
+
+// Note: Currently relying that readFile gets called first
+function addListener(handler) {
+  watcher.addListener("change", handler);
+}
+EOF
+  echo "Injected '$css'." ||
+  echo "Encountered error."
+  exit
+fi
+
+echo "Nothing to do".
