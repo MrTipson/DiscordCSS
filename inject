@@ -97,7 +97,7 @@ EOF
   cat <<EOF > "$discord/cssinject.js" &&
 // mrtipson/DiscordCSS: shared css loader for all window types
 const fs = require("fs");
-const filename = "/home/tipson/.config/discord/custom.css";
+const filename = "$css";
 const readOpts = { encoding: 'utf8', flag: 'r' };
 const watcher = fs.watch(filename, { persistent: false });
 
@@ -142,7 +142,6 @@ function setup(window) {$setbg
 }
 
 function reload(window) {
-  let css = readFile();
   window.webContents.executeJavaScript(\`
     discordcssWrapper.innerHTML = \\\`\${css}\\\`;
   \`);
