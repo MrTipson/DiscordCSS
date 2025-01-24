@@ -100,7 +100,6 @@
     --background-modal: #234b80 /* main color of a modal dialog */;
     --background-dropdown: rgb(65, 65, 65) /* background of options in a dropdown */;
     --background-color: #3a5e7c /* background color (for svg backgrounds and such) */;
-    --background-primary-extra: #223d53 /* pinned messages/mentions, buttons in server bar */;
     --messages-scroll-track: transparent /* scrollbar background - only for messages */;
     --messages-scroll-thumb: rgba(109, 109, 109, 0.657) /* basic scroller */;
     --progress-thumb: rgb(71, 71, 71) /* volume bar thumb */;

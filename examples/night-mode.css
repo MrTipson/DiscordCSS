@@ -43,7 +43,6 @@
 	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(255, 100, 234) /* main color theme */;
-    --background-primary-extra: rgba(255, 255, 255, 0.746);
     --background-mentioned-before: var(--interactive-active);
     --background-image: none;
     --background-filter: none/* filter property applied to the background */;
@@ -93,7 +92,6 @@
 	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main:  #55c1ff /* main color theme */;
-    --background-primary-extra: rgba(0, 0, 0, 0.466);
     --background-image: none;
     --background-filter: blur(1px) /* filter property applied to the background */;
     --background-markup: rgba(0, 0, 0, 0.267) /* background for code markup (``` blocks) */;
