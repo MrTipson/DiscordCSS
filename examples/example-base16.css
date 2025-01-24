@@ -24,6 +24,8 @@
 	--base0D: #89b4fa;
 	--base0E: #cba6f7;
 	--base0F: #f2cdcd;
+
+    --window-opacity: 1;
     /*
         by default, base08 is used as an accent color
         if you prefer another color, you can override --color-main

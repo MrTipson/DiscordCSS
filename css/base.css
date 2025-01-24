@@ -28,6 +28,7 @@ SOFTWARE.
 	--background-image: none /* background image, eg. url("link") */;
 	--background-color:none /* background color (for svg backgrounds and such)*/;
 	--background-filter:none /* filter property applied to the background */;
+	--window-opacity: 1 /* opacity for the entire window */;
 	/* Background overrides */
 	--background-markup:var(--background-secondary) /* background for code markup (``` blocks)*/;
 	--background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
@@ -58,6 +59,10 @@ Background
 	background-size: cover;
 	background-color: var(--background-color);
 	filter: var(--background-filter);
+}
+
+html  /* transparency */ {
+	filter: opacity(var(--window-opacity));
 }
 
 /*-----

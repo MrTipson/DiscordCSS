@@ -40,7 +40,16 @@ Stylesheets are listed, along with images on the wiki page [Stylesheets](docs/st
 Finished themes can be found in the [examples](examples/).\
 These are their own stylesheets that provide a unique look incorporating various core stylesheets from this repository.
 
-# Dev tools (windows desktop app)
+# Transparency
+If your injector enables transparency (my linux script does), then you should be able to set it with `--window-opacity: 0.8;` (if you have `base.css` imported). Otherwise, just add the following to your css:
+```css
+html {
+	filter: opacity(0.8);
+}
+```
+
+
+# Dev tools (desktop app)
 
 Dev tools in the desktop app are locked behind a flag in the `%appdata%/discord/settings.json` file (AppData/Roaming).
 ```json
