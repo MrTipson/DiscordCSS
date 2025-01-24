@@ -1,0 +1,48 @@
+.theme-light, .theme-dark {
+    --header-primary: var(--text-normal) /* big text */;
+    --header-secondary: var(--text-normal) /* subtext => id, active channel, code markdown, server of mention*/;
+    --text-normal: var(--base05) /* normal text */;
+    --background-primary: var(--base00) /* chat, call */;
+    --background-secondary: var(--base01) /* friends sidebar */;
+    --background-secondary-alt: transparent /* call controls, profile */ ;
+    --background-tertiary: var(--base02) !important /* server list, find or start convo backgr*/;
+    --background-floating: var(--base00) /* context menus */;
+    --channeltextarea-background: var(--background-tertiary) /* message textarea */;
+    --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
+    --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
+    --deprecated-card-editable-bg: var(--deprecated-card-bg) /* cards in settings (safe messaging, checkbox options)*/;
+	--autocomplete-bg: var(--background-floating) /* bot commands bg */;
+    --interactive-normal: var(--base05) /* supposedly icons */;
+    --interactive-muted: var(--base04) /* muted channel, others */;
+    --interactive-hover: var(--interactive-active) /* hover color*/;
+    --text-link: var(--base09) /* hyperlink color */;
+    --interactive-active: var(--color-main) /* selected tab*/;
+    --text-muted: var(--base04) /* non important text */;
+	--info-warning-foreground: var(--base0A);
+    --channels-default: var(--text-normal) /* channel not selected not hovered*/;
+    --background-accent: var(--background-secondary); /* new messages, number badge in inbox */;
+    --background-message-hover: var(--base02) /* message background on hover */;
+    --background-modifier-accent: var(--base02) /* simmilar to border, but native to discord */;
+    --background-modifier-hover: var(--base02);
+    --background-modifier-active: var(--base02);
+    --background-modifier-selected: var(--base02);
+    --deprecated-card-bg: var(--background-secondary) /* some cards in the settings */;
+    --scrollbar-thin-thumb: var(--base02) /* thin scrollbar (such as channels in server) */;
+    --scrollbar-thin-track: transparent /* thin scrollbar track */;
+    --scrollbar-auto-thumb: var(--base02) /* thick scrollbar (such as active friends)*/;
+    --scrollbar-auto-track: var(--base01) /* thick scrollbar */;
+	--bg-base-primary: var(--background-primary);
+    /* Custom variables - Theme */
+    --color-main: var(--base08) /* main color theme */;
+    --background-image: none;
+    --background-filter: none/* filter property applied to the background */;
+    --background-markup: var(--background-tertiary) /* background for code markup (``` blocks) */;
+    --background-embed: var(--background-tertiary) /* background for embeds (video links, ...) */;
+    --background-modal: var(--background-floating) /* main color of a modal dialog */;
+    --background-dropdown: var(--background-floating) /* background of options in a dropdown */;
+    --background-color: var(--base01) /* background color (for svg backgrounds and such)*/;
+    --progress-thumb: var(--text-muted) /* volume bar thumb */;
+    --progress-track-full: var(--base02) /* volume bar track - filled */;
+    --progress-track-empty: var(--base01) /* volume bar track - empty */;
+    --folder-shadow: -1px 0px 3px 0px var(--base0D);
+}
