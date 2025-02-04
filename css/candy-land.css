@@ -32,8 +32,8 @@ Positioning
 [aria-label="User area"] /* user info, call controls */,
 .privateChannels_f0963d > .scroller_c47fa9 /* direct messages */,
 .nowPlayingColumn_c2739c /* friends playing games */,
-.content_a4d4d9>.sidebar_a4d4d9>.thin_c49869.scrollerBase_c49869 /* discover categories */,
-.scroller_a3a4ce.auto_c49869.scrollerBase_c49869 /* explore servers */,
+.content_a4d4d9>.sidebar_a4d4d9>.thin_c49869.scrollerBase_d125d2 /* discover categories */,
+.scroller_a3a4ce.auto_c49869.scrollerBase_d125d2 /* explore servers */,
 .container_a6d69a /* forums */,
 .container_f1fd9c /* channel browser */,
 .peopleColumn_c2739c /* online friends */{
@@ -44,8 +44,8 @@ Positioning
 .withTagless_b2ca13 /* user info (next to call controls) */ {
     min-width: unset;
 }
-.pageWrapper_a3a4ce>.scroller_a3a4ce.auto_c49869.scrollerBase_c49869 /* explore servers */,
-.applicationStore_cecc86 .scroller_a8b566.auto_c49869.scrollerBase_c49869 /* nitro screen */{
+.pageWrapper_a3a4ce>.scroller_a3a4ce.auto_c49869.scrollerBase_d125d2 /* explore servers */,
+.applicationStore_cecc86 .scroller_a8b566.auto_c49869.scrollerBase_d125d2 /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }

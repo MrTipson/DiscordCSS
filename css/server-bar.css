@@ -48,14 +48,14 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-.base_a4d4d9 /* friends list, chat */{
+.base_c48ade /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.guilds_a4d4d9.hidden_fea3ef+.base_a4d4d9 /* hide server bar when fullscreen */{
+.guilds_c48ade.hidden_fea3ef+.base_c48ade /* hide server bar when fullscreen */{
     position: absolute;
     top: 0;
     left: 0;
@@ -66,7 +66,7 @@ SOFTWARE.
 .container_a4d4d9 /* wrapper around base and navigation bar */{
     position: relative;
 }
-.guilds_a4d4d9 /* the whole navigation bar */{
+.guilds_c48ade /* the whole navigation bar */{
     position: absolute;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
@@ -74,16 +74,16 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds_a4d4d9 .scroller_fea3ef /* the navigation bar */{
+.guilds_c48ade .scroller_ef3116 /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds_a4d4d9 .listItem_c96c45 .wrapper_c5f96a /* folder */{
+.guilds_c48ade .listItem__650eb .wrapper_cc5dd2 /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
-.guilds_a4d4d9 > * /* Server bar elements */{
+.guilds_c48ade > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{

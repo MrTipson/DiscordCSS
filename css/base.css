@@ -83,7 +83,7 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.auto_c49869.scrollerBase_c49869 /* online friends, nitro, chat messages */{
+.auto_c49869.scrollerBase_d125d2 /* online friends, nitro, chat messages */{
 	overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 
@@ -219,11 +219,11 @@ Background removals
 Setting scroller fixes
 (the full page scroller doesnt play well with transparency)
 */
-.contentContainer_e8251c .scrollerBase_c49869 /* covers all scrollers in role editing*/ {
+.contentContainer_e8251c .scrollerBase_d125d2 /* covers all scrollers in role editing*/ {
 	height: calc(100% - 200px);
 	top: 200px;
 }
-.contentContainer_e8251c .scrollerBase_c49869 div:empty /* some empty div spacers */ {
+.contentContainer_e8251c .scrollerBase_d125d2 div:empty /* some empty div spacers */ {
 	display: none;
 }
 .contentContainer_e8251c > .scroller_da1bd9 /* role edit - display tab*/,
