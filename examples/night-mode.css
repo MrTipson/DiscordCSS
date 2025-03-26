@@ -4,7 +4,7 @@
 @import url("https://mrtipson.github.io/DiscordCSS/css/call.css");
 @import url("https://mrtipson.github.io/DiscordCSS/css/channel-sidebar-utils.css");
 
-.theme-light {
+.theme-light.theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
     --header-primary: rgb(65, 65, 65) /* big text */;
     --header-secondary: #424242 /* subtext => id, active channel, code markdown, server of mention*/;
@@ -56,7 +56,7 @@
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
     --folder-shadow: -1px 0px 3px 1px var(--color-main);
 }
-.theme-dark {
+.theme-dark.theme-dark {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
     --header-primary: rgb(243, 243, 243) /* big text */;
     --header-secondary: #ebebeb /* subtext => id, active channel, code markdown, server of mention*/;

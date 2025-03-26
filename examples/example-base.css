@@ -2,7 +2,7 @@
 @import url("https://mrtipson.github.io/DiscordCSS/css/base.css");
 
 /* Pattern for light theme is from svgbackgrounds.com */
-.theme-light {
+.theme-light.theme-light {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
     --header-primary: rgb(105, 105, 105) /* big text */;
     --header-secondary: #424242 /* subtext => id, active channel, code markdown, server of mention*/;
@@ -50,7 +50,7 @@
     --progress-track-empty: rgba(109, 109, 109, 0.507) /* volume bar track - empty */;
     --folder-shadow: -1px 0px 3px 0px black;
 }
-.theme-dark {
+.theme-dark.theme-dark {
     --logo-primary: rgb(0, 142, 236) /* discord nitro text, probably other stuff */;
     --header-primary: rgb(238, 238, 238) /* big text */;
     --header-secondary: #cacaca /* subtext => id, active channel, code markdown, server of mention*/;

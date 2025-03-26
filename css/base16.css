@@ -1,4 +1,4 @@
-.theme-light, .theme-dark {
+.theme-light.theme-light, .theme-dark.theme-dark {
     --header-primary: var(--text-normal) /* big text */;
     --header-secondary: var(--text-normal) /* subtext => id, active channel, code markdown, server of mention*/;
     --text-normal: var(--base05) /* normal text */;

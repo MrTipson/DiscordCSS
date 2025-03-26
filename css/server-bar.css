@@ -67,7 +67,7 @@ SOFTWARE.
     position: relative;
 }
 .guilds_c48ade /* the whole navigation bar */{
-    position: absolute;
+    position: fixed;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
     transform-origin: var(--sb-origin);
@@ -88,6 +88,9 @@ SOFTWARE.
 }
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
+}
+.visual-refresh .isExpanded__48112 .folderIcon__48112 /* opened server folder */{
+    margin-bottom: unset;
 }
 .layer_cd0de5 [aria-label*="Pinned Messages"] > .messagesPopoutWrap_ac90a2 /* pinned messages */,
 .layer_cd0de5 [aria-label="Recent Mentions"] /* recent mentions */,

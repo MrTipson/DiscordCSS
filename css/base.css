@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-:root{
+:root:root {
 	--color-main:#7289da /* main color theme */;
 	/* App background */
 	--background-image: none /* background image, eg. url("link") */;
@@ -34,6 +34,12 @@ SOFTWARE.
 	--background-embed:var(--background-secondary) /* background for embeds (video links, ...) */;
 	--background-modal:var(--background-floating) /* main color of a modal dialog */;
 	--background-dropdown:var(--background-floating) /* background of options in a dropdown */;
+	--bg-base-primary: var(--background-primary) /* doesnt do anything yet ? */;
+	--bg-base-secondary: var(--background-secondary);
+	--bg-base-tertiary: var(--background-tertiary);
+	--background-base-lowest: var(--background-primary);
+	--background-base-lower: var(--bg-base-secondary);
+	--bg-overlay-floating: var(--background-tertiary);
 	/* Ignore this */
 	--modal-background: var(--background-modal);
 	--home-background: var(--background-primary);
