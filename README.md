@@ -10,7 +10,7 @@ but any other CSS injecting extensions should be fine as well.
 
 I have also added my own linux script (`inject`) for injecting css, which should work on MacOS as well if you provide it with the correct discord path. It also injects it into popout windows (probably the overlay as well, but I haven't tested that yet). It enables a quick way to inject your stylesheet by just running:
 ```
-curl -s https://raw.githubusercontent.com/MrTipson/DiscordCSS/e9dc89cb4ac7894c9277adc047ed526c1905343e/inject | sh -s -- -c ~/.config/discord/custom.css
+curl -s https://raw.githubusercontent.com/MrTipson/DiscordCSS/835cf516d4b8d8fbbfaf081c0a65927ba56b848a/inject | sh -s -- -c ~/.config/discord/custom.css
 ```
 > Note: running scripts directly from the internet is not a good idea, so at least make sure to pin the commit like its done in the example.
 

@@ -69,7 +69,7 @@
     --channeltextarea-background: rgb(16, 16, 16) /* message textarea */;
     --deprecated-store-bg: black /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: rgb(42, 42, 42) /* quick search text box */;
-    --deprecated-card-editable-bg: rgba(77, 77, 77, 0.24) /* cards in settings (safe messaging, checkbox options)*/;
+    --deprecated-card-editable-bg: #4d4d4d3d /* cards in settings (safe messaging, checkbox options)*/;
 	--autocomplete-bg: var(--background-floating) /* bot commands bg */;
     --interactive-normal: rgb(228, 228, 228) /* supposedly icons */;
     --interactive-muted: #4f545c /* muted channel, others */;

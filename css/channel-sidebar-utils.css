@@ -33,23 +33,23 @@ SOFTWARE.
     --csu-bg-selected: var(--background-modifier-selected);
 }
 
-.containerDefault_f6f816 .wrapper_d8bfb3:not(.typeThread_d8bfb3) /* channel padding*/{
+.containerDefault_c69b6d .wrapper_d8bfb3:not(.typeThread_d8bfb3) /* channel padding*/{
     padding: 0;
     margin-left: 0;
 }
 /* Channel margin/background transition */
-.containerDefault_f6f816.selected_f6f816 > .wrapper_d8bfb3:not(.typeThread_d8bfb3) .link_d8bfb3 /* selected text channel */,
-.containerDefault_f6f816:hover .wrapper_d8bfb3:not(.typeThread_d8bfb3) > .link_d8bfb3/* any text channel */{
+.containerDefault_c69b6d.selected_c69b6d > .wrapper_d8bfb3:not(.typeThread_d8bfb3) .link__2ea32 /* selected text channel */,
+.containerDefault_c69b6d:hover .wrapper_d8bfb3:not(.typeThread_d8bfb3) > .link__2ea32/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
-.link_d8bfb3 /* text channel*/{
+.link__2ea32 /* text channel*/{
     border-radius: 0px;
     margin-left: var(--csu-init-margin);
     transition: margin-left var(--csu-anim-duration) var(--csu-anim-transition), background-color var(--csu-anim-duration);
 }
 /* Unread */
-.unread_d8bfb3 /* unread dot before a text channel */{
+.unread__2ea32 /* unread dot before a text channel */{
     height: 100%;
     width: var(--csu-unread-width);
     border-radius: 0px;
@@ -58,12 +58,12 @@ SOFTWARE.
     left: 0;
 }
 /* Bumper */
-.containerDefault_f6f816:hover::before /* text channel */,
-.containerDefault_f6f816.selected_f6f816:before /* selected text channel */{
+.containerDefault_c69b6d:hover::before /* text channel */,
+.containerDefault_c69b6d.selected_c69b6d:before /* selected text channel */{
     padding-right: var(--csu-bumper-width);
     transition: none;
 }
-.containerDefault_f6f816:before /* text channel */{
+.containerDefault_c69b6d:before /* text channel */{
     content: "";
     display:inline-block;
     background: var(--csu-bumper-color);
@@ -73,10 +73,10 @@ SOFTWARE.
     transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
 }
 /* Background */
-.wrapper_d8bfb3:hover .link_d8bfb3 /* text channel */{
+.wrapper_d8bfb3:hover .link__2ea32 /* text channel */{
     background-color: var(--csu-bg-hover);
 }
-.modeSelected_d8bfb3 .link_d8bfb3 /* text channel */,
-.modeSelected_d8bfb3:hover .link_d8bfb3 /* text channel */{
+.modeSelected_d8bfb3 .link__2ea32 /* text channel */,
+.modeSelected_d8bfb3:hover .link__2ea32 /* text channel */{
     background-color: var(--csu-bg-selected);
 }

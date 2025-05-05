@@ -1,7 +1,7 @@
 /*
 MIT License
 
-Copyright (c) 2024 MrTipson
+Copyright (c) 2025 MrTipson
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,8 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-:root:root {
+:root, :root .theme-darker, :root .theme-dark, :root .theme-light {
 	--color-main:#7289da /* main color theme */;
+	--bg-brand: var(--color-main);
 	/* App background */
 	--background-image: none /* background image, eg. url("link") */;
 	--background-color:none /* background color (for svg backgrounds and such)*/;
@@ -38,8 +39,15 @@ SOFTWARE.
 	--bg-base-secondary: var(--background-secondary);
 	--bg-base-tertiary: var(--background-tertiary);
 	--background-base-lowest: var(--background-primary);
-	--background-base-lower: var(--bg-base-secondary);
+	--background-base-lower: var(--background-secondary);
+	--background-surface-high: var(--background-floating);
+	--background-surface-higher: var(--background-floating);
 	--bg-overlay-floating: var(--background-tertiary);
+
+	--text-primary: var(--header-primary);
+	--text-default: var(--text-normal);
+	--button-secondary-background: var(--background-tertiary);
+	--button-secondary-text: var(--text-normal);
 	/* Ignore this */
 	--modal-background: var(--background-modal);
 	--home-background: var(--background-primary);
