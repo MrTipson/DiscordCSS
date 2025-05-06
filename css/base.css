@@ -137,6 +137,7 @@ background-floating overrides
 .popout_a9414b /* other's activity status */,
 .innerWrapper_c511e4 /* nitro screen floating buttons for subscribe/gift */,
 .header_c6ee36 /* reaction emoji picker header */,
+.picker__09f65.picker__09f65 /* call soundboard */,
 .emojiPicker_c6ee36 /* reaction emoji picker body */ {
 	background-color: var(--background-floating);
 }

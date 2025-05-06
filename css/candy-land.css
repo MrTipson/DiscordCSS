@@ -49,7 +49,7 @@ Positioning
 [aria-label="User area"][aria-label="User area"] /* user info, call controls */ {
     --custom-panels-spacing: 10px;
     margin-bottom: 5px;
-    height: 50px;
+    padding: 2px 0px;
 }
 [aria-label="User area"] > .container__37e49 {
     padding-top: 0;
@@ -186,10 +186,16 @@ Settings
 Call
 Sadly there is some overlap with call.css but I think its better to do it this way
 */
-.root_dd069c .gradientContainer_dd069c /* call gradients */{
+.wrapper_cb9592.wrapper_cb9592 /* call background */,
+.root_bfe55a.root_bfe55a /* call background */{
+    background: none;
+}
+.videoControls_bfe55a .gradientContainer_bfe55a /* call gradients */{
+    background-image: none;
     opacity: 0;
 }
-.videoControls_dd069c section /* header in the call screen */{
+.buttonSection__1405b.experimentButtonSection__1405b /* call controls */,
+.videoControls_bfe55a section.container__9293f /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
 /*-----
@@ -215,8 +221,8 @@ MISC
 }
 .channelTextArea_f75fb0 /* chat input */{
     /* discord 'visual refresh' slop */
-    height: 50px;
-    box-sizing: border-box;
+    --custom-channel-textarea-text-area-height: 50px;
+    border: none;
 }
 /*-----
 Resize handle (forums/threads)

@@ -33,7 +33,7 @@ SOFTWARE.
     -webkit-transform: unset;
     transform: unset;
 }
-.root_dd069c .gradientContainer_dd069c /* call gradients */{
+.root_dd069c .gradientContainer_bfe55a /* call gradients */{
     opacity: 0;
 }
 .bottomControls_dd069c /* call info and buttons on hover in call */,
@@ -50,6 +50,6 @@ SOFTWARE.
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--call-shadow-top);
 }
-.videoControls_dd069c /* wrapper for call controls */{
+.videoControls_bfe55a /* wrapper for call controls */{
     padding-bottom: 0;
 }
