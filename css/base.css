@@ -22,7 +22,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-:root, :root .theme-darker, :root .theme-dark, :root .theme-light {
+:root, :root .theme-darker, :root .theme-dark, :root .theme-light,
+.visual-refresh.theme-light, .visual-refresh .theme-light,
+.visual-refresh.theme-dark, .visual-refresh .theme-dark {
 	--color-main:#7289da /* main color theme */;
 	--bg-brand: var(--color-main);
 	/* App background */
@@ -40,9 +42,13 @@ SOFTWARE.
 	--bg-base-tertiary: var(--background-tertiary);
 	--background-base-lowest: var(--background-primary);
 	--background-base-lower: var(--background-secondary);
+	--background-base-low: var(--background-secondary);
 	--background-surface-high: var(--background-floating);
 	--background-surface-higher: var(--background-floating);
+	--background-surface-highest: var(--background-floating);
 	--bg-overlay-floating: var(--background-tertiary);
+
+	--card-primary-bg: var(--background-primary);
 
 	--text-primary: var(--header-primary);
 	--text-default: var(--text-normal);
