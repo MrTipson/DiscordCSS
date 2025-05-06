@@ -22,23 +22,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-.chatContent_a7d72e /* chat/input container */{
+.chatContent_f75fb0 /* chat/input container */{
     flex-direction: column-reverse;
 }
-.channelTextArea_a7d72e /* message input */{
+..channelTextArea_f75fb0 /* message input */{
     margin-bottom: 0px;
     margin-top: 24px;
 }
-.messagesWrapper_e2e187 /* chat messages */{
+.messagesWrapper__36d07 /* chat messages */{
     transform: rotateX(180deg);
 }
-.messagesWrapper_e2e187 .scrollerInner_e2e187 > * /* all chat content */{
+.messagesWrapper__36d07 .scrollerInner_e2e187 > * /* all chat content */{
     transform: rotateX(-180deg);
 }
-.messagesWrapper_e2e187 .scrollerInner_e2e187:first-child /* messages */{
+.messagesWrapper__36d07 .scrollerInner_e2e187:first-child /* messages */{
     margin-bottom: 24px;
 }
-.messagesWrapper_e2e187 .scrollerSpacer_e2e187 /* spacer after the last message */{
+.messagesWrapper__36d07 .scrollerSpacer__36d07 /* spacer after the last message */{
     display: none;
 }
 .jumpToPresentBar_cf58b5 /* jump to present */,
@@ -53,6 +53,6 @@ SOFTWARE.
     bottom: 0px;
     top: unset;
 }
-.typing_d7ebeb /* someone is typing*/{
+.typing_b88801 /* someone is typing*/{
     top: 3px;
 }

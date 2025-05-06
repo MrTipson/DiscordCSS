@@ -29,11 +29,11 @@ SOFTWARE.
     --ds-padding-icon: 0 8px;
 }
 /* Sidebar width */
-.sidebar_a4d4d9 /* sidebar (channels/dms) */{
+.sidebarList_c48ade /* sidebar (channels/dms) */{
     width: var(--ds-width);
     transition: width var(--ds-transition-duration);
 }
-.sidebar_a4d4d9:hover /* sidebar (channels/dms) */{
+.sidebarList_c48ade:hover /* sidebar (channels/dms) */{
     width: 240px;
 }
 /* Visual corrections */
@@ -43,8 +43,8 @@ SOFTWARE.
 .unread_c10249 /* unread bar */{
     opacity: 0;
 }
-.sidebar_a4d4d9 .children_d8bfb3 /* invite/settings buttons for channel */,
-.sidebar_a4d4d9 .inner_adcaac+.flex_bba380 /* voice connected */,
+.sidebarList_c48ade .children_d8bfb3 /* invite/settings buttons for channel */,
+.sidebarList_c48ade .inner_adcaac+.flex_bba380 /* voice connected */,
 .actionButtons_adcaac /* camera/share screen */,
 [aria-label="User area"] > .panel_bf1a22 .info_bf1a22 /* name of currently shared window */,
 [aria-label="User area"] > .panel_bf1a22 .actions_bf1a22 /* sharing screen */,
@@ -52,40 +52,40 @@ SOFTWARE.
 .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
     display: none;
 }
-.container_b2ca13 /* profile image/mute/deafen/settings */{
+.container__37e49 /* profile image/mute/deafen/settings */{
 	overflow: hidden;
 }
-.sidebar_a4d4d9:hover .unread_c10249 /* unread bar */{
+.sidebarList_c48ade:hover .unread_c10249 /* unread bar */{
     opacity: 0.9;
 }
-.sidebar_a4d4d9:hover .children_d8bfb3 /* invite/settings buttons for channel */,
-.sidebar_a4d4d9:hover .inner_adcaac+.flex_bba380 /* voice connected */,
-.sidebar_a4d4d9:hover [aria-label="User area"] > .panel_bf1a22 .info_bf1a22 /* name of currently shared window */,
-.sidebar_a4d4d9:hover [aria-label="User area"] > .panel_bf1a22 .actions_bf1a22 /* stop sharing button */,
-.sidebar_a4d4d9:hover .actionButtons_adcaac /* camera/share screen */,
-.sidebar_a4d4d9:hover .children_a08117 /* create channel button */,
-.sidebar_a4d4d9:hover .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
+.sidebarList_c48ade:hover .children_d8bfb3 /* invite/settings buttons for channel */,
+.sidebarList_c48ade:hover .inner_adcaac+.flex_bba380 /* voice connected */,
+.sidebarList_c48ade:hover [aria-label="User area"] > .panel_bf1a22 .info_bf1a22 /* name of currently shared window */,
+.sidebarList_c48ade:hover [aria-label="User area"] > .panel_bf1a22 .actions_bf1a22 /* stop sharing button */,
+.sidebarList_c48ade:hover .actionButtons_adcaac /* camera/share screen */,
+.sidebarList_c48ade:hover .children_a08117 /* create channel button */,
+.sidebarList_c48ade:hover .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
     display:flex;
 }
-.sidebar_a4d4d9:hover .overflow_c74e70 /* category name */,
-.sidebar_a4d4d9:hover .name_d8bfb3 /* channel names */{
+.sidebarList_c48ade:hover .overflow_c74e70 /* category name */,
+.sidebarList_c48ade:hover .name_d8bfb3 /* channel names */{
     text-overflow: ellipsis;
 }
 .overflow_c74e70 /* category name */,
 .name_d8bfb3 /* channel names */{
     text-overflow: clip;
 }
-.sidebar_a4d4d9:hover [aria-label="User area"] > .panel_bf1a22 .gameWrapper_bf1a22 /* icon/name of currently shared window */,
-.sidebar_a4d4d9:hover .avatarWrapper_b2ca13 /* user profile picture (bottom left) */{
+.sidebarList_c48ade:hover [aria-label="User area"] > .panel_bf1a22 .gameWrapper_bf1a22 /* icon/name of currently shared window */,
+.sidebarList_c48ade:hover .avatarWrapper_b2ca13 /* user profile picture (bottom left) */{
     padding: 0;
 }
 [aria-label="User area"] > .panel_bf1a22 .gameWrapper_bf1a22 /* icon/name of currently shared window */,
 .avatarWrapper_b2ca13 /* user profile */{
     padding: var(--ds-padding-icon);
 }
-.sidebar_a4d4d9 .link__2ea32 /* channel */{
+.sidebarList_c48ade .link__2ea32 /* channel */{
     padding: 6px 0px;
 }
-.sidebar_a4d4d9:hover .link__2ea32 /* channel */{
+.sidebarList_c48ade:hover .link__2ea32 /* channel */{
     padding: 6px 8px;
 }

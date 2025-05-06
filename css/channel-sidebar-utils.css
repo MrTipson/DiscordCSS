@@ -33,13 +33,13 @@ SOFTWARE.
     --csu-bg-selected: var(--background-modifier-selected);
 }
 
-.containerDefault_c69b6d .wrapper_d8bfb3:not(.typeThread_d8bfb3) /* channel padding*/{
+.containerDefault_c69b6d .wrapper__2ea32:not(.typeThread__2ea32) /* channel padding*/{
     padding: 0;
     margin-left: 0;
 }
 /* Channel margin/background transition */
-.containerDefault_c69b6d.selected_c69b6d > .wrapper_d8bfb3:not(.typeThread_d8bfb3) .link__2ea32 /* selected text channel */,
-.containerDefault_c69b6d:hover .wrapper_d8bfb3:not(.typeThread_d8bfb3) > .link__2ea32/* any text channel */{
+.containerDefault_c69b6d.selected_c69b6d > .wrapper__2ea32:not(.typeThread__2ea32) .link__2ea32 /* selected text channel */,
+.containerDefault_c69b6d:hover .wrapper__2ea32:not(.typeThread__2ea32) .link__2ea32/* any text channel */{
     transition: none;
     margin-left: max(var(--csu-bumper-width), var(--csu-unread-width));
 }
@@ -73,7 +73,7 @@ SOFTWARE.
     transition: padding-right var(--csu-anim-duration) var(--csu-anim-transition);
 }
 /* Background */
-.wrapper_d8bfb3:hover .link__2ea32 /* text channel */{
+.wrapper__2ea32:hover .link__2ea32 /* text channel */{
     background-color: var(--csu-bg-hover);
 }
 .modeSelected_d8bfb3 .link__2ea32 /* text channel */,

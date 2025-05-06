@@ -70,7 +70,7 @@ SOFTWARE.
 /*-----
 Background
 -----*/
-.bg_d4b6c5 /* Full background */ {
+.bg__960e4.bg__960e4 /* Full background */ {
 	background: var(--background);
 	background-image: var(--background-image);
 	background-repeat: no-repeat;
@@ -103,7 +103,7 @@ Main color
 /*-----
 Message scrollbar
 -----*/
-.auto_c49869.scrollerBase_d125d2 /* online friends, nitro, chat messages */{
+.thin_d125d2.scrollerBase_d125d2 /* online friends, nitro, chat messages */{
 	overflow: auto !important /* hide scroll track when no scroll needed */;
 }
 
@@ -159,7 +159,7 @@ Background-primary overrides
 Background-secondary overrides
 */
 .header_f1fd9c.header_f1fd9c /* browse channels header */,
-.container_f1fd9c.container_f1fd9c /* browse channels body */{
+.container__0b563.container__0b563 /* browse channels body */{
 	background-color: var(--background-secondary);
 }
 /*
@@ -196,10 +196,10 @@ Text input background
 }
 
 /* friends tab - active now */
-.outer_c0f6a6.outer_c0f6a6.interactive_c0f6a6:hover /* friends tab - active now */ {
+.outer_bf1984.outer_bf1984.interactive_bf1984:hover /* friends tab - active now */ {
 	background-color: var(--background-modifier-hover);
 }
-.outer_c0f6a6.outer_c0f6a6.active_c0f6a6  /* friends tab - active now */ {
+.outer_bf1984.outer_bf1984.active_c0f6a6  /* friends tab - active now */ {
 	background-color: var(--background-modifier-active);
 }
 
@@ -224,8 +224,8 @@ Background removals
 */
 .header_bd05f1 /* server role edit header*/,
 .titleContainer_e87574 /* server role list header */,
-.applicationStore_cecc86 /* nitro screen */,
-.channelTextArea_a7d72e /* message text input - is changed in inner element */,
+.applicationStore_f07d62 /* nitro screen */,
+..channelTextArea_f75fb0 /* message text input - is changed in inner element */,
 .container_c2efea.container_c2efea /* browse channels body (inner) */{
 	background-color: unset;
 }
@@ -258,19 +258,27 @@ Setting scroller fixes
 .stickyHeaderElevated_bd05f1 /* roles sticky header */ {
 	box-shadow: none;
 }
-.contentRegionScroller_c25c6d /* full page scroller used in settings tabs */{
+.contentRegionScroller__23e6b /* full page scroller used in settings tabs */{
 	overflow: auto;
 }
 /* New date divider between messages */
-.divider_d5deea.hasContent_d5deea {
+.divider__5126c.hasContent__5126c {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: unset;
 }
-.content_fc5f50 /* divider content */ {
+.content__908e2.content__908e2 /* divider content */ {
 	background: unset;
 }
 /* Gradient for overflowing channel description */
 .children_e44302:after {
 	display: none;
+}
+/* Account details */
+.fieldList__1fed1 {
+	background: transparent;
+}
+.sessionIcon__803f2 /* settings > devices > device icons*/ {
+	background: var(--interactive-muted);
+	color: var(--interactive-normal);
 }
