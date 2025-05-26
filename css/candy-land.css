@@ -134,7 +134,7 @@ Colors
 .members_c8ffbb /* members list - override to background-primary */,
 .nowPlayingColumn__133bf /* friends in games - override to background-primary */,
 .peopleColumn__133bf /* online friends */,
-.themed__9293f /* friends top bar */{
+.themed__9293f.themed__9293f /* friends top bar, thread split view header/title */{
     background-color: var(--background-primary);
 }
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
@@ -148,7 +148,6 @@ Colors
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);
 }
-.callContainer_cb9592 /* call background */,
 .container__37e49 /* user area wrapper */ {
     background-color: transparent !important;
 }
@@ -194,7 +193,7 @@ Sadly there is some overlap with call.css but I think its better to do it this w
     background-image: none;
     opacity: 0;
 }
-.buttonSection__1405b.experimentButtonSection__1405b /* call controls */,
+.buttonSection__1405b /* call controls */,
 .videoControls_bfe55a section.container__9293f /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
@@ -205,11 +204,10 @@ MISC
 .form_f75fb0:before /* gradient next to message input */,
 .tabBody__133bf::before /* shadow under top bar (friends) */,
 .content_a7d72e::before /* shadow under top bar (channel/thread name) */,
-.headerBar_d175a8:before /* shadow under top bar (nitro) */,
-.chat_ee72fa:before /* shadow under top bar (voice text chat, thread split view) */{
+.headerBar_d175a8:before /* shadow under top bar (nitro) */{
     display: none;
 }
-[aria-label="User area"] .button_dd4f85 /* screen share button */{
+[aria-label="User area"] .button_e131a9 /* screen share button */{
     padding: 2px 8px;
 }
 .header_fd6364 /* server name */{

@@ -92,9 +92,7 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .visual-refresh .isExpanded__48112 .folderIcon__48112 /* opened server folder */{
     margin-bottom: unset;
 }
-.layer_cd0de5 [aria-label*="Pinned Messages"] > .messagesPopoutWrap_ac90a2 /* pinned messages */,
-.layer_cd0de5 [aria-label="Recent Mentions"] /* recent mentions */,
-.layer_cd0de5 [aria-label="Unreads"] /* recent mentions */{
+.recentMentionsPopout__95796.recentMentionsPopout__95796 /* unreads */{
     max-height: 80vh !important;
 }
 .tooltipRight_b6c360.tooltip_b6c360 /* server name tooltip */{

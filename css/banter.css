@@ -21,17 +21,18 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
-[data-list-id="chat-messages"]>li:nth-child(n) .avatar_ec86aa{animation: dunkaDunka 2s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(2n) .avatar_ec86aa{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(3n) .avatar_ec86aa{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(4n) .avatar_ec86aa{animation: dunkaDunka 3s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(5n) .avatar_ec86aa{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(6n) .avatar_ec86aa{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(7n) .avatar_ec86aa{animation: dunkaDunka 4s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(8n) .avatar_ec86aa{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(9n) .avatar_ec86aa{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
-[data-list-id="chat-messages"]>li:nth-child(10n) .avatar_ec86aa{animation: dunkaDunka 5s linear 0s infinite forwards;}
-.avatar_ec86aa.clickable_ec86aa:active /* avatar when holding click */{
+/* Avatars in chat */
+[data-list-id="chat-messages"]>li:nth-child(n) .avatar_c19a55{animation: dunkaDunka 2s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(2n) .avatar_c19a55{animation: dunkaDunka 2.3s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(3n) .avatar_c19a55{animation: dunkaDunka 2.6s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(4n) .avatar_c19a55{animation: dunkaDunka 3s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(5n) .avatar_c19a55{animation: dunkaDunka 3.3s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(6n) .avatar_c19a55{animation: dunkaDunka 3.6s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(7n) .avatar_c19a55{animation: dunkaDunka 4s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(8n) .avatar_c19a55{animation: dunkaDunka 4.3s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(9n) .avatar_c19a55{animation: dunkaDunka 4.6s linear 0s infinite forwards;}
+[data-list-id="chat-messages"]>li:nth-child(10n) .avatar_c19a55{animation: dunkaDunka 5s linear 0s infinite forwards;}
+.avatar_c19a55.clickable_c19a55:active /* avatar when holding click */{
     transform: initial;
     -webkit-transform: initial;
 }
@@ -74,27 +75,27 @@ SOFTWARE.
     Wibble wobble
 */
 /* Avatars in voice chat */
-ul[aria-label="Channels"]>li:nth-child(n)  .userAvatar_ac3629{animation: move 1s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(2n) .userAvatar_ac3629{animation: move 1.3s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(3n) .userAvatar_ac3629{animation: move 1.6s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(4n) .userAvatar_ac3629{animation: move 2s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(5n) .userAvatar_ac3629{animation: move 2.3s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(6n) .userAvatar_ac3629{animation: move 2.6s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(7n) .userAvatar_ac3629{animation: move 3s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(8n) .userAvatar_ac3629{animation: move 3.3s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(9n) .userAvatar_ac3629{animation: move 3.6s linear 0s infinite forwards;}
-ul[aria-label="Channels"]>li:nth-child(10n) .userAvatar_ac3629{animation: move 4s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(n)  .userAvatar__55bab{animation: move 1s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(2n) .userAvatar__55bab{animation: move 1.3s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(3n) .userAvatar__55bab{animation: move 1.6s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(4n) .userAvatar__55bab{animation: move 2s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(5n) .userAvatar__55bab{animation: move 2.3s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(6n) .userAvatar__55bab{animation: move 2.6s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(7n) .userAvatar__55bab{animation: move 3s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(8n) .userAvatar__55bab{animation: move 3.3s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(9n) .userAvatar__55bab{animation: move 3.6s linear 0s infinite forwards;}
+ul[aria-label="Channels"]>li:nth-child(10n) .userAvatar__55bab{animation: move 4s linear 0s infinite forwards;}
 /* Avatars in dms */
-ul[aria-label="Direct Messages"]>li:nth-child(n)  .wrapper_c51b4e{animation: move 1s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(2n) .wrapper_c51b4e{animation: move 1.6s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(3n) .wrapper_c51b4e{animation: move 1.3s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(4n) .wrapper_c51b4e{animation: move 2.6s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(5n) .wrapper_c51b4e{animation: move 2.3s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(6n) .wrapper_c51b4e{animation: move 3.3s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(7n) .wrapper_c51b4e{animation: move 4s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(8n) .wrapper_c51b4e{animation: move 2s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(9n) .wrapper_c51b4e{animation: move 3.6s linear 0s infinite forwards;}
-ul[aria-label="Direct Messages"]>li:nth-child(10n) .wrapper_c51b4e{animation: move 3s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(n)  .wrapper__44b0c{animation: move 1s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(2n) .wrapper__44b0c{animation: move 1.6s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(3n) .wrapper__44b0c{animation: move 1.3s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(4n) .wrapper__44b0c{animation: move 2.6s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(5n) .wrapper__44b0c{animation: move 2.3s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(6n) .wrapper__44b0c{animation: move 3.3s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(7n) .wrapper__44b0c{animation: move 4s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(8n) .wrapper__44b0c{animation: move 2s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(9n) .wrapper__44b0c{animation: move 3.6s linear 0s infinite forwards;}
+ul[aria-label="Direct Messages"]>li:nth-child(10n) .wrapper__44b0c{animation: move 3s linear 0s infinite forwards;}
 @keyframes move {
 0%   {transform: translate(0,0) rotate(3deg);}
 25%  {transform: translate(2px,0) rotate(-6deg);}
@@ -105,18 +106,18 @@ ul[aria-label="Direct Messages"]>li:nth-child(10n) .wrapper_c51b4e{animation: mo
 /*
     Spinny rainbow
 */
-.avatar_b2ca13 {
+.avatar__37e49 /* user info */ { 
     animation: move 1s linear infinite;
 }
 /*
 	Home button
 */
-[data-list-item-id="guildsnav___home"].selected_f90abb .childWrapper_f90abb,
-[data-list-item-id="guildsnav___home"]:hover .childWrapper_f90abb {
+[data-list-item-id="guildsnav___home"].selected__6e9f8 .childWrapper__6e9f8,
+[data-list-item-id="guildsnav___home"]:hover .childWrapper__6e9f8 {
     background-color: rgba(0,0,0,0);
     animation: ColorTransition 2s linear infinite;
 }
-[data-list-item-id="guildsnav___home"].selected_f90abb svg /* discord home icon */,
+[data-list-item-id="guildsnav___home"].selected__6e9f8 svg /* discord home icon */,
 [data-list-item-id="guildsnav___home"]:hover svg /* discord home icon */{
     animation: spin 1s linear infinite;
 }

@@ -28,25 +28,27 @@ SOFTWARE.
     --call-shadow-bottom: none;
     --call-shadow-top: none;
 }
-.overlayTitle_ba4b17.idle_ba4b17 /* prevent names from dissapearing */{
+/* TODO: check if this is fixed; discord is removing the actual name from the DOM
+.overlayTitle_ba4b17.idle__2f4f7 /* prevent names from dissapearing {
     opacity: unset;
     -webkit-transform: unset;
     transform: unset;
 }
-.root_dd069c .gradientContainer_bfe55a /* call gradients */{
+*/
+.root_bfe55a .gradientContainer_bfe55a /* call gradients */{
     opacity: 0;
 }
-.bottomControls_dd069c /* call info and buttons on hover in call */,
-.topControls_dd069c /* call controls on hover in calll */{
+.bottomControls_bfe55a /* call info and buttons on hover in call */,
+.topControls_bfe55a /* call controls on hover in calll */{
     padding: var(--call-controls-padding);
     background-color: var(--call-controls-bg);
     box-sizing: border-box;
 }
-.bottomControls_dd069c /* call info and buttons on hover in call */{
+.bottomControls_bfe55a /* call info and buttons on hover in call */{
     border-radius: 8px 8px 0px 0px;
     box-shadow: var(--call-shadow-bottom);
 }
-.topControls_dd069c /* call controls on hover in calll */{
+.topControls_bfe55a /* call controls on hover in calll */{
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--call-shadow-top);
 }

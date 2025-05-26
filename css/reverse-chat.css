@@ -25,31 +25,31 @@ SOFTWARE.
 .chatContent_f75fb0 /* chat/input container */{
     flex-direction: column-reverse;
 }
-..channelTextArea_f75fb0 /* message input */{
+.channelTextArea_f75fb0 /* message input */{
     margin-bottom: 0px;
-    margin-top: 24px;
+    margin-top: var(--custom-chat-input-margin-bottom);
 }
 .messagesWrapper__36d07 /* chat messages */{
     transform: rotateX(180deg);
 }
-.messagesWrapper__36d07 .scrollerInner_e2e187 > * /* all chat content */{
+.messagesWrapper__36d07 .scrollerInner__36d07 > * /* all chat content */{
     transform: rotateX(-180deg);
 }
-.messagesWrapper__36d07 .scrollerInner_e2e187:first-child /* messages */{
-    margin-bottom: 24px;
+.messagesWrapper__36d07 .scrollerInner__36d07:first-child /* messages */{
+    padding-bottom: 24px;
 }
 .messagesWrapper__36d07 .scrollerSpacer__36d07 /* spacer after the last message */{
     display: none;
 }
-.jumpToPresentBar_cf58b5 /* jump to present */,
-.newMessagesBar_cf58b5 /* new messages bar (mark as read) */{
+.jumpToPresentBar__0f481.jumpToPresentBar__0f481 /* jump to present */,
+.newMessagesBar__0f481 /* new messages bar (mark as read) */{
     transform: rotateX(-180deg);
 }
-.jumpToPresentBar_cf58b5 /* jump to present (messages) */{
+.jumpToPresentBar__0f481.jumpToPresentBar__0f481 /* jump to present (messages) */{
     top: 0px;
 	bottom: unset;
 }
-.newMessagesBar_cf58b5 /* mark as read (messages) */{
+.newMessagesBar__0f481 /* mark as read (messages) */{
     bottom: 0px;
     top: unset;
 }

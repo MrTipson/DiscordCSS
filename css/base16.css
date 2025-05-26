@@ -7,6 +7,7 @@
     --background-secondary-alt: transparent /* call controls, profile */ ;
     --background-tertiary: var(--base02) !important /* server list, find or start convo backgr*/;
     --background-floating: var(--base00) /* context menus */;
+    --modal-footer-background: var(--base01);
     --channeltextarea-background: var(--background-tertiary) /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
@@ -32,13 +33,14 @@
     --scrollbar-auto-thumb: var(--base02) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: var(--base01) /* thick scrollbar */;
 	--bg-base-primary: var(--background-primary);
+    --user-profile-overlay-background: var(--base02) /* panels in user profile */;
     /* Custom variables - Theme */
     --color-main: var(--base08) /* main color theme */;
     --background-image: none;
     --background-filter: none/* filter property applied to the background */;
     --background-markup: var(--background-tertiary) /* background for code markup (``` blocks) */;
     --background-embed: var(--background-tertiary) /* background for embeds (video links, ...) */;
-    --background-modal: var(--background-floating) /* main color of a modal dialog */;
+    --background-modal: var(--base01) /* main color of a modal dialog */;
     --background-dropdown: var(--background-floating) /* background of options in a dropdown */;
     --background-color: var(--base01) /* background color (for svg backgrounds and such)*/;
     --progress-thumb: var(--text-muted) /* volume bar thumb */;
