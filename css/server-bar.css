@@ -55,15 +55,7 @@ SOFTWARE.
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.guilds_c48ade.hidden_fea3ef+.base_c48ade /* hide server bar when fullscreen */{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 100%;
-}
-.container_a4d4d9 /* wrapper around base and navigation bar */{
+.container_c48ade /* wrapper around base and navigation bar */{
     position: relative;
 }
 .guilds_c48ade /* the whole navigation bar */{
@@ -95,17 +87,17 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .recentMentionsPopout__95796.recentMentionsPopout__95796 /* unreads */{
     max-height: 80vh !important;
 }
-.tooltipRight_b6c360.tooltip_b6c360 /* server name tooltip */{
+.tooltipRight__382e7.tooltip__382e7 /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight_b6c360>.tooltipPointer_b6c360 /* little arrow for tooltip */{
+.tooltipRight__382e7>.tooltipPointer__382e7 /* little arrow for tooltip */{
     opacity: 0;
 }
-.unreadMentionsIndicatorTop_fea3ef /* new message red popup bottom */,
-.unreadMentionsIndicatorBottom_fea3ef /* new message red popup bottom */{
+.unreadMentionsIndicatorTop_ef3116 /* new message red popup bottom */,
+.unreadMentionsIndicatorBottom_ef3116 /* new message red popup bottom */{
     display: none;
 }
 

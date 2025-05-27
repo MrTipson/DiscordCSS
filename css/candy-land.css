@@ -76,7 +76,7 @@ Positioning
     left: 0px;
     top: -21px;
 }
-.withFrame_a934d8 /* top bar for dragging/closing */{
+.withFrame__421ed /* top bar for dragging/closing */{
     margin-top: 0px;
     padding-top: 4px;
 }
@@ -112,7 +112,6 @@ Positioning
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
-.pageWrapper_a3a4ce /* discover servers */,
 .tabBody__133bf /* everything within the online friends */,
 .chat_f75fb0 /* everything within chat */{
     padding: 0px 5px 5px 0px;
@@ -151,6 +150,7 @@ Colors
 .container__37e49 /* user area wrapper */ {
     background-color: transparent !important;
 }
+.panel__5dec7.panel__5dec7 /* sharing screen */,
 .container__7d20c /* active friends */,
 .container_c8ffbb /* members sidebar */,
 .container__01ae2.container__01ae2 /* open thread sidebar */,
@@ -201,20 +201,17 @@ Sadly there is some overlap with call.css but I think its better to do it this w
 MISC
 -----*/
 .sidebar_c48ade:after /* spacer under user info/channel sidebar */,
-.form_f75fb0:before /* gradient next to message input */,
-.tabBody__133bf::before /* shadow under top bar (friends) */,
-.content_a7d72e::before /* shadow under top bar (channel/thread name) */,
-.headerBar_d175a8:before /* shadow under top bar (nitro) */{
+.form_f75fb0:before /* gradient next to message input */ {
     display: none;
 }
 [aria-label="User area"] .button_e131a9 /* screen share button */{
     padding: 2px 8px;
 }
-.header_fd6364 /* server name */{
+.header_f37cb1.header_f37cb1 /* server name */{
     border-radius: 8px 8px 0px 0px;
 }
 .container_c8ffbb /* member sidebar */,
-.scroller_bf550a /* active friends */{
+.scroller__7d20c.scroller__7d20c /* active friends */{
     border-left: none;
 }
 .channelTextArea_f75fb0 /* chat input */{

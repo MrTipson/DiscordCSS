@@ -37,9 +37,6 @@ SOFTWARE.
 .guilds_c48ade .scroller_ef3116.none_d125d2.scrollerBase_d125d2 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-.expandedFolderBackground_bc7085 {
-    display: none;
-}
 ul[id^="folder"] /* opened server folder */{
     /* customisable */
     background: var(--folder-background, var(--background-floating, green));

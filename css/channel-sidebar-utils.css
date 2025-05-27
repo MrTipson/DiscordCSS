@@ -76,7 +76,7 @@ SOFTWARE.
 .wrapper__2ea32:hover .link__2ea32 /* text channel */{
     background-color: var(--csu-bg-hover);
 }
-.modeSelected_d8bfb3 .link__2ea32 /* text channel */,
-.modeSelected_d8bfb3:hover .link__2ea32 /* text channel */{
+.modeSelected__2ea32 .link__2ea32 /* text channel */,
+.modeSelected__2ea32:hover .link__2ea32 /* text channel */{
     background-color: var(--csu-bg-selected);
 }

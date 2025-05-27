@@ -31,7 +31,7 @@ SOFTWARE.
     --bu-image-repeat: round;
 }
 .chatContent_f75fb0 /* chat */,
-.membersWrap_cbd271 /* server members */,
+.membersWrap_c8ffbb /* server members */,
 [aria-label="Channel header"] /* top bar - channel name, description, search (selecotr used to be .title)*/,
 .sidebarList_c48ade > nav /* channels, dms */,
 .guilds_c48ade /* servers */,
