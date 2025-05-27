@@ -26,7 +26,7 @@ SOFTWARE.
     --ds-width: 101px;
     --ds-transition-duration: 0s;
     --ds-padding-user: 18px;
-    --ds-padding-icon: 0 8px;
+    --ds-padding-icon: 0 12px;
 }
 /* Sidebar width */
 .sidebarList_c48ade.sidebarList_c48ade /* sidebar (channels/dms) */{
@@ -47,8 +47,9 @@ SOFTWARE.
 .sidebar_c48ade .rtcConnectionStatusLabel__06d62 /* voice connected */,
 .actionButtons_e131a9 /* camera/share screen */,
 [aria-label="User area"] > .panel__5dec7 .info__5dec7 /* name of currently shared window */,
-[aria-label="User area"] > .panel__5dec7 .actions_bf1a22 /* sharing screen */,
+[aria-label="User area"] > .panel__5dec7 .actions__4cd01 /* sharing screen */,
 .children__29444 /* create channel button */,
+.buttons__37e49 /* voice controls */,
 .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
     display: none;
 }
@@ -61,9 +62,10 @@ SOFTWARE.
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .children__2ea32 /* invite/settings buttons for channel */,
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .rtcConnectionStatusLabel__06d62 /* voice connected */,
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) [aria-label="User area"] > .panel__5dec7 .info__5dec7 /* name of currently shared window */,
-.sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) [aria-label="User area"] > .panel__5dec7 .actions_bf1a22 /* stop sharing button */,
+.sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) [aria-label="User area"] > .panel__5dec7 .actions__4cd01 /* stop sharing button */,
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .actionButtons_e131a9 /* camera/share screen */,
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .children__29444 /* create channel button */,
+.sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .buttons__37e49 /* voice controls */,
 .sidebar_c48ade:hover:not(:has(.guilds_c48ade:hover)) .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
     display:flex;
 }

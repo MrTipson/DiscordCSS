@@ -124,7 +124,7 @@ background-floating overrides
 */
 .contentWrapper__08434.contentWrapper__08434 /* gif/sticker/emoji picker*/,
 .reactors_cc2dff.reactors_cc2dff /* message reactions - reactors */,
-.messagesPopoutWrap_ac90a2 /* pinned messages */,
+.messagesPopoutWrap__45690.messagesPopoutWrap__45690 /* pinned messages */,
 .container__2692d.container__2692d /* unreads */,
 .container_fc561d.container_fc561d /* inbox (for you) */,
 .container_d9c882.container_d9c882 /* threads (next to pins) */,
@@ -156,7 +156,7 @@ Background-secondary overrides
 /*
 Background-tertiary overrides
 */
-.itemFilled_eb92a8 /* user settings > chat > show spoiler content (radio buttons) */{
+.itemFilled__001a7.itemFilled__001a7 /* user settings > chat > show spoiler content (radio buttons) */{
 	background-color: var(--background-tertiary);
 }
 
@@ -205,7 +205,7 @@ Background removals
 .titleContainer_e29cd7 /* server role list header */,
 .applicationStore_f07d62 /* nitro screen */,
 .channelTextArea_f75fb0 /* message text input - is changed in inner element */,
-.container_c2efea.container_c2efea /* browse channels body (inner) */{
+.container__0b563.container__0b563 /* browse channels body (inner) */{
 	background-color: unset;
 }
 .callContainer_cb9592.callContainer_cb9592 /* call black background part 4 */,
@@ -213,8 +213,7 @@ Background removals
 .root_bfe55a.root_bfe55a /* call black background part 2 */,
 .panel__5dec7.panel__5dec7 /* current/suggested streamed window/app */, /*TODO*/
 .container__7d20c /* friends tab - active now */,
-.wrapper_cb9592.wrapper_cb9592 /* call black background */,
-.container_adcaac.container_adcaac /* user island duplicate styling */ {
+.wrapper_cb9592.wrapper_cb9592 /* call black background */ {
 	background: unset;
 }
 /*
