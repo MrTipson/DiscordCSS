@@ -12,7 +12,7 @@
     --background-secondary-alt: var(--background-primary) /* call controls, profile */ ;
     --background-tertiary: var(--background-primary) !important /* server list, find or start convo backgr */;
     --background-floating: rgb(185, 229, 255) /* context menus */;
-    --channeltextarea-background: var(--background-primary) /* message textarea */;
+    --chat-background-default: var(--background-primary) /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: rgba(255, 255, 255, 0.24) /* cards in settings (safe messaging, checkbox options) */;
@@ -64,7 +64,7 @@
     --background-secondary-alt: var(--background-primary) /* call controls, profile */ ;
     --background-tertiary: rgba(0, 0, 0, 0.24) !important /* server list, find or start convo backgr */;
     --background-floating: #3a5e7c /* context menus */;
-    --channeltextarea-background: var(--background-primary) /* message textarea */;
+    --chat-background-default: var(--background-primary) /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: rgba(77, 77, 77, 0.24) /* cards in settings (safe messaging, checkbox options) */;

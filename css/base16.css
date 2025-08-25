@@ -8,7 +8,7 @@
     --background-tertiary: var(--base02) !important /* server list, find or start convo backgr*/;
     --background-floating: var(--base00) /* context menus */;
     --modal-footer-background: var(--base01);
-    --channeltextarea-background: var(--background-tertiary) /* message textarea */;
+    --chat-background-default: var(--background-tertiary) /* message textarea */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: var(--deprecated-card-bg) /* cards in settings (safe messaging, checkbox options)*/;

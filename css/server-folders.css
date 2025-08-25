@@ -37,7 +37,7 @@ SOFTWARE.
 .guilds_c48ade .scroller_ef3116.none_d125d2.scrollerBase_d125d2 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
-ul[id^="folder"] /* opened server folder */{
+ul[id^="folder"][id] /* opened server folder */{
     /* customisable */
     background: var(--folder-background, var(--background-floating, green));
     border-radius: var(--folder-radius, 8px);
@@ -58,6 +58,9 @@ ul[id^="folder"] /* opened server folder */{
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around !important;
+}
+.sidebar_c48ade /* div enclosing server bar and dm list*/{
+    overflow: visible;
 }
 ul[id^="folder"] > .listItem__650eb /* each item in the folder */{
     margin: 5px 0;

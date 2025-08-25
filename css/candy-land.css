@@ -219,7 +219,7 @@ MISC
 }
 .channelTextArea_f75fb0 /* chat input */{
     /* discord 'visual refresh' slop */
-    --custom-channel-textarea-text-area-height: 50px;
+    --custom-chat-input-margin-bottom: 50px;
     border: none;
 }
 /*-----
