@@ -48,6 +48,12 @@ SOFTWARE.
 	--background-surface-highest: var(--background-floating);
 	--bg-overlay-floating: var(--background-tertiary);
 
+	/* Background modifiers (selected items for example) */
+	--background-mod-faint: var(--background-tertiary);
+	--background-mod-normal: var(--background-tertiary);
+	--background-mod-strong: var(--background-tertiary);
+	--background-mod-subtle: var(--background-tertiary);
+
 	--card-primary-bg: var(--background-primary);
 
 	--text-primary: var(--header-primary);
@@ -152,12 +158,6 @@ Background-secondary overrides
 .header__0b563.header__0b563 /* browse channels header */,
 .container__0b563.container__0b563 /* browse channels body */{
 	background-color: var(--background-secondary);
-}
-/*
-Background-tertiary overrides
-*/
-.itemFilled__001a7.itemFilled__001a7 /* user settings > chat > show spoiler content (radio buttons) */{
-	background-color: var(--background-tertiary);
 }
 
 /*

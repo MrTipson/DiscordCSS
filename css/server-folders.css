@@ -66,3 +66,7 @@ ul[id^="folder"] > .listItem__650eb /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }
+.wrapper_ef3116 {
+    mask: unset;
+    -webkit-mask: unset;
+}
