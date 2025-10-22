@@ -213,6 +213,8 @@ Background removals
 .root_bfe55a.root_bfe55a /* call black background part 2 */,
 .panel__5dec7.panel__5dec7 /* current/suggested streamed window/app */, /*TODO*/
 .container__7d20c /* friends tab - active now */,
+.chatTypingGradientAtBottom__36d07  /* gradient at the bottom of chat */,
+.chatGradient__36d07 /* gradient at the bottom of chat */,
 .wrapper_cb9592.wrapper_cb9592 /* call black background */ {
 	background: unset;
 }
