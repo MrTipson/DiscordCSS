@@ -55,7 +55,7 @@ SOFTWARE.
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-.container_c48ade /* wrapper around base and navigation bar */{
+.container__5e434 /* wrapper around base and navigation bar */{
     position: relative;
 }
 .guilds__5e434 /* the whole navigation bar */{
@@ -87,13 +87,13 @@ div[id^="folder"]>* /* servers in the opened folder */{
 .recentMentionsPopout__95796.recentMentionsPopout__95796 /* unreads */{
     max-height: 80vh !important;
 }
-.tooltipRight__382e7.tooltip__382e7 /* server name tooltip */{
+.tooltipRight_c36707.tooltip_c36707 /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.tooltipRight__382e7>.tooltipPointer__382e7 /* little arrow for tooltip */{
+.tooltipRight_c36707>.tooltipPointer_c36707 /* little arrow for tooltip */{
     opacity: 0;
 }
 .unreadMentionsIndicatorTop_ef3116 /* new message red popup bottom */,
