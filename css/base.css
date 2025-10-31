@@ -129,8 +129,8 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 */
 .contentWrapper__08434.contentWrapper__08434 /* gif/sticker/emoji picker*/,
-.reactors_cc2dff.reactors_cc2dff /* message reactions - reactors */,
-.messagesPopoutWrap__45690.messagesPopoutWrap__45690 /* pinned messages */,
+.reactors_b7f4b4.reactors_b7f4b4 /* message reactions - reactors */,
+.messagesPopoutWrap_e8b59c.messagesPopoutWrap_e8b59c /* pinned messages */,
 .container__2692d.container__2692d /* unreads */,
 .container_fc561d.container_fc561d /* inbox (for you) */,
 .container_d9c882.container_d9c882 /* threads (next to pins) */,
@@ -145,7 +145,7 @@ background-floating overrides
 Background-modal overrides
 */
 .wrapper__4e6ce.wrapper__4e6ce /* emoji and reaction picker servers */,
-.scroller_cc2dff.scroller_cc2dff /* message reactions - emotes */,
+.scroller_b7f4b4.scroller_b7f4b4 /* message reactions - emotes */,
 .quickswitcher_ac6cb0.quickswitcher_ac6cb0 /* quickswitcher */{
 	background-color: var(--background-modal);
 }

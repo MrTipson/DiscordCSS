@@ -33,8 +33,8 @@ SOFTWARE.
 .chatContent_f75fb0 /* chat */,
 .membersWrap_c8ffbb /* server members */,
 [aria-label="Channel header"] /* top bar - channel name, description, search (selecotr used to be .title)*/,
-.sidebarList_c48ade > nav /* channels, dms */,
-.guilds_c48ade /* servers */,
+.sidebarList__5e434 > nav /* channels, dms */,
+.guilds__5e434 /* servers */,
 .applicationStore_f07d62 /* nitro tab */,
 .container__7d20c /* online friends tab */,
 [aria-label="User area"] /* username, call controls, settings */{

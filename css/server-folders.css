@@ -30,11 +30,11 @@ SOFTWARE.
     --folder-offset: 0px /* offset from the top */;
 }
 
-.guilds_c48ade /* the whole server bar (<nav>)*/{
+.guilds__5e434 /* the whole server bar (<nav>)*/{
     z-index: 101;
     overflow: unset;
 }
-.guilds_c48ade .scroller_ef3116.none_d125d2.scrollerBase_d125d2 /* inner server bar - the one that scrolls */{
+.guilds__5e434 .scroller_ef3116.none_d125d2.scrollerBase_d125d2 /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 ul[id^="folder"][id] /* opened server folder */{
@@ -59,7 +59,7 @@ ul[id^="folder"][id] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around !important;
 }
-.sidebar_c48ade /* div enclosing server bar and dm list*/{
+.sidebar__5e434 /* div enclosing server bar and dm list*/{
     overflow: visible;
 }
 ul[id^="folder"] > .listItem__650eb /* each item in the folder */{

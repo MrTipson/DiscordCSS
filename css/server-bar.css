@@ -48,7 +48,7 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-.base_c48ade /* friends list, chat */{
+.base__5e434 /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
@@ -58,7 +58,7 @@ SOFTWARE.
 .container_c48ade /* wrapper around base and navigation bar */{
     position: relative;
 }
-.guilds_c48ade /* the whole navigation bar */{
+.guilds__5e434 /* the whole navigation bar */{
     position: fixed;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
@@ -66,16 +66,16 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-.guilds_c48ade .scroller_ef3116 /* the navigation bar */{
+.guilds__5e434 .scroller_ef3116 /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-.guilds_c48ade .listItem__650eb .wrapper_cc5dd2 /* folder */{
+.guilds__5e434 .listItem__650eb .wrapper_cc5dd2 /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
-.guilds_c48ade > * /* Server bar elements */{
+.guilds__5e434 > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{

@@ -26,7 +26,7 @@ SOFTWARE.
 Positioning
 -----*/
 
-.sidebarList_c48ade > .container__2637a[aria-label*="(server)"] /* server channels, header */,
+.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper__36d07 /* all the messages */,
 .members_c8ffbb /* members */,
 [aria-label="Search Results"] /* search results */,
@@ -56,7 +56,7 @@ Positioning
     padding-bottom: 0;
     height: 100%;
 }
-.page_c48ade>.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
+.page__5e434>.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
 .applicationStore_f07d62 .scroller_c880e8.auto_d125d2.scrollerBase_d125d2 /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
@@ -80,7 +80,7 @@ Positioning
     margin-top: 0px;
     padding-top: 4px;
 }
-.searchBar__35e86 /* find or start a conversation */{
+.searchBar_e6b769 /* find or start a conversation */{
     width:auto;
     margin: 0px 10px;
     border-radius: 8px;
@@ -90,7 +90,7 @@ Positioning
 .container__7d20c /* friends tab, active friends */{
     padding-top:10px !important;
 }
-.sidebarList_c48ade /* sidebar (server, channels) */,
+.sidebarList__5e434 /* sidebar (server, channels) */,
 .container__01ae2 /* thread (split view) */,
 .chat_f75fb0.threadSidebarOpen_f75fb0 /* chat with thread sidebar open */{
     border-radius:unset !important;
@@ -116,7 +116,7 @@ Positioning
 .chat_f75fb0 /* everything within chat */{
     padding: 0px 5px 5px 0px;
 }
-.sidebarList_c48ade /* channels, user info */{
+.sidebarList__5e434 /* channels, user info */{
     padding-bottom: 5px;
 }
 /*-----
@@ -125,14 +125,14 @@ Colors
 .pageBody__41ed7.pageBody__41ed7 /* choose channels body */,
 .tabBody__133bf.tabBody__133bf /* friends tab body */,
 .container__133bf.container__133bf /* friends tab */,
-.privateChannels__35e86.privateChannels__35e86 /* dm sidebar */,
+.privateChannels_e6b769.privateChannels_e6b769 /* dm sidebar */,
 [aria-label="Members"]>div /* users on the member list */{
     background-color: unset;
 }
-.sidebarList_c48ade > .container__2637a[aria-label*="(server)"] /* server channels, header */,
+.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
 .messagesWrapper__36d07 /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
-.searchBar__35e86 /* find or start a conversation */,
+.searchBar_e6b769 /* find or start a conversation */,
 .members_c8ffbb /* members list - override to background-primary */,
 .nowPlayingColumn__133bf /* friends in games - override to background-primary */,
 .peopleColumn__133bf /* online friends */,
@@ -160,7 +160,7 @@ Colors
 .chatContent_f75fb0.chatContent_f75fb0 /* chat/message input wrapper */,
 .chat_f75fb0.chat_f75fb0 /* chat + header wrapper */,
 .scrollableContainer__74017.themedBackground__74017 /* duplicate styling for chat input */,
-.sidebarList_c48ade /* left sidebar (quickswitcher, friends, user area) */{
+.sidebarList__5e434 /* left sidebar (quickswitcher, friends, user area) */{
     background-color: transparent;
 }
 /*-----
@@ -169,7 +169,7 @@ Height adjust
 .scrollerSpacer__36d07 /* spacer at the end of messages */{
     height: 10px;
 }
-.page_c48ade .scroller__7d20c{
+.page__5e434 .scroller__7d20c{
     height: calc(100% - 25px);
 }
 .container__37e49 /* user info, call controls */{
@@ -203,7 +203,7 @@ Sadly there is some overlap with call.css but I think its better to do it this w
 /*-----
 MISC
 -----*/
-.sidebar_c48ade:after /* spacer under user info/channel sidebar */,
+.sidebar__5e434:after /* spacer under user info/channel sidebar */,
 .form_f75fb0:before /* gradient next to message input */ {
     display: none;
 }
