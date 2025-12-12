@@ -18,6 +18,7 @@
     --interactive-hover: var(--interactive-active) /* hover color*/;
     --text-link: var(--base09) /* hyperlink color */;
     --interactive-active: var(--color-main) /* selected tab*/;
+    --interactive-text-active: var(--interactive-active);
     --text-muted: var(--base04) /* non important text */;
 	--info-warning-foreground: var(--base0A);
     --channels-default: var(--text-normal) /* channel not selected not hovered*/;

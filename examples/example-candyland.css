@@ -22,6 +22,7 @@
     --interactive-hover: rgb(130,130,130) /* hover color */;
     --text-link: rgb(247, 28, 255) /* hyperlink color */;
     --interactive-active: rgb(255, 82, 246) /* selected tab */;
+    --interactive-text-active: var(--interactive-active) /* channel with unread messages */;
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(56, 56, 56, 0.952) /* channel not selected not hovered */;
     --background-accent: rgb(217, 219, 219) /* new messages */;

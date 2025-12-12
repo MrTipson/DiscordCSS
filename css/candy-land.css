@@ -21,6 +21,9 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
+:root {
+	--custom-channel-textarea-text-area-height: 50px;
+}
 
 /*-----
 Positioning
@@ -134,11 +137,13 @@ Colors
 [aria-label="Search Results"] /* search results*/,
 .searchBar_e6b769 /* find or start a conversation */,
 .members_c8ffbb /* members list - override to background-primary */,
+.panels__5e434 /* user area */,
 .nowPlayingColumn__133bf /* friends in games - override to background-primary */,
 .peopleColumn__133bf /* online friends */,
 .themed__9293f.themed__9293f /* friends top bar, thread split view header/title */{
     background-color: var(--background-primary);
 }
+.channelTextArea_f75fb0 > .themedBackground__74017 /* chat message input area */,
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
@@ -174,6 +179,12 @@ Height adjust
 }
 .container__37e49 /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
+}
+.attachWrapper__0923f /* button for message attachments */{
+	box-sizing: border-box;
+	height: var(--custom-channel-textarea-text-area-height);
+	padding-top: 9px;
+	padding-bottom: 9px;
 }
 /*-----
 Settings
