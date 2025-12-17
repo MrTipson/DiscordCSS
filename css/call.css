@@ -35,23 +35,23 @@ SOFTWARE.
     transform: unset;
 }
 */
-.root_bfe55a .gradientContainer_bfe55a /* call gradients */{
+.bfe55a0aaaf62375-root .bfe55a0aaaf62375-gradientContainer /* call gradients */{
     opacity: 0;
 }
-.bottomControls_bfe55a /* call info and buttons on hover in call */,
-.topControls_bfe55a /* call controls on hover in calll */{
+.bfe55a0aaaf62375-bottomControls /* call info and buttons on hover in call */,
+.bfe55a0aaaf62375-topControls /* call controls on hover in calll */{
     padding: var(--call-controls-padding);
     background-color: var(--call-controls-bg);
     box-sizing: border-box;
 }
-.bottomControls_bfe55a /* call info and buttons on hover in call */{
+.bfe55a0aaaf62375-bottomControls /* call info and buttons on hover in call */{
     border-radius: 8px 8px 0px 0px;
     box-shadow: var(--call-shadow-bottom);
 }
-.topControls_bfe55a /* call controls on hover in calll */{
+.bfe55a0aaaf62375-topControls /* call controls on hover in calll */{
     border-radius: 0px 0px 8px 8px;
     box-shadow: var(--call-shadow-top);
 }
-.videoControls_bfe55a /* wrapper for call controls */{
+.bfe55a0aaaf62375-videoControls /* wrapper for call controls */{
     padding-bottom: 0;
 }

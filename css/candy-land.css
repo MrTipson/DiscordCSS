@@ -29,22 +29,22 @@ SOFTWARE.
 Positioning
 -----*/
 
-.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper__36d07 /* all the messages */,
-.members_c8ffbb /* members */,
+._5e434347c823b592-sidebarList > ._2637a2609f343032-container[aria-label*="(server)"] /* server channels, header */,
+._36d072eab2b2e737-messagesWrapper /* all the messages */,
+.c8ffbb79449f399c-members /* members */,
 [aria-label="Search Results"] /* search results */,
-[aria-label="Private channels"] > .scroller__99e7c /* direct messages */,
-.nowPlayingColumn__133bf /* friends playing games */,
-.navItem__551b0 /* discover categories */,
-.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
-.container_f369db /* forums */,
+[aria-label="Private channels"] > ._99e7cad8d4c55236-scroller /* direct messages */,
+._133bf5eea8e33a34-nowPlayingColumn /* friends playing games */,
+._551b0894962ff66f-navItem /* discover categories */,
+._23746ba3de9452d8-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase /* explore servers */,
+.f369dba7416c67f0-container /* forums */,
 .container__0b563 /* channel browser */,
-.peopleColumn__133bf /* online friends */{
+._133bf5eea8e33a34-peopleColumn /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
 }
-.container__2637a.container__2637a.container__2637a /* channels sidebar */,
-[aria-label="Private channels"] > .scroller__99e7c /* direct messages */ {
+._2637a2609f343032-container._2637a2609f343032-container._2637a2609f343032-container /* channels sidebar */,
+[aria-label="Private channels"] > ._99e7cad8d4c55236-scroller /* direct messages */ {
     padding-bottom: 0;
     margin-bottom: calc(var(--custom-app-panels-height, 0) + 30px) !important /* make space for user area*/;
 }
@@ -54,55 +54,51 @@ Positioning
     margin-bottom: 5px;
     padding: 2px 0px;
 }
-[aria-label="User area"] > .container__37e49 {
+[aria-label="User area"] > ._37e49614b9f110a9-container {
     padding-top: 0;
     padding-bottom: 0;
     height: 100%;
 }
-.page__5e434>.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
-.applicationStore_f07d62 .scroller_c880e8.auto_d125d2.scrollerBase_d125d2 /* nitro screen */{
+._5e434347c823b592-page>._23746ba3de9452d8-scroller.d125d22cdfd32cfe-thin.d125d22cdfd32cfe-scrollerBase /* explore servers */,
+.f07d62e29a48ceee-applicationStore .d125d22cdfd32cfe-auto.d125d22cdfd32cfe-scrollerBase /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
-.wrapper__44df5 /* follow announcement channel for updates */,
-.channelTextArea_f75fb0 /* text area */{
+._44df51b030bd5ece-wrapper /* follow announcement channel for updates */,
+.f75fb00fb7356cbe-channelTextArea /* text area */{
     margin-bottom: unset;
 }
-.form_f75fb0.form_f75fb0 /* text area wrapper */{
+.f75fb00fb7356cbe-form.f75fb00fb7356cbe-form /* text area wrapper */{
     padding: unset;
     margin: 10px;
 }
-.members_c8ffbb /* members list */{
+.c8ffbb79449f399c-members /* members list */{
     padding-bottom: 10px;
 }
-.typing_b88801 /* person is typing status text */{
+.b8880176888cc928-typing /* person is typing status text */{
     left: 0px;
     top: -21px;
 }
-.withFrame__421ed /* top bar for dragging/closing */{
-    margin-top: 0px;
-    padding-top: 4px;
-}
-.searchBar_e6b769 /* find or start a conversation */{
+.e6b7699ce8339e1c-searchBar /* find or start a conversation */{
     width:auto;
     margin: 0px 10px;
     border-radius: 8px;
 }
-.homeWrapper__0920e /* nitro */,
-.chat_f75fb0 /* chat + top bar */,
-.container__7d20c /* friends tab, active friends */{
+._0920e02cc8fc7b7b-homeWrapper /* nitro */,
+.f75fb00fb7356cbe-chat /* chat + top bar */,
+._7d20cf18f8a2784c-container /* friends tab, active friends */{
     padding-top:10px !important;
 }
-.sidebarList__5e434 /* sidebar (server, channels) */,
-.container__01ae2 /* thread (split view) */,
-.chat_f75fb0.threadSidebarOpen_f75fb0 /* chat with thread sidebar open */{
+._5e434347c823b592-sidebarList /* sidebar (server, channels) */,
+._01ae244280823725-container /* thread (split view) */,
+.f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen /* chat with thread sidebar open */{
     border-radius:unset !important;
 }
-.container__01ae2.container__01ae2 /* split thread view - thread side*/,
-.chat_f75fb0.threadSidebarOpen_f75fb0.threadSidebarOpen_f75fb0 /* split thread view - chat side */ {
+._01ae244280823725-container._01ae244280823725-container /* split thread view - thread side*/,
+.f75fb00fb7356cbe-chat.f75fb00fb7356cbe-threadSidebarOpen.f75fb00fb7356cbe-threadSidebarOpen /* split thread view - chat side */ {
     border: none;
 }
-.container__9293f /* top bar channels and friends */{
+._9293f6b2fc12398a-container /* top bar channels and friends */{
 	width: auto;
 	margin: 0px 15px 0px 10px;
 	border-radius: 8px;
@@ -111,124 +107,111 @@ Positioning
 [aria-label="Channel header"] /* top bar for channels */ {
     margin: 0px 10px;
 }
-.container__01ae2 /* thread sidebar (split view) */{
+._01ae244280823725-container /* thread sidebar (split view) */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
-.tabBody__133bf /* everything within the online friends */,
-.chat_f75fb0 /* everything within chat */{
+._133bf5eea8e33a34-tabBody /* everything within the online friends */,
+.f75fb00fb7356cbe-chat /* everything within chat */{
     padding: 0px 5px 5px 0px;
 }
-.sidebarList__5e434 /* channels, user info */{
+._5e434347c823b592-sidebarList /* channels, user info */{
     padding-bottom: 5px;
 }
 /*-----
 Colors
 -----*/
-.pageBody__41ed7.pageBody__41ed7 /* choose channels body */,
-.tabBody__133bf.tabBody__133bf /* friends tab body */,
-.container__133bf.container__133bf /* friends tab */,
-.privateChannels_e6b769.privateChannels_e6b769 /* dm sidebar */,
+._41ed70e52483df6d-pageBody._41ed70e52483df6d-pageBody /* choose channels body */,
+._133bf5eea8e33a34-tabBody._133bf5eea8e33a34-tabBody /* friends tab body */,
+._133bf5eea8e33a34-container._133bf5eea8e33a34-container /* friends tab */,
+.e6b7699ce8339e1c-privateChannels.e6b7699ce8339e1c-privateChannels /* dm sidebar */,
 [aria-label="Members"]>div /* users on the member list */{
     background-color: unset;
 }
-.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper__36d07 /* messages/chat */,
+._5e434347c823b592-sidebarList > ._2637a2609f343032-container[aria-label*="(server)"] /* server channels, header */,
+._36d072eab2b2e737-messagesWrapper /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
-.searchBar_e6b769 /* find or start a conversation */,
-.members_c8ffbb /* members list - override to background-primary */,
-.panels__5e434 /* user area */,
-.nowPlayingColumn__133bf /* friends in games - override to background-primary */,
-.peopleColumn__133bf /* online friends */,
-.themed__9293f.themed__9293f /* friends top bar, thread split view header/title */{
+.e6b7699ce8339e1c-searchBar /* find or start a conversation */,
+.c8ffbb79449f399c-members /* members list - override to background-primary */,
+._5e434347c823b592-panels /* user area */,
+._133bf5eea8e33a34-nowPlayingColumn /* friends in games - override to background-primary */,
+._133bf5eea8e33a34-peopleColumn /* online friends */,
+._9293f6b2fc12398a-themed._9293f6b2fc12398a-themed /* friends top bar, thread split view header/title */{
     background-color: var(--background-primary);
 }
-.channelTextArea_f75fb0 > .themedBackground__74017 /* chat message input area */,
+.f75fb00fb7356cbe-channelTextArea > ._740174f3d6a2c8fe-themedBackground /* chat message input area */,
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
-.navItem__551b0.selected__551b0 /* selected discover category */{
+._551b0894962ff66f-navItem._551b0894962ff66f-selected /* selected discover category */{
     background-color: var(--background-modifier-selected);
     color: var(--header-secondary);
 }
-.navItem__551b0:hover /* selected discover servers category */{
+._551b0894962ff66f-navItem:hover /* selected discover servers category */{
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);
 }
-.container__37e49 /* user area wrapper */ {
+._37e49614b9f110a9-container /* user area wrapper */ {
     background-color: transparent !important;
 }
-.panel__5dec7.panel__5dec7 /* sharing screen */,
-.container__7d20c /* active friends */,
-.container_c8ffbb /* members sidebar */,
-.container__01ae2.container__01ae2 /* open thread sidebar */,
-.chatContent_f75fb0.chatContent_f75fb0 /* chat/message input wrapper */,
-.chat_f75fb0.chat_f75fb0 /* chat + header wrapper */,
-.scrollableContainer__74017.themedBackground__74017 /* duplicate styling for chat input */,
-.sidebarList__5e434 /* left sidebar (quickswitcher, friends, user area) */{
+._5dec784a68542d60-panel._5dec784a68542d60-panel /* sharing screen */,
+._7d20cf18f8a2784c-container /* active friends */,
+.c8ffbb79449f399c-container /* members sidebar */,
+._01ae244280823725-container._01ae244280823725-container /* open thread sidebar */,
+.f75fb00fb7356cbe-chatContent.f75fb00fb7356cbe-chatContent /* chat/message input wrapper */,
+.f75fb00fb7356cbe-chat.f75fb00fb7356cbe-chat /* chat + header wrapper */,
+._740174f3d6a2c8fe-scrollableContainer._740174f3d6a2c8fe-themedBackground /* duplicate styling for chat input */,
+._5e434347c823b592-sidebarList /* left sidebar (quickswitcher, friends, user area) */{
     background-color: transparent;
 }
 /*-----
 Height adjust
 -----*/
-.scrollerSpacer__36d07 /* spacer at the end of messages */{
+._36d072eab2b2e737-scrollerSpacer /* spacer at the end of messages */{
     height: 10px;
 }
-.page__5e434 .scroller__7d20c{
+._5e434347c823b592-page ._7d20cf18f8a2784c-scroller{
     height: calc(100% - 25px);
 }
-.container__37e49 /* user info, call controls */{
+._37e49614b9f110a9-container /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
 }
-.attachWrapper__0923f /* button for message attachments */{
+._0923f156a0410684-attachWrapper /* button for message attachments */{
 	box-sizing: border-box;
 	height: var(--custom-channel-textarea-text-area-height);
 	padding-top: 9px;
 	padding-bottom: 9px;
 }
-/*-----
-Settings
------*/
-.layer__960e4 /* all of settings*/,
-.standardSidebarView__23e6b.standardSidebarView__23e6b /* all of settings */,
-.contentRegionScroller__23e6b.contentRegionScroller__23e6b /* right side settings */,
-.sidebarRegionScroller__23e6b.sidebarRegionScroller__23e6b /* settings tabs */{
-    background: transparent;
-}
 /*
 Call
 Sadly there is some overlap with call.css but I think its better to do it this way
 */
-.wrapper_cb9592.wrapper_cb9592 /* call background */,
-.root_bfe55a.root_bfe55a /* call background */{
+.bfe55a0aaaf62375-root.bfe55a0aaaf62375-root /* call background */{
     background: none;
 }
-.videoControls_bfe55a .gradientContainer_bfe55a /* call gradients */{
+.bfe55a0aaaf62375-videoControls .bfe55a0aaaf62375-gradientContainer /* call gradients */{
     background-image: none;
     opacity: 0;
 }
-.buttonSection__1405b /* call controls */,
-.videoControls_bfe55a section.container__9293f /* header in the call screen */{
+._1405b3b8e8eb5fd0-buttonSection /* call controls */,
+.bfe55a0aaaf62375-videoControls section._9293f6b2fc12398a-container /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
 /*-----
 MISC
 -----*/
-.sidebar__5e434:after /* spacer under user info/channel sidebar */,
-.form_f75fb0:before /* gradient next to message input */ {
+._5e434347c823b592-sidebar:after /* spacer under user info/channel sidebar */,
+.f75fb00fb7356cbe-form:before /* gradient next to message input */ {
     display: none;
 }
-[aria-label="User area"] .button_e131a9 /* screen share button */{
-    padding: 2px 8px;
-}
-.header_f37cb1.header_f37cb1 /* server name */{
+.f37cb1984c371ee5-header.f37cb1984c371ee5-header /* server name */{
     border-radius: 8px 8px 0px 0px;
 }
-.container_c8ffbb /* member sidebar */,
-.scroller__7d20c.scroller__7d20c /* active friends */{
+.c8ffbb79449f399c-container /* member sidebar */,
+._7d20cf18f8a2784c-scroller._7d20cf18f8a2784c-scroller /* active friends */{
     border-left: none;
 }
-.channelTextArea_f75fb0 /* chat input */{
+.f75fb00fb7356cbe-channelTextArea /* chat input */{
     /* discord 'visual refresh' slop */
     --custom-chat-input-margin-bottom: 50px;
     border: none;
@@ -236,7 +219,7 @@ MISC
 /*-----
 Resize handle (forums/threads)
 -----*/
-.resizeHandle__01ae2 /* handle to resize split view */ {
+._01ae244280823725-resizeHandle /* handle to resize split view */ {
 	margin: auto 0 auto -5px;
 	height: 50%;
 	border-radius: 8px;

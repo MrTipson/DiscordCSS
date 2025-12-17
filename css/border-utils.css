@@ -30,13 +30,13 @@ SOFTWARE.
     --bu-image-outset: 0;
     --bu-image-repeat: round;
 }
-.chatContent_f75fb0 /* chat */,
-.membersWrap_c8ffbb /* server members */,
+.f75fb00fb7356cbe-chatContent /* chat */,
+.c8ffbb79449f399c-membersWrap /* server members */,
 [aria-label="Channel header"] /* top bar - channel name, description, search (selecotr used to be .title)*/,
-.sidebarList__5e434 > nav /* channels, dms */,
-.guilds__5e434 /* servers */,
-.applicationStore_f07d62 /* nitro tab */,
-.container__7d20c /* online friends tab */,
+._5e434347c823b592-sidebarList > nav /* channels, dms */,
+._5e434347c823b592-guilds /* servers */,
+.f07d62e29a48ceee-applicationStore /* nitro tab */,
+._7d20cf18f8a2784c-container /* online friends tab */,
 [aria-label="User area"] /* username, call controls, settings */{
     box-sizing: border-box;
     border: var(--bu-border);

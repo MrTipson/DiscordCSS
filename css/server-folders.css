@@ -30,11 +30,11 @@ SOFTWARE.
     --folder-offset: 0px /* offset from the top */;
 }
 
-.guilds__5e434 /* the whole server bar (<nav>)*/{
+._5e434347c823b592-guilds /* the whole server bar (<nav>)*/{
     z-index: 101;
     overflow: unset;
 }
-.guilds__5e434 .scroller_ef3116.none_d125d2.scrollerBase_d125d2 /* inner server bar - the one that scrolls */{
+._5e434347c823b592-guilds .ef3116c2da186559-scroller.d125d22cdfd32cfe-none.d125d22cdfd32cfe-scrollerBase /* inner server bar - the one that scrolls */{
     overflow: unset !important;
 }
 ul[id^="folder"][id] /* opened server folder */{
@@ -59,14 +59,14 @@ ul[id^="folder"][id] /* opened server folder */{
     flex-wrap: wrap-reverse;
     justify-content: space-around !important;
 }
-.sidebar__5e434 /* div enclosing server bar and dm list*/{
+._5e434347c823b592-sidebar /* div enclosing server bar and dm list*/{
     overflow: visible;
 }
-ul[id^="folder"] > .listItem__650eb /* each item in the folder */{
+ul[id^="folder"] > ._650eb104245d257b-listItem /* each item in the folder */{
     margin: 5px 0;
     writing-mode: horizontal-tb;
 }
-.wrapper_ef3116 {
+.ef3116c2da186559-wrapper {
     mask: unset;
     -webkit-mask: unset;
 }

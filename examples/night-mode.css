@@ -25,6 +25,7 @@
     --text-link: rgb(247, 28, 255) /* hyperlink color */;
     --interactive-active: rgb(255, 0, 221) /* selected tab*/;
     --interactive-text-active: var(--interactive-active) /* channel with unread messages */;
+    --interactive-background-selected: var(--background-primary) /* background of selected input option (e.g. audio devices in settings) */;
     --text-muted: rgba(5, 5, 5, 0.7) /* non important text */;
     --channels-default: rgba(97, 97, 97, 0.952) /* channel not selected not hovered*/;
     --background-mentioned: rgba(247, 28, 255, 0.089);
@@ -41,13 +42,13 @@
     --scrollbar-auto-thumb: rgba(83, 83, 83, 0.657) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: rgba(85, 85, 85, 0.342) /* thick scrollbar */;
     --radio-group-dot-foreground: var(--interactive-active) /* radio button inner */;
+    --background-code: rgba(21, 21, 21, 0.08) /* background for code markup (``` blocks) */;
 	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main: rgb(255, 100, 234) /* main color theme */;
     --background-mentioned-before: var(--interactive-active);
     --background-image: none;
     --background-filter: none/* filter property applied to the background */;
-    --background-markup: rgba(21, 21, 21, 0.08) /* background for code markup (``` blocks) */;
     --background-embed: rgba(255, 255, 255, 0.534) /* background for embeds (video links, ...) */;
     --background-modal: #ffffff /* main color of a modal dialog */;
     --background-dropdown: rgb(203, 224, 233) /* background of options in a dropdown */;
@@ -68,6 +69,7 @@
     --background-tertiary: rgba(0, 0, 0, 0.493) !important /* server list, find or start convo backgr*/;
     --background-floating: rgb(17, 17, 17) /* context menus */;
     --chat-background-default: rgb(16, 16, 16) /* message textarea */;
+    --card-background-default: var(--background-secondary) /* 'card' elements (like 'Default Permissions' in server roles) */;
     --deprecated-store-bg: black /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: rgb(42, 42, 42) /* quick search text box */;
     --deprecated-card-editable-bg: #4d4d4d3d /* cards in settings (safe messaging, checkbox options)*/;
@@ -77,6 +79,8 @@
     --interactive-hover: rgb(130,130,130) /* hover color*/;
     --text-link: rgba(246, 255, 125, 0.726) /* hyperlink color */;
     --interactive-active: #0099ff /* selected tab*/;
+    --interactive-text-active: var(--interactive-active) /* channel with unread messages */;
+    --interactive-background-selected: var(--background-primary) /* background of selected input option (e.g. audio devices in settings) */;
     --text-muted: rgba(163, 163, 163, 0.7) /* non important text */;
     --channels-default: rgb(228, 228, 228) /* channel not selected not hovered*/;
     --background-accent: rgb(46, 46, 46); /* new messages */;
@@ -90,12 +94,12 @@
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
     --scrollbar-auto-thumb: rgb(189, 189, 189) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: rgba(17, 17, 17, 0.315) /* thick scrollbar */;
+    --background-code: rgba(0, 0, 0, 0.267) /* background for code markup (``` blocks) */;
 	--bg-base-primary: var(--background-primary);
     /* Custom variables - Theme */
     --color-main:  #55c1ff /* main color theme */;
     --background-image: none;
     --background-filter: blur(1px) /* filter property applied to the background */;
-    --background-markup: rgba(0, 0, 0, 0.267) /* background for code markup (``` blocks) */;
     --background-embed: rgba(134, 134, 134, 0.164) /* background for embeds (video links, ...) */;
     --background-modal: #111111 /* main color of a modal dialog */;
     --background-dropdown: rgba(0, 0, 0, 0.918) /* background of options in a dropdown */;

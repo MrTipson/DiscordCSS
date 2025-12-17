@@ -9,6 +9,7 @@
     --background-floating: var(--base00) /* context menus */;
     --modal-footer-background: var(--base01);
     --chat-background-default: var(--background-tertiary) /* message textarea */;
+    --card-background-default: var(--background-secondary) /* 'card' elements (like 'Default Permissions' in server roles) */;
     --deprecated-store-bg: var(--background-primary) /* friends or activity or something */;
     --deprecated-quickswitcher-input-background: transparent /* quick search text box */;
     --deprecated-card-editable-bg: var(--deprecated-card-bg) /* cards in settings (safe messaging, checkbox options)*/;
@@ -19,6 +20,7 @@
     --text-link: var(--base09) /* hyperlink color */;
     --interactive-active: var(--color-main) /* selected tab*/;
     --interactive-text-active: var(--interactive-active);
+    --interactive-background-selected: var(--background-primary) /* background of selected input option (e.g. audio devices in settings) */;
     --text-muted: var(--base04) /* non important text */;
 	--info-warning-foreground: var(--base0A);
     --channels-default: var(--text-normal) /* channel not selected not hovered*/;
@@ -33,13 +35,13 @@
     --scrollbar-thin-track: transparent /* thin scrollbar track */;
     --scrollbar-auto-thumb: var(--base02) /* thick scrollbar (such as active friends)*/;
     --scrollbar-auto-track: var(--base01) /* thick scrollbar */;
+    --background-code: var(--background-tertiary) /* background for code markup (``` blocks) */;
 	--bg-base-primary: var(--background-primary);
     --user-profile-overlay-background: var(--base02) /* panels in user profile */;
     /* Custom variables - Theme */
     --color-main: var(--base08) /* main color theme */;
     --background-image: none;
     --background-filter: none/* filter property applied to the background */;
-    --background-markup: var(--background-tertiary) /* background for code markup (``` blocks) */;
     --background-embed: var(--background-tertiary) /* background for embeds (video links, ...) */;
     --background-modal: var(--base01) /* main color of a modal dialog */;
     --background-dropdown: var(--background-floating) /* background of options in a dropdown */;

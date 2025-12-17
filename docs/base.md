@@ -12,9 +12,9 @@ progress-thumb | User volume adjust - thumb | rgb(48 51 56) | color
 background-image | Image in the background | none | image
 background-color | Color in the background | none | color
 background-filter | Filter for the background | none | filter
-background-markup | Color behind markup blocks | --background-secondary | color
+background-markup | Color behind markup blocks | / | deprecated, use --background-code
 background-embed | Background for embedded content | --background-secondary | color
-background-modal | Background of modal popups | --background-primary | color
+background-modal | Background of modal popups | / | deprecated (use surface-high/higher/highest, low/lower/lowest)
 background-floating | Background of not so modal popups | --background-primary | color
 background-dropdown | Dropdown menu | --background-primary | color
 background-primary-extra | Override background-primary | --background-primary | color
