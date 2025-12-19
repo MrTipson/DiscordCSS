@@ -34,7 +34,12 @@ jobs:
           curl -Ls > stylesheet.txt "discord.com${main:1:-1}"
 
           bundle="discord.com/assets/$(echo $content | grep -oE web.[a-z0-9]{16}.js)"
-          sheets=$(curl -Ls $bundle | grep -oE "\{([0-9]+:\"[a-z0-9]+\",?)+\}\)\[[a-z]\]\+\"\.css" | grep -oE "[a-z0-9]{16}")
+          sheets=$(
+            curl -Ls $bundle | \
+            sed -e "s/;/\n/g" -e "s/__webpack_require__/\n/g" | \
+            grep ".css\"" | \
+            grep -oE "[a-z0-9]{16}"
+          )
           for i in $sheets; do
             curl -Ls >> stylesheet.txt "discord.com/assets/$i.css" --fail
           done
