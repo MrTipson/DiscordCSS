@@ -109,10 +109,10 @@ Main color
 /*-----
 Exclude the download button and seperator from the discord web client
 -----*/
-.tutorialContainer__650eb~* /* everything following the add servers button */{
+._650eb104245d257b-tutorialContainer~* /* everything following the add servers button */{
 	display: none;
 }
-.tutorialContainer__650eb+* /* exclude explore servers button */{
+._650eb104245d257b-tutorialContainer+* /* exclude explore servers button */{
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: flex;
@@ -122,7 +122,7 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 note: overrides get removed from here if background-surface-high is used upstream
 */
-.picker__09f65.picker__09f65 /* call soundboard */,
+._09f65b4b8a3f8d26-picker._09f65b4b8a3f8d26-picker /* call soundboard */,
 .cc46f0f859f26200-addGamePopout /* settings > registered games > add game */ {
 	background-color: var(--background-floating);
 }
@@ -158,10 +158,10 @@ Progress bars / draggables
 /*
 Background removals
 */
-.header_c6bf1b /* server role edit header*/,
+.c6bf1b7af480dfda-header /* server role edit header*/,
 .f07d62e29a48ceee-applicationStore /* nitro screen */,
 .f75fb00fb7356cbe-channelTextArea /* message text input - is changed in inner element */,
-.container__0b563.container__0b563 /* browse channels body (inner) */{
+._0b56311ebc6682e2-container._0b56311ebc6682e2-container /* browse channels body (inner) */{
 	background-color: unset;
 }
 .cb9592ad77576717-callContainer.cb9592ad77576717-callContainer /* call black background part 4 */,
