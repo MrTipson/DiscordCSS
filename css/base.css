@@ -168,7 +168,7 @@ Background removals
 .bfe55a0aaaf62375-root.bfe55a0aaaf62375-root /* call black background part 2 */,
 ._5dec784a68542d60-panel._5dec784a68542d60-panel /* current/suggested streamed window/app */, /*TODO*/
 ._7d20cf18f8a2784c-container /* friends tab - active now */,
-._36d072eab2b2e737-chatTypingGradientNotAtBottom  /* gradient at the bottom of chat */,
+._36d072eab2b2e737-chatTypingGradientAtBottom  /* gradient at the bottom of chat */,
 ._36d072eab2b2e737-chatGradient /* gradient at the bottom of chat */ {
 	background: unset;
 }

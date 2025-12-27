@@ -75,6 +75,9 @@ SOFTWARE.
 ._5e434347c823b592-guilds ._650eb104245d257b-listItem .cc5dd25190031396-wrapper /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
+.e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper.cc5dd25190031396-wrapper /* prevent double rotation of server icons */{
+    transform: none;
+}
 ._5e434347c823b592-guilds > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
