@@ -76,7 +76,7 @@ SOFTWARE.
 /*-----
 Background
 -----*/
-._960e4207cea8323e-bg._960e4207cea8323e-bg /* Full background */ {
+.bg__960e4.bg__960e4 /* Full background */ {
 	background: var(--background);
 	background-image: var(--background-image);
 	background-repeat: no-repeat;
@@ -94,25 +94,25 @@ html  /* transparency */ {
 /*-----
 Main color
 -----*/
-._5bc7ed9d4097f6b5-circleIconButton._5bc7ed9d4097f6b5-selected /* find new communities selected, add server hover */{
+.circleIconButton__5bc7e.selected__5bc7e /* find new communities selected, add server hover */{
 	background-color: var(--color-main) !important;
 }
-[data-list-item-id="guildsnav___home"]._6e9f8dce4cc18de3-selected ._6e9f8dce4cc18de3-childWrapper /* discord icon selected */,
-[data-list-item-id="guildsnav___home"]:hover ._6e9f8dce4cc18de3-childWrapper /* discord icon hovered */{
+[data-list-item-id="guildsnav___home"].selected__6e9f8 .childWrapper__6e9f8 /* discord icon selected */,
+[data-list-item-id="guildsnav___home"]:hover .childWrapper__6e9f8 /* discord icon hovered */{
 	color: #fff;
 	background-color: var(--color-main);
 }
-._5bc7ed9d4097f6b5-circleIconButton /* add server/explore servers */{
+.circleIconButton__5bc7e /* add server/explore servers */{
 	color: var(--color-main);
 }
 
 /*-----
 Exclude the download button and seperator from the discord web client
 -----*/
-._650eb104245d257b-tutorialContainer~* /* everything following the add servers button */{
+.tutorialContainer__650eb~* /* everything following the add servers button */{
 	display: none;
 }
-._650eb104245d257b-tutorialContainer+* /* exclude explore servers button */{
+.tutorialContainer__650eb+* /* exclude explore servers button */{
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: flex;
@@ -122,93 +122,94 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 note: overrides get removed from here if background-surface-high is used upstream
 */
-._09f65b4b8a3f8d26-picker._09f65b4b8a3f8d26-picker /* call soundboard */,
-.cc46f0f859f26200-addGamePopout /* settings > registered games > add game */ {
+.picker__09f65.picker__09f65 /* call soundboard */,
+.addGamePopout_cc46f0 /* settings > registered games > add game */ {
 	background-color: var(--background-floating);
 }
 
 /*-----
 Markup, embed background
 -----*/
-._623de82e76ad7f82-embedFull._623de82e76ad7f82-embedFull /* Embed */{
+.embedFull__623de.embedFull__623de /* Embed */{
 	background-color: var(--background-embed);
 }
 
 /* friends tab - active now */
-.bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-interactive:hover /* friends tab - active now */ {
+.outer_bf1984.outer_bf1984.interactive_bf1984:hover /* friends tab - active now */ {
 	background-color: var(--background-modifier-hover);
 }
 
 /*
 Progress bars / draggables
 */
-.a562c840daab72a7-barFill.a562c840daab72a7-barFill /* user volume */,
-._8e51c10f5a9d6304-progress /* spotify track progress */{
+.barFill_a562c8.barFill_a562c8 /* user volume */,
+.progress__8e51c /* spotify track progress */{
 	background-color: var(--progress-track-full);
 }
-.a562c840daab72a7-grabber /* user volume */{
+.grabber_a562c8 /* user volume */{
 	background-color: var(--progress-thumb);
 	border: none;
 }
-._8e51c10f5a9d6304-bar /* spotify track progress */,
-.a562c840daab72a7-bar.a562c840daab72a7-bar /* user volume */ {
+.bar__8e51c /* spotify track progress */,
+.bar_a562c8.bar_a562c8 /* user volume */ {
 	background-color: var(--progress-track-empty);
 }
 
 /*
 Background removals
 */
-.c6bf1b7af480dfda-header /* server role edit header*/,
-.f07d62e29a48ceee-applicationStore /* nitro screen */,
-.f75fb00fb7356cbe-channelTextArea /* message text input - is changed in inner element */,
-._0b56311ebc6682e2-container._0b56311ebc6682e2-container /* browse channels body (inner) */{
+.header_c6bf1b /* server role edit header*/,
+.applicationStore_f07d62 /* nitro screen */,
+.channelTextArea_f75fb0 /* message text input - is changed in inner element */,
+.container__0b563.container__0b563 /* browse channels body (inner) */{
 	background-color: unset;
 }
-.cb9592ad77576717-callContainer.cb9592ad77576717-callContainer /* call black background part 4 */,
-.bfe55a0aaaf62375-root.bfe55a0aaaf62375-root /* call black background part 2 */,
-._5dec784a68542d60-panel._5dec784a68542d60-panel /* current/suggested streamed window/app */, /*TODO*/
-._7d20cf18f8a2784c-container /* friends tab - active now */,
-._36d072eab2b2e737-chatTypingGradientAtBottom  /* gradient at the bottom of chat */,
-._36d072eab2b2e737-chatGradient /* gradient at the bottom of chat */ {
+.callContainer_cb9592.callContainer_cb9592 /* call black background part 4 */,
+.root_bfe55a.root_bfe55a /* call black background part 2 */,
+.panel__5dec7.panel__5dec7 /* current/suggested streamed window/app */, /*TODO*/
+.container__7d20c /* friends tab - active now */,
+.chatTypingGradientAtBottom__36d07  /* gradient at the bottom of chat */,
+.chatGradient__36d07 /* gradient at the bottom of chat */,
+.wrapper_cb9592.wrapper_cb9592 /* call black background */ {
 	background: unset;
 }
 /*
 Setting scroller fixes
 (the full page scroller doesnt play well with transparency)
 */
-._91dc3971e82843c1-contentContainer .d125d22cdfd32cfe-scrollerBase /* covers all scrollers in role editing*/ {
+.contentContainer__91dc3 .scrollerBase_d125d2 /* covers all scrollers in role editing*/ {
 	height: calc(100% - 200px);
 	top: 200px;
 }
-._91dc3971e82843c1-contentContainer .d125d22cdfd32cfe-scrollerBase div:empty /* some empty div spacers */ {
+.contentContainer__91dc3 .scrollerBase_d125d2 div:empty /* some empty div spacers */ {
 	display: none;
 }
-._91dc3971e82843c1-contentContainer > ._981c8ddc53ff5825-scroller /* role edit - display tab*/,
-._91dc3971e82843c1-contentContainer > .d80a132dc542c7a2-scroller /* role edit - links tab */ {
+.contentContainer__91dc3 > .scroller__981c8 /* role edit - display tab*/,
+.contentContainer__91dc3 > .scroller_d80a13 /* role edit - links tab */ {
 	height: calc(100% - 150px);
 	top: 150px;
 }
-.c6bf1b7af480dfda-stickyHeader /* Roles sticky header*/{
+.stickyHeader_c6bf1b /* Roles sticky header*/{
 	position: fixed;
 	top: 0;
 }
-.c6bf1b7af480dfda-stickyHeaderElevated /* roles sticky header */ {
+.stickyHeaderElevated_c6bf1b /* roles sticky header */ {
 	box-shadow: none;
 }
 /* New date divider between messages */
-._5126c0cd07f243a0-divider._5126c0cd07f243a0-hasContent {
+.divider__5126c.hasContent__5126c {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: unset;
 }
-._908e20001ad67812-content._908e20001ad67812-content /* divider content */ {
+.content__908e2.content__908e2 /* divider content */ {
 	background: unset;
 }
 /* Gradient for overflowing channel description */
-._9293f6b2fc12398a-children:after {
+.children__9293f:after {
 	display: none;
 }
-._803f2f55621144fb-sessionIcon /* settings > devices > device icons*/ {
+.sessionIcon__803f2 /* settings > devices > device icons*/ {
 	background: var(--interactive-muted);
 	color: var(--interactive-normal);
 }

@@ -48,17 +48,17 @@ SOFTWARE.
     --sb-label-left: calc(-50% - 42px);
     --sb-label-top: calc(50% + 40px);
 }
-._5e434347c823b592-base /* friends list, chat */{
+.base__5e434 /* friends list, chat */{
     position: absolute;
     left: var(--sb-left);
     top: var(--sb-top);
     bottom: var(--sb-bottom);
     right: var(--sb-right);
 }
-._5e434347c823b592-container /* wrapper around base and navigation bar */{
+.container__5e434 /* wrapper around base and navigation bar */{
     position: relative;
 }
-._5e434347c823b592-guilds /* the whole navigation bar */{
+.guilds__5e434 /* the whole navigation bar */{
     position: fixed;
     top: var(--sb-bar-top);
     left: var(--sb-bar-left);
@@ -66,35 +66,35 @@ SOFTWARE.
     transform: rotate(var(--sb-rotate-bar));
     height: var(--sb-bar-height);
 }
-._5e434347c823b592-guilds .ef3116c2da186559-scroller /* the navigation bar */{
+.guilds__5e434 .scroller_ef3116 /* the navigation bar */{
     padding-top: 21px;
 }
 [aria-label="Servers"] > * /* all servers and folders */{
     margin-top: 10px;
 }
-._5e434347c823b592-guilds ._650eb104245d257b-listItem .cc5dd25190031396-wrapper /* folder */{
+.guilds__5e434 .listItem__650eb .wrapper_cc5dd2 /* folder */{
     transform: rotate(var(--sb-rotate-servers));
 }
-.e5445cbd3ad226f2-blobContainer > .cc5dd25190031396-wrapper.cc5dd25190031396-wrapper /* prevent double rotation of server icons */{
+.blobContainer_e5445c > .wrapper_cc5dd2.wrapper_cc5dd2 /* prevent double rotation of server icons */{
     transform: none;
 }
-._5e434347c823b592-guilds > * /* Server bar elements */{
+.guilds__5e434 > * /* Server bar elements */{
     transform: rotate(var(--sb-rotate-bar-inner));
 }
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-._4e35b986167c457d-tooltip /* server name tooltip */{
+.tooltip__4e35b /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-._5bc6a0adc149eda0-caret /* little arrow for tooltip */{
+.caret__5bc6a /* little arrow for tooltip */{
     opacity: 0;
 }
-.ef3116c2da186559-unreadMentionsIndicatorTop /* new message red popup bottom */,
-.ef3116c2da186559-unreadMentionsIndicatorBottom /* new message red popup bottom */{
+.unreadMentionsIndicatorTop_ef3116 /* new message red popup bottom */,
+.unreadMentionsIndicatorBottom_ef3116 /* new message red popup bottom */{
     display: none;
 }
 
