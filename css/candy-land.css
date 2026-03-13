@@ -60,7 +60,7 @@ Positioning
     height: 100%;
 }
 .page__5e434>.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
-.applicationStore_f07d62 .scroller_c880e8.auto_d125d2.scrollerBase_d125d2 /* nitro screen */{
+.applicationStore_f07d62 .scroller__02f2d.auto_d125d2.scrollerBase_d125d2 /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
@@ -157,6 +157,7 @@ Colors
 .panel__5dec7.panel__5dec7 /* sharing screen */,
 .container__7d20c /* active friends */,
 .container_c8ffbb /* members sidebar */,
+.homeWrapper__0920e /* nitro screen */,
 .container__01ae2.container__01ae2 /* open thread sidebar */,
 .chatContent_f75fb0.chatContent_f75fb0 /* chat/message input wrapper */,
 .chat_f75fb0.chat_f75fb0 /* chat + header wrapper */,

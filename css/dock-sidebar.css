@@ -77,11 +77,11 @@ SOFTWARE.
     text-overflow: clip;
 }
 .sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) [aria-label="User area"] > .panel__5dec7 .gameWrapper__5dec7 /* icon/name of currently shared window */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .avatarWrapper__37e49.avatarWrapper__37e49 /* user profile picture (bottom left) */{
+.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .accountPopoutButtonWrapper__37e49.accountPopoutButtonWrapper__37e49 /* user profile picture (bottom left) */{
     padding: 0;
 }
 [aria-label="User area"] > .panel__5dec7 .gameWrapper__5dec7 /* icon/name of currently shared window */,
-.avatarWrapper__37e49.avatarWrapper__37e49 /* user profile */{
+.accountPopoutButtonWrapper__37e49.accountPopoutButtonWrapper__37e49 /* user profile */{
     padding: var(--ds-padding-icon);
 }
 .sidebar__5e434 .link__2ea32 /* channel */{

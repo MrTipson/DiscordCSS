@@ -84,7 +84,7 @@ SOFTWARE.
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.tooltip__4e35b /* server name tooltip */{
+.tooltip__4e35b:has(.guildTooltipWrapper_b1f768) /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
