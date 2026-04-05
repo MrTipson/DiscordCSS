@@ -122,8 +122,7 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 note: overrides get removed from here if background-surface-high is used upstream
 */
-.picker__09f65.picker__09f65 /* call soundboard */,
-.addGamePopout_cc46f0 /* settings > registered games > add game */ {
+.picker__09f65.picker__09f65 /* call soundboard */ {
 	background-color: var(--background-floating);
 }
 
@@ -208,8 +207,4 @@ Setting scroller fixes
 /* Gradient for overflowing channel description */
 .children__9293f:after {
 	display: none;
-}
-.sessionIcon__803f2 /* settings > devices > device icons*/ {
-	background: var(--interactive-muted);
-	color: var(--interactive-normal);
 }
