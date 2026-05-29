@@ -28,20 +28,9 @@ jobs:
 
       - name: Download CSS file
         run: |
-          content=$(curl -L discord.com/channels/@me)
-
-          main=$(echo $content | grep -o "\"[^\"]*.css\"")
-          curl -Ls > stylesheet.txt "discord.com${main:1:-1}"
-
-          bundle="discord.com/assets/$(echo $content | grep -oE web.[a-z0-9]{16}.js)"
-          sheets=$(
-            curl -Ls $bundle | \
-            sed -e "s/;/\n/g" -e "s/__webpack_require__/\n/g" | \
-            grep ".css\"" | \
-            grep -oE "[a-z0-9]{16}"
-          )
-          for i in $sheets; do
-            curl -Ls >> stylesheet.txt "discord.com/assets/$i.css" --fail
+          sheets=$(curl -L discord.com/channels/@me | grep -o "\"[^\"]*.css\"")
+          for sheet in $sheets; do
+            curl -Ls >> stylesheet.txt "discord.com${sheet:1:-1}" --fail
           done
 
       - name: Parse discord stylesheet
