@@ -19,7 +19,7 @@ while [[ "$1" =~ ^- && ! "$1" == "--" ]]; do case $1 in
     undo="1"
     ;;
   -c | --css )
-    shift; css=$(realpath $1)
+    shift; css=$(realpath -m $1)
     ;;
   -d | --discord )
     shift; discord=$1
@@ -41,34 +41,46 @@ fi
 
 # The sum of filename lengths should not be changed
 # (unless discord breaks something)
-filename_main="cssmain"
-filename_popup="csspopup"
+filename_main="cssmain.js"
+filename_popup="popups.js"
 # Main window injector
 replace1="mainWindow.webContents.setWindowOpenHandler"
-with1="require(\"../../$filename_main\")(mainWindow)"
+with1="require(\"../$filename_main\")(mainWindow)"
 # Popup injector
-replace2="popoutWindows.openOrFocusWindow(url, frameName, features)"
-with2="require(\"../../$filename_popup\")(popoutWindows)(url,frameName,features)"
+replace2="popoutWindows.openOrFocusWindow(url,frameName,features)"
+with2="require(\"../$filename_popup\")(popoutWindows)(url,frameName,features)"
 # Transparency
-replace3="transparent: false,"
-with3="transparent: true, " # extra space to make sure length doesn't change
+replace3="transparent:!1,"
+with3="transparent:!0,"
 
-if [[ $undo ]]; then
+revert() {
   rm -f "$discord/$filename_main.js" "$discord/$filename_popup.js" "$discord/cssinject.js" &&
   sed -i -e "s#$with1#$replace1#" -e "s#$with2#$replace2#" -e "s#$with3#$replace3#" "$discord/core.asar" &&
   echo "Removed injected code." ||
   echo "Encountered error."
+}
+
+if [[ $undo ]]; then
+  revert 
   exit
 fi
 
 if [[ $css ]]; then
+  old_size=$(stat --format "%s" "$discord/core.asar")
   if [[ $transparency ]]; then
     setbg=$(printf "\n  %s" "window.setBackgroundColor(\"#0000\");")
-    sed -i -e "s#$replace3#$with3#" "$discord/core.asar" || (echo "Encountered error." && exit)
+    sed -i -e "s#$replace3#$with3#" "$discord/core.asar"
   fi
-  sed -i -e "s#$replace1#$with1#" -e "s#$replace2#$with2#" "$discord/core.asar" &&
+  sed -i -e "s#$replace1#$with1#" -e "s#$replace2#$with2#" "$discord/core.asar"
 
-  cat <<EOF > "$discord/$filename_main.js" &&
+  new_size=$(stat --format "%s" "$discord/core.asar")
+  if [[ $old_size != $new_size ]]; then
+    echo "Injecting failed. Reverting."
+    revert
+    exit 1
+  fi
+
+  cat <<EOF > "$discord/$filename_main" &&
 // mrtipson/DiscordCSS: inject css for main window
 const css = require("./cssinject");
 module.exports = function(mainWindow) {
@@ -78,7 +90,7 @@ module.exports = function(mainWindow) {
 }
 EOF
 
-  cat <<EOF > "$discord/$filename_popup.js" &&
+  cat <<EOF > "$discord/$filename_popup" &&
 // mrtipson/DiscordCSS: injection point for popup windows
 const css = require("./cssinject");
 module.exports = function(popoutWindows) {
