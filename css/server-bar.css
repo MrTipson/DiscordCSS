@@ -84,13 +84,13 @@ SOFTWARE.
 div[id^="folder"]>* /* servers in the opened folder */{
     margin: 8px 0;
 }
-.tooltip__4e35b:has(.guildTooltipWrapper_b1f768) /* server name tooltip */{
+.tooltip_fa450d:has(.guildTooltipWrapper_b1f768) /* server name tooltip */{
     box-shadow: 0px 0px 3px 1px var(--interactive-active) !important;
     position: relative;
     left: var(--sb-label-left);
     transform: translateY(var(--sb-label-top, 0)) !important;
 }
-.caret__5bc6a /* little arrow for tooltip */{
+.caret__0b5f9 /* little arrow for tooltip */{
     opacity: 0;
 }
 .unreadMentionsIndicatorTop_ef3116 /* new message red popup bottom */,

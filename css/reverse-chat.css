@@ -29,6 +29,9 @@ SOFTWARE.
     margin-bottom: 0px;
     margin-top: var(--custom-chat-input-margin-bottom);
 }
+.form_f75fb0 /* message input wrapper that pulls it above chat */{
+    margin-top: 0px;
+}
 .messagesWrapper__36d07 /* chat messages */{
     transform: rotateX(180deg);
 }
