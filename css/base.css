@@ -141,16 +141,16 @@ Markup, embed background
 /*
 Progress bars / draggables
 */
-.barFill_a562c8.barFill_a562c8 /* user volume */,
+.barFill__4c059.barFill__4c059 /* user volume */,
 .progress__8e51c /* spotify track progress */{
 	background-color: var(--progress-track-full);
 }
-.grabber_a562c8 /* user volume */{
+.grabber__4c059 /* user volume */{
 	background-color: var(--progress-thumb);
 	border: none;
 }
 .bar__8e51c /* spotify track progress */,
-.bar_a562c8.bar_a562c8 /* user volume */ {
+.bar__4c059.bar__4c059 /* user volume */ {
 	background-color: var(--progress-track-empty);
 }
 
