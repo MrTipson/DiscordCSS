@@ -29,64 +29,64 @@ SOFTWARE.
     --ds-padding-icon: 0 12px;
 }
 /* Sidebar width */
-.sidebarList__5e434.sidebarList__5e434 /* sidebar (channels/dms) */{
+.sidebarList_pog62O.sidebarList_pog62O /* sidebar (channels/dms) */{
     width: var(--ds-width);
     transition: width var(--ds-transition-duration);
 }
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .sidebarList__5e434.sidebarList__5e434 /* sidebar (channels/dms) */{
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .sidebarList_pog62O.sidebarList_pog62O /* sidebar (channels/dms) */{
     width: 240px;
 }
 /* Visual corrections */
-.list_c3cd7d.list_c3cd7d /* users in voice channel */{
+.list_6Du7S1.list_6Du7S1 /* users in voice channel */{
     padding-left: var(--ds-padding-user);
 }
-.mentionsBar__7aaec /* unread bar */{
+.mentionsBar_t1P8Sn /* unread bar */{
     opacity: 0;
 }
-.sidebar__5e434 .children__2ea32 /* invite/settings buttons for channel */,
-.sidebar__5e434 .rtcConnectionStatusLabel__06d62 /* voice connected */,
-.actionButtons_e131a9 /* camera/share screen */,
-[aria-label="User area"] > .panel__5dec7 .info__5dec7 /* name of currently shared window */,
-[aria-label="User area"] > .panel__5dec7 .actions__4cd01 /* sharing screen */,
-.children__29444 /* create channel button */,
-.buttons__37e49 /* voice controls */,
-.containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
+.sidebar_pog62O .children_TNyK-N /* invite/settings buttons for channel */,
+.sidebar_pog62O .rtcConnectionStatusLabel_4LJE6I /* voice connected */,
+.actionButtons_9U6LUN /* camera/share screen */,
+[aria-label="User area"] > .panel_8eCwJY .info_8eCwJY /* name of currently shared window */,
+[aria-label="User area"] > .panel_8eCwJY .actions_IZv9tE /* sharing screen */,
+.children_yOdhm_ /* create channel button */,
+.buttons_g6VwXp /* voice controls */,
+.containerDefault_Wx6SnQ .iconContainer_TNyK-N /* server channel icons */{
     display: none;
 }
-.container__37e49 /* profile image/mute/deafen/settings */{
+.container_g6VwXp /* profile image/mute/deafen/settings */{
 	overflow: hidden;
 }
-.sidebarList__5e434:hover .mentionsBar__7aaec /* unread bar */{
+.sidebarList_pog62O:hover .mentionsBar_t1P8Sn /* unread bar */{
     opacity: 0.9;
 }
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .children__2ea32 /* invite/settings buttons for channel */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .rtcConnectionStatusLabel__06d62 /* voice connected */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) [aria-label="User area"] > .panel__5dec7 .info__5dec7 /* name of currently shared window */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) [aria-label="User area"] > .panel__5dec7 .actions__4cd01 /* stop sharing button */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .actionButtons_e131a9 /* camera/share screen */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .children__29444 /* create channel button */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .buttons__37e49 /* voice controls */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .containerDefault_c69b6d .iconContainer__2ea32 /* server channel icons */{
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .children_TNyK-N /* invite/settings buttons for channel */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .rtcConnectionStatusLabel_4LJE6I /* voice connected */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) [aria-label="User area"] > .panel_8eCwJY .info_8eCwJY /* name of currently shared window */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) [aria-label="User area"] > .panel_8eCwJY .actions_IZv9tE /* stop sharing button */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .actionButtons_9U6LUN /* camera/share screen */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .children_yOdhm_ /* create channel button */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .buttons_g6VwXp /* voice controls */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .containerDefault_Wx6SnQ .iconContainer_TNyK-N /* server channel icons */{
     display:flex;
 }
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .overflow_b0dfc2 /* category name */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .name__2ea32 /* channel names */{
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .overflow__WDjet /* category name */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .name_TNyK-N /* channel names */{
     text-overflow: ellipsis;
 }
-.overflow_b0dfc2 /* category, channel names */ {
+.overflow__WDjet /* category, channel names */ {
     text-overflow: clip;
 }
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) [aria-label="User area"] > .panel__5dec7 .gameWrapper__5dec7 /* icon/name of currently shared window */,
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .accountPopoutButtonWrapper__37e49.accountPopoutButtonWrapper__37e49 /* user profile picture (bottom left) */{
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) [aria-label="User area"] > .panel_8eCwJY .gameWrapper_8eCwJY /* icon/name of currently shared window */,
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .accountPopoutButtonWrapper_g6VwXp.accountPopoutButtonWrapper_g6VwXp /* user profile picture (bottom left) */{
     padding: 0;
 }
-[aria-label="User area"] > .panel__5dec7 .gameWrapper__5dec7 /* icon/name of currently shared window */,
-.accountPopoutButtonWrapper__37e49.accountPopoutButtonWrapper__37e49 /* user profile */{
+[aria-label="User area"] > .panel_8eCwJY .gameWrapper_8eCwJY /* icon/name of currently shared window */,
+.accountPopoutButtonWrapper_g6VwXp.accountPopoutButtonWrapper_g6VwXp /* user profile */{
     padding: var(--ds-padding-icon);
 }
-.sidebar__5e434 .link__2ea32 /* channel */{
+.sidebar_pog62O .link_TNyK-N /* channel */{
     padding: 6px 0px;
 }
-.sidebar__5e434:hover:not(:has(.guilds__5e434:hover)) .link__2ea32 /* channel */{
+.sidebar_pog62O:hover:not(:has(.guilds_pog62O:hover)) .link_TNyK-N /* channel */{
     padding: 6px 8px;
 }

@@ -76,7 +76,7 @@ SOFTWARE.
 /*-----
 Background
 -----*/
-.bg__960e4.bg__960e4 /* Full background */ {
+.bg_Fd0FEH.bg_Fd0FEH /* Full background */ {
 	background: var(--background);
 	background-image: var(--background-image);
 	background-repeat: no-repeat;
@@ -94,25 +94,25 @@ html  /* transparency */ {
 /*-----
 Main color
 -----*/
-.circleIconButton__5bc7e.selected__5bc7e /* find new communities selected, add server hover */{
+.circleIconButton_g8YUxD.selected_g8YUxD /* find new communities selected, add server hover */{
 	background-color: var(--color-main) !important;
 }
-[data-list-item-id="guildsnav___home"].selected__6e9f8 .childWrapper__6e9f8 /* discord icon selected */,
-[data-list-item-id="guildsnav___home"]:hover .childWrapper__6e9f8 /* discord icon hovered */{
+[data-list-item-id="guildsnav___home"].selected_JJ-hgR .childWrapper_JJ-hgR /* discord icon selected */,
+[data-list-item-id="guildsnav___home"]:hover .childWrapper_JJ-hgR /* discord icon hovered */{
 	color: #fff;
 	background-color: var(--color-main);
 }
-.circleIconButton__5bc7e /* add server/explore servers */{
+.circleIconButton_g8YUxD /* add server/explore servers */{
 	color: var(--color-main);
 }
 
 /*-----
 Exclude the download button and seperator from the discord web client
 -----*/
-.tutorialContainer__650eb~* /* everything following the add servers button */{
+.tutorialContainer_rwEpIL~* /* everything following the add servers button */{
 	display: none;
 }
-.tutorialContainer__650eb+* /* exclude explore servers button */{
+.tutorialContainer_rwEpIL+* /* exclude explore servers button */{
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: flex;
@@ -122,35 +122,35 @@ Exclude the download button and seperator from the discord web client
 background-floating overrides
 note: overrides get removed from here if background-surface-high is used upstream
 */
-.picker__09f65.picker__09f65 /* call soundboard */ {
+.picker_1lN7Eh.picker_1lN7Eh /* call soundboard */ {
 	background-color: var(--background-floating);
 }
 
 /*-----
 Markup, embed background
 -----*/
-.embedFull__623de.embedFull__623de /* Embed */{
+.embedFull_XyW1ZT.embedFull_XyW1ZT /* Embed */{
 	background-color: var(--background-embed);
 }
 
 /* friends tab - active now */
-.outer_bf1984.outer_bf1984.interactive_bf1984:hover /* friends tab - active now */ {
+.outer_ERB-Vv.outer_ERB-Vv.interactive_ERB-Vv:hover /* friends tab - active now */ {
 	background-color: var(--background-modifier-hover);
 }
 
 /*
 Progress bars / draggables
 */
-.barFill__4c059.barFill__4c059 /* user volume */,
-.progress__8e51c /* spotify track progress */{
+.barFill_OnqacX.barFill_OnqacX /* user volume */,
+.progress_-wKTcX /* spotify track progress */{
 	background-color: var(--progress-track-full);
 }
-.grabber__4c059 /* user volume */{
+.grabber_OnqacX /* user volume */{
 	background-color: var(--progress-thumb);
 	border: none;
 }
-.bar__8e51c /* spotify track progress */,
-.bar__4c059.bar__4c059 /* user volume */ {
+.bar_-wKTcX /* spotify track progress */,
+.bar_OnqacX.bar_OnqacX /* user volume */ {
 	background-color: var(--progress-track-empty);
 }
 
@@ -158,53 +158,51 @@ Progress bars / draggables
 Background removals
 */
 .header_c6bf1b /* server role edit header*/,
-.applicationStore_f07d62 /* nitro screen */,
-.channelTextArea_f75fb0 /* message text input - is changed in inner element */,
-.container__0b563.container__0b563 /* browse channels body (inner) */{
+.applicationStore_6U3jXZ /* nitro screen */,
+.channelTextArea_z_gUBg /* message text input - is changed in inner element */ {
 	background-color: unset;
 }
-.callContainer_cb9592.callContainer_cb9592 /* call black background part 4 */,
-.root_bfe55a.root_bfe55a /* call black background part 2 */,
-.panel__5dec7.panel__5dec7 /* current/suggested streamed window/app */, /*TODO*/
-.container__7d20c /* friends tab - active now */,
+.callContainer_hbKzX7.callContainer_hbKzX7 /* call black background part 4 */,
+.root_rTsZa_.root_rTsZa_ /* call black background part 2 */,
+.panel_8eCwJY.panel_8eCwJY /* current/suggested streamed window/app */, /*TODO*/
 .chatTypingGradientAtBottom__36d07  /* gradient at the bottom of chat */,
-.chatGradient__36d07 /* gradient at the bottom of chat */,
-.wrapper_cb9592.wrapper_cb9592 /* call black background */ {
+.chatGradient_8AE1Qq /* gradient at the bottom of chat */,
+.wrapper_hbKzX7.wrapper_hbKzX7 /* call black background */ {
 	background: unset;
 }
 /*
 Setting scroller fixes
 (the full page scroller doesnt play well with transparency)
 */
-.contentContainer__91dc3 .scrollerBase_d125d2 /* covers all scrollers in role editing*/ {
+.contentContainer_cKeB2a .scrollerBase_tqapBM /* covers all scrollers in role editing*/ {
 	height: calc(100% - 200px);
 	top: 200px;
 }
-.contentContainer__91dc3 .scrollerBase_d125d2 div:empty /* some empty div spacers */ {
+.contentContainer_cKeB2a .scrollerBase_tqapBM div:empty /* some empty div spacers */ {
 	display: none;
 }
-.contentContainer__91dc3 > .scroller__981c8 /* role edit - display tab*/,
-.contentContainer__91dc3 > .scroller_d80a13 /* role edit - links tab */ {
+.contentContainer_cKeB2a > .scroller_cXmH6r /* role edit - display tab*/,
+.contentContainer_cKeB2a > .scroller_xTpzSX /* role edit - links tab */ {
 	height: calc(100% - 150px);
 	top: 150px;
 }
-.stickyHeader_c6bf1b /* Roles sticky header*/{
+.stickyHeader_tLZg6c /* Roles sticky header*/{
 	position: fixed;
 	top: 0;
 }
-.stickyHeaderElevated_c6bf1b /* roles sticky header */ {
+.stickyHeaderElevated_tLZg6c /* roles sticky header */ {
 	box-shadow: none;
 }
 /* New date divider between messages */
-.divider__5126c.hasContent__5126c {
+.divider_SY_P2T.hasContent_SY_P2T {
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 	height: unset;
 }
-.content__908e2.content__908e2 /* divider content */ {
+.content_4TfzT5.content_4TfzT5 /* divider content */ {
 	background: unset;
 }
 /* Gradient for overflowing channel description */
-.children__9293f:after {
+.children_ybUK7Z:after {
 	display: none;
 }

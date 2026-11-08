@@ -29,22 +29,22 @@ SOFTWARE.
 Positioning
 -----*/
 
-.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper__36d07 /* all the messages */,
-.members_c8ffbb /* members */,
+.sidebarList_pog62O > .container_H5ozaj[aria-label*="(server)"] /* server channels, header */,
+.messagesWrapper_8AE1Qq /* all the messages */,
+.members_86es0b /* members */,
 [aria-label="Search Results"] /* search results */,
-[aria-label="Private channels"] > .scroller__99e7c /* direct messages */,
-.nowPlayingColumn__133bf /* friends playing games */,
-.navItem__551b0 /* discover categories */,
-.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
-.container_f369db /* forums */,
+[aria-label="Private channels"] > .scroller_Bce46W /* direct messages */,
+.nowPlayingColumn_zrUwGA /* friends playing games */,
+.navItem_GQJi50 /* discover categories */,
+.scroller_jkJlMe.thin_tqapBM.scrollerBase_tqapBM /* explore servers */,
+.container_BkGrJJ /* forums */,
 .container__0b563 /* channel browser */,
-.peopleColumn__133bf /* online friends */{
+.peopleColumn_zrUwGA /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
 }
-.container__2637a.container__2637a.container__2637a /* channels sidebar */,
-[aria-label="Private channels"] > .scroller__99e7c /* direct messages */ {
+.container_H5ozaj.container_H5ozaj.container_H5ozaj /* channels sidebar */,
+[aria-label="Private channels"] > .scroller_Bce46W /* direct messages */ {
     padding-bottom: 0;
     margin-bottom: calc(var(--custom-app-panels-height, 0) + 30px) !important /* make space for user area*/;
 }
@@ -54,51 +54,51 @@ Positioning
     margin-bottom: 5px;
     padding: 2px 0px;
 }
-[aria-label="User area"] > .container__37e49 {
+[aria-label="User area"] > .container_g6VwXp {
     padding-top: 0;
     padding-bottom: 0;
     height: 100%;
 }
-.page__5e434>.scroller__23746.thin_d125d2.scrollerBase_d125d2 /* explore servers */,
-.applicationStore_f07d62 .scroller__02f2d.auto_d125d2.scrollerBase_d125d2 /* nitro screen */{
+.page_pog62O .scroller_jkJlMe.thin_tqapBM.scrollerBase_tqapBM /* explore servers */,
+.applicationStore_6U3jXZ .scroller_0fgkqL.auto_tqapBM.scrollerBase_tqapBM /* nitro screen */{
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
 .wrapper__44df5 /* follow announcement channel for updates */,
-.channelTextArea_f75fb0 /* text area */{
+.channelTextArea_z_gUBg /* text area */{
     margin-bottom: unset;
 }
-.form_f75fb0.form_f75fb0 /* text area wrapper */{
+.form_z_gUBg.form_z_gUBg /* text area wrapper */{
     padding: unset;
     margin: 10px;
 }
-.members_c8ffbb /* members list */{
+.members_86es0b /* members list */{
     padding-bottom: 10px;
 }
-.typing_b88801 /* person is typing status text */{
+.typing_U9Tvvz /* person is typing status text */{
     left: 0px;
     top: -21px;
 }
-.searchBar_e6b769 /* find or start a conversation */{
+.searchBar_u88IQl /* find or start a conversation */{
     width:auto;
     margin: 0px 10px;
     border-radius: 8px;
 }
-.homeWrapper__0920e /* nitro */,
-.chat_f75fb0 /* chat + top bar */,
+.homeWrapper_8iSxT3 /* nitro */,
+.chat_z_gUBg /* chat + top bar */,
 .container__7d20c /* friends tab, active friends */{
     padding-top:10px !important;
 }
-.sidebarList__5e434 /* sidebar (server, channels) */,
-.container__01ae2 /* thread (split view) */,
-.chat_f75fb0.threadSidebarOpen_f75fb0 /* chat with thread sidebar open */{
+.sidebarList_pog62O /* sidebar (server, channels) */,
+.container_FrbQJp /* thread (split view) */,
+.chat_z_gUBg.threadSidebarOpen_z_gUBg /* chat with thread sidebar open */{
     border-radius:unset !important;
 }
-.container__01ae2.container__01ae2 /* split thread view - thread side*/,
-.chat_f75fb0.threadSidebarOpen_f75fb0.threadSidebarOpen_f75fb0 /* split thread view - chat side */ {
+.container_FrbQJp.container_FrbQJp /* split thread view - thread side*/,
+.chat_z_gUBg.threadSidebarOpen_z_gUBg.threadSidebarOpen_z_gUBg /* split thread view - chat side */ {
     border: none;
 }
-.container__9293f /* top bar channels and friends */{
+.container_ybUK7Z /* top bar channels and friends */{
 	width: auto;
 	margin: 0px 15px 0px 10px;
 	border-radius: 8px;
@@ -107,77 +107,77 @@ Positioning
 [aria-label="Channel header"] /* top bar for channels */ {
     margin: 0px 10px;
 }
-.container__01ae2 /* thread sidebar (split view) */{
+.container_FrbQJp /* thread sidebar (split view) */{
     padding: 10px 0 5px 0;
 }
 /* -- Edge of screen -- */
-.tabBody__133bf /* everything within the online friends */,
-.chat_f75fb0 /* everything within chat */{
+.tabBody_zrUwGA /* everything within the online friends */,
+.chat_z_gUBg /* everything within chat */{
     padding: 0px 5px 5px 0px;
 }
-.sidebarList__5e434 /* channels, user info */{
+.sidebarList_pog62O /* channels, user info */{
     padding-bottom: 5px;
 }
 /*-----
 Colors
 -----*/
-.pageBody__41ed7.pageBody__41ed7 /* choose channels body */,
-.tabBody__133bf.tabBody__133bf /* friends tab body */,
-.container__133bf.container__133bf /* friends tab */,
+.pageBody_fTKmdS.pageBody_fTKmdS /* choose channels body */,
+.tabBody_zrUwGA.tabBody_zrUwGA /* friends tab body */,
+.container_zrUwGA.container_zrUwGA /* friends tab */,
 .privateChannels_e6b769.privateChannels_e6b769 /* dm sidebar */,
 [aria-label="Members"]>div /* users on the member list */{
     background-color: unset;
 }
-.sidebarList__5e434 > .container__2637a[aria-label*="(server)"] /* server channels, header */,
-.messagesWrapper__36d07 /* messages/chat */,
+.sidebarList_pog62O > .container_H5ozaj[aria-label*="(server)"] /* server channels, header */,
+.messagesWrapper_8AE1Qq /* messages/chat */,
 [aria-label="Search Results"] /* search results*/,
-.searchBar_e6b769 /* find or start a conversation */,
-.members_c8ffbb /* members list - override to background-primary */,
-.panels__5e434 /* user area */,
-.nowPlayingColumn__133bf /* friends in games - override to background-primary */,
-.peopleColumn__133bf /* online friends */,
-.themed__9293f.themed__9293f /* friends top bar, thread split view header/title */{
+.searchBar_u88IQl /* find or start a conversation */,
+.members_86es0b /* members list - override to background-primary */,
+.panels_pog62O /* user area */,
+.nowPlayingColumn_zrUwGA /* friends in games - override to background-primary */,
+.peopleColumn_zrUwGA /* online friends */,
+.themed_ybUK7Z.themed_ybUK7Z /* friends top bar, thread split view header/title */{
     background-color: var(--background-primary);
 }
-.channelTextArea_f75fb0 > .themedBackground__74017 /* chat message input area */,
+.channelTextArea_z_gUBg > .themedBackground_2x8-Qn /* chat message input area */,
 [aria-label="Channel header"] /* this gets styling usually, but not always so we set it again*/{
     background-color: var(--background-primary) !important;
 }
-.navItem__551b0.selected__551b0 /* selected discover category */{
+.navItem_GQJi50.selected_GQJi50 /* selected discover category */{
     background-color: var(--background-modifier-selected);
     color: var(--header-secondary);
 }
-.navItem__551b0:hover /* selected discover servers category */{
+.navItem_GQJi50:hover /* selected discover servers category */{
     background-color: var(--background-modifier-hover);
     color: var(--header-secondary);
 }
-.container__37e49 /* user area wrapper */ {
+.container_g6VwXp /* user area wrapper */ {
     background-color: transparent !important;
 }
-.panel__5dec7.panel__5dec7 /* sharing screen */,
+.panel_8eCwJY.panel_8eCwJY /* sharing screen */,
 .container__7d20c /* active friends */,
-.container_c8ffbb /* members sidebar */,
-.homeWrapper__0920e /* nitro screen */,
-.container__01ae2.container__01ae2 /* open thread sidebar */,
-.chatContent_f75fb0.chatContent_f75fb0 /* chat/message input wrapper */,
-.chat_f75fb0.chat_f75fb0 /* chat + header wrapper */,
-.scrollableContainer__74017.themedBackground__74017 /* duplicate styling for chat input */,
-.sidebarList__5e434 /* left sidebar (quickswitcher, friends, user area) */{
+.container_86es0b /* members sidebar */,
+.homeWrapper_8iSxT3 /* nitro screen */,
+.container_FrbQJp.container_FrbQJp /* open thread sidebar */,
+.chatContent_z_gUBg.chatContent_z_gUBg /* chat/message input wrapper */,
+.chat_z_gUBg.chat_z_gUBg /* chat + header wrapper */,
+.scrollableContainer_2x8-Qn.themedBackground_2x8-Qn /* duplicate styling for chat input */,
+.sidebarList_pog62O /* left sidebar (quickswitcher, friends, user area) */{
     background-color: transparent;
 }
 /*-----
 Height adjust
 -----*/
-.scrollerSpacer__36d07 /* spacer at the end of messages */{
+.scrollerSpacer_8AE1Qq /* spacer at the end of messages */{
     height: 10px;
 }
-.page__5e434 .scroller__7d20c{
+.page_pog62O .scroller_GNEh_C{
     height: calc(100% - 25px);
 }
-.container__37e49 /* user info, call controls */{
+.container_g6VwXp /* user info, call controls */{
     height: 44px; /* to be the same size as the text box */
 }
-.attachWrapper__0923f /* button for message attachments */{
+.attachWrapper_7TM4SO /* button for message attachments */{
 	box-sizing: border-box;
 	height: var(--custom-channel-textarea-text-area-height);
 	padding-top: 9px;
@@ -187,32 +187,32 @@ Height adjust
 Call
 Sadly there is some overlap with call.css but I think its better to do it this way
 */
-.root_bfe55a.root_bfe55a /* call background */{
+.root_rTsZa_.root_rTsZa_ /* call background */{
     background: none;
 }
-.videoControls_bfe55a .gradientContainer_bfe55a /* call gradients */{
+.videoControls_rTsZa_ .gradientContainer_rTsZa_ /* call gradients */{
     background-image: none;
     opacity: 0;
 }
-.buttonSection__1405b /* call controls */,
-.videoControls_bfe55a section.container__9293f /* header in the call screen */{
+.buttonSection_9bvEB0 /* call controls */,
+.videoControls_rTsZa_ section.container_ybUK7Z /* header in the call screen */{
     background-color: var(--background-primary) !important;
 }
 /*-----
 MISC
 -----*/
-.sidebar__5e434:after /* spacer under user info/channel sidebar */,
-.form_f75fb0:before /* gradient next to message input */ {
+.sidebar_pog62O:after /* spacer under user info/channel sidebar */,
+.form_z_gUBg:before /* gradient next to message input */ {
     display: none;
 }
-.header_f37cb1.header_f37cb1 /* server name */{
+.header_XH4OpX.header_XH4OpX /* server name */{
     border-radius: 8px 8px 0px 0px;
 }
-.container_c8ffbb /* member sidebar */,
-.scroller__7d20c.scroller__7d20c /* active friends */{
+.container_86es0b /* member sidebar */,
+.scroller_GNEh_C.scroller_GNEh_C /* active friends */{
     border-left: none;
 }
-.channelTextArea_f75fb0 /* chat input */{
+.channelTextArea_z_gUBg /* chat input */{
     /* discord 'visual refresh' slop */
     --custom-chat-input-margin-bottom: 50px;
     border: none;
@@ -220,7 +220,7 @@ MISC
 /*-----
 Resize handle (forums/threads)
 -----*/
-.resizeHandle__01ae2 /* handle to resize split view */ {
+.resizeHandle_FrbQJp /* handle to resize split view */ {
 	margin: auto 0 auto -5px;
 	height: 50%;
 	border-radius: 8px;
