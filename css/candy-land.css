@@ -38,7 +38,7 @@ Positioning
 .navItem_GQJi50 /* discover categories */,
 .scroller_jkJlMe.thin_tqapBM.scrollerBase_tqapBM /* explore servers */,
 .container_BkGrJJ /* forums */,
-.container__0b563 /* channel browser */,
+.container_xTP3zy /* channel browser */,
 .peopleColumn_zrUwGA /* online friends */{
     margin: 10px !important;
     border-radius: 8px;
@@ -49,7 +49,7 @@ Positioning
     margin-bottom: calc(var(--custom-app-panels-height, 0) + 30px) !important /* make space for user area*/;
 }
 /* discord 'visual refresh' slop */
-[aria-label="User area"][aria-label="User area"] /* user info, call controls */ {
+[aria-label="User status and settings"] /* user info, call controls */ {
     --custom-panels-spacing: 10px;
     margin-bottom: 5px;
     padding: 2px 0px;
@@ -64,7 +64,7 @@ Positioning
     margin: 10px 15px 15px 10px !important;
     border-radius:8px;
 }
-.wrapper__44df5 /* follow announcement channel for updates */,
+.wrapper_ST_Y69 /* follow announcement channel for updates */,
 .channelTextArea_z_gUBg /* text area */{
     margin-bottom: unset;
 }
@@ -86,7 +86,7 @@ Positioning
 }
 .homeWrapper_8iSxT3 /* nitro */,
 .chat_z_gUBg /* chat + top bar */,
-.container__7d20c /* friends tab, active friends */{
+.container_zrUwGA /* friends tab, active friends */{
     padding-top:10px !important;
 }
 .sidebarList_pog62O /* sidebar (server, channels) */,
@@ -124,7 +124,7 @@ Colors
 .pageBody_fTKmdS.pageBody_fTKmdS /* choose channels body */,
 .tabBody_zrUwGA.tabBody_zrUwGA /* friends tab body */,
 .container_zrUwGA.container_zrUwGA /* friends tab */,
-.privateChannels_e6b769.privateChannels_e6b769 /* dm sidebar */,
+.privateChannels_u88IQl.privateChannels_u88IQl /* dm sidebar */,
 [aria-label="Members"]>div /* users on the member list */{
     background-color: unset;
 }
@@ -136,6 +136,7 @@ Colors
 .panels_pog62O /* user area */,
 .nowPlayingColumn_zrUwGA /* friends in games - override to background-primary */,
 .peopleColumn_zrUwGA /* online friends */,
+.wrapper_ST_Y69 /* follow announcements channel */,
 .themed_ybUK7Z.themed_ybUK7Z /* friends top bar, thread split view header/title */{
     background-color: var(--background-primary);
 }
@@ -155,7 +156,7 @@ Colors
     background-color: transparent !important;
 }
 .panel_8eCwJY.panel_8eCwJY /* sharing screen */,
-.container__7d20c /* active friends */,
+.container_zrUwGA /* active friends */,
 .container_86es0b /* members sidebar */,
 .homeWrapper_8iSxT3 /* nitro screen */,
 .container_FrbQJp.container_FrbQJp /* open thread sidebar */,

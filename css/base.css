@@ -157,7 +157,7 @@ Progress bars / draggables
 /*
 Background removals
 */
-.header_c6bf1b /* server role edit header*/,
+.header_tLZg6c /* server role edit header*/,
 .applicationStore_6U3jXZ /* nitro screen */,
 .channelTextArea_z_gUBg /* message text input - is changed in inner element */ {
 	background-color: unset;
@@ -165,7 +165,7 @@ Background removals
 .callContainer_hbKzX7.callContainer_hbKzX7 /* call black background part 4 */,
 .root_rTsZa_.root_rTsZa_ /* call black background part 2 */,
 .panel_8eCwJY.panel_8eCwJY /* current/suggested streamed window/app */, /*TODO*/
-.chatTypingGradientAtBottom__36d07  /* gradient at the bottom of chat */,
+.chatTypingGradientAtBottom_8AE1Qq  /* gradient at the bottom of chat */,
 .chatGradient_8AE1Qq /* gradient at the bottom of chat */,
 .wrapper_hbKzX7.wrapper_hbKzX7 /* call black background */ {
 	background: unset;
