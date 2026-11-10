@@ -11,7 +11,7 @@ sheets = set(re.findall(r'"([^"]*.css)"', index))
 script = re.search(r'"/assets/web[^\"]*\.js"', index).group()
 webjs = requests.get(url % script[1:-1]).text
 
-for fst, snd in re.findall(r'"(\w+)"===e\?""\+e\+"([^"]+\.css)"', webjs):
+for fst, snd in re.findall(r'(\d+)===e\)return""\+e\+"([^"]+\.css)"', webjs):
     sheets.add("/assets/" + fst + snd)
 
 mapping = dict()
